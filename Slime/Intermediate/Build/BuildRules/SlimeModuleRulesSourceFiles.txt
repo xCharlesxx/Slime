@@ -1,3 +1,3 @@
-C:\Users\Charles\Documents\Unreal Projects\Slime\Source\Slime\Slime.Build.cs
-C:\Users\Charles\Documents\Unreal Projects\Slime\Source\Slime.Target.cs
-C:\Users\Charles\Documents\Unreal Projects\Slime\Source\SlimeEditor.Target.cs
+A:\Uni 2018-19\Github\Slime\Slime\Slime\Source\Slime\Slime.Build.cs
+A:\Uni 2018-19\Github\Slime\Slime\Slime\Source\Slime.Target.cs
+A:\Uni 2018-19\Github\Slime\Slime\Slime\Source\SlimeEditor.Target.cs

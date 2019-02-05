@@ -66,4 +66,20 @@
       <Filter>Source\Slime</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RTManiplulator.cpp">
+      <Filter>Source\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Slime\RTManipulation.cpp">
+      <Filter>Source\Slime</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RTManiplulator.h">
+      <Filter>Source\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Slime\RTManipulation.h">
+      <Filter>Source\Slime</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

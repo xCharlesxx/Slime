@@ -1,0 +1,16 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (A:\Uni 2018-19\Github\Slime\Slime).
+  Creating makefile for SlimeEditor (source directory changed)
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for SlimeEditor
+    Running UnrealHeaderTool "A:\Uni 2018-19\Github\Slime\Slime\Slime\Slime.uproject" "A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\SlimeEditor\Development\SlimeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SlimeEditor in 9.8649811 seconds
+  Building 5 actions with 4 processes...
+    [1/5] Slime.init.gen.cpp
+    [2/5] RTManipulation.cpp
+    [3/5] RTManipulation.gen.cpp
+    [4/5] UE4Editor-Slime.lib
+       Creating library A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Development\Slime\UE4Editor-Slime.lib and object A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Development\Slime\UE4Editor-Slime.exp
+    [5/5] UE4Editor-Slime.dll
+       Creating library A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Development\Slime\UE4Editor-Slime.suppressed.lib and object A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Development\Slime\UE4Editor-Slime.suppressed.exp
+  Deploying SlimeEditor Win64 Development...
+  Total build time: 17.27 seconds (Parallel executor: 1.78 seconds)
