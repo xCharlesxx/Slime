@@ -1,0 +1,1989 @@
+﻿Log file open, 02/10/19 14:59:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Slime
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.266606
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.095s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.02.10-14.59.24:125][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.02.10-14.59.24:125][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.02.10-14.59.24:125][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.02.10-14.59.24:125][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.02.10-14.59.24:126][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.02.10-14.59.24:126][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.02.10-14.59.24:127][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.02.10-14.59.24:127][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.02.10-14.59.24:127][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.02.10-14.59.24:127][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.02.10-14.59.24:127][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.02.10-14.59.24:127][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.02.10-14.59.24:127][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.02.10-14.59.24:127][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.02.10-14.59.24:127][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.02.10-14.59.24:127][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.02.10-14.59.24:127][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.02.10-14.59.24:142][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-14.59.24:142][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.10-14.59.24:142][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.10-14.59.24:142][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-14.59.24:143][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.10-14.59.24:143][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-14.59.24:143][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.10-14.59.24:143][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.10-14.59.24:143][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.10-14.59.24:143][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.10-14.59.24:143][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.10-14.59.24:143][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.10-14.59.24:143][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.10-14.59.24:143][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.10-14.59.24:143][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.10-14.59.24:143][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.10-14.59.24:143][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.10-14.59.24:143][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.10-14.59.24:143][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.10-14.59.24:143][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.10-14.59.24:144][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.10-14.59.24:145][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.10-14.59.24:146][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-14.59.24:147][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.10-14.59.24:147][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.10-14.59.24:147][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.10-14.59.24:148][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.10-14.59.24:161][  0]LogHAL: Display: Platform has ~ 16 GB [17132032000 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.10-14.59.24:161][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.02.10-14.59.24:161][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.10-14.59.24:161][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-14.59.24:161][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.10-14.59.24:161][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.10-14.59.24:161][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-14.59.24:161][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.10-14.59.24:161][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-14.59.24:161][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.10-14.59.24:162][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.10-14.59.24:162][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.10-14.59.24:162][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.10-14.59.24:162][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.10-14.59.24:162][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.10-14.59.24:162][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.10-14.59.24:162][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.10-14.59.24:162][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.10-14.59.24:162][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.10-14.59.24:162][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.10-14.59.24:162][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.10-14.59.24:162][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.10-14.59.24:163][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.10-14.59.24:164][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.10-14.59.24:164][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.10-14.59.24:164][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.10-14.59.24:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.10-14.59.24:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.10-14.59.24:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.10-14.59.24:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.10-14.59.24:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.10-14.59.24:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.10-14.59.24:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.10-14.59.24:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.10-14.59.24:164][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.10-14.59.24:165][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.10-14.59.24:165][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.10-14.59.24:165][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.10-14.59.24:165][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.10-14.59.24:165][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-14.59.24:165][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.10-14.59.24:165][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.10-14.59.24:165][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.10-14.59.24:165][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.10-14.59.24:165][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.10-14.59.24:165][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.10-14.59.24:165][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.10-14.59.24:165][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.10-14.59.24:165][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-14.59.24:165][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.10-14.59.24:165][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.10-14.59.24:166][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.10-14.59.24:166][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.10-14.59.24:166][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.10-14.59.24:166][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.10-14.59.24:166][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.10-14.59.24:166][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.10-14.59.24:166][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.10-14.59.24:166][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.10-14.59.24:166][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.10-14.59.24:166][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.10-14.59.24:166][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.10-14.59.24:166][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-14.59.24:166][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.10-14.59.24:167][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.10-14.59.24:167][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.02.10-14.59.24:167][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.02.10-14.59.24:167][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.02.10-14.59.24:167][  0]LogInit: Computer: MAINDESKTOP
+[2019.02.10-14.59.24:167][  0]LogInit: User: kille
+[2019.02.10-14.59.24:167][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.10-14.59.24:167][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.10-14.59.24:168][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.02.10-14.59.24:168][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.10-14.59.24:168][  0]LogMemory: Process Physical Memory: 102.77 MB used, 102.77 MB peak
+[2019.02.10-14.59.24:168][  0]LogMemory: Process Virtual Memory: 84.86 MB used, 84.86 MB peak
+[2019.02.10-14.59.24:168][  0]LogMemory: Physical Memory: 6446.93 MB used,  9891.45 MB free, 16338.38 MB total
+[2019.02.10-14.59.24:168][  0]LogMemory: Virtual Memory: 4630.16 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2019.02.10-14.59.24:323][  0]LogInit: Using OS detected language (en-US).
+[2019.02.10-14.59.24:323][  0]LogInit: Using OS detected locale (en-GB).
+[2019.02.10-14.59.24:324][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.10-14.59.24:719][  0]LogStreaming: Display: Took  0.397s to InitEngineTextLocalization.
+[2019.02.10-14.59.24:720][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.10-14.59.24:787][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.10-14.59.24:787][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.10-14.59.25:176][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.02.10-14.59.25:176][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.10-14.59.25:265][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.02.10-14.59.25:265][  0]LogD3D11RHI:       4043/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.10-14.59.25:271][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.10-14.59.25:271][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.10-14.59.25:271][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.10-14.59.25:298][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.10-14.59.25:300][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.10-14.59.25:300][  0]LogWindows: EnumDisplayDevices:
+[2019.02.10-14.59.25:301][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.02.10-14.59.25:303][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.02.10-14.59.25:303][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.02.10-14.59.25:303][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.02.10-14.59.25:304][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.10-14.59.25:304][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.02.10-14.59.25:304][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.02.10-14.59.25:304][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.02.10-14.59.25:304][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.02.10-14.59.25:353][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.10-14.59.25:380][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.10-14.59.25:726][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.10-14.59.25:741][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.10-14.59.25:757][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.10-14.59.25:771][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.10-14.59.25:786][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.10-14.59.25:801][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.10-14.59.25:816][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.10-14.59.25:831][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.10-14.59.25:838][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.10-14.59.25:913][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:913][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:913][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:913][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:913][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:913][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:913][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:913][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:913][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:914][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:914][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:914][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:914][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:914][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:914][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:914][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:914][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:914][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-14.59.25:917][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.10-14.59.25:986][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.10-14.59.25:986][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.10-14.59.26:011][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.10-14.59.26:011][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.10-14.59.26:026][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.10-14.59.26:041][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.10-14.59.26:068][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.10-14.59.26:107][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.10-14.59.26:153][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.10-14.59.26:153][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.10-14.59.26:154][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.10-14.59.26:291][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (A:/Uni 2018-19/Github/Slime/Slime/Slime/Intermediate/Shaders/WorkingDirectory/4644/).
+[2019.02.10-14.59.26:291][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Charles/AppData/Local/Temp/UnrealShaderWorkingDir/7D4D76E84CFA826AA0A006965A45B050/'.
+[2019.02.10-14.59.26:293][  0]LogXGEController: Cleaning working directory: C:/Users/Charles/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.10-14.59.26:294][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.10-14.59.26:294][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.10-14.59.26:294][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.10-14.59.26:837][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.10-14.59.26:893][  0]LogDerivedDataCache: Loaded boot cache 0.06s 75MB C:/Users/Charles/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.10-14.59.26:893][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Charles/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.02.10-14.59.26:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Uni 2018-19/Github/Slime/Slime/Slime/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.10-14.59.26:893][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.10-14.59.26:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Uni 2018-19/Github/Slime/Slime/Slime/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.10-14.59.26:894][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.10-14.59.26:908][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.10-14.59.26:908][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.10-14.59.26:908][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.02.10-14.59.26:921][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Charles/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.10-14.59.26:921][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.10-14.59.26:922][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.10-14.59.26:948][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.10-14.59.26:950][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.10-14.59.26:951][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.10-14.59.27:038][  0]LogAssetRegistry: FAssetRegistry took 0.0357 seconds to start up
+[2019.02.10-14.59.27:355][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.10-14.59.27:518][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.10-14.59.27:524][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.10-14.59.27:524][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.10-14.59.27:524][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.10-14.59.27:525][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.10-14.59.27:543][  0]LogNetVersion: Slime 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 858269732)
+[2019.02.10-14.59.28:071][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.094101 seconds
+[2019.02.10-14.59.28:077][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.02.10-14.59.28:077][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.02.10-14.59.28:077][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.10-14.59.29:006][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.10-14.59.29:022][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.10-14.59.29:992][  0]SourceControl: Source control is disabled
+[2019.02.10-14.59.29:993][  0]SourceControl: Source control is disabled
+[2019.02.10-14.59.29:996][  0]SourceControl: Source control is disabled
+[2019.02.10-14.59.29:998][  0]SourceControl: Source control is disabled
+[2019.02.10-14.59.30:229][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.10-14.59.30:450][  0]LogOcInput: OculusInput pre-init called
+[2019.02.10-14.59.30:639][  0]LogEngine: Initializing Engine...
+[2019.02.10-14.59.30:701][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.02.10-14.59.30:702][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.10-14.59.30:703][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.10-14.59.30:704][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.10-14.59.30:704][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.10-14.59.30:947][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.10-14.59.30:961][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.10-14.59.31:024][  0]LogInit: XAudio2 using 'SAMSUNG (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.10-14.59.31:059][  0]LogInit: FAudioDevice initialized.
+[2019.02.10-14.59.31:059][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.10-14.59.31:129][  0]LogDerivedDataCache: Saved boot cache 0.07s 75MB C:/Users/Charles/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.10-14.59.31:146][  0]LogInit: Texture streaming: Enabled
+[2019.02.10-14.59.31:170][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.10-14.59.31:180][  0]LogInit: Transaction tracking system initialized
+[2019.02.10-14.59.31:216][  0]BlueprintLog: New page: Editor Load
+[2019.02.10-14.59.31:376][  0]LocalizationService: Localization service is disabled
+[2019.02.10-14.59.31:950][  0]LogFileCache: Scanning file cache for directory 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/' took 0.02s
+[2019.02.10-14.59.31:950][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.10-14.59.31:950][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.10-14.59.31:950][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.10-14.59.31:951][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.10-14.59.31:951][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.10-14.59.31:951][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.10-14.59.31:951][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.10-14.59.32:130][  0]SourceControl: Source control is disabled
+[2019.02.10-14.59.32:131][  0]Cmd: MAP LOAD FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.10-14.59.32:131][  0]LightingResults: New page: Lighting Build
+[2019.02.10-14.59.32:134][  0]MapCheck: New page: Map Check
+[2019.02.10-14.59.32:134][  0]LightingResults: New page: Lighting Build
+[2019.02.10-14.59.32:300][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.02.10-14.59.32:311][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.10-14.59.32:336][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.10-14.59.32:336][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.138ms to complete.
+[2019.02.10-14.59.32:337][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.206
+[2019.02.10-14.59.32:447][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.10-14.59.32:454][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.10-14.59.32:462][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.10-14.59.32:470][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.10-14.59.32:478][  0]LogCollectionManager: Loaded 0 collections in 0.001946 seconds
+[2019.02.10-14.59.32:511][  0]LogFileCache: Scanning file cache for directory 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Collections/' took 0.01s
+[2019.02.10-14.59.32:511][  0]LogFileCache: Scanning file cache for directory 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Developers/kille/Collections/' took 0.01s
+[2019.02.10-14.59.32:511][  0]LogFileCache: Scanning file cache for directory 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Collections/' took 0.00s
+[2019.02.10-14.59.32:511][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.10-14.59.32:521][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2656 classes and 622 folders.
+[2019.02.10-14.59.32:527][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.02.10-14.59.32:529][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:530][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:530][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:531][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:532][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:532][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:533][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:534][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:534][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:535][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:536][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:536][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:537][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:538][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:539][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:539][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:540][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:541][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:542][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:543][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:543][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:544][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:545][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:545][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:546][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:547][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-14.59.32:575][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.02.10-14.59.32:600][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.02.10-14.59.32:615][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.10-14.59.32:617][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.10-14.59.32:622][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.10-14.59.32:698][  0]LogRenderer: Reallocating scene render targets to support 928x500 Format 10 NumSamples 1 (Frame:1).
+[2019.02.10-14.59.32:876][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.10-14.59.32:876][  0]LogLoad: (Engine Initialization) Total time: 10.45 seconds
+[2019.02.10-14.59.32:876][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.10-14.59.32:948][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.10-14.59.32:962][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.10-14.59.33:010][  1]LogAssetRegistry: Asset discovery search completed in 5.9953 seconds
+[2019.02.10-14.59.33:012][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.10-14.59.33:012][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000235 seconds (updated 0 objects)
+[2019.02.10-14.59.37:216][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.10-14.59.37:266][462]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.10-14.59.37:279][462]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.02.10-14.59.37:279][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.10-14.59.37:279][462]PIE: New page: PIE session: FirstPersonExampleMap (10 Feb 2019 14:59:37)
+[2019.02.10-14.59.37:294][462]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.02.10-14.59.37:324][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028914s)
+[2019.02.10-14.59.37:325][462]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.02.10-14.59.37:325][462]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2019.02.10-14.59.37:325][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030625s)
+[2019.02.10-14.59.37:392][462]LogInit: XAudio2 using 'SAMSUNG (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.10-14.59.37:408][462]LogInit: FAudioDevice initialized.
+[2019.02.10-14.59.37:459][462]LogLoad: Game class is 'SlimeGameMode'
+[2019.02.10-14.59.37:462][462]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.02.10-14.59.37
+[2019.02.10-14.59.37:462][462]LogWorld: Bringing up level for play took: 0.001748
+[2019.02.10-14.59.37:480][462]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.02.10-14.59.37:484][462]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.266
+[2019.02.10-14.59.37:484][462]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.02.10-14.59.39:794][709]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.39:801][710]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.39:810][711]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.39:818][712]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.39:826][713]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.39:835][714]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.39:843][715]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.39:851][716]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.39:860][717]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.39:868][718]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.39:877][719]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.39:885][720]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.39:894][721]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-14.59.39:902][722]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-14.59.39:910][723]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1610612736
+[2019.02.10-14.59.39:918][724]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.39:927][725]LogTemp: Warning: Coordinates: X:536870912 Y:-536870912
+[2019.02.10-14.59.39:934][726]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-14.59.39:943][727]LogTemp: Warning: Coordinates: X:-536870912 Y:-2147483648
+[2019.02.10-14.59.39:951][728]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-14.59.39:959][729]LogTemp: Warning: Coordinates: X:1610612736 Y:1610612736
+[2019.02.10-14.59.39:968][730]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-14.59.39:976][731]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-14.59.39:984][732]LogTemp: Warning: Coordinates: X:1610612736 Y:1610612736
+[2019.02.10-14.59.39:993][733]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.40:001][734]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.40:009][735]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-14.59.40:018][736]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.40:026][737]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-14.59.40:035][738]LogTemp: Warning: Coordinates: X:-1610612736 Y:536870912
+[2019.02.10-14.59.40:043][739]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-14.59.40:051][740]LogTemp: Warning: Coordinates: X:1610612736 Y:-1610612736
+[2019.02.10-14.59.40:060][741]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-14.59.40:068][742]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-14.59.40:076][743]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-14.59.40:085][744]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.40:093][745]LogTemp: Warning: Coordinates: X:-536870912 Y:536870912
+[2019.02.10-14.59.40:101][746]LogTemp: Warning: Coordinates: X:1610612736 Y:-536870912
+[2019.02.10-14.59.40:110][747]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-14.59.40:118][748]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-14.59.40:126][749]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-14.59.40:135][750]LogTemp: Warning: Coordinates: X:0 Y:-536870912
+[2019.02.10-14.59.40:143][751]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-14.59.40:163][752]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-14.59.40:171][753]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-14.59.40:198][754]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-14.59.40:207][755]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-14.59.40:215][756]LogTemp: Warning: Coordinates: X:536870912 Y:536870912
+[2019.02.10-14.59.40:223][757]LogTemp: Warning: Coordinates: X:536870912 Y:-536870912
+[2019.02.10-14.59.40:231][758]LogTemp: Warning: Coordinates: X:-1610612736 Y:0
+[2019.02.10-14.59.40:240][759]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.40:248][760]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.40:256][761]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-14.59.40:264][762]LogTemp: Warning: Coordinates: X:1073741824 Y:-536870912
+[2019.02.10-14.59.40:273][763]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-14.59.40:295][764]LogTemp: Warning: Coordinates: X:-536870912 Y:0
+[2019.02.10-14.59.40:302][765]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.40:311][766]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.40:341][767]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-14.59.40:349][768]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-14.59.40:358][769]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:366][770]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-14.59.40:375][771]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.40:383][772]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-14.59.40:391][773]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-14.59.40:400][774]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-14.59.40:408][775]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-14.59.40:416][776]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-14.59.40:435][777]LogTemp: Warning: Coordinates: X:1610612736 Y:536870912
+[2019.02.10-14.59.40:443][778]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-14.59.40:451][779]LogTemp: Warning: Coordinates: X:-2147483648 Y:-536870912
+[2019.02.10-14.59.40:481][780]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-14.59.40:490][781]LogTemp: Warning: Coordinates: X:-2147483648 Y:536870912
+[2019.02.10-14.59.40:497][782]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-14.59.40:507][783]LogTemp: Warning: Coordinates: X:-1610612736 Y:-536870912
+[2019.02.10-14.59.40:514][784]LogTemp: Warning: Coordinates: X:536870912 Y:-2147483648
+[2019.02.10-14.59.40:523][785]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-14.59.40:530][786]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.40:539][787]LogTemp: Warning: Coordinates: X:536870912 Y:-536870912
+[2019.02.10-14.59.40:547][788]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-14.59.40:556][789]LogTemp: Warning: Coordinates: X:-1610612736 Y:536870912
+[2019.02.10-14.59.40:564][790]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.40:572][791]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-14.59.40:581][792]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.40:589][793]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1610612736
+[2019.02.10-14.59.40:597][794]LogTemp: Warning: Coordinates: X:1610612736 Y:0
+[2019.02.10-14.59.40:606][795]LogTemp: Warning: Coordinates: X:536870912 Y:1073741824
+[2019.02.10-14.59.40:614][796]LogTemp: Warning: Coordinates: X:1610612736 Y:1610612736
+[2019.02.10-14.59.40:623][797]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-14.59.40:630][798]LogTemp: Warning: Coordinates: X:1073741824 Y:1610612736
+[2019.02.10-14.59.40:639][799]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.40:647][800]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.40:657][801]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-14.59.40:664][802]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-14.59.40:673][803]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.40:681][804]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-14.59.40:690][805]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-14.59.40:698][806]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-14.59.40:707][807]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-14.59.40:714][808]LogTemp: Warning: Coordinates: X:1073741824 Y:-536870912
+[2019.02.10-14.59.40:723][809]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.40:731][810]LogTemp: Warning: Coordinates: X:0 Y:-1610612736
+[2019.02.10-14.59.40:740][811]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-14.59.40:748][812]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.40:757][813]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.40:765][814]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:774][815]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:781][816]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:790][817]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:798][818]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:807][819]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:815][820]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:824][821]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:830][822]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:839][823]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:847][824]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:857][825]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:864][826]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:872][827]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:880][828]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.40:889][829]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.41:032][846]LogTemp: Warning: Coordinates: X:-536870912 Y:-536870912
+[2019.02.10-14.59.41:039][847]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.41:048][848]LogTemp: Warning: Coordinates: X:0 Y:1610612736
+[2019.02.10-14.59.41:056][849]LogTemp: Warning: Coordinates: X:-1610612736 Y:0
+[2019.02.10-14.59.41:064][850]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.41:073][851]LogTemp: Warning: Coordinates: X:1610612736 Y:-2147483648
+[2019.02.10-14.59.41:081][852]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-14.59.41:090][853]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-14.59.41:098][854]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-14.59.41:107][855]LogTemp: Warning: Coordinates: X:1610612736 Y:-1073741824
+[2019.02.10-14.59.41:115][856]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-14.59.41:123][857]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.41:131][858]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.41:140][859]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.41:148][860]LogTemp: Warning: Coordinates: X:536870912 Y:536870912
+[2019.02.10-14.59.41:157][861]LogTemp: Warning: Coordinates: X:1610612736 Y:-2147483648
+[2019.02.10-14.59.41:165][862]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-14.59.41:173][863]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-14.59.41:182][864]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.41:191][865]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-14.59.41:198][866]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-14.59.41:206][867]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-14.59.41:214][868]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.41:223][869]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-14.59.41:244][870]LogTemp: Warning: Coordinates: X:-536870912 Y:-2147483648
+[2019.02.10-14.59.41:251][871]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-14.59.41:259][872]LogTemp: Warning: Coordinates: X:536870912 Y:1610612736
+[2019.02.10-14.59.41:289][873]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.41:298][874]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.41:306][875]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.41:314][876]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.41:324][877]LogTemp: Warning: Coordinates: X:536870912 Y:536870912
+[2019.02.10-14.59.41:331][878]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-14.59.41:340][879]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.41:348][880]LogTemp: Warning: Coordinates: X:-1610612736 Y:1610612736
+[2019.02.10-14.59.41:357][881]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-14.59.41:366][882]LogTemp: Warning: Coordinates: X:536870912 Y:536870912
+[2019.02.10-14.59.41:385][883]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-14.59.41:393][884]LogTemp: Warning: Coordinates: X:0 Y:1610612736
+[2019.02.10-14.59.41:424][885]LogTemp: Warning: Coordinates: X:1610612736 Y:-536870912
+[2019.02.10-14.59.41:430][886]LogTemp: Warning: Coordinates: X:-2147483648 Y:-536870912
+[2019.02.10-14.59.41:439][887]LogTemp: Warning: Coordinates: X:1610612736 Y:-1073741824
+[2019.02.10-14.59.41:447][888]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.41:456][889]LogTemp: Warning: Coordinates: X:-2147483648 Y:536870912
+[2019.02.10-14.59.41:464][890]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.41:472][891]LogTemp: Warning: Coordinates: X:-536870912 Y:-536870912
+[2019.02.10-14.59.41:480][892]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.41:489][893]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.41:497][894]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-14.59.41:505][895]LogTemp: Warning: Coordinates: X:-1610612736 Y:536870912
+[2019.02.10-14.59.41:514][896]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-14.59.41:535][897]LogTemp: Warning: Coordinates: X:-2147483648 Y:536870912
+[2019.02.10-14.59.41:545][898]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-14.59.41:553][899]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1610612736
+[2019.02.10-14.59.41:583][900]LogTemp: Warning: Coordinates: X:-2147483648 Y:536870912
+[2019.02.10-14.59.41:591][901]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.41:599][902]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.41:607][903]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.41:616][904]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.41:625][905]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.41:632][906]LogTemp: Warning: Coordinates: X:536870912 Y:1073741824
+[2019.02.10-14.59.41:641][907]LogTemp: Warning: Coordinates: X:1610612736 Y:-536870912
+[2019.02.10-14.59.41:649][908]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.41:658][909]LogTemp: Warning: Coordinates: X:1610612736 Y:-1610612736
+[2019.02.10-14.59.41:666][910]LogTemp: Warning: Coordinates: X:-536870912 Y:-2147483648
+[2019.02.10-14.59.41:675][911]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.41:683][912]LogTemp: Warning: Coordinates: X:0 Y:-536870912
+[2019.02.10-14.59.41:691][913]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-14.59.41:699][914]LogTemp: Warning: Coordinates: X:-1610612736 Y:0
+[2019.02.10-14.59.41:708][915]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-14.59.41:716][916]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-14.59.41:725][917]LogTemp: Warning: Coordinates: X:-536870912 Y:-1610612736
+[2019.02.10-14.59.41:733][918]LogTemp: Warning: Coordinates: X:1610612736 Y:0
+[2019.02.10-14.59.41:741][919]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-14.59.41:750][920]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-14.59.41:758][921]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-14.59.41:766][922]LogTemp: Warning: Coordinates: X:1610612736 Y:1073741824
+[2019.02.10-14.59.41:775][923]LogTemp: Warning: Coordinates: X:536870912 Y:-2147483648
+[2019.02.10-14.59.41:783][924]LogTemp: Warning: Coordinates: X:-1610612736 Y:1610612736
+[2019.02.10-14.59.41:792][925]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-14.59.41:800][926]LogTemp: Warning: Coordinates: X:0 Y:1610612736
+[2019.02.10-14.59.41:808][927]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.41:816][928]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.41:825][929]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-14.59.42:044][955]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-14.59.42:052][956]LogTemp: Warning: Coordinates: X:1610612736 Y:-1073741824
+[2019.02.10-14.59.42:060][957]LogTemp: Warning: Coordinates: X:536870912 Y:-536870912
+[2019.02.10-14.59.42:068][958]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-14.59.42:077][959]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-14.59.42:085][960]LogTemp: Warning: Coordinates: X:1610612736 Y:-2147483648
+[2019.02.10-14.59.42:094][961]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-14.59.42:102][962]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.42:110][963]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-14.59.42:118][964]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.42:127][965]LogTemp: Warning: Coordinates: X:536870912 Y:-536870912
+[2019.02.10-14.59.42:135][966]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-14.59.42:143][967]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-14.59.42:152][968]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-14.59.42:161][969]LogTemp: Warning: Coordinates: X:0 Y:1610612736
+[2019.02.10-14.59.42:169][970]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-14.59.42:178][971]LogTemp: Warning: Coordinates: X:536870912 Y:1073741824
+[2019.02.10-14.59.42:186][972]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-14.59.42:194][973]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-14.59.42:201][974]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.42:210][975]LogTemp: Warning: Coordinates: X:1073741824 Y:-536870912
+[2019.02.10-14.59.42:218][976]LogTemp: Warning: Coordinates: X:0 Y:-1610612736
+[2019.02.10-14.59.42:227][977]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-14.59.42:235][978]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.42:243][979]LogTemp: Warning: Coordinates: X:0 Y:-1610612736
+[2019.02.10-14.59.42:252][980]LogTemp: Warning: Coordinates: X:536870912 Y:1073741824
+[2019.02.10-14.59.42:261][981]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-14.59.42:269][982]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.42:278][983]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.42:285][984]LogTemp: Warning: Coordinates: X:0 Y:-536870912
+[2019.02.10-14.59.42:294][985]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-14.59.42:302][986]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-14.59.42:311][987]LogTemp: Warning: Coordinates: X:536870912 Y:1073741824
+[2019.02.10-14.59.42:319][988]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.42:328][989]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.42:349][990]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1610612736
+[2019.02.10-14.59.42:359][991]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.42:390][992]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-14.59.42:399][993]LogTemp: Warning: Coordinates: X:536870912 Y:-2147483648
+[2019.02.10-14.59.42:407][994]LogTemp: Warning: Coordinates: X:1610612736 Y:0
+[2019.02.10-14.59.42:415][995]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-14.59.42:424][996]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-14.59.42:432][997]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-14.59.42:440][998]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.42:449][999]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.42:457][  0]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-14.59.42:478][  1]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-14.59.42:486][  2]LogTemp: Warning: Coordinates: X:1610612736 Y:-1610612736
+[2019.02.10-14.59.42:515][  3]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-14.59.42:523][  4]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-14.59.42:532][  5]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-14.59.42:540][  6]LogTemp: Warning: Coordinates: X:536870912 Y:-1073741824
+[2019.02.10-14.59.42:549][  7]LogTemp: Warning: Coordinates: X:-536870912 Y:0
+[2019.02.10-14.59.42:558][  8]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-14.59.42:566][  9]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-14.59.42:574][ 10]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.42:582][ 11]LogTemp: Warning: Coordinates: X:536870912 Y:536870912
+[2019.02.10-14.59.42:591][ 12]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.42:599][ 13]LogTemp: Warning: Coordinates: X:-536870912 Y:-536870912
+[2019.02.10-14.59.42:607][ 14]LogTemp: Warning: Coordinates: X:1610612736 Y:536870912
+[2019.02.10-14.59.42:616][ 15]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.42:634][ 16]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.42:643][ 17]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.42:672][ 18]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.42:680][ 19]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.42:689][ 20]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.42:698][ 21]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.42:706][ 22]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.42:714][ 23]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.42:722][ 24]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.42:731][ 25]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.42:739][ 26]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.42:747][ 27]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.45:128][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.10-14.59.45:177][189]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.02.10-14.59.47:986][487]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.47:993][488]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:001][489]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:010][490]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:018][491]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:026][492]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:047][493]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:056][494]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:084][495]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:378][530]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:387][531]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:394][532]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:402][533]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:411][534]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:419][535]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:427][536]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:436][537]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:444][538]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:452][539]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:461][540]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:469][541]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:478][542]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.48:486][543]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.49:188][615]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.49:195][616]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.49:203][617]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.49:212][618]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.49:220][619]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.49:228][620]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.49:237][621]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.49:245][622]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.49:253][623]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.49:262][624]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.49:270][625]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.49:278][626]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.49:287][627]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-14.59.49:295][628]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-14.59.49:303][629]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-14.59.49:311][630]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-14.59.49:319][631]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-14.59.49:328][632]LogTemp: Warning: Coordinates: X:1073741824 Y:-536870912
+[2019.02.10-14.59.49:336][633]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-14.59.49:344][634]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-14.59.49:353][635]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-14.59.49:362][636]LogTemp: Warning: Coordinates: X:0 Y:-536870912
+[2019.02.10-14.59.49:370][637]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.49:378][638]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-14.59.49:386][639]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-14.59.49:395][640]LogTemp: Warning: Coordinates: X:536870912 Y:-536870912
+[2019.02.10-14.59.49:403][641]LogTemp: Warning: Coordinates: X:536870912 Y:-536870912
+[2019.02.10-14.59.49:411][642]LogTemp: Warning: Coordinates: X:536870912 Y:-536870912
+[2019.02.10-14.59.49:772][685]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1610612736
+[2019.02.10-14.59.49:779][686]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-14.59.49:788][687]LogTemp: Warning: Coordinates: X:0 Y:-1610612736
+[2019.02.10-14.59.49:796][688]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-14.59.49:804][689]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-14.59.49:812][690]LogTemp: Warning: Coordinates: X:0 Y:-1610612736
+[2019.02.10-14.59.49:821][691]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.49:829][692]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.49:837][693]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-14.59.49:846][694]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-14.59.49:854][695]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-14.59.49:863][696]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-14.59.49:871][697]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-14.59.49:879][698]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-14.59.49:887][699]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-14.59.49:896][700]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-14.59.49:904][701]LogTemp: Warning: Coordinates: X:1073741824 Y:-536870912
+[2019.02.10-14.59.49:912][702]LogTemp: Warning: Coordinates: X:1073741824 Y:-536870912
+[2019.02.10-14.59.49:921][703]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-14.59.49:929][704]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-14.59.49:937][705]LogTemp: Warning: Coordinates: X:1610612736 Y:-1610612736
+[2019.02.10-14.59.49:946][706]LogTemp: Warning: Coordinates: X:-536870912 Y:536870912
+[2019.02.10-14.59.49:954][707]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.49:974][708]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.49:982][709]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.50:178][726]LogTemp: Warning: Coordinates: X:-1073741824 Y:536870912
+[2019.02.10-14.59.50:185][727]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1610612736
+[2019.02.10-14.59.50:193][728]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-14.59.50:202][729]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.50:211][730]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-14.59.50:229][731]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-14.59.50:238][732]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.50:267][733]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.50:277][734]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.50:284][735]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.50:292][736]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.50:300][737]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.50:309][738]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.50:317][739]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.50:326][740]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.50:334][741]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.50:343][742]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-14.59.53:578][ 94]LogTemp: Warning: Coordinates: X:1073741824 Y:1610612736
+[2019.02.10-14.59.53:586][ 95]LogTemp: Warning: Coordinates: X:0 Y:1610612736
+[2019.02.10-14.59.53:595][ 96]LogTemp: Warning: Coordinates: X:0 Y:1610612736
+[2019.02.10-14.59.53:603][ 97]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-14.59.53:611][ 98]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-14.59.53:619][ 99]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.53:628][100]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.53:636][101]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.53:645][102]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.53:653][103]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.53:661][104]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.53:669][105]LogTemp: Warning: Coordinates: X:1610612736 Y:536870912
+[2019.02.10-14.59.53:677][106]LogTemp: Warning: Coordinates: X:-2147483648 Y:-536870912
+[2019.02.10-14.59.53:686][107]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-14.59.53:694][108]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-14.59.53:702][109]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-14.59.53:710][110]LogTemp: Warning: Coordinates: X:-1610612736 Y:0
+[2019.02.10-14.59.53:719][111]LogTemp: Warning: Coordinates: X:-1610612736 Y:0
+[2019.02.10-14.59.53:727][112]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:735][113]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:744][114]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:752][115]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:760][116]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:769][117]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:777][118]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:786][119]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:794][120]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:802][121]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:810][122]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:819][123]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:827][124]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:836][125]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:845][126]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:852][127]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:861][128]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:869][129]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:878][130]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:886][131]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:894][132]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:903][133]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:911][134]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:919][135]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:928][136]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:936][137]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:944][138]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:953][139]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.53:961][140]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-14.59.53:970][141]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-14.59.53:978][142]LogTemp: Warning: Coordinates: X:1610612736 Y:-1073741824
+[2019.02.10-14.59.53:986][143]LogTemp: Warning: Coordinates: X:1610612736 Y:-1073741824
+[2019.02.10-14.59.53:995][144]LogTemp: Warning: Coordinates: X:1610612736 Y:-1073741824
+[2019.02.10-14.59.54:003][145]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.54:011][146]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-14.59.54:019][147]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-14.59.54:028][148]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:036][149]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:044][150]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:052][151]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:060][152]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:069][153]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:077][154]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:086][155]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:094][156]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:102][157]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:111][158]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:119][159]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:127][160]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:136][161]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:144][162]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:152][163]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:161][164]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:169][165]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:177][166]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-14.59.54:186][167]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-14.59.54:194][168]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-14.59.54:202][169]LogTemp: Warning: Coordinates: X:-1073741824 Y:536870912
+[2019.02.10-14.59.54:211][170]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-14.59.54:220][171]LogTemp: Warning: Coordinates: X:1610612736 Y:-2147483648
+[2019.02.10-14.59.54:228][172]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-14.59.54:236][173]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-14.59.54:244][174]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-14.59.54:252][175]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-14.59.54:261][176]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-14.59.54:269][177]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-14.59.54:277][178]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-14.59.54:286][179]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-14.59.54:294][180]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.54:302][181]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.54:311][182]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.54:330][183]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.54:338][184]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.54:348][185]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.54:378][186]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.54:387][187]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.54:396][188]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.54:404][189]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.54:412][190]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.54:420][191]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-14.59.54:429][192]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.00.02:659][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.10-15.00.06:050][136]LogAssetEditorManager: Opening Asset editor for Material /Game/WhiteBoard/m_Whiteboard.m_Whiteboard
+[2019.02.10-15.00.06:056][136]LogMaterial: Display: Missing cached shader map for material m_Whiteboard, compiling. 
+[2019.02.10-15.00.06:453][136]LogMaterial: Display: Missing cached shader map for material m_Whiteboard, compiling. 
+[2019.02.10-15.00.06:470][136]LogMaterial: Display: Missing cached shader map for material m_Whiteboard, compiling. 
+[2019.02.10-15.00.06:501][136]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.10-15.00.06:501][136]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.10-15.00.06:501][136]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.10-15.00.06:524][136]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.02.10-15.00.06:530][136]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.10-15.00.06:536][136]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.02.10-15.00.06:544][136]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.02.10-15.00.06:550][136]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2019.02.10-15.00.06:602][136]LogSlate: Took 0.010248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.10-15.00.07:762][224]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.02.10-15.00.08:024][248]LogSlate: Took 0.004727 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.10-15.00.08:236][267]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.02.10-15.00.08:246][268]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.02.10-15.00.08:440][286]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.02.10-15.00.08:674][303]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.02.10-15.00.08:771][309]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.02.10-15.00.08:890][322]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.02.10-15.00.08:969][330]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.10-15.00.09:223][353]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.10-15.00.09:892][402]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.10-15.00.10:096][421]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.10-15.00.10:105][422]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.10-15.00.10:792][495]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.10-15.00.11:162][529]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.02.10-15.00.11:204][534]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.02.10-15.00.11:999][612]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.10-15.00.12:000][612]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.10-15.00.12:310][640]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.10-15.00.12:407][650]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Tex_Maker.BP_Tex_Maker
+[2019.02.10-15.00.13:016][650]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.10-15.00.13:016][650]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.10-15.00.13:016][650]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.10-15.00.13:016][650]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 117 classes and 0 folders.
+[2019.02.10-15.00.13:979][651]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.10-15.00.13:980][651]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.10-15.00.13:980][651]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.10-15.00.13:980][651]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.10-15.00.13:980][651]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.10-15.00.13:981][651]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.10-15.00.13:986][651]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.02.10-15.00.13:987][651]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2019.02.10-15.00.13:988][651]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.02.10-15.00.13:988][651]MaterialEditorStats: Texture samplers: 5/16
+[2019.02.10-15.00.13:989][651]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.02.10-15.00.13:989][651]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.02.10-15.00.14:174][658]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.10-15.05.35:501][874]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.02.10-15.05.35:503][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.10-15.05.35:547][874]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.10-15.05.35:548][874]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.02.10-15.05.35:577][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.10-15.05.36:004][875]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.02.10-15.05.38:013][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.10-15.11.00:460][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.10-15.11.03:766][398]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.10-15.11.03:775][398]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.02.10-15.12.16:331][401]BlueprintLog: New page: Compile BP_Tex_Maker
+[2019.02.10-15.12.16:969][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tex_Maker" FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset" SILENT=true
+[2019.02.10-15.12.17:085][426]LogSavePackage: Moving 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/BP_Tex_MakerE41EEB24452E9D6E7ED2CDB4DBE93E77.tmp' to 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset'
+[2019.02.10-15.12.21:981][898]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.10-15.12.22:002][898]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.02.10-15.12.22:003][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.10-15.12.22:003][898]PIE: New page: PIE session: FirstPersonExampleMap (10 Feb 2019 15:12:22)
+[2019.02.10-15.12.22:004][898]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.02.10-15.12.22:018][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014140s)
+[2019.02.10-15.12.22:019][898]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.02.10-15.12.22:020][898]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2019.02.10-15.12.22:020][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016266s)
+[2019.02.10-15.12.22:098][898]LogInit: XAudio2 using 'SAMSUNG (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.10-15.12.22:112][898]LogInit: FAudioDevice initialized.
+[2019.02.10-15.12.22:146][898]LogLoad: Game class is 'SlimeGameMode'
+[2019.02.10-15.12.22:148][898]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.02.10-15.12.22
+[2019.02.10-15.12.22:149][898]LogWorld: Bringing up level for play took: 0.001927
+[2019.02.10-15.12.22:164][898]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.946
+[2019.02.10-15.12.22:165][898]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.02.10-15.12.24:367][130]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.12.24:375][131]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.12.24:385][132]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.12.24:393][133]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.12.24:401][134]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.12.24:409][135]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.12.24:417][136]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.12.24:426][137]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.12.24:434][138]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.12.24:442][139]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.12.24:451][140]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.12.24:459][141]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-15.12.24:468][142]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-15.12.24:476][143]LogTemp: Warning: Coordinates: X:-536870912 Y:-536870912
+[2019.02.10-15.12.24:484][144]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.12.24:492][145]LogTemp: Warning: Coordinates: X:536870912 Y:536870912
+[2019.02.10-15.12.24:501][146]LogTemp: Warning: Coordinates: X:0 Y:-1610612736
+[2019.02.10-15.12.24:510][147]LogTemp: Warning: Coordinates: X:-536870912 Y:-2147483648
+[2019.02.10-15.12.24:518][148]LogTemp: Warning: Coordinates: X:-2147483648 Y:-536870912
+[2019.02.10-15.12.24:526][149]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.12.24:535][150]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-15.12.24:543][151]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-15.12.24:552][152]LogTemp: Warning: Coordinates: X:536870912 Y:536870912
+[2019.02.10-15.12.24:559][153]LogTemp: Warning: Coordinates: X:-2147483648 Y:-536870912
+[2019.02.10-15.12.24:568][154]LogTemp: Warning: Coordinates: X:-536870912 Y:-2147483648
+[2019.02.10-15.12.24:576][155]LogTemp: Warning: Coordinates: X:-1610612736 Y:536870912
+[2019.02.10-15.12.24:585][156]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.24:593][157]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.24:602][158]LogTemp: Warning: Coordinates: X:1610612736 Y:1073741824
+[2019.02.10-15.12.24:610][159]LogTemp: Warning: Coordinates: X:1610612736 Y:-2147483648
+[2019.02.10-15.12.24:617][160]LogTemp: Warning: Coordinates: X:-536870912 Y:-1073741824
+[2019.02.10-15.12.24:626][161]LogTemp: Warning: Coordinates: X:-1610612736 Y:-536870912
+[2019.02.10-15.12.24:634][162]LogTemp: Warning: Coordinates: X:1610612736 Y:-1610612736
+[2019.02.10-15.12.24:643][163]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.12.24:651][164]LogTemp: Warning: Coordinates: X:-1073741824 Y:536870912
+[2019.02.10-15.12.24:660][165]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-15.12.24:679][166]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.12.24:688][167]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.12.24:717][168]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.12.24:726][169]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.12.24:735][170]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-15.12.24:742][171]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.12.24:750][172]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-15.12.24:758][173]LogTemp: Warning: Coordinates: X:0 Y:1610612736
+[2019.02.10-15.12.24:767][174]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.12.24:775][175]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-15.12.24:783][176]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-15.12.28:149][545]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.12.28:157][546]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-15.12.28:166][547]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.12.28:174][548]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.12.28:182][549]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.12.28:191][550]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.12.28:199][551]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.12.28:206][552]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.12.28:215][553]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.12.28:223][554]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.12.28:231][555]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.12.28:240][556]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.12.28:248][557]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.12.28:257][558]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.12.28:266][559]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1610612736
+[2019.02.10-15.12.28:274][560]LogTemp: Warning: Coordinates: X:1073741824 Y:1610612736
+[2019.02.10-15.12.28:282][561]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-15.12.28:290][562]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.12.28:298][563]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.28:306][564]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.12.28:315][565]LogTemp: Warning: Coordinates: X:1073741824 Y:-536870912
+[2019.02.10-15.12.28:323][566]LogTemp: Warning: Coordinates: X:-1073741824 Y:536870912
+[2019.02.10-15.12.28:332][567]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.12.28:340][568]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.12.28:348][569]LogTemp: Warning: Coordinates: X:0 Y:-1610612736
+[2019.02.10-15.12.28:357][570]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.12.28:365][571]LogTemp: Warning: Coordinates: X:-1610612736 Y:-536870912
+[2019.02.10-15.12.28:374][572]LogTemp: Warning: Coordinates: X:-536870912 Y:1610612736
+[2019.02.10-15.12.28:383][573]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.12.28:391][574]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-15.12.28:399][575]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.12.28:407][576]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.12.28:416][577]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.12.28:424][578]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.28:432][579]LogTemp: Warning: Coordinates: X:536870912 Y:1073741824
+[2019.02.10-15.12.28:441][580]LogTemp: Warning: Coordinates: X:536870912 Y:1073741824
+[2019.02.10-15.12.28:449][581]LogTemp: Warning: Coordinates: X:536870912 Y:1073741824
+[2019.02.10-15.12.31:226][880]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.12.31:233][881]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-15.12.31:242][882]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.12.31:250][883]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1610612736
+[2019.02.10-15.12.31:258][884]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-15.12.31:267][885]LogTemp: Warning: Coordinates: X:-536870912 Y:-1073741824
+[2019.02.10-15.12.31:275][886]LogTemp: Warning: Coordinates: X:1610612736 Y:-1610612736
+[2019.02.10-15.12.31:283][887]LogTemp: Warning: Coordinates: X:1610612736 Y:-1610612736
+[2019.02.10-15.12.31:292][888]LogTemp: Warning: Coordinates: X:-1610612736 Y:-536870912
+[2019.02.10-15.12.31:300][889]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.12.31:308][890]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.12.31:317][891]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.12.31:325][892]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.12.31:334][893]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.12.31:342][894]LogTemp: Warning: Coordinates: X:1610612736 Y:0
+[2019.02.10-15.12.31:350][895]LogTemp: Warning: Coordinates: X:1610612736 Y:-1073741824
+[2019.02.10-15.12.31:359][896]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-15.12.31:367][897]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.12.31:376][898]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.12.31:384][899]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.31:392][900]LogTemp: Warning: Coordinates: X:536870912 Y:-536870912
+[2019.02.10-15.12.31:400][901]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.12.31:409][902]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-15.12.31:416][903]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.12.31:424][904]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.31:433][905]LogTemp: Warning: Coordinates: X:536870912 Y:1073741824
+[2019.02.10-15.12.31:441][906]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-15.12.31:450][907]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.12.31:458][908]LogTemp: Warning: Coordinates: X:1610612736 Y:-536870912
+[2019.02.10-15.12.31:466][909]LogTemp: Warning: Coordinates: X:-536870912 Y:1610612736
+[2019.02.10-15.12.31:475][910]LogTemp: Warning: Coordinates: X:-1073741824 Y:536870912
+[2019.02.10-15.12.31:483][911]LogTemp: Warning: Coordinates: X:-1610612736 Y:-536870912
+[2019.02.10-15.12.31:491][912]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-15.12.31:500][913]LogTemp: Warning: Coordinates: X:1610612736 Y:-2147483648
+[2019.02.10-15.12.31:508][914]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.12.31:517][915]LogTemp: Warning: Coordinates: X:0 Y:-536870912
+[2019.02.10-15.12.31:525][916]LogTemp: Warning: Coordinates: X:1610612736 Y:-2147483648
+[2019.02.10-15.12.31:533][917]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.12.31:541][918]LogTemp: Warning: Coordinates: X:-1610612736 Y:0
+[2019.02.10-15.12.31:550][919]LogTemp: Warning: Coordinates: X:-536870912 Y:0
+[2019.02.10-15.12.31:558][920]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-15.12.31:567][921]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.31:575][922]LogTemp: Warning: Coordinates: X:-536870912 Y:1610612736
+[2019.02.10-15.12.31:583][923]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.12.31:592][924]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.12.31:600][925]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.12.31:608][926]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.12.31:617][927]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-15.12.31:625][928]LogTemp: Warning: Coordinates: X:536870912 Y:-2147483648
+[2019.02.10-15.12.31:633][929]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-15.12.31:642][930]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.31:650][931]LogTemp: Warning: Coordinates: X:1610612736 Y:1073741824
+[2019.02.10-15.12.31:658][932]LogTemp: Warning: Coordinates: X:-536870912 Y:-1610612736
+[2019.02.10-15.12.31:667][933]LogTemp: Warning: Coordinates: X:1610612736 Y:-536870912
+[2019.02.10-15.12.31:675][934]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.12.31:683][935]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.31:692][936]LogTemp: Warning: Coordinates: X:536870912 Y:-2147483648
+[2019.02.10-15.12.31:701][937]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.31:709][938]LogTemp: Warning: Coordinates: X:1610612736 Y:-1073741824
+[2019.02.10-15.12.31:717][939]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.12.31:726][940]LogTemp: Warning: Coordinates: X:-536870912 Y:-1610612736
+[2019.02.10-15.12.31:734][941]LogTemp: Warning: Coordinates: X:1610612736 Y:1073741824
+[2019.02.10-15.12.31:742][942]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-15.12.31:751][943]LogTemp: Warning: Coordinates: X:1610612736 Y:1610612736
+[2019.02.10-15.12.31:759][944]LogTemp: Warning: Coordinates: X:536870912 Y:-1073741824
+[2019.02.10-15.12.31:780][945]LogTemp: Warning: Coordinates: X:536870912 Y:-2147483648
+[2019.02.10-15.12.31:787][946]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.31:817][947]LogTemp: Warning: Coordinates: X:1073741824 Y:1610612736
+[2019.02.10-15.12.31:825][948]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.12.31:834][949]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.31:842][950]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1610612736
+[2019.02.10-15.12.31:851][951]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.31:859][952]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.12.31:867][953]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.12.31:875][954]LogTemp: Warning: Coordinates: X:1610612736 Y:-1610612736
+[2019.02.10-15.12.31:896][955]LogTemp: Warning: Coordinates: X:-536870912 Y:-1073741824
+[2019.02.10-15.12.31:904][956]LogTemp: Warning: Coordinates: X:536870912 Y:1610612736
+[2019.02.10-15.12.31:934][957]LogTemp: Warning: Coordinates: X:536870912 Y:536870912
+[2019.02.10-15.12.31:943][958]LogTemp: Warning: Coordinates: X:536870912 Y:536870912
+[2019.02.10-15.12.31:951][959]LogTemp: Warning: Coordinates: X:536870912 Y:536870912
+[2019.02.10-15.12.31:959][960]LogTemp: Warning: Coordinates: X:536870912 Y:536870912
+[2019.02.10-15.12.31:967][961]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.12.31:975][962]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.12.31:984][963]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.12.32:732][ 49]LogTemp: Warning: Coordinates: X:-2147483648 Y:536870912
+[2019.02.10-15.12.32:740][ 50]LogTemp: Warning: Coordinates: X:-2147483648 Y:536870912
+[2019.02.10-15.12.32:748][ 51]LogTemp: Warning: Coordinates: X:-2147483648 Y:536870912
+[2019.02.10-15.12.32:756][ 52]LogTemp: Warning: Coordinates: X:-2147483648 Y:536870912
+[2019.02.10-15.12.32:765][ 53]LogTemp: Warning: Coordinates: X:-2147483648 Y:536870912
+[2019.02.10-15.12.32:773][ 54]LogTemp: Warning: Coordinates: X:-2147483648 Y:536870912
+[2019.02.10-15.12.32:781][ 55]LogTemp: Warning: Coordinates: X:-2147483648 Y:536870912
+[2019.02.10-15.12.32:790][ 56]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.12.32:798][ 57]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.12.32:807][ 58]LogTemp: Warning: Coordinates: X:536870912 Y:1610612736
+[2019.02.10-15.12.32:815][ 59]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.12.32:824][ 60]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.12.32:832][ 61]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.12.32:841][ 62]LogTemp: Warning: Coordinates: X:-1610612736 Y:-536870912
+[2019.02.10-15.12.32:860][ 63]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.12.32:869][ 64]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-15.12.32:900][ 65]LogTemp: Warning: Coordinates: X:-1610612736 Y:0
+[2019.02.10-15.12.32:908][ 66]LogTemp: Warning: Coordinates: X:-1610612736 Y:0
+[2019.02.10-15.12.32:917][ 67]LogTemp: Warning: Coordinates: X:-536870912 Y:0
+[2019.02.10-15.12.32:925][ 68]LogTemp: Warning: Coordinates: X:1073741824 Y:1610612736
+[2019.02.10-15.12.32:933][ 69]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.12.32:942][ 70]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-15.12.32:950][ 71]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1610612736
+[2019.02.10-15.12.32:958][ 72]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-15.12.32:977][ 73]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.12.32:985][ 74]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.33:016][ 75]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.12.33:025][ 76]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-15.12.33:033][ 77]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.12.33:042][ 78]LogTemp: Warning: Coordinates: X:-536870912 Y:-536870912
+[2019.02.10-15.12.33:050][ 79]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.12.33:058][ 80]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.12.33:067][ 81]LogTemp: Warning: Coordinates: X:1610612736 Y:-536870912
+[2019.02.10-15.12.33:075][ 82]LogTemp: Warning: Coordinates: X:-1073741824 Y:536870912
+[2019.02.10-15.12.33:083][ 83]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.12.33:092][ 84]LogTemp: Warning: Coordinates: X:-1610612736 Y:-536870912
+[2019.02.10-15.12.33:100][ 85]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.12.33:108][ 86]LogTemp: Warning: Coordinates: X:1610612736 Y:-1610612736
+[2019.02.10-15.12.33:117][ 87]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-15.12.33:125][ 88]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.33:134][ 89]LogTemp: Warning: Coordinates: X:-536870912 Y:0
+[2019.02.10-15.12.33:142][ 90]LogTemp: Warning: Coordinates: X:-536870912 Y:0
+[2019.02.10-15.12.33:152][ 91]LogTemp: Warning: Coordinates: X:-536870912 Y:-2147483648
+[2019.02.10-15.12.33:158][ 92]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-15.12.33:167][ 93]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.12.33:175][ 94]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.12.33:183][ 95]LogTemp: Warning: Coordinates: X:-1610612736 Y:-536870912
+[2019.02.10-15.12.33:192][ 96]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.12.33:201][ 97]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.12.33:208][ 98]LogTemp: Warning: Coordinates: X:1610612736 Y:1073741824
+[2019.02.10-15.12.33:217][ 99]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.12.33:225][100]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.12.33:233][101]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.12.33:242][102]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-15.12.33:250][103]LogTemp: Warning: Coordinates: X:-536870912 Y:-2147483648
+[2019.02.10-15.12.33:258][104]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.33:267][105]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.33:275][106]LogTemp: Warning: Coordinates: X:1073741824 Y:1610612736
+[2019.02.10-15.12.33:283][107]LogTemp: Warning: Coordinates: X:1073741824 Y:1610612736
+[2019.02.10-15.12.33:292][108]LogTemp: Warning: Coordinates: X:1073741824 Y:1610612736
+[2019.02.10-15.12.33:300][109]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.33:308][110]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.33:327][111]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.33:335][112]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.33:365][113]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.33:374][114]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.33:382][115]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.34:365][225]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.12.34:372][226]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.12.34:381][227]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.12.34:390][228]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.12.34:398][229]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.12.34:419][230]LogTemp: Warning: Coordinates: X:536870912 Y:-536870912
+[2019.02.10-15.12.34:426][231]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.12.34:457][232]LogTemp: Warning: Coordinates: X:536870912 Y:-536870912
+[2019.02.10-15.12.34:464][233]LogTemp: Warning: Coordinates: X:-536870912 Y:0
+[2019.02.10-15.12.34:472][234]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-15.12.34:480][235]LogTemp: Warning: Coordinates: X:-536870912 Y:0
+[2019.02.10-15.12.34:488][236]LogTemp: Warning: Coordinates: X:-1610612736 Y:-536870912
+[2019.02.10-15.12.34:496][237]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-15.12.34:505][238]LogTemp: Warning: Coordinates: X:-2147483648 Y:536870912
+[2019.02.10-15.12.34:513][239]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-15.12.34:522][240]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.12.34:530][241]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.12.34:538][242]LogTemp: Warning: Coordinates: X:536870912 Y:536870912
+[2019.02.10-15.12.34:546][243]LogTemp: Warning: Coordinates: X:536870912 Y:-536870912
+[2019.02.10-15.12.34:555][244]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.12.34:563][245]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.12.34:572][246]LogTemp: Warning: Coordinates: X:-1073741824 Y:536870912
+[2019.02.10-15.12.34:580][247]LogTemp: Warning: Coordinates: X:1073741824 Y:1610612736
+[2019.02.10-15.12.34:589][248]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.12.34:596][249]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:605][250]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:613][251]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:621][252]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:630][253]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:638][254]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:646][255]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:655][256]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:663][257]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:672][258]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:680][259]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:688][260]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:697][261]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:705][262]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:713][263]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:722][264]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.34:730][265]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.34:739][266]LogTemp: Warning: Coordinates: X:536870912 Y:-1073741824
+[2019.02.10-15.12.34:747][267]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-15.12.34:755][268]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.12.34:765][269]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.12.34:773][270]LogTemp: Warning: Coordinates: X:-2147483648 Y:536870912
+[2019.02.10-15.12.34:781][271]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.12.34:789][272]LogTemp: Warning: Coordinates: X:1610612736 Y:-1073741824
+[2019.02.10-15.12.34:797][273]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.34:806][274]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.12.34:814][275]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-15.12.34:822][276]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-15.12.34:831][277]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-15.12.34:839][278]LogTemp: Warning: Coordinates: X:0 Y:-1610612736
+[2019.02.10-15.12.34:847][279]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.34:855][280]LogTemp: Warning: Coordinates: X:1610612736 Y:0
+[2019.02.10-15.12.34:863][281]LogTemp: Warning: Coordinates: X:-536870912 Y:0
+[2019.02.10-15.12.35:345][331]LogTemp: Warning: Coordinates: X:1610612736 Y:-536870912
+[2019.02.10-15.12.35:353][332]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.12.35:362][333]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.12.35:370][334]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.35:379][335]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.12.35:387][336]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.12.35:395][337]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.12.35:404][338]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-15.12.35:412][339]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.12.35:420][340]LogTemp: Warning: Coordinates: X:536870912 Y:1610612736
+[2019.02.10-15.12.35:428][341]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.12.35:437][342]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.12.35:445][343]LogTemp: Warning: Coordinates: X:-1610612736 Y:-536870912
+[2019.02.10-15.12.35:454][344]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1610612736
+[2019.02.10-15.12.35:462][345]LogTemp: Warning: Coordinates: X:-536870912 Y:-536870912
+[2019.02.10-15.12.35:470][346]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-15.12.35:478][347]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1610612736
+[2019.02.10-15.12.35:498][348]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.35:507][349]LogTemp: Warning: Coordinates: X:-1073741824 Y:536870912
+[2019.02.10-15.12.35:536][350]LogTemp: Warning: Coordinates: X:-1610612736 Y:1610612736
+[2019.02.10-15.12.35:545][351]LogTemp: Warning: Coordinates: X:1610612736 Y:-536870912
+[2019.02.10-15.12.35:553][352]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-15.12.35:561][353]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.35:569][354]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-15.12.35:578][355]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.35:586][356]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.12.35:595][357]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.12.35:603][358]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.12.35:612][359]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-15.12.35:620][360]LogTemp: Warning: Coordinates: X:1610612736 Y:-1610612736
+[2019.02.10-15.12.35:628][361]LogTemp: Warning: Coordinates: X:0 Y:1610612736
+[2019.02.10-15.12.35:636][362]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-15.12.35:645][363]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-15.12.35:653][364]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.12.35:661][365]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.12.35:670][366]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.12.35:678][367]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.35:686][368]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.12.35:695][369]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-15.12.35:703][370]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-15.12.35:711][371]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-15.12.35:720][372]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.35:728][373]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.12.35:737][374]LogTemp: Warning: Coordinates: X:1073741824 Y:-536870912
+[2019.02.10-15.12.35:744][375]LogTemp: Warning: Coordinates: X:1610612736 Y:536870912
+[2019.02.10-15.12.35:752][376]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-15.12.35:761][377]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1610612736
+[2019.02.10-15.12.35:769][378]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.12.35:778][379]LogTemp: Warning: Coordinates: X:536870912 Y:-536870912
+[2019.02.10-15.12.35:786][380]LogTemp: Warning: Coordinates: X:-1073741824 Y:536870912
+[2019.02.10-15.12.35:794][381]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.35:802][382]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.12.35:811][383]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.12.35:820][384]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.12.35:828][385]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.12.35:836][386]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.12.35:844][387]LogTemp: Warning: Coordinates: X:1610612736 Y:-1073741824
+[2019.02.10-15.12.35:852][388]LogTemp: Warning: Coordinates: X:1610612736 Y:-1073741824
+[2019.02.10-15.12.39:499][783]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.39:507][784]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.39:515][785]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.39:523][786]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.39:531][787]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.39:539][788]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.39:548][789]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.12.46:799][552]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.10-15.15.03:768][787]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.15.03:775][788]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.15.03:784][789]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.15.03:792][790]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.15.03:800][791]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.15.03:808][792]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.15.03:817][793]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.15.03:825][794]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.15.03:834][795]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.15.03:842][796]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.15.03:851][797]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.15.03:859][798]LogTemp: Warning: Coordinates: X:536870912 Y:-536870912
+[2019.02.10-15.15.03:868][799]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.03:875][800]LogTemp: Warning: Coordinates: X:0 Y:-1610612736
+[2019.02.10-15.15.03:884][801]LogTemp: Warning: Coordinates: X:1610612736 Y:1073741824
+[2019.02.10-15.15.03:892][802]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.03:901][803]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.03:909][804]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.15.03:917][805]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.03:926][806]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-15.15.03:934][807]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.15.03:942][808]LogTemp: Warning: Coordinates: X:1610612736 Y:-1610612736
+[2019.02.10-15.15.03:951][809]LogTemp: Warning: Coordinates: X:536870912 Y:-1073741824
+[2019.02.10-15.15.03:959][810]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.03:967][811]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.15.03:976][812]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.15.03:984][813]LogTemp: Warning: Coordinates: X:536870912 Y:1073741824
+[2019.02.10-15.15.03:992][814]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-15.15.04:001][815]LogTemp: Warning: Coordinates: X:536870912 Y:1073741824
+[2019.02.10-15.15.04:009][816]LogTemp: Warning: Coordinates: X:536870912 Y:1073741824
+[2019.02.10-15.15.04:018][817]LogTemp: Warning: Coordinates: X:1610612736 Y:-2147483648
+[2019.02.10-15.15.04:026][818]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.04:035][819]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-15.15.04:043][820]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.15.04:051][821]LogTemp: Warning: Coordinates: X:-536870912 Y:-1073741824
+[2019.02.10-15.15.04:060][822]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-15.15.04:068][823]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-15.15.04:076][824]LogTemp: Warning: Coordinates: X:1073741824 Y:-536870912
+[2019.02.10-15.15.04:085][825]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.15.04:094][826]LogTemp: Warning: Coordinates: X:-1610612736 Y:1610612736
+[2019.02.10-15.15.04:102][827]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.15.04:110][828]LogTemp: Warning: Coordinates: X:1610612736 Y:1073741824
+[2019.02.10-15.15.04:118][829]LogTemp: Warning: Coordinates: X:-1610612736 Y:0
+[2019.02.10-15.15.04:127][830]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.15.04:135][831]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.15.04:143][832]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-15.15.04:152][833]LogTemp: Warning: Coordinates: X:-1610612736 Y:1610612736
+[2019.02.10-15.15.04:160][834]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.15.04:168][835]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-15.15.04:177][836]LogTemp: Warning: Coordinates: X:536870912 Y:536870912
+[2019.02.10-15.15.04:185][837]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.15.04:193][838]LogTemp: Warning: Coordinates: X:-536870912 Y:-2147483648
+[2019.02.10-15.15.04:215][839]LogTemp: Warning: Coordinates: X:-536870912 Y:-2147483648
+[2019.02.10-15.15.04:221][840]LogTemp: Warning: Coordinates: X:-536870912 Y:-2147483648
+[2019.02.10-15.15.04:229][841]LogTemp: Warning: Coordinates: X:-536870912 Y:-2147483648
+[2019.02.10-15.15.47:639][562]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-15.15.47:646][563]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-15.15.47:656][564]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-15.15.47:663][565]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-15.15.47:672][566]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-15.15.47:680][567]LogTemp: Warning: Coordinates: X:-536870912 Y:-2147483648
+[2019.02.10-15.15.47:689][568]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.15.47:696][569]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.15.47:706][570]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-15.15.47:713][571]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-15.15.47:723][572]LogTemp: Warning: Coordinates: X:1073741824 Y:-536870912
+[2019.02.10-15.15.47:730][573]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.15.47:739][574]LogTemp: Warning: Coordinates: X:1610612736 Y:-1610612736
+[2019.02.10-15.15.47:747][575]LogTemp: Warning: Coordinates: X:-1610612736 Y:1610612736
+[2019.02.10-15.15.47:756][576]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.15.47:775][577]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-15.15.47:783][578]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.15.47:812][579]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-15.15.47:822][580]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-15.15.47:830][581]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.15.47:840][582]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.15.47:848][583]LogTemp: Warning: Coordinates: X:536870912 Y:-1073741824
+[2019.02.10-15.15.47:858][584]LogTemp: Warning: Coordinates: X:-536870912 Y:1610612736
+[2019.02.10-15.15.47:866][585]LogTemp: Warning: Coordinates: X:1073741824 Y:1610612736
+[2019.02.10-15.15.47:874][586]LogTemp: Warning: Coordinates: X:-536870912 Y:-1610612736
+[2019.02.10-15.15.47:882][587]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.15.47:891][588]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.15.47:899][589]LogTemp: Warning: Coordinates: X:-2147483648 Y:-536870912
+[2019.02.10-15.15.47:908][590]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.15.47:916][591]LogTemp: Warning: Coordinates: X:0 Y:-1610612736
+[2019.02.10-15.15.47:924][592]LogTemp: Warning: Coordinates: X:-1073741824 Y:536870912
+[2019.02.10-15.15.47:933][593]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.15.47:941][594]LogTemp: Warning: Coordinates: X:0 Y:-536870912
+[2019.02.10-15.15.47:949][595]LogTemp: Warning: Coordinates: X:-2147483648 Y:536870912
+[2019.02.10-15.15.47:958][596]LogTemp: Warning: Coordinates: X:-1610612736 Y:-536870912
+[2019.02.10-15.15.47:966][597]LogTemp: Warning: Coordinates: X:-1073741824 Y:536870912
+[2019.02.10-15.15.47:976][598]LogTemp: Warning: Coordinates: X:536870912 Y:-2147483648
+[2019.02.10-15.15.47:983][599]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.47:991][600]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.15.48:000][601]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.15.48:010][602]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.15.48:019][603]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.15.48:026][604]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:035][605]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:043][606]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:051][607]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:059][608]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:067][609]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:076][610]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:084][611]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:092][612]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:101][613]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:109][614]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:118][615]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:126][616]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:134][617]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:142][618]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:151][619]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:159][620]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.48:167][621]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.48:905][697]LogTemp: Warning: Coordinates: X:0 Y:-536870912
+[2019.02.10-15.15.48:914][698]LogTemp: Warning: Coordinates: X:0 Y:-536870912
+[2019.02.10-15.15.48:924][699]LogTemp: Warning: Coordinates: X:0 Y:-536870912
+[2019.02.10-15.15.48:930][700]LogTemp: Warning: Coordinates: X:0 Y:-536870912
+[2019.02.10-15.15.48:940][701]LogTemp: Warning: Coordinates: X:-536870912 Y:-2147483648
+[2019.02.10-15.15.48:947][702]LogTemp: Warning: Coordinates: X:536870912 Y:-1073741824
+[2019.02.10-15.15.48:957][703]LogTemp: Warning: Coordinates: X:1610612736 Y:-1610612736
+[2019.02.10-15.15.48:964][704]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-15.15.48:973][705]LogTemp: Warning: Coordinates: X:-1610612736 Y:0
+[2019.02.10-15.15.48:980][706]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-15.15.48:990][707]LogTemp: Warning: Coordinates: X:1610612736 Y:1073741824
+[2019.02.10-15.15.48:997][708]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-15.15.49:005][709]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.15.49:014][710]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-15.15.49:022][711]LogTemp: Warning: Coordinates: X:1073741824 Y:-536870912
+[2019.02.10-15.15.49:031][712]LogTemp: Warning: Coordinates: X:536870912 Y:-1073741824
+[2019.02.10-15.15.49:039][713]LogTemp: Warning: Coordinates: X:1610612736 Y:0
+[2019.02.10-15.15.49:048][714]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-15.15.49:060][715]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:067][716]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.15.49:076][717]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.49:085][718]LogTemp: Warning: Coordinates: X:-536870912 Y:0
+[2019.02.10-15.15.49:094][719]LogTemp: Warning: Coordinates: X:1610612736 Y:0
+[2019.02.10-15.15.49:101][720]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.15.49:110][721]LogTemp: Warning: Coordinates: X:536870912 Y:-536870912
+[2019.02.10-15.15.49:118][722]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-15.15.49:127][723]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.15.49:135][724]LogTemp: Warning: Coordinates: X:-536870912 Y:-1073741824
+[2019.02.10-15.15.49:144][725]LogTemp: Warning: Coordinates: X:1610612736 Y:-1073741824
+[2019.02.10-15.15.49:152][726]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-15.15.49:160][727]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.49:169][728]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.15.49:177][729]LogTemp: Warning: Coordinates: X:1610612736 Y:-1610612736
+[2019.02.10-15.15.49:186][730]LogTemp: Warning: Coordinates: X:-2147483648 Y:-536870912
+[2019.02.10-15.15.49:194][731]LogTemp: Warning: Coordinates: X:1610612736 Y:-1073741824
+[2019.02.10-15.15.49:202][732]LogTemp: Warning: Coordinates: X:536870912 Y:-2147483648
+[2019.02.10-15.15.49:210][733]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.15.49:219][734]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.49:227][735]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-15.15.49:237][736]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.15.49:245][737]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.15.49:253][738]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:262][739]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-15.15.49:270][740]LogTemp: Warning: Coordinates: X:536870912 Y:1073741824
+[2019.02.10-15.15.49:278][741]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.49:287][742]LogTemp: Warning: Coordinates: X:0 Y:-1610612736
+[2019.02.10-15.15.49:296][743]LogTemp: Warning: Coordinates: X:0 Y:-1610612736
+[2019.02.10-15.15.49:303][744]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-15.15.49:312][745]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:320][746]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:328][747]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:337][748]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:345][749]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:353][750]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:376][751]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:383][752]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:395][753]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:428][754]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:435][755]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:445][756]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:455][757]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:464][758]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.49:475][759]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.51:012][926]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:019][927]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:029][928]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:036][929]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:055][930]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:064][931]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:093][932]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:101][933]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:112][934]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:119][935]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:129][936]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:136][937]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:146][938]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:153][939]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:163][940]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:171][941]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:179][942]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:187][943]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:196][944]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:205][945]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:213][946]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:221][947]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:229][948]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:238][949]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:247][950]LogTemp: Warning: Coordinates: X:1610612736 Y:-1073741824
+[2019.02.10-15.15.51:255][951]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-15.15.51:264][952]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-15.15.51:272][953]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.51:280][954]LogTemp: Warning: Coordinates: X:-536870912 Y:1610612736
+[2019.02.10-15.15.51:288][955]LogTemp: Warning: Coordinates: X:-1610612736 Y:0
+[2019.02.10-15.15.51:297][956]LogTemp: Warning: Coordinates: X:-536870912 Y:1610612736
+[2019.02.10-15.15.51:305][957]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.15.51:314][958]LogTemp: Warning: Coordinates: X:0 Y:536870912
+[2019.02.10-15.15.51:321][959]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.15.51:330][960]LogTemp: Warning: Coordinates: X:0 Y:-536870912
+[2019.02.10-15.15.51:338][961]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.15.51:346][962]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.15.51:354][963]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.15.51:364][964]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.15.51:373][965]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.15.51:381][966]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.15.51:390][967]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.15.51:398][968]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.15.51:406][969]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1610612736
+[2019.02.10-15.15.51:415][970]LogTemp: Warning: Coordinates: X:-1610612736 Y:1073741824
+[2019.02.10-15.15.51:423][971]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.15.51:432][972]LogTemp: Warning: Coordinates: X:536870912 Y:-2147483648
+[2019.02.10-15.15.51:440][973]LogTemp: Warning: Coordinates: X:-1073741824 Y:1610612736
+[2019.02.10-15.15.51:449][974]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:457][975]LogTemp: Warning: Coordinates: X:-536870912 Y:0
+[2019.02.10-15.15.51:465][976]LogTemp: Warning: Coordinates: X:1610612736 Y:-536870912
+[2019.02.10-15.15.51:475][977]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1610612736
+[2019.02.10-15.15.51:483][978]LogTemp: Warning: Coordinates: X:536870912 Y:1610612736
+[2019.02.10-15.15.51:491][979]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-15.15.51:499][980]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.15.51:507][981]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:515][982]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:523][983]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:532][984]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.51:540][985]LogTemp: Warning: Coordinates: X:536870912 Y:1073741824
+[2019.02.10-15.15.51:549][986]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.15.51:557][987]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.15.51:567][988]LogTemp: Warning: Coordinates: X:536870912 Y:-2147483648
+[2019.02.10-15.15.51:590][989]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.15.51:598][990]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-15.15.51:606][991]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.51:615][992]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.15.51:645][993]LogTemp: Warning: Coordinates: X:536870912 Y:-1073741824
+[2019.02.10-15.15.51:653][994]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.15.51:662][995]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.15.51:670][996]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.15.51:691][997]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.15.51:700][998]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.15.51:730][999]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.15.51:738][  0]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.15.51:748][  1]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.15.51:756][  2]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.15.51:765][  3]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.15.56:961][500]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.56:969][501]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.56:977][502]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.56:986][503]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.56:994][504]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:003][505]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:011][506]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:020][507]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:028][508]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:036][509]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:045][510]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:053][511]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:061][512]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:069][513]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:077][514]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:085][515]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:094][516]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:102][517]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:111][518]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:119][519]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:127][520]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:135][521]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:144][522]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:152][523]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:161][524]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:169][525]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:177][526]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:186][527]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:194][528]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:202][529]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:211][530]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:219][531]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:227][532]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:236][533]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:245][534]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:253][535]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:261][536]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:269][537]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:278][538]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:296][539]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:307][540]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:337][541]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:346][542]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:354][543]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:362][544]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:371][545]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.57:625][570]LogTemp: Warning: Coordinates: X:-1610612736 Y:536870912
+[2019.02.10-15.15.57:636][571]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.15.57:644][572]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.15.57:675][573]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.15.57:683][574]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.15.57:692][575]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.15.57:700][576]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.15.57:709][577]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.15.57:717][578]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.15.57:726][579]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.15.57:733][580]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.15.57:742][581]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.15.57:750][582]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.15.57:759][583]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.15.57:767][584]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.15.57:776][585]LogTemp: Warning: Coordinates: X:536870912 Y:0
+[2019.02.10-15.15.57:784][586]LogTemp: Warning: Coordinates: X:0 Y:-1610612736
+[2019.02.10-15.15.57:793][587]LogTemp: Warning: Coordinates: X:1610612736 Y:0
+[2019.02.10-15.15.57:801][588]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-15.15.57:809][589]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-15.15.57:959][607]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-15.15.57:967][608]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-15.15.57:976][609]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-15.15.57:983][610]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-15.15.57:993][611]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-15.15.58:000][612]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-15.15.58:009][613]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1610612736
+[2019.02.10-15.15.58:017][614]LogTemp: Warning: Coordinates: X:1073741824 Y:1610612736
+[2019.02.10-15.15.58:025][615]LogTemp: Warning: Coordinates: X:1073741824 Y:1610612736
+[2019.02.10-15.15.58:034][616]LogTemp: Warning: Coordinates: X:-1610612736 Y:536870912
+[2019.02.10-15.15.58:042][617]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-15.15.58:050][618]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.15.58:059][619]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.15.58:067][620]LogTemp: Warning: Coordinates: X:1073741824 Y:1610612736
+[2019.02.10-15.15.58:075][621]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.15.58:084][622]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-15.15.58:092][623]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-15.15.58:100][624]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-15.15.58:109][625]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-15.15.58:117][626]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-15.15.58:126][627]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-15.15.58:134][628]LogTemp: Warning: Coordinates: X:1073741824 Y:536870912
+[2019.02.10-15.15.58:142][629]LogTemp: Warning: Coordinates: X:1610612736 Y:1073741824
+[2019.02.10-15.15.58:150][630]LogTemp: Warning: Coordinates: X:1610612736 Y:1073741824
+[2019.02.10-15.15.58:159][631]LogTemp: Warning: Coordinates: X:1610612736 Y:1073741824
+[2019.02.10-15.15.58:167][632]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-15.15.58:176][633]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-15.15.58:184][634]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-15.15.58:192][635]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-15.15.58:200][636]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.15.58:209][637]LogTemp: Warning: Coordinates: X:-536870912 Y:-536870912
+[2019.02.10-15.15.58:217][638]LogTemp: Warning: Coordinates: X:-536870912 Y:-536870912
+[2019.02.10-15.15.58:226][639]LogTemp: Warning: Coordinates: X:-536870912 Y:-536870912
+[2019.02.10-15.15.58:234][640]LogTemp: Warning: Coordinates: X:-536870912 Y:-536870912
+[2019.02.10-15.15.58:243][641]LogTemp: Warning: Coordinates: X:-536870912 Y:-536870912
+[2019.02.10-15.15.58:251][642]LogTemp: Warning: Coordinates: X:-536870912 Y:-536870912
+[2019.02.10-15.15.58:260][643]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.15.58:268][644]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.15.58:436][660]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.15.58:445][661]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.15.58:453][662]LogTemp: Warning: Coordinates: X:-1073741824 Y:0
+[2019.02.10-15.15.58:461][663]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-15.15.58:469][664]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1610612736
+[2019.02.10-15.15.58:478][665]LogTemp: Warning: Coordinates: X:-536870912 Y:-1073741824
+[2019.02.10-15.15.58:487][666]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-15.15.58:495][667]LogTemp: Warning: Coordinates: X:0 Y:-1073741824
+[2019.02.10-15.15.58:503][668]LogTemp: Warning: Coordinates: X:-1610612736 Y:-536870912
+[2019.02.10-15.15.58:511][669]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.58:519][670]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:527][671]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:535][672]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:544][673]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:552][674]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:561][675]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:569][676]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:577][677]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:597][678]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:605][679]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:636][680]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:647][681]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:655][682]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:663][683]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:671][684]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:680][685]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:688][686]LogTemp: Warning: Coordinates: X:0 Y:1073741824
+[2019.02.10-15.15.58:696][687]LogTemp: Warning: Coordinates: X:0 Y:-2147483648
+[2019.02.10-15.15.58:704][688]LogTemp: Warning: Coordinates: X:1610612736 Y:536870912
+[2019.02.10-15.15.58:725][689]LogTemp: Warning: Coordinates: X:1073741824 Y:1610612736
+[2019.02.10-15.15.58:733][690]LogTemp: Warning: Coordinates: X:1073741824 Y:-2147483648
+[2019.02.10-15.15.58:760][691]LogTemp: Warning: Coordinates: X:-536870912 Y:-1610612736
+[2019.02.10-15.15.58:770][692]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.58:779][693]LogTemp: Warning: Coordinates: X:-1610612736 Y:0
+[2019.02.10-15.15.58:787][694]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-15.15.58:795][695]LogTemp: Warning: Coordinates: X:536870912 Y:-1610612736
+[2019.02.10-15.15.58:803][696]LogTemp: Warning: Coordinates: X:1073741824 Y:-536870912
+[2019.02.10-15.15.58:812][697]LogTemp: Warning: Coordinates: X:1610612736 Y:1610612736
+[2019.02.10-15.15.58:820][698]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-15.15.58:828][699]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-15.15.58:837][700]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1073741824
+[2019.02.10-15.15.58:846][701]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-15.15.58:854][702]LogTemp: Warning: Coordinates: X:1073741824 Y:0
+[2019.02.10-15.15.58:862][703]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.15.58:870][704]LogTemp: Warning: Coordinates: X:-1073741824 Y:1073741824
+[2019.02.10-15.15.58:879][705]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.15.58:887][706]LogTemp: Warning: Coordinates: X:536870912 Y:1610612736
+[2019.02.10-15.15.58:895][707]LogTemp: Warning: Coordinates: X:-1073741824 Y:-536870912
+[2019.02.10-15.15.58:903][708]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.15.58:912][709]LogTemp: Warning: Coordinates: X:-1073741824 Y:-1610612736
+[2019.02.10-15.15.58:920][710]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.15.58:929][711]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.15.58:937][712]LogTemp: Warning: Coordinates: X:536870912 Y:1610612736
+[2019.02.10-15.15.58:946][713]LogTemp: Warning: Coordinates: X:-1610612736 Y:0
+[2019.02.10-15.15.58:954][714]LogTemp: Warning: Coordinates: X:1073741824 Y:-536870912
+[2019.02.10-15.15.58:962][715]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.15.58:970][716]LogTemp: Warning: Coordinates: X:-536870912 Y:-536870912
+[2019.02.10-15.15.58:979][717]LogTemp: Warning: Coordinates: X:536870912 Y:-2147483648
+[2019.02.10-15.15.58:987][718]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-15.15.58:996][719]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1610612736
+[2019.02.10-15.15.59:004][720]LogTemp: Warning: Coordinates: X:-1610612736 Y:-536870912
+[2019.02.10-15.15.59:012][721]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-15.15.59:020][722]LogTemp: Warning: Coordinates: X:1610612736 Y:0
+[2019.02.10-15.15.59:029][723]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.15.59:038][724]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.15.59:046][725]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.15.59:054][726]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.15.59:062][727]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-15.15.59:070][728]LogTemp: Warning: Coordinates: X:-2147483648 Y:1073741824
+[2019.02.10-15.15.59:078][729]LogTemp: Warning: Coordinates: X:1610612736 Y:1610612736
+[2019.02.10-15.15.59:086][730]LogTemp: Warning: Coordinates: X:1073741824 Y:-1073741824
+[2019.02.10-15.15.59:094][731]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.59:103][732]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.59:111][733]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.59:120][734]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.59:128][735]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.59:136][736]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.59:145][737]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.59:153][738]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.59:161][739]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.59:170][740]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.59:178][741]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.59:186][742]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.59:195][743]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.15.59:203][744]LogTemp: Warning: Coordinates: X:-2147483648 Y:1610612736
+[2019.02.10-15.16.03:673][232]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-15.16.03:681][233]LogTemp: Warning: Coordinates: X:-1073741824 Y:536870912
+[2019.02.10-15.16.03:689][234]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:698][235]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:706][236]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:714][237]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:723][238]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:731][239]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:740][240]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:748][241]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:756][242]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:765][243]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:773][244]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:781][245]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:790][246]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:798][247]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:806][248]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:815][249]LogTemp: Warning: Coordinates: X:-1610612736 Y:-1073741824
+[2019.02.10-15.16.03:823][250]LogTemp: Warning: Coordinates: X:1610612736 Y:-2147483648
+[2019.02.10-15.16.03:846][251]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.16.03:853][252]LogTemp: Warning: Coordinates: X:-536870912 Y:-2147483648
+[2019.02.10-15.16.03:885][253]LogTemp: Warning: Coordinates: X:0 Y:0
+[2019.02.10-15.16.03:892][254]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.16.03:901][255]LogTemp: Warning: Coordinates: X:0 Y:-536870912
+[2019.02.10-15.16.03:909][256]LogTemp: Warning: Coordinates: X:0 Y:-536870912
+[2019.02.10-15.16.03:918][257]LogTemp: Warning: Coordinates: X:0 Y:-536870912
+[2019.02.10-15.16.03:926][258]LogTemp: Warning: Coordinates: X:0 Y:-536870912
+[2019.02.10-15.16.03:934][259]LogTemp: Warning: Coordinates: X:-2147483648 Y:-1073741824
+[2019.02.10-15.16.03:942][260]LogTemp: Warning: Coordinates: X:-2147483648 Y:-2147483648
+[2019.02.10-15.16.03:951][261]LogTemp: Warning: Coordinates: X:-1610612736 Y:-2147483648
+[2019.02.10-15.16.03:959][262]LogTemp: Warning: Coordinates: X:-2147483648 Y:0
+[2019.02.10-15.16.03:968][263]LogTemp: Warning: Coordinates: X:1610612736 Y:0
+[2019.02.10-15.16.03:976][264]LogTemp: Warning: Coordinates: X:-1073741824 Y:-2147483648
+[2019.02.10-15.16.03:985][265]LogTemp: Warning: Coordinates: X:1073741824 Y:1073741824
+[2019.02.10-15.16.03:992][266]LogTemp: Warning: Coordinates: X:1073741824 Y:-1610612736
+[2019.02.10-15.16.04:002][267]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.16.04:009][268]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.16.04:018][269]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.16.04:026][270]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.16.04:035][271]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.16.04:056][272]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.16.04:065][273]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.16.04:093][274]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.16.04:103][275]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.16.04:110][276]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.16.04:119][277]LogTemp: Warning: Coordinates: X:-536870912 Y:1073741824
+[2019.02.10-15.16.16:841][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.10-15.21.20:501][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.10-15.21.29:802][142]LogSlate: FSceneViewport::OnFocusLost() reason 0

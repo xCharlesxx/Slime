@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector2D;
 class UMaterialInstanceDynamic;
 #ifdef SLIME_RTManipulation_generated_h
 #error "RTManipulation.generated.h already included, missing '#pragma once' in RTManipulation.h"
@@ -15,6 +16,24 @@ class UMaterialInstanceDynamic;
 #define SLIME_RTManipulation_generated_h
 
 #define Slime_Source_Slime_RTManipulation_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetSlimeDestination) \
+	{ \
+		P_GET_STRUCT(FVector2D,Z_Param_coords); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetSlimeDestination(Z_Param_coords); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetDynamicMatPointer) \
+	{ \
+		P_GET_OBJECT(UMaterialInstanceDynamic,Z_Param_dmp); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetDynamicMatPointer(Z_Param_dmp); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetDynamicMat) \
 	{ \
@@ -27,6 +46,24 @@ class UMaterialInstanceDynamic;
 
 
 #define Slime_Source_Slime_RTManipulation_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetSlimeDestination) \
+	{ \
+		P_GET_STRUCT(FVector2D,Z_Param_coords); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetSlimeDestination(Z_Param_coords); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetDynamicMatPointer) \
+	{ \
+		P_GET_OBJECT(UMaterialInstanceDynamic,Z_Param_dmp); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetDynamicMatPointer(Z_Param_dmp); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetDynamicMat) \
 	{ \
@@ -81,7 +118,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ARTManipulation); \
 
 
 #define Slime_Source_Slime_RTManipulation_h_14_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__MaterialDynamic() { return STRUCT_OFFSET(ARTManipulation, MaterialDynamic); }
+	FORCEINLINE static uint32 __PPO__MaterialDynamic() { return STRUCT_OFFSET(ARTManipulation, MaterialDynamic); } \
+	FORCEINLINE static uint32 __PPO__MaterialDynamicPointer() { return STRUCT_OFFSET(ARTManipulation, MaterialDynamicPointer); }
 
 
 #define Slime_Source_Slime_RTManipulation_h_11_PROLOG

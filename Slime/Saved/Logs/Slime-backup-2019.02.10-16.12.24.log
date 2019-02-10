@@ -1,0 +1,1433 @@
+﻿Log file open, 02/10/19 15:50:26
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Slime
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.305624
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.171s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.02.10-15.50.26:950][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.02.10-15.50.26:950][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.02.10-15.50.26:951][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.02.10-15.50.26:951][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.02.10-15.50.26:951][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.02.10-15.50.26:951][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.02.10-15.50.26:951][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.02.10-15.50.26:951][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.02.10-15.50.26:951][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.02.10-15.50.26:951][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.02.10-15.50.26:951][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.02.10-15.50.26:951][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.02.10-15.50.26:951][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.02.10-15.50.26:951][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.02.10-15.50.26:952][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.02.10-15.50.26:953][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.02.10-15.50.26:953][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.02.10-15.50.26:953][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.02.10-15.50.26:967][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-15.50.26:967][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.10-15.50.26:967][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.10-15.50.26:967][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-15.50.26:967][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.10-15.50.26:967][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-15.50.26:967][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.10-15.50.26:967][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.10-15.50.26:967][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.10-15.50.26:967][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.10-15.50.26:968][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.10-15.50.26:968][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.10-15.50.26:968][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.10-15.50.26:968][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.10-15.50.26:968][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.10-15.50.26:968][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.10-15.50.26:968][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.10-15.50.26:968][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.10-15.50.26:968][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.10-15.50.26:968][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.10-15.50.26:968][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.10-15.50.26:968][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.10-15.50.26:968][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.10-15.50.26:968][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.10-15.50.26:968][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-15.50.26:968][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.10-15.50.26:969][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.10-15.50.26:970][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.10-15.50.26:970][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.10-15.50.26:970][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.10-15.50.26:970][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.10-15.50.26:970][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.10-15.50.26:970][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.10-15.50.26:970][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.10-15.50.26:970][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.10-15.50.26:970][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.10-15.50.26:970][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.10-15.50.26:970][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-15.50.26:970][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.10-15.50.26:971][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.10-15.50.26:971][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.10-15.50.26:971][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.10-15.50.26:971][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.10-15.50.26:971][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.10-15.50.26:971][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.10-15.50.26:971][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.10-15.50.26:971][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-15.50.26:971][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.10-15.50.26:971][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.10-15.50.26:971][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.10-15.50.26:971][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.10-15.50.26:971][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.10-15.50.26:971][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.10-15.50.26:971][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.10-15.50.26:972][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.10-15.50.26:972][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.10-15.50.26:972][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.10-15.50.26:972][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.10-15.50.26:972][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.10-15.50.26:972][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.10-15.50.26:972][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-15.50.26:972][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.10-15.50.26:972][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.10-15.50.26:972][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.10-15.50.26:972][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.10-15.50.27:041][  0]LogHAL: Display: Platform has ~ 16 GB [17132032000 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.10-15.50.27:041][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.02.10-15.50.27:041][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.10-15.50.27:041][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-15.50.27:041][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.10-15.50.27:041][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.10-15.50.27:041][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-15.50.27:041][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.10-15.50.27:041][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-15.50.27:041][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.10-15.50.27:042][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.10-15.50.27:042][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.10-15.50.27:042][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.10-15.50.27:042][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.10-15.50.27:042][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.10-15.50.27:043][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.10-15.50.27:043][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.10-15.50.27:043][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.10-15.50.27:043][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.10-15.50.27:043][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.10-15.50.27:043][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.10-15.50.27:043][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.10-15.50.27:043][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.10-15.50.27:043][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.10-15.50.27:043][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.10-15.50.27:043][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.10-15.50.27:044][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.10-15.50.27:044][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-15.50.27:044][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.10-15.50.27:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.10-15.50.27:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.10-15.50.27:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.10-15.50.27:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.10-15.50.27:044][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.10-15.50.27:044][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.10-15.50.27:044][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.10-15.50.27:044][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.10-15.50.27:044][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.10-15.50.27:045][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.10-15.50.27:046][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.10-15.50.27:046][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.10-15.50.27:046][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-15.50.27:046][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.10-15.50.27:046][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.10-15.50.27:046][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.10-15.50.27:046][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.10-15.50.27:046][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.10-15.50.27:046][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.10-15.50.27:046][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.10-15.50.27:046][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.10-15.50.27:046][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-15.50.27:046][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.10-15.50.27:046][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.10-15.50.27:046][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.10-15.50.27:046][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.10-15.50.27:046][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.10-15.50.27:047][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.10-15.50.27:047][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.10-15.50.27:047][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.10-15.50.27:047][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.10-15.50.27:047][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.10-15.50.27:047][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.10-15.50.27:047][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.10-15.50.27:047][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.10-15.50.27:047][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.02.10-15.50.27:047][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.10-15.50.27:047][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.10-15.50.27:047][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.02.10-15.50.27:052][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.02.10-15.50.27:052][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.02.10-15.50.27:053][  0]LogInit: Computer: MAINDESKTOP
+[2019.02.10-15.50.27:053][  0]LogInit: User: kille
+[2019.02.10-15.50.27:053][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.10-15.50.27:053][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.10-15.50.27:053][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.02.10-15.50.27:053][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.10-15.50.27:053][  0]LogMemory: Process Physical Memory: 102.57 MB used, 102.57 MB peak
+[2019.02.10-15.50.27:053][  0]LogMemory: Process Virtual Memory: 84.48 MB used, 84.48 MB peak
+[2019.02.10-15.50.27:054][  0]LogMemory: Physical Memory: 3271.59 MB used,  13066.79 MB free, 16338.38 MB total
+[2019.02.10-15.50.27:054][  0]LogMemory: Virtual Memory: 4630.16 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2019.02.10-15.50.27:242][  0]LogInit: Using OS detected language (en-US).
+[2019.02.10-15.50.27:242][  0]LogInit: Using OS detected locale (en-GB).
+[2019.02.10-15.50.27:243][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.10-15.50.27:768][  0]LogStreaming: Display: Took  0.527s to InitEngineTextLocalization.
+[2019.02.10-15.50.27:778][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.10-15.50.27:902][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.10-15.50.27:902][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.10-15.50.30:855][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.02.10-15.50.30:855][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.10-15.50.30:950][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.02.10-15.50.30:950][  0]LogD3D11RHI:       4043/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.10-15.50.30:956][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.10-15.50.30:956][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.10-15.50.30:956][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.10-15.50.30:963][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.10-15.50.30:963][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.10-15.50.30:963][  0]LogWindows: EnumDisplayDevices:
+[2019.02.10-15.50.30:964][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.02.10-15.50.30:964][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.02.10-15.50.30:965][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.02.10-15.50.30:965][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.02.10-15.50.30:965][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.10-15.50.30:965][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.02.10-15.50.30:966][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.02.10-15.50.30:966][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.02.10-15.50.30:966][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.02.10-15.50.31:046][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.10-15.50.31:078][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.10-15.50.31:490][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.10-15.50.31:505][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.10-15.50.31:533][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.10-15.50.31:548][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.10-15.50.31:568][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.10-15.50.31:583][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.10-15.50.31:597][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.10-15.50.31:613][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.10-15.50.31:622][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.10-15.50.31:707][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:707][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.10-15.50.31:713][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.10-15.50.31:791][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.10-15.50.31:791][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.10-15.50.31:817][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.10-15.50.31:817][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.10-15.50.31:831][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.10-15.50.31:846][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.10-15.50.31:862][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.10-15.50.31:886][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.10-15.50.31:936][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.10-15.50.31:936][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.10-15.50.31:936][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.10-15.50.32:049][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (A:/Uni 2018-19/Github/Slime/Slime/Slime/Intermediate/Shaders/WorkingDirectory/3312/).
+[2019.02.10-15.50.32:049][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Charles/AppData/Local/Temp/UnrealShaderWorkingDir/BF896DDD4E3E005EFE2218AB9701C0C4/'.
+[2019.02.10-15.50.32:052][  0]LogXGEController: Cleaning working directory: C:/Users/Charles/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.10-15.50.32:053][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.10-15.50.32:053][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.10-15.50.32:053][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.10-15.50.33:889][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.10-15.50.34:010][  0]LogDerivedDataCache: Loaded boot cache 0.12s 75MB C:/Users/Charles/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.10-15.50.34:010][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Charles/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.02.10-15.50.34:010][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Uni 2018-19/Github/Slime/Slime/Slime/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.10-15.50.34:010][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.10-15.50.34:010][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Uni 2018-19/Github/Slime/Slime/Slime/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.10-15.50.34:011][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.10-15.50.34:026][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.10-15.50.34:026][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.10-15.50.34:027][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.02.10-15.50.34:040][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Charles/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.10-15.50.34:040][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.10-15.50.34:040][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.10-15.50.34:065][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.10-15.50.34:067][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.10-15.50.34:084][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.10-15.50.34:412][  0]LogAssetRegistry: FAssetRegistry took 0.0359 seconds to start up
+[2019.02.10-15.50.34:748][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.10-15.50.34:931][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.10-15.50.34:941][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.10-15.50.34:941][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.10-15.50.34:941][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.10-15.50.34:941][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.10-15.50.34:962][  0]LogNetVersion: Slime 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 858269732)
+[2019.02.10-15.50.35:506][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.093528 seconds
+[2019.02.10-15.50.35:513][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.02.10-15.50.35:513][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.02.10-15.50.35:513][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.10-15.50.38:472][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.10-15.50.38:489][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.10-15.50.39:789][  0]SourceControl: Source control is disabled
+[2019.02.10-15.50.39:789][  0]SourceControl: Source control is disabled
+[2019.02.10-15.50.39:794][  0]SourceControl: Source control is disabled
+[2019.02.10-15.50.39:797][  0]SourceControl: Source control is disabled
+[2019.02.10-15.50.40:059][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.10-15.50.40:274][  0]LogOcInput: OculusInput pre-init called
+[2019.02.10-15.50.40:437][  0]LogEngine: Initializing Engine...
+[2019.02.10-15.50.40:471][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.02.10-15.50.40:473][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.10-15.50.40:473][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.10-15.50.40:474][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.10-15.50.40:474][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.10-15.50.40:725][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.10-15.50.40:758][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.10-15.50.40:817][  0]LogInit: XAudio2 using 'SAMSUNG (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.10-15.50.40:855][  0]LogInit: FAudioDevice initialized.
+[2019.02.10-15.50.40:855][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.10-15.50.40:928][  0]LogDerivedDataCache: Saved boot cache 0.07s 75MB C:/Users/Charles/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.10-15.50.40:940][  0]LogInit: Texture streaming: Enabled
+[2019.02.10-15.50.40:967][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.10-15.50.40:967][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={F022870A-4AB1-2E56-3D90-D3A508C1C445}
+[2019.02.10-15.50.40:981][  0]LogInit: Transaction tracking system initialized
+[2019.02.10-15.50.41:025][  0]BlueprintLog: New page: Editor Load
+[2019.02.10-15.50.41:238][  0]LocalizationService: Localization service is disabled
+[2019.02.10-15.50.41:754][  0]LogFileCache: Scanning file cache for directory 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/' took 0.02s
+[2019.02.10-15.50.41:755][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.10-15.50.41:755][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.10-15.50.41:755][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.10-15.50.41:755][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.10-15.50.41:755][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.10-15.50.41:755][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.10-15.50.41:755][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.10-15.50.42:095][  0]SourceControl: Source control is disabled
+[2019.02.10-15.50.42:096][  0]Cmd: MAP LOAD FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.10-15.50.42:096][  0]LightingResults: New page: Lighting Build
+[2019.02.10-15.50.42:100][  0]MapCheck: New page: Map Check
+[2019.02.10-15.50.42:100][  0]LightingResults: New page: Lighting Build
+[2019.02.10-15.50.42:535][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.02.10-15.50.42:543][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.10-15.50.42:573][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.10-15.50.42:574][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.119ms to complete.
+[2019.02.10-15.50.42:574][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.478
+[2019.02.10-15.50.42:726][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.10-15.50.42:733][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.10-15.50.42:742][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.10-15.50.42:750][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.10-15.50.42:764][  0]LogCollectionManager: Loaded 0 collections in 0.001986 seconds
+[2019.02.10-15.50.42:810][  0]LogFileCache: Scanning file cache for directory 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Collections/' took 0.01s
+[2019.02.10-15.50.42:810][  0]LogFileCache: Scanning file cache for directory 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Developers/kille/Collections/' took 0.01s
+[2019.02.10-15.50.42:810][  0]LogFileCache: Scanning file cache for directory 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Collections/' took 0.01s
+[2019.02.10-15.50.42:810][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.10-15.50.42:820][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2656 classes and 622 folders.
+[2019.02.10-15.50.42:828][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.10-15.50.42:836][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:844][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:868][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:874][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:880][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:886][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:892][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:898][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:905][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:913][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:919][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:926][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:933][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:939][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:945][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:950][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:987][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:993][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.42:999][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.43:006][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.43:053][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.43:059][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.43:065][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.43:072][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.43:079][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.43:085][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.10-15.50.43:198][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.10-15.50.43:209][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2019.02.10-15.50.43:224][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.10-15.50.43:226][  0]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.10-15.50.43:235][  0]LogSlate: Took 0.003493 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.10-15.50.43:313][  0]LogRenderer: Reallocating scene render targets to support 928x500 Format 10 NumSamples 1 (Frame:1).
+[2019.02.10-15.50.43:478][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.10-15.50.43:478][  0]LogLoad: (Engine Initialization) Total time: 19.20 seconds
+[2019.02.10-15.50.43:478][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.10-15.50.43:550][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.10-15.50.43:568][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.10-15.50.43:624][  1]LogAssetRegistry: Asset discovery search completed in 9.2362 seconds
+[2019.02.10-15.50.43:626][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.10-15.50.43:626][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000180 seconds (updated 0 objects)
+[2019.02.10-15.50.48:058][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.10-15.50.48:116][485]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.10-15.50.48:129][485]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.02.10-15.50.48:129][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.10-15.50.48:129][485]PIE: New page: PIE session: FirstPersonExampleMap (10 Feb 2019 15:50:48)
+[2019.02.10-15.50.48:143][485]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.02.10-15.50.48:164][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020686s)
+[2019.02.10-15.50.48:165][485]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.02.10-15.50.48:166][485]LogPlayLevel: PIE: World Init took: (0.001150s)
+[2019.02.10-15.50.48:166][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023123s)
+[2019.02.10-15.50.48:238][485]LogInit: XAudio2 using 'SAMSUNG (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.10-15.50.48:252][485]LogInit: FAudioDevice initialized.
+[2019.02.10-15.50.48:301][485]LogLoad: Game class is 'SlimeGameMode'
+[2019.02.10-15.50.48:308][485]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.02.10-15.50.48
+[2019.02.10-15.50.48:309][485]LogWorld: Bringing up level for play took: 0.006916
+[2019.02.10-15.50.48:329][485]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.02.10-15.50.48:337][485]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.119
+[2019.02.10-15.50.48:337][485]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.02.10-15.50.50:285][677]LogTemp: Warning: CoordinatesB4: X:0 Y:0
+[2019.02.10-15.50.50:295][678]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:0
+[2019.02.10-15.50.50:304][679]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:0
+[2019.02.10-15.50.50:314][680]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:0
+[2019.02.10-15.50.50:324][681]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:0
+[2019.02.10-15.50.50:333][682]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:0
+[2019.02.10-15.50.50:342][683]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:0
+[2019.02.10-15.50.50:351][684]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:0
+[2019.02.10-15.50.52:701][785]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.10-15.50.52:708][785]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.02.10-15.50.54:078][916]LogTemp: Warning: CoordinatesB4: X:0 Y:1073741824
+[2019.02.10-15.50.54:087][917]LogTemp: Warning: CoordinatesB4: X:0 Y:1073741824
+[2019.02.10-15.50.54:097][918]LogTemp: Warning: CoordinatesB4: X:0 Y:1073741824
+[2019.02.10-15.50.54:106][919]LogTemp: Warning: CoordinatesB4: X:0 Y:1073741824
+[2019.02.10-15.50.54:115][920]LogTemp: Warning: CoordinatesB4: X:0 Y:1073741824
+[2019.02.10-15.50.54:124][921]LogTemp: Warning: CoordinatesB4: X:0 Y:1073741824
+[2019.02.10-15.50.54:664][976]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1073741824
+[2019.02.10-15.50.54:673][977]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-1610612736
+[2019.02.10-15.50.54:684][978]LogTemp: Warning: CoordinatesB4: X:0 Y:-1610612736
+[2019.02.10-15.50.54:694][979]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:536870912
+[2019.02.10-15.50.54:703][980]LogTemp: Warning: CoordinatesB4: X:0 Y:-1073741824
+[2019.02.10-15.50.54:713][981]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1073741824
+[2019.02.10-15.50.54:722][982]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-1073741824
+[2019.02.10-15.50.54:732][983]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-1073741824
+[2019.02.10-15.50.54:741][984]LogTemp: Warning: CoordinatesB4: X:0 Y:0
+[2019.02.10-15.50.54:750][985]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-2147483648
+[2019.02.10-15.50.54:760][986]LogTemp: Warning: CoordinatesB4: X:0 Y:1073741824
+[2019.02.10-15.50.54:770][987]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-536870912
+[2019.02.10-15.50.54:780][988]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:536870912
+[2019.02.10-15.50.54:791][989]LogTemp: Warning: CoordinatesB4: X:0 Y:536870912
+[2019.02.10-15.50.54:801][990]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1073741824
+[2019.02.10-15.50.54:811][991]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:-536870912
+[2019.02.10-15.50.54:835][992]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-15.50.54:845][993]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-15.50.54:878][994]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-15.50.54:887][995]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-15.50.54:897][996]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-15.50.54:918][997]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-2147483648
+[2019.02.10-15.50.54:928][998]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-2147483648
+[2019.02.10-15.50.54:959][999]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-536870912
+[2019.02.10-15.50.54:969][  0]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:0
+[2019.02.10-15.50.54:979][  1]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-15.50.54:991][  2]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1610612736
+[2019.02.10-15.50.55:001][  3]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-1073741824
+[2019.02.10-15.50.55:011][  4]LogTemp: Warning: CoordinatesB4: X:536870912 Y:0
+[2019.02.10-15.50.55:021][  5]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-2147483648
+[2019.02.10-15.50.55:031][  6]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-536870912
+[2019.02.10-15.50.55:040][  7]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-536870912
+[2019.02.10-15.50.55:050][  8]LogTemp: Warning: CoordinatesB4: X:0 Y:-536870912
+[2019.02.10-15.50.55:059][  9]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1610612736
+[2019.02.10-15.50.55:069][ 10]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-536870912
+[2019.02.10-15.50.55:078][ 11]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:0
+[2019.02.10-15.50.55:088][ 12]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-15.50.55:098][ 13]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-1073741824
+[2019.02.10-15.50.55:107][ 14]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:-1073741824
+[2019.02.10-15.50.55:117][ 15]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1073741824
+[2019.02.10-15.50.55:126][ 16]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1610612736
+[2019.02.10-15.50.55:136][ 17]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:0
+[2019.02.10-15.50.55:146][ 18]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-536870912
+[2019.02.10-15.50.55:157][ 19]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1073741824
+[2019.02.10-15.50.55:167][ 20]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:536870912
+[2019.02.10-15.50.55:184][ 21]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1073741824
+[2019.02.10-15.50.55:193][ 22]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:1073741824
+[2019.02.10-15.50.55:203][ 23]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-536870912
+[2019.02.10-15.50.55:213][ 24]LogTemp: Warning: CoordinatesB4: X:536870912 Y:0
+[2019.02.10-15.50.55:223][ 25]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-1073741824
+[2019.02.10-15.50.55:233][ 26]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-1073741824
+[2019.02.10-15.50.55:242][ 27]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1610612736
+[2019.02.10-15.50.55:252][ 28]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:536870912
+[2019.02.10-15.50.55:262][ 29]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-536870912
+[2019.02.10-15.50.55:271][ 30]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-15.50.55:294][ 31]LogTemp: Warning: CoordinatesB4: X:0 Y:0
+[2019.02.10-15.50.55:303][ 32]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:1610612736
+[2019.02.10-15.50.55:333][ 33]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-15.50.55:342][ 34]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-2147483648
+[2019.02.10-15.50.55:352][ 35]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:-1073741824
+[2019.02.10-15.50.55:362][ 36]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:0
+[2019.02.10-15.50.55:371][ 37]LogTemp: Warning: CoordinatesB4: X:0 Y:1610612736
+[2019.02.10-15.50.55:381][ 38]LogTemp: Warning: CoordinatesB4: X:536870912 Y:536870912
+[2019.02.10-15.50.55:390][ 39]LogTemp: Warning: CoordinatesB4: X:536870912 Y:536870912
+[2019.02.10-15.50.55:399][ 40]LogTemp: Warning: CoordinatesB4: X:536870912 Y:536870912
+[2019.02.10-15.50.55:408][ 41]LogTemp: Warning: CoordinatesB4: X:536870912 Y:536870912
+[2019.02.10-15.50.55:418][ 42]LogTemp: Warning: CoordinatesB4: X:536870912 Y:536870912
+[2019.02.10-15.50.55:428][ 43]LogTemp: Warning: CoordinatesB4: X:536870912 Y:536870912
+[2019.02.10-15.50.55:437][ 44]LogTemp: Warning: CoordinatesB4: X:536870912 Y:536870912
+[2019.02.10-15.50.55:446][ 45]LogTemp: Warning: CoordinatesB4: X:536870912 Y:536870912
+[2019.02.10-15.50.55:456][ 46]LogTemp: Warning: CoordinatesB4: X:0 Y:-1073741824
+[2019.02.10-15.50.55:466][ 47]LogTemp: Warning: CoordinatesB4: X:0 Y:1073741824
+[2019.02.10-15.50.57:735][276]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1610612736
+[2019.02.10-15.50.57:744][277]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1610612736
+[2019.02.10-15.50.57:754][278]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1610612736
+[2019.02.10-15.50.57:763][279]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1610612736
+[2019.02.10-15.50.57:773][280]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1610612736
+[2019.02.10-15.50.57:783][281]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1610612736
+[2019.02.10-15.50.57:793][282]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1610612736
+[2019.02.10-15.50.57:802][283]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1073741824
+[2019.02.10-15.50.57:811][284]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1073741824
+[2019.02.10-15.50.57:821][285]LogTemp: Warning: CoordinatesB4: X:0 Y:0
+[2019.02.10-15.50.57:831][286]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:536870912
+[2019.02.10-15.50.57:841][287]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:536870912
+[2019.02.10-15.50.58:060][310]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:0
+[2019.02.10-15.50.58:070][311]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-536870912
+[2019.02.10-15.50.58:080][312]LogTemp: Warning: CoordinatesB4: X:0 Y:-1073741824
+[2019.02.10-15.50.58:102][313]LogTemp: Warning: CoordinatesB4: X:0 Y:0
+[2019.02.10-15.50.58:112][314]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:0
+[2019.02.10-15.50.58:145][315]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-1073741824
+[2019.02.10-15.50.58:154][316]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:0
+[2019.02.10-15.50.58:164][317]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:0
+[2019.02.10-15.50.58:174][318]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-15.50.58:185][319]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-15.50.58:199][320]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-15.50.58:216][321]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-2147483648
+[2019.02.10-15.50.58:226][322]LogTemp: Warning: CoordinatesB4: X:0 Y:0
+[2019.02.10-15.50.58:255][323]LogTemp: Warning: CoordinatesB4: X:0 Y:1610612736
+[2019.02.10-15.50.58:264][324]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-1073741824
+[2019.02.10-15.50.58:275][325]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1610612736
+[2019.02.10-15.50.58:285][326]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-536870912
+[2019.02.10-15.50.58:295][327]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-15.50.58:304][328]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-536870912
+[2019.02.10-15.50.58:314][329]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1073741824
+[2019.02.10-15.50.58:324][330]LogTemp: Warning: CoordinatesB4: X:0 Y:1073741824
+[2019.02.10-15.50.58:334][331]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-15.50.58:344][332]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:536870912
+[2019.02.10-15.50.58:354][333]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1610612736
+[2019.02.10-15.50.58:363][334]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1073741824
+[2019.02.10-15.50.58:373][335]LogTemp: Warning: CoordinatesB4: X:0 Y:536870912
+[2019.02.10-15.50.58:383][336]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-15.50.58:392][337]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:0
+[2019.02.10-15.50.58:403][338]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:1610612736
+[2019.02.10-15.50.58:413][339]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-2147483648
+[2019.02.10-15.50.58:423][340]LogTemp: Warning: CoordinatesB4: X:0 Y:1073741824
+[2019.02.10-15.50.58:432][341]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1610612736
+[2019.02.10-15.50.58:441][342]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:1073741824
+[2019.02.10-15.50.58:451][343]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-2147483648
+[2019.02.10-15.50.58:460][344]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1073741824
+[2019.02.10-15.50.58:470][345]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1073741824
+[2019.02.10-15.50.58:480][346]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-15.50.58:491][347]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-15.50.58:501][348]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:0
+[2019.02.10-15.50.58:510][349]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1073741824
+[2019.02.10-15.50.58:521][350]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-2147483648
+[2019.02.10-15.50.58:531][351]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-15.50.58:541][352]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1073741824
+[2019.02.10-15.50.58:562][353]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1610612736
+[2019.02.10-15.50.58:571][354]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-2147483648
+[2019.02.10-15.50.58:603][355]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1610612736
+[2019.02.10-15.50.58:613][356]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:536870912
+[2019.02.10-15.50.58:622][357]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1073741824
+[2019.02.10-15.50.58:632][358]LogTemp: Warning: CoordinatesB4: X:0 Y:1610612736
+[2019.02.10-15.50.58:642][359]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-536870912
+[2019.02.10-15.50.58:652][360]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1073741824
+[2019.02.10-15.50.58:661][361]LogTemp: Warning: CoordinatesB4: X:0 Y:0
+[2019.02.10-15.50.58:671][362]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-2147483648
+[2019.02.10-15.50.58:681][363]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-15.50.58:693][364]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-15.50.58:703][365]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1073741824
+[2019.02.10-15.50.58:712][366]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:1073741824
+[2019.02.10-15.50.58:722][367]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:536870912
+[2019.02.10-15.50.58:731][368]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-2147483648
+[2019.02.10-15.50.58:741][369]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1073741824
+[2019.02.10-15.50.58:750][370]LogTemp: Warning: CoordinatesB4: X:0 Y:-536870912
+[2019.02.10-15.50.58:759][371]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1073741824
+[2019.02.10-15.50.58:769][372]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:-536870912
+[2019.02.10-15.50.58:779][373]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-536870912
+[2019.02.10-15.50.58:790][374]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:0
+[2019.02.10-15.50.58:800][375]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-15.50.58:810][376]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1073741824
+[2019.02.10-15.50.58:820][377]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:536870912
+[2019.02.10-15.50.58:830][378]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:0
+[2019.02.10-15.50.58:840][379]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-2147483648
+[2019.02.10-15.50.58:850][380]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1610612736
+[2019.02.10-15.50.58:860][381]LogTemp: Warning: CoordinatesB4: X:0 Y:1073741824
+[2019.02.10-15.50.58:870][382]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:0
+[2019.02.10-15.50.58:879][383]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-536870912
+[2019.02.10-15.50.58:889][384]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-536870912
+[2019.02.10-15.50.58:899][385]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-15.50.58:909][386]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:0
+[2019.02.10-15.50.58:919][387]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-15.50.58:929][388]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:0
+[2019.02.10-15.50.58:939][389]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:0
+[2019.02.10-15.50.58:948][390]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1073741824
+[2019.02.10-15.50.58:958][391]LogTemp: Warning: CoordinatesB4: X:536870912 Y:0
+[2019.02.10-15.50.58:968][392]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-15.50.58:978][393]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:536870912
+[2019.02.10-15.50.58:988][394]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-536870912
+[2019.02.10-15.51.01:938][675]LogTemp: Warning: CoordinatesB4: X:0 Y:-536870912
+[2019.02.10-15.51.01:948][676]LogTemp: Warning: CoordinatesB4: X:0 Y:-536870912
+[2019.02.10-15.51.01:958][677]LogTemp: Warning: CoordinatesB4: X:0 Y:-536870912
+[2019.02.10-15.51.01:967][678]LogTemp: Warning: CoordinatesB4: X:0 Y:-536870912
+[2019.02.10-15.51.01:976][679]LogTemp: Warning: CoordinatesB4: X:0 Y:-536870912
+[2019.02.10-15.51.01:985][680]LogTemp: Warning: CoordinatesB4: X:0 Y:-536870912
+[2019.02.10-15.51.01:995][681]LogTemp: Warning: CoordinatesB4: X:0 Y:-536870912
+[2019.02.10-15.51.02:478][733]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-15.51.02:500][734]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-15.51.02:510][735]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-15.51.02:543][736]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-15.51.02:552][737]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-15.51.02:864][768]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-15.51.02:873][769]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-15.51.02:883][770]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-15.51.02:891][771]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-15.51.02:900][772]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-15.51.02:923][773]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-15.51.02:932][774]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-15.51.03:153][795]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-1073741824
+[2019.02.10-15.51.03:163][796]LogTemp: Warning: CoordinatesB4: X:0 Y:-1610612736
+[2019.02.10-15.51.03:172][797]LogTemp: Warning: CoordinatesB4: X:0 Y:-1610612736
+[2019.02.10-15.51.03:182][798]LogTemp: Warning: CoordinatesB4: X:0 Y:-1610612736
+[2019.02.10-15.51.03:193][799]LogTemp: Warning: CoordinatesB4: X:0 Y:-1610612736
+[2019.02.10-15.51.03:204][800]LogTemp: Warning: CoordinatesB4: X:0 Y:-1610612736
+[2019.02.10-15.51.03:215][801]LogTemp: Warning: CoordinatesB4: X:0 Y:-1610612736
+[2019.02.10-15.51.03:545][834]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:1610612736
+[2019.02.10-15.51.03:554][835]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-1610612736
+[2019.02.10-15.51.03:564][836]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-1610612736
+[2019.02.10-15.51.03:573][837]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-1610612736
+[2019.02.10-15.51.03:594][838]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-1610612736
+[2019.02.10-15.51.03:602][839]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-1610612736
+[2019.02.10-15.51.03:613][840]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-1610612736
+[2019.02.10-15.51.41:048][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.10-15.51.41:114][246]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.02.10-15.51.41:116][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.10-15.51.41:157][246]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.10-15.51.41:157][246]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.02.10-15.51.41:185][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.10-15.51.41:216][247]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.02.10-15.51.45:731][630]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.10-15.51.45:740][630]LogAssetEditorManager: Opening Asset editor for Material /Game/WhiteBoard/M_Marker.M_Marker
+[2019.02.10-15.51.45:747][630]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-15.51.46:227][630]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-15.51.46:238][630]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.10-15.51.46:239][630]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.10-15.51.46:239][630]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.10-15.51.46:242][630]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-15.51.46:287][630]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.10-15.51.46:336][630]LogSlate: Took 0.007971 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.10-15.51.46:928][664]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.10-15.51.47:045][677]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.10-15.51.47:096][683]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.10-15.51.47:176][692]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.10-15.51.47:315][704]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.10-15.51.47:377][711]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.10-15.51.47:455][720]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.10-15.51.47:527][728]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.10-15.51.47:751][751]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.10-15.51.47:796][752]LogSlate: Took 0.004664 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.10-15.51.48:249][797]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.10-15.51.48:300][803]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.10-15.51.48:715][847]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.10-15.51.48:830][858]MaterialEditorStats: Base pass shader without light map: 48 instructions
+[2019.02.10-15.51.48:831][858]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2019.02.10-15.51.48:832][858]MaterialEditorStats: Texture samplers: 3/16
+[2019.02.10-15.51.48:832][858]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.02.10-15.53.49:865][615]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.02.10-15.53.49:880][616]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.10-15.55.04:934][213]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.02.10-15.55.05:698][213]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 117 classes and 0 folders.
+[2019.02.10-15.55.34:010][844]LogAssetEditorManager: Opening Asset editor for Material /Game/WhiteBoard/m_Whiteboard.m_Whiteboard
+[2019.02.10-15.55.34:014][844]LogMaterial: Display: Missing cached shader map for material m_Whiteboard, compiling. 
+[2019.02.10-15.55.34:124][844]LogMaterial: Display: Missing cached shader map for material m_Whiteboard, compiling. 
+[2019.02.10-15.55.34:136][844]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.10-15.55.34:137][844]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.10-15.55.34:137][844]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.10-15.55.34:140][844]LogMaterial: Display: Missing cached shader map for material m_Whiteboard, compiling. 
+[2019.02.10-15.55.34:184][844]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.02.10-15.55.34:191][844]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.10-15.55.34:197][844]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.02.10-15.55.34:203][844]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.02.10-15.55.34:210][844]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2019.02.10-15.55.34:777][893]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.02.10-15.55.34:786][894]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.02.10-15.55.35:062][924]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.02.10-15.55.35:168][930]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.02.10-15.55.35:216][935]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.02.10-15.55.35:389][955]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.02.10-15.55.35:397][956]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.02.10-15.55.35:627][979]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.02.10-15.55.35:735][989]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.02.10-15.55.35:828][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.02.10-15.55.35:883][  6]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.10-15.55.35:959][ 15]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.10-15.55.36:353][ 53]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.10-15.55.36:505][ 70]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.10-15.55.36:525][ 72]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.10-15.55.37:011][124]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.10-15.55.37:149][140]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.02.10-15.55.37:279][151]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.02.10-15.55.37:589][183]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.10-15.55.37:598][184]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.10-15.55.37:758][202]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.10-15.55.38:055][232]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.10-15.55.38:110][237]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Tex_Maker.BP_Tex_Maker
+[2019.02.10-15.55.38:320][237]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.10-15.55.38:321][237]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.10-15.55.38:461][238]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.02.10-15.55.38:461][238]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2019.02.10-15.55.38:462][238]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.02.10-15.55.38:462][238]MaterialEditorStats: Texture samplers: 5/16
+[2019.02.10-15.55.38:462][238]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.02.10-15.55.38:462][238]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.02.10-15.55.38:648][251]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.10-15.55.38:767][262]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.10-15.55.38:779][263]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.10-15.55.39:093][286]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.10-15.55.39:107][287]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.10-15.55.39:259][300]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.10-15.55.39:505][317]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.10-15.59.30:561][432]LogAssetEditorManager: Opening Asset editor for Material /Game/Blueprints/DMatParent.DMatParent
+[2019.02.10-15.59.30:564][432]LogMaterial: Display: Missing cached shader map for material DMatParent, compiling. 
+[2019.02.10-15.59.30:621][432]LogMaterial: Display: Missing cached shader map for material DMatParent, compiling. 
+[2019.02.10-15.59.30:635][432]LogMaterial: Display: Missing cached shader map for material DMatParent, compiling. 
+[2019.02.10-15.59.30:648][432]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.10-15.59.30:648][432]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.10-15.59.30:648][432]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.10-15.59.30:684][432]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2019.02.10-15.59.31:363][488]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.10-15.59.31:423][494]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.10-15.59.31:645][520]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.10-15.59.31:696][526]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.10-15.59.31:847][539]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.10-15.59.31:939][546]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.02.10-15.59.32:078][561]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.02.10-15.59.32:216][577]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.10-15.59.32:285][585]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.10-15.59.32:709][630]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.10-15.59.32:845][644]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.10-15.59.32:846][644]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.10-15.59.33:335][693]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.10-15.59.33:343][694]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.10-15.59.33:494][710]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.10-15.59.33:908][755]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.10-15.59.34:002][762]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.10-15.59.34:011][763]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.10-15.59.34:511][813]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.10-15.59.34:569][818]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.10-15.59.34:621][821]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.02.10-15.59.34:621][821]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 179 instructions
+[2019.02.10-15.59.34:621][821]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.02.10-15.59.34:621][821]MaterialEditorStats: Texture samplers: 4/16
+[2019.02.10-15.59.34:622][821]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.02.10-15.59.34:622][821]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.02.10-15.59.50:910][550]LogMaterial: Display: Missing cached shader map for material DMatParent, compiling. 
+[2019.02.10-15.59.50:926][550]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.10-15.59.50:926][550]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.10-15.59.50:926][550]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.10-15.59.51:310][587]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.10-15.59.51:401][594]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.10-15.59.51:409][595]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.10-15.59.51:579][615]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.02.10-15.59.51:666][624]LogMaterial: Display: Missing cached shader map for material DMatParent, compiling. 
+[2019.02.10-15.59.51:679][624]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.10-15.59.51:679][624]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.10-15.59.51:682][624]LogMaterial: Display: Missing cached shader map for material DMatParent, compiling. 
+[2019.02.10-15.59.51:689][624]LogMaterial: Display: Missing cached shader map for material DMatParent, compiling. 
+[2019.02.10-15.59.51:874][637]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.10-15.59.51:874][637]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.10-15.59.51:994][650]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.10-15.59.52:065][658]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.10-15.59.52:432][692]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2019.02.10-15.59.52:433][692]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.02.10-15.59.52:433][692]MaterialEditorStats: Texture samplers: 1/16
+[2019.02.10-15.59.52:433][692]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.02.10-15.59.52:433][692]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.02.10-16.01.42:520][249]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.039
+[2019.02.10-16.01.42:523][249]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Tex_Maker] ([1] browsable assets)...
+[2019.02.10-16.01.42:538][249]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Tex_Maker.BP_Tex_Maker]
+[2019.02.10-16.01.42:538][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Tex_Maker]
+[2019.02.10-16.01.42:538][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tex_Maker" FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Autosaves/Game/Blueprints/BP_Tex_Maker_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.02.10-16.01.42:896][249]LogSavePackage: Moving 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/BP_Tex_Maker_Auto109D952894E585426AC297DB3B00A0834.tmp' to 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Autosaves/Game/Blueprints/BP_Tex_Maker_Auto1.uasset'
+[2019.02.10-16.01.42:926][249]LogFileHelpers: Auto-saving content packages took 0.405
+[2019.02.10-16.02.54:943][614]BlueprintLog: New page: Compile BP_Tex_Maker
+[2019.02.10-16.02.54:967][614]LogBlueprint: Warning: [Compiler BP_Tex_Maker] Create Dynamic Material Instance  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2019.02.10-16.02.55:160][614]LogBlueprint: Warning: [Compiler BP_Tex_Maker] [0750.88] Compile of BP_Tex_Maker successful, but with 1 Warning(s) [in 217 ms] (/Game/Blueprints/BP_Tex_Maker.BP_Tex_Maker)
+[2019.02.10-16.02.55:800][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tex_Maker" FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset" SILENT=true
+[2019.02.10-16.02.55:839][663]LogSavePackage: Moving 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/BP_Tex_Maker9F89DD6147798DDCFB494BA50778B38A.tmp' to 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset'
+[2019.02.10-16.03.11:393][249]BlueprintLog: New page: Compile BP_Tex_Maker
+[2019.02.10-16.03.11:410][249]LogBlueprint: Warning: [Compiler BP_Tex_Maker] Create Dynamic Material Instance  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2019.02.10-16.03.11:584][249]LogBlueprint: Warning: [Compiler BP_Tex_Maker] [0767.31] Compile of BP_Tex_Maker successful, but with 1 Warning(s) [in 191 ms] (/Game/Blueprints/BP_Tex_Maker.BP_Tex_Maker)
+[2019.02.10-16.03.19:822][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tex_Maker" FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset" SILENT=true
+[2019.02.10-16.03.19:864][ 60]LogSavePackage: Moving 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/BP_Tex_MakerB19CFF0D4C2F412BA44B0AB44B7EA892.tmp' to 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset'
+[2019.02.10-16.03.20:242][ 94]BlueprintLog: New page: Compile BP_Tex_Maker
+[2019.02.10-16.03.24:026][458]LogEditorTransaction: Undo Create Pin Link
+[2019.02.10-16.03.24:055][458]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-16.03.24:073][458]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.10-16.03.24:073][458]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.10-16.03.24:073][458]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.10-16.03.24:077][458]LogMaterial: Display: Missing cached shader map for material m_Whiteboard, compiling. 
+[2019.02.10-16.03.24:096][458]LogMaterial: Display: Missing cached shader map for material DMatParent, compiling. 
+[2019.02.10-16.03.24:249][465]LogEditorTransaction: Undo Delete current selection
+[2019.02.10-16.03.24:259][465]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-16.03.24:272][465]LogMaterial: Display: Missing cached shader map for material m_Whiteboard, compiling. 
+[2019.02.10-16.03.24:289][465]LogMaterial: Display: Missing cached shader map for material DMatParent, compiling. 
+[2019.02.10-16.03.24:450][471]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.02.10-16.03.24:474][472]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.02.10-16.03.24:639][484]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.02.10-16.03.24:648][485]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.02.10-16.03.24:833][506]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.02.10-16.03.24:842][507]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.02.10-16.03.24:996][524]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.02.10-16.03.25:040][529]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.02.10-16.03.25:510][575]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.02.10-16.03.25:650][584]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.02.10-16.03.25:699][587]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.02.10-16.03.26:020][620]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.02.10-16.03.26:295][645]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.02.10-16.03.26:422][658]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.02.10-16.03.26:615][679]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.10-16.03.26:686][682]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.10-16.03.26:689][682]MaterialEditorStats: Base pass shader without light map: 48 instructions
+[2019.02.10-16.03.26:689][682]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2019.02.10-16.03.26:690][682]MaterialEditorStats: Texture samplers: 3/16
+[2019.02.10-16.03.26:690][682]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.02.10-16.03.26:853][694]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.10-16.03.27:006][711]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.10-16.03.27:017][712]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.10-16.03.27:108][722]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.10-16.03.27:249][737]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.02.10-16.03.27:346][743]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.02.10-16.03.27:730][782]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.10-16.03.27:824][788]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.10-16.03.27:865][790]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.10-16.03.28:315][838]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.10-16.03.28:476][852]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.10-16.03.28:555][861]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.10-16.03.28:992][898]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.10-16.03.29:001][899]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.10-16.03.29:256][927]BlueprintLog: New page: Compile BP_Tex_Maker
+[2019.02.10-16.03.29:430][927]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.10-16.03.29:692][944]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.10-16.03.29:828][958]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.10-16.03.29:838][959]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.10-16.03.29:852][960]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.02.10-16.03.29:853][960]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2019.02.10-16.03.29:853][960]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.02.10-16.03.29:853][960]MaterialEditorStats: Texture samplers: 5/16
+[2019.02.10-16.03.29:854][960]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.02.10-16.03.29:854][960]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.02.10-16.03.29:948][966]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.10-16.03.30:036][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tex_Maker" FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset" SILENT=true
+[2019.02.10-16.03.30:075][969]LogSavePackage: Moving 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/BP_Tex_MakerE4388CA943E2583A70A240ADBE49512C.tmp' to 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset'
+[2019.02.10-16.03.30:286][987]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2019.02.10-16.03.30:286][987]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.02.10-16.03.30:286][987]MaterialEditorStats: Texture samplers: 1/16
+[2019.02.10-16.03.30:287][987]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.02.10-16.03.30:287][987]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.02.10-16.03.32:631][238]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.10-16.03.32:651][238]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.02.10-16.03.32:652][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.10-16.03.32:652][238]PIE: New page: PIE session: FirstPersonExampleMap (10 Feb 2019 16:03:32)
+[2019.02.10-16.03.32:653][238]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.02.10-16.03.32:667][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014012s)
+[2019.02.10-16.03.32:668][238]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.02.10-16.03.32:668][238]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2019.02.10-16.03.32:669][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016086s)
+[2019.02.10-16.03.32:750][238]LogInit: XAudio2 using 'SAMSUNG (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.10-16.03.32:763][238]LogInit: FAudioDevice initialized.
+[2019.02.10-16.03.32:799][238]LogLoad: Game class is 'SlimeGameMode'
+[2019.02.10-16.03.32:802][238]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.02.10-16.03.32
+[2019.02.10-16.03.32:802][238]LogWorld: Bringing up level for play took: 0.001818
+[2019.02.10-16.03.32:824][238]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.394
+[2019.02.10-16.03.32:825][238]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.02.10-16.03.34:580][398]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.34:590][399]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.34:599][400]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.34:608][401]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.34:618][402]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.34:627][403]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.34:637][404]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.34:646][405]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.34:656][406]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.34:665][407]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.34:675][408]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.34:684][409]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.34:693][410]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.34:703][411]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.34:712][412]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.34:722][413]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1073741824
+[2019.02.10-16.03.34:731][414]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:536870912
+[2019.02.10-16.03.34:741][415]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1610612736
+[2019.02.10-16.03.34:751][416]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-2147483648
+[2019.02.10-16.03.34:760][417]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1073741824
+[2019.02.10-16.03.34:770][418]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:536870912
+[2019.02.10-16.03.34:779][419]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1610612736
+[2019.02.10-16.03.34:790][420]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:536870912
+[2019.02.10-16.03.34:799][421]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-536870912
+[2019.02.10-16.03.34:809][422]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:-1073741824
+[2019.02.10-16.03.34:819][423]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1073741824
+[2019.02.10-16.03.34:829][424]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-536870912
+[2019.02.10-16.03.34:839][425]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.34:863][426]LogTemp: Warning: CoordinatesB4: X:0 Y:-536870912
+[2019.02.10-16.03.34:897][427]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-1073741824
+[2019.02.10-16.03.34:907][428]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:536870912
+[2019.02.10-16.03.34:917][429]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:-2147483648
+[2019.02.10-16.03.34:927][430]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1610612736
+[2019.02.10-16.03.34:937][431]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-2147483648
+[2019.02.10-16.03.34:947][432]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-1073741824
+[2019.02.10-16.03.34:957][433]LogTemp: Warning: CoordinatesB4: X:0 Y:0
+[2019.02.10-16.03.34:967][434]LogTemp: Warning: CoordinatesB4: X:0 Y:-1073741824
+[2019.02.10-16.03.34:976][435]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-2147483648
+[2019.02.10-16.03.34:987][436]LogTemp: Warning: CoordinatesB4: X:0 Y:-1610612736
+[2019.02.10-16.03.34:997][437]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1073741824
+[2019.02.10-16.03.35:007][438]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-2147483648
+[2019.02.10-16.03.35:017][439]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-1610612736
+[2019.02.10-16.03.35:027][440]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-2147483648
+[2019.02.10-16.03.35:037][441]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:536870912
+[2019.02.10-16.03.35:047][442]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:0
+[2019.02.10-16.03.35:056][443]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-1610612736
+[2019.02.10-16.03.35:065][444]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-1610612736
+[2019.02.10-16.03.35:075][445]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-1610612736
+[2019.02.10-16.03.35:084][446]LogTemp: Warning: CoordinatesB4: X:0 Y:536870912
+[2019.02.10-16.03.35:094][447]LogTemp: Warning: CoordinatesB4: X:0 Y:536870912
+[2019.02.10-16.03.35:103][448]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-1073741824
+[2019.02.10-16.03.35:113][449]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-1610612736
+[2019.02.10-16.03.35:123][450]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-1610612736
+[2019.02.10-16.03.35:132][451]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-16.03.35:141][452]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-1073741824
+[2019.02.10-16.03.35:151][453]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:1610612736
+[2019.02.10-16.03.35:161][454]LogTemp: Warning: CoordinatesB4: X:0 Y:0
+[2019.02.10-16.03.35:170][455]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-2147483648
+[2019.02.10-16.03.35:180][456]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-536870912
+[2019.02.10-16.03.35:191][457]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1073741824
+[2019.02.10-16.03.35:203][458]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1610612736
+[2019.02.10-16.03.35:213][459]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-1610612736
+[2019.02.10-16.03.35:224][460]LogTemp: Warning: CoordinatesB4: X:536870912 Y:0
+[2019.02.10-16.03.35:234][461]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:1610612736
+[2019.02.10-16.03.35:244][462]LogTemp: Warning: CoordinatesB4: X:0 Y:0
+[2019.02.10-16.03.35:253][463]LogTemp: Warning: CoordinatesB4: X:536870912 Y:0
+[2019.02.10-16.03.35:263][464]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-2147483648
+[2019.02.10-16.03.35:273][465]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-1610612736
+[2019.02.10-16.03.35:282][466]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1610612736
+[2019.02.10-16.03.35:305][467]LogTemp: Warning: CoordinatesB4: X:536870912 Y:536870912
+[2019.02.10-16.03.35:314][468]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:536870912
+[2019.02.10-16.03.35:345][469]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-536870912
+[2019.02.10-16.03.35:355][470]LogTemp: Warning: CoordinatesB4: X:0 Y:-1073741824
+[2019.02.10-16.03.35:364][471]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:0
+[2019.02.10-16.03.35:374][472]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-2147483648
+[2019.02.10-16.03.35:398][473]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1610612736
+[2019.02.10-16.03.35:408][474]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:0
+[2019.02.10-16.03.35:442][475]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.35:452][476]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.35:461][477]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.35:470][478]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.35:480][479]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.35:489][480]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.35:498][481]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.35:507][482]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.35:516][483]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.35:526][484]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-536870912
+[2019.02.10-16.03.35:536][485]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-1073741824
+[2019.02.10-16.03.35:546][486]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:1610612736
+[2019.02.10-16.03.35:556][487]LogTemp: Warning: CoordinatesB4: X:0 Y:-1610612736
+[2019.02.10-16.03.35:566][488]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:536870912
+[2019.02.10-16.03.35:576][489]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-2147483648
+[2019.02.10-16.03.35:586][490]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-1073741824
+[2019.02.10-16.03.35:596][491]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:536870912
+[2019.02.10-16.03.35:607][492]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-2147483648
+[2019.02.10-16.03.35:617][493]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:0
+[2019.02.10-16.03.35:626][494]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-536870912
+[2019.02.10-16.03.35:636][495]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:536870912
+[2019.02.10-16.03.35:646][496]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-1073741824
+[2019.02.10-16.03.35:656][497]LogTemp: Warning: CoordinatesB4: X:0 Y:1610612736
+[2019.02.10-16.03.35:665][498]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1073741824
+[2019.02.10-16.03.35:675][499]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:536870912
+[2019.02.10-16.03.35:685][500]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-536870912
+[2019.02.10-16.03.35:695][501]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:1073741824
+[2019.02.10-16.03.35:704][502]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1610612736
+[2019.02.10-16.03.35:714][503]LogTemp: Warning: CoordinatesB4: X:0 Y:-1073741824
+[2019.02.10-16.03.35:724][504]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:1073741824
+[2019.02.10-16.03.35:733][505]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.35:743][506]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-2147483648
+[2019.02.10-16.03.35:753][507]LogTemp: Warning: CoordinatesB4: X:0 Y:-1073741824
+[2019.02.10-16.03.35:763][508]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-2147483648
+[2019.02.10-16.03.35:773][509]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:0
+[2019.02.10-16.03.35:782][510]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:0
+[2019.02.10-16.03.35:792][511]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-16.03.35:802][512]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-16.03.35:812][513]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-16.03.35:821][514]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-16.03.35:830][515]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-16.03.35:841][516]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-16.03.35:852][517]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-16.03.35:862][518]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-16.03.35:871][519]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-16.03.35:880][520]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-16.03.35:890][521]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-16.03.35:900][522]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-16.03.36:327][562]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-1073741824
+[2019.02.10-16.03.36:337][563]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:1073741824
+[2019.02.10-16.03.36:347][564]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:536870912
+[2019.02.10-16.03.36:356][565]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-536870912
+[2019.02.10-16.03.36:366][566]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-536870912
+[2019.02.10-16.03.36:385][567]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1073741824
+[2019.02.10-16.03.36:419][568]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-2147483648
+[2019.02.10-16.03.36:429][569]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-1610612736
+[2019.02.10-16.03.36:439][570]LogTemp: Warning: CoordinatesB4: X:0 Y:0
+[2019.02.10-16.03.36:450][571]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-1610612736
+[2019.02.10-16.03.36:460][572]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.36:471][573]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:536870912
+[2019.02.10-16.03.36:494][574]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-1073741824
+[2019.02.10-16.03.36:504][575]LogTemp: Warning: CoordinatesB4: X:536870912 Y:536870912
+[2019.02.10-16.03.36:534][576]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-2147483648
+[2019.02.10-16.03.36:544][577]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:1073741824
+[2019.02.10-16.03.36:554][578]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-1073741824
+[2019.02.10-16.03.36:564][579]LogTemp: Warning: CoordinatesB4: X:0 Y:-1073741824
+[2019.02.10-16.03.36:574][580]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:0
+[2019.02.10-16.03.36:584][581]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1073741824
+[2019.02.10-16.03.36:594][582]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1073741824
+[2019.02.10-16.03.36:604][583]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.36:614][584]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-1610612736
+[2019.02.10-16.03.36:624][585]LogTemp: Warning: CoordinatesB4: X:536870912 Y:536870912
+[2019.02.10-16.03.36:634][586]LogTemp: Warning: CoordinatesB4: X:0 Y:-1073741824
+[2019.02.10-16.03.36:644][587]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-2147483648
+[2019.02.10-16.03.36:654][588]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1610612736
+[2019.02.10-16.03.36:663][589]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1610612736
+[2019.02.10-16.03.36:672][590]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1610612736
+[2019.02.10-16.03.36:682][591]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1610612736
+[2019.02.10-16.03.36:692][592]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1610612736
+[2019.02.10-16.03.36:701][593]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1610612736
+[2019.02.10-16.03.36:711][594]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1610612736
+[2019.02.10-16.03.36:721][595]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-1610612736
+[2019.02.10-16.03.36:731][596]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-2147483648
+[2019.02.10-16.03.36:740][597]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-1610612736
+[2019.02.10-16.03.36:751][598]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-2147483648
+[2019.02.10-16.03.36:761][599]LogTemp: Warning: CoordinatesB4: X:0 Y:536870912
+[2019.02.10-16.03.36:771][600]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.36:780][601]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-1073741824
+[2019.02.10-16.03.36:791][602]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-2147483648
+[2019.02.10-16.03.36:800][603]LogTemp: Warning: CoordinatesB4: X:0 Y:536870912
+[2019.02.10-16.03.36:811][604]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-1610612736
+[2019.02.10-16.03.36:821][605]LogTemp: Warning: CoordinatesB4: X:0 Y:0
+[2019.02.10-16.03.36:831][606]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:1610612736
+[2019.02.10-16.03.36:841][607]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1073741824
+[2019.02.10-16.03.36:853][608]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:0
+[2019.02.10-16.03.36:864][609]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-2147483648
+[2019.02.10-16.03.36:874][610]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1073741824
+[2019.02.10-16.03.36:884][611]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:0
+[2019.02.10-16.03.36:894][612]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-2147483648
+[2019.02.10-16.03.37:079][629]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1073741824
+[2019.02.10-16.03.37:089][630]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-536870912
+[2019.02.10-16.03.37:099][631]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1610612736
+[2019.02.10-16.03.37:108][632]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:536870912
+[2019.02.10-16.03.37:118][633]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1073741824
+[2019.02.10-16.03.37:128][634]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:1073741824
+[2019.02.10-16.03.37:138][635]LogTemp: Warning: CoordinatesB4: X:0 Y:1073741824
+[2019.02.10-16.03.37:148][636]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:536870912
+[2019.02.10-16.03.37:158][637]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1610612736
+[2019.02.10-16.03.37:167][638]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:-2147483648
+[2019.02.10-16.03.37:177][639]LogTemp: Warning: CoordinatesB4: X:0 Y:-536870912
+[2019.02.10-16.03.37:187][640]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-16.03.37:197][641]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1073741824
+[2019.02.10-16.03.37:207][642]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1610612736
+[2019.02.10-16.03.37:216][643]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:1610612736
+[2019.02.10-16.03.37:227][644]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-2147483648
+[2019.02.10-16.03.37:237][645]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-2147483648
+[2019.02.10-16.03.37:247][646]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-16.03.37:257][647]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1073741824
+[2019.02.10-16.03.37:267][648]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.37:277][649]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-536870912
+[2019.02.10-16.03.37:287][650]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-2147483648
+[2019.02.10-16.03.37:297][651]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-2147483648
+[2019.02.10-16.03.37:307][652]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:1073741824
+[2019.02.10-16.03.37:317][653]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1610612736
+[2019.02.10-16.03.37:327][654]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-1073741824
+[2019.02.10-16.03.37:336][655]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-16.03.37:346][656]LogTemp: Warning: CoordinatesB4: X:0 Y:-1073741824
+[2019.02.10-16.03.37:356][657]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-536870912
+[2019.02.10-16.03.37:366][658]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1073741824
+[2019.02.10-16.03.37:376][659]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-1073741824
+[2019.02.10-16.03.37:385][660]LogTemp: Warning: CoordinatesB4: X:0 Y:1073741824
+[2019.02.10-16.03.37:395][661]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:0
+[2019.02.10-16.03.37:406][662]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:1610612736
+[2019.02.10-16.03.37:414][663]LogTemp: Warning: CoordinatesB4: X:0 Y:1073741824
+[2019.02.10-16.03.37:424][664]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-1073741824
+[2019.02.10-16.03.37:433][665]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:0
+[2019.02.10-16.03.37:445][666]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-1073741824
+[2019.02.10-16.03.37:468][667]LogTemp: Warning: CoordinatesB4: X:0 Y:0
+[2019.02.10-16.03.37:478][668]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-2147483648
+[2019.02.10-16.03.37:512][669]LogTemp: Warning: CoordinatesB4: X:0 Y:-1073741824
+[2019.02.10-16.03.37:523][670]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1610612736
+[2019.02.10-16.03.37:533][671]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-1073741824
+[2019.02.10-16.03.37:542][672]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-536870912
+[2019.02.10-16.03.37:552][673]LogTemp: Warning: CoordinatesB4: X:536870912 Y:0
+[2019.02.10-16.03.37:574][674]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1073741824
+[2019.02.10-16.03.37:584][675]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:536870912
+[2019.02.10-16.03.37:613][676]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:0
+[2019.02.10-16.03.37:623][677]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:1610612736
+[2019.02.10-16.03.37:634][678]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-2147483648
+[2019.02.10-16.03.37:644][679]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.37:655][680]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-1610612736
+[2019.02.10-16.03.37:665][681]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:0
+[2019.02.10-16.03.37:675][682]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-2147483648
+[2019.02.10-16.03.37:686][683]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-1073741824
+[2019.02.10-16.03.37:696][684]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-2147483648
+[2019.02.10-16.03.37:706][685]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-536870912
+[2019.02.10-16.03.37:716][686]LogTemp: Warning: CoordinatesB4: X:0 Y:0
+[2019.02.10-16.03.37:726][687]LogTemp: Warning: CoordinatesB4: X:536870912 Y:0
+[2019.02.10-16.03.37:736][688]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1073741824
+[2019.02.10-16.03.37:746][689]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-2147483648
+[2019.02.10-16.03.37:756][690]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-2147483648
+[2019.02.10-16.03.37:766][691]LogTemp: Warning: CoordinatesB4: X:0 Y:1610612736
+[2019.02.10-16.03.37:776][692]LogTemp: Warning: CoordinatesB4: X:536870912 Y:0
+[2019.02.10-16.03.37:786][693]LogTemp: Warning: CoordinatesB4: X:0 Y:-1073741824
+[2019.02.10-16.03.37:795][694]LogTemp: Warning: CoordinatesB4: X:-536870912 Y:1073741824
+[2019.02.10-16.03.37:805][695]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1073741824
+[2019.02.10-16.03.37:815][696]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.37:824][697]LogTemp: Warning: CoordinatesB4: X:536870912 Y:0
+[2019.02.10-16.03.37:834][698]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-2147483648
+[2019.02.10-16.03.37:845][699]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.37:855][700]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:536870912
+[2019.02.10-16.03.37:866][701]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:536870912
+[2019.02.10-16.03.37:876][702]LogTemp: Warning: CoordinatesB4: X:0 Y:-1610612736
+[2019.02.10-16.03.37:886][703]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1073741824
+[2019.02.10-16.03.37:896][704]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:0
+[2019.02.10-16.03.37:906][705]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:1073741824
+[2019.02.10-16.03.37:915][706]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-1073741824
+[2019.02.10-16.03.37:925][707]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:-2147483648
+[2019.02.10-16.03.37:935][708]LogTemp: Warning: CoordinatesB4: X:0 Y:-1073741824
+[2019.02.10-16.03.37:945][709]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-536870912
+[2019.02.10-16.03.37:955][710]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:536870912
+[2019.02.10-16.03.37:965][711]LogTemp: Warning: CoordinatesB4: X:536870912 Y:1610612736
+[2019.02.10-16.03.37:975][712]LogTemp: Warning: CoordinatesB4: X:-1610612736 Y:-2147483648
+[2019.02.10-16.03.37:985][713]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:1073741824
+[2019.02.10-16.03.37:995][714]LogTemp: Warning: CoordinatesB4: X:1610612736 Y:-1610612736
+[2019.02.10-16.03.38:004][715]LogTemp: Warning: CoordinatesB4: X:0 Y:-2147483648
+[2019.02.10-16.03.38:015][716]LogTemp: Warning: CoordinatesB4: X:536870912 Y:-2147483648
+[2019.02.10-16.03.38:025][717]LogTemp: Warning: CoordinatesB4: X:-2147483648 Y:-2147483648
+[2019.02.10-16.03.38:034][718]LogTemp: Warning: CoordinatesB4: X:-1073741824 Y:-536870912
+[2019.02.10-16.03.38:044][719]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1610612736
+[2019.02.10-16.03.38:053][720]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1610612736
+[2019.02.10-16.03.38:063][721]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1610612736
+[2019.02.10-16.03.38:073][722]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1610612736
+[2019.02.10-16.03.38:082][723]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1610612736
+[2019.02.10-16.03.38:092][724]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1610612736
+[2019.02.10-16.03.38:111][725]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1610612736
+[2019.02.10-16.03.38:144][726]LogTemp: Warning: CoordinatesB4: X:1073741824 Y:1610612736
+[2019.02.10-16.03.42:061][  0]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.02.10-16.03.42:062][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.10-16.03.42:104][  0]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.10-16.03.42:105][  0]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.02.10-16.03.42:142][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.10-16.03.42:219][  1]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.02.10-16.03.43:142][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.10-16.03.44:105][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.10-16.04.31:035][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tex_Maker" FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset" SILENT=true
+[2019.02.10-16.04.31:070][ 86]LogSavePackage: Moving 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/BP_Tex_Maker357B78E343BC100EA18CA5A78CDC1975.tmp' to 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset'
+[2019.02.10-16.05.51:828][509]BlueprintLog: New page: Compile BP_Tex_Maker
+[2019.02.10-16.05.51:852][509]LogBlueprint: Warning: [Compiler BP_Tex_Maker] GetVectorParameterValue  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2019.02.10-16.05.51:854][509]LogBlueprint: Error: [Compiler BP_Tex_Maker] This blueprint (self) is not a MaterialInstanceDynamic, therefore ' Target ' must have a connection.
+[2019.02.10-16.05.52:041][509]LogBlueprint: Warning: [Compiler BP_Tex_Maker] [0927.76] Compile of BP_Tex_Maker failed. 1 Fatal Issue(s) 1 Warning(s) [in 212 ms] (/Game/Blueprints/BP_Tex_Maker.BP_Tex_Maker)
+[2019.02.10-16.05.52:429][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tex_Maker" FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset" SILENT=true
+[2019.02.10-16.05.52:466][531]LogSavePackage: Moving 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/BP_Tex_MakerA8552413451C9A59765207BAB7FA8BC1.tmp' to 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset'
+[2019.02.10-16.06.18:839][853]BlueprintLog: New page: Compile BP_Tex_Maker
+[2019.02.10-16.06.18:858][853]LogBlueprint: Warning: [Compiler BP_Tex_Maker] GetVectorParameterValue  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2019.02.10-16.06.18:860][853]LogBlueprint: Error: [Compiler BP_Tex_Maker] This blueprint (self) is not a MaterialInstanceDynamic, therefore ' Target ' must have a connection.
+[2019.02.10-16.06.19:032][853]LogBlueprint: Warning: [Compiler BP_Tex_Maker] [0954.76] Compile of BP_Tex_Maker failed. 1 Fatal Issue(s) 1 Warning(s) [in 191 ms] (/Game/Blueprints/BP_Tex_Maker.BP_Tex_Maker)
+[2019.02.10-16.06.19:462][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tex_Maker" FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset" SILENT=true
+[2019.02.10-16.06.19:500][880]LogSavePackage: Moving 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/BP_Tex_MakerDD07F11A41A8F1249161FDA2E3DF4055.tmp' to 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset'
+[2019.02.10-16.06.29:500][721]BlueprintLog: New page: Compile BP_Tex_Maker
+[2019.02.10-16.06.29:518][721]LogBlueprint: Warning: [Compiler BP_Tex_Maker] GetVectorParameterValue  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2019.02.10-16.06.29:694][721]LogBlueprint: Warning: [Compiler BP_Tex_Maker] [0965.42] Compile of BP_Tex_Maker successful, but with 1 Warning(s) [in 193 ms] (/Game/Blueprints/BP_Tex_Maker.BP_Tex_Maker)
+[2019.02.10-16.06.30:283][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tex_Maker" FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset" SILENT=true
+[2019.02.10-16.06.30:323][763]LogSavePackage: Moving 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/BP_Tex_MakerE3B0BF794214E3EEB0927B8009471D37.tmp' to 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset'
+[2019.02.10-16.06.42:660][824]BlueprintLog: New page: Compile BP_Tex_Maker
+[2019.02.10-16.06.42:678][824]LogBlueprint: Warning: [Compiler BP_Tex_Maker] GetVectorParameterValue  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2019.02.10-16.06.42:855][824]LogBlueprint: Warning: [Compiler BP_Tex_Maker] [0978.58] Compile of BP_Tex_Maker successful, but with 1 Warning(s) [in 194 ms] (/Game/Blueprints/BP_Tex_Maker.BP_Tex_Maker)
+[2019.02.10-16.06.43:288][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tex_Maker" FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset" SILENT=true
+[2019.02.10-16.06.43:332][856]LogSavePackage: Moving 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/BP_Tex_Maker5F8137374057BE62DFABF9825AB4D6D7.tmp' to 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset'
+[2019.02.10-16.07.09:876][ 88]BlueprintLog: New page: Compile BP_Tex_Maker
+[2019.02.10-16.07.10:501][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tex_Maker" FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset" SILENT=true
+[2019.02.10-16.07.10:539][122]LogSavePackage: Moving 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/BP_Tex_Maker889BD33D4E773C57B0B5B79BC98023CC.tmp' to 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset'
+[2019.02.10-16.07.22:166][214]BlueprintLog: New page: Compile BP_Tex_Maker
+[2019.02.10-16.07.22:809][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tex_Maker" FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset" SILENT=true
+[2019.02.10-16.07.22:846][245]LogSavePackage: Moving 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/BP_Tex_Maker61EE18004960BFD4EBEE6D9A7FE68783.tmp' to 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Blueprints/BP_Tex_Maker.uasset'
+[2019.02.10-16.07.47:762][666]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-16.07.47:773][666]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.10-16.07.47:773][666]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.10-16.07.47:773][666]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.10-16.07.48:159][708]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.10-16.07.48:223][711]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.10-16.07.48:541][743]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.10-16.07.48:542][743]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.10-16.07.48:671][753]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.10-16.07.48:783][766]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.10-16.07.49:077][799]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.10-16.07.49:622][854]MaterialEditorStats: Base pass shader without light map: 48 instructions
+[2019.02.10-16.07.49:622][854]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2019.02.10-16.07.49:623][854]MaterialEditorStats: Texture samplers: 3/16
+[2019.02.10-16.07.49:623][854]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.02.10-16.07.51:245][ 25]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-16.07.51:255][ 25]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-16.07.51:264][ 25]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-16.07.51:277][ 25]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.10-16.07.51:279][ 25]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.10-16.07.51:279][ 25]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.10-16.07.51:528][ 46]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.10-16.07.51:795][ 71]MaterialEditorStats: Base pass shader without light map: 36 instructions
+[2019.02.10-16.07.51:795][ 71]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.02.10-16.07.51:795][ 71]MaterialEditorStats: Texture samplers: 0/16
+[2019.02.10-16.07.51:795][ 71]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.02.10-16.08.10:825][ 18]LogMaterialEditor: Saving and Compiling material M_Marker
+[2019.02.10-16.08.11:197][ 18]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-16.08.11:217][ 18]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.10-16.08.11:217][ 18]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.10-16.08.11:218][ 18]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.10-16.08.11:232][ 18]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-16.08.11:243][ 18]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-16.08.11:306][ 18]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Marker, compiling. 
+[2019.02.10-16.08.11:641][ 18]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.10-16.08.11:641][ 18]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.10-16.08.11:641][ 18]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.10-16.08.11:643][ 18]TextureStreamingBuild: Display: Compiling optional shaders took 0.344 seconds.
+[2019.02.10-16.08.12:312][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteBoard/M_Marker" FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/WhiteBoard/M_Marker.uasset" SILENT=true
+[2019.02.10-16.08.12:338][ 18]LogSavePackage: Moving 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/M_MarkerD094D6A84F20988A872CCFBAAD0E811B.tmp' to 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/WhiteBoard/M_Marker.uasset'
+[2019.02.10-16.11.10:351][452]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-16.11.10:407][453]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.10-16.11.10:407][453]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.10-16.11.10:407][453]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.10-16.11.10:944][506]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.10-16.11.11:214][532]MaterialEditorStats: Base pass shader without light map: 36 instructions
+[2019.02.10-16.11.11:214][532]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.02.10-16.11.11:214][532]MaterialEditorStats: Texture samplers: 0/16
+[2019.02.10-16.11.11:214][532]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.02.10-16.11.18:816][300]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-16.11.18:867][301]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.10-16.11.18:867][301]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.10-16.11.18:867][301]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.10-16.11.19:039][321]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.10-16.11.19:303][348]MaterialEditorStats: Base pass shader without light map: 36 instructions
+[2019.02.10-16.11.19:304][348]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.02.10-16.11.19:304][348]MaterialEditorStats: Texture samplers: 0/16
+[2019.02.10-16.11.19:304][348]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.02.10-16.11.25:317][975]LogMaterialEditor: Saving and Compiling material M_Marker
+[2019.02.10-16.11.25:685][975]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-16.11.25:704][975]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.10-16.11.25:705][975]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.10-16.11.25:706][975]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.10-16.11.25:715][975]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-16.11.25:724][975]LogMaterial: Display: Missing cached shader map for material M_Marker, compiling. 
+[2019.02.10-16.11.25:767][975]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Marker, compiling. 
+[2019.02.10-16.11.26:067][975]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.10-16.11.26:068][975]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.10-16.11.26:068][975]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.10-16.11.26:069][975]TextureStreamingBuild: Display: Compiling optional shaders took 0.308 seconds.
+[2019.02.10-16.11.26:762][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteBoard/M_Marker" FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/WhiteBoard/M_Marker.uasset" SILENT=true
+[2019.02.10-16.11.26:784][975]LogSavePackage: Moving 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/M_MarkerA2B0ECCB4246DCA2693569B45830E456.tmp' to 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/WhiteBoard/M_Marker.uasset'
+[2019.02.10-16.12.24:143][835]LogSavePackage: Moving 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/FirstPersonExampleMap_Auto20FCC8CB848256B4697A4BEB56E102508.tmp' to 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2019.02.10-16.12.24:163][835]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.492
+[2019.02.10-16.12.24:163][835]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.492
