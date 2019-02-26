@@ -1,11 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (A:\Uni 2018-19\Github\Slime\Slime).
-  Creating makefile for SlimeEditor (source directory changed)
+  Creating makefile for SlimeEditor (ini files are newer than UBTMakefile)
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 4 processes...
-    [1/3] RTManipulation.cpp
-    [2/3] UE4Editor-Slime.lib
-       Creating library A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Development\Slime\UE4Editor-Slime.lib and object A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Development\Slime\UE4Editor-Slime.exp
-    [3/3] UE4Editor-Slime.dll
-       Creating library A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Development\Slime\UE4Editor-Slime.suppressed.lib and object A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Development\Slime\UE4Editor-Slime.suppressed.exp
+  Target is up to date
   Deploying SlimeEditor Win64 Development...
-  Total build time: 8.76 seconds (Parallel executor: 3.29 seconds)
+  Total build time: 42.44 seconds (NoActionsToExecute executor: 0.00 seconds)

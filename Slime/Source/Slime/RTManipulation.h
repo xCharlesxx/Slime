@@ -28,15 +28,27 @@ class SLIME_API ARTManipulation : public AActor
 	UFUNCTION(BlueprintCallable, Category = "Charlie")
 		void SetSlimeDestination(FVector2D coords);
 
+	static ARTManipulation* Runnable; 
+
+	FRunnableThread* Thread; 
+
+	FThreadSafeCounter StopTaskCounter; 
+
 	//UFUNCTION(BlueprintCallable, Category = "Charlie")
-	//	FColor GetRenderTargetValue(float x, float y);
+	//FColor GetRenderTargetValue(float x, float y);
 
 private:
 	TArray<FColor> RawData;
+	TArray<FColor> PreRawData;
+	TArray<FVector2D> SlimesData; 
 	//Make this dynamic in future
 	int32 width = 1000; 
 	int32 height = 1000; 
 	FVector2D Coordinates; 
+	FColor noSlime = FColor(0, 0, 0, 255);
+	FColor Slime = FColor(255, 255, 255, 255);
+	int spreadSpeed = 0; 
+	FVector2D SpreadTexture();
 public:	
 	// Sets default values for this actor's properties
 	ARTManipulation();

@@ -31,11 +31,80 @@ void ARTManipulation::SetSlimeDestination(FVector2D coords)
 {
 	UE_LOG(LogTemp, Warning, TEXT("CoordinatesB4: X:%d Y:%d"), coords.X, coords.Y);
 	Coordinates = coords * 1000; 
+	SlimesData.Empty(); 
+	int aoe = 10;
+	//Y
+	for (int32 row = 0; row < height; row++)
+	{
+		//X
+		for (int32 col = 0; col < width; col++)
+		{
+			if (row < Coordinates.Y + aoe && row > Coordinates.Y - aoe)
+			{
+				if (col < Coordinates.X + aoe && col > Coordinates.X - aoe)
+				{
+					RawData[row * width + col] = Slime;
+					SlimesData.Add(FVector2D(col, row));
+				}
+			}
+			else
+				RawData[row * width + col] = noSlime;
+		}
+	}
+}
 
-	//for (int i = 0; i < )
-	/*FMath::RoundToInt(Coordinates.X); 
-	FMath::RoundToInt(Coordinates.Y);
-	UE_LOG(LogTemp, Warning, TEXT("Coordinates: X:%d Y:%d"), coords.X, coords.Y);*/
+FVector2D ARTManipulation::SpreadTexture()
+{
+	FVector2D slim = SlimesData[FMath::RandRange(0, SlimesData.Num() - 1)];
+
+	if (RawData[slim.Y * width + slim.X] == Slime)
+	{
+		for (int i = 0; i < 50; i++)
+		switch (FMath::RandRange(0, 3))
+		{
+		case 0:
+			if (slim.Y != height - 1)
+				if (RawData[(slim.Y + 1) * width + slim.X] == noSlime)
+				{
+					RawData[(slim.Y + 1) * width + slim.X] = Slime;
+					return FVector2D(slim.X, slim.Y + 1);
+				}
+			break;
+		case 1:
+			if (slim.Y != 0)
+				if (RawData[(slim.Y - 1) * width + slim.X] == noSlime)
+				{
+					RawData[(slim.Y - 1) * width + slim.X] = Slime;
+					return FVector2D(slim.X, slim.Y - 1);
+				}
+			break;
+		case 2:
+			if (slim.X != width - 1)
+				if (RawData[slim.Y * width + (slim.X + 1)] == noSlime)
+				{
+					RawData[slim.Y * width + (slim.X + 1)] = Slime;
+					return FVector2D(slim.X + 1, slim.Y);
+				}
+			break;
+		case 3:
+			if (slim.X != 0)
+				if (RawData[slim.Y * width + (slim.X - 1)] == noSlime)
+				{
+					RawData[slim.Y * width + (slim.X - 1)] = Slime;
+					return FVector2D(slim.X - 1, slim.Y);
+				}
+			break;
+		default:
+			break;
+		}
+		//If no spare spaces around slime, remove slime
+		SlimesData.Remove(slim);
+		return FVector2D(-1,-1); 
+	}
+	
+	//Should never reach here
+	UE_LOG(LogTemp, Warning, TEXT("Something went Wrong in SpreadTexture"));
+	return FVector2D(-1, -1);
 }
 
 // Sets default values
@@ -50,7 +119,7 @@ void ARTManipulation::BeginPlay()
 {
 	Super::BeginPlay();
 	for (int i = 0; i < height*width; i++)
-		RawData.Add(FColor(0, 0, 0, 255));
+		RawData.Add(noSlime);
 }
 
 // Called every frame
@@ -71,32 +140,34 @@ void ARTManipulation::Tick(float DeltaTime)
 	//MaterialDynamic->VectorParameterValues.GetData(); 
 	//width = MaterialDynamic->GetWidth(); 
 	//height = MaterialDynamic->GetHeight();
-	int aoe = 10; 
-	//Y
-	for (int32 row = 0; row < height; row++)
+	//if (spreadSpeed == 10)
+	//{
+	spreadSpeed = 1000; 
+	for (int i = 0; i < spreadSpeed; i++)
+	if (SlimesData.Num() != NULL)
 	{
-		//X
-		for (int32 col = 0; col < width; col++)
-		{
-			if (row < Coordinates.Y + aoe && row > Coordinates.Y - aoe)
-			{
-				if (col < Coordinates.X + aoe && col > Coordinates.X - aoe)
-					RawData[row * width + col] = (FColor(0, 0, 0, 255));
-			}
-			else
-				RawData[row * width + col] = (FColor(255, 255, 255, 255));
-		}
+		FVector2D place2Spread = SpreadTexture();
+		if (place2Spread != FVector2D(-1, -1))
+			SlimesData.Add(place2Spread);
 	}
+	//	spreadSpeed = 0; 
+	//}
+	//else
+	//	spreadSpeed++; 
 
-	UTexture2D* texture = UTexture2D::CreateTransient(width, height);
-	//UTexture2D* texture = MaterialDynamic->param 
-	FTexture2DMipMap& Mip = texture->PlatformData->Mips[0];
-	void* Data = Mip.BulkData.Lock(LOCK_READ_WRITE);
-	//if (RawData.GetAllocatedSize == 512*512)
-	FMemory::Memcpy(Data, RawData.GetData(), (width * height * 4));
-	Mip.BulkData.Unlock();
-	texture->UpdateResource();
-	MaterialDynamic->SetTextureParameterValue("TextureToAdd", texture);
+	if (RawData != PreRawData)
+	{
+		UTexture2D* texture = UTexture2D::CreateTransient(width, height);
+		//UTexture2D* texture = MaterialDynamic->param 
+		FTexture2DMipMap& Mip = texture->PlatformData->Mips[0];
+		void* Data = Mip.BulkData.Lock(LOCK_READ_WRITE);
+		//if (RawData.GetAllocatedSize == 512*512)
+		FMemory::Memcpy(Data, RawData.GetData(), (width * height * 4));
+		Mip.BulkData.Unlock();
+		texture->UpdateResource();
+		MaterialDynamic->SetTextureParameterValue("TextureToAdd", texture);
+		PreRawData = RawData;
+	}
 	//MaterialDynamic->
 
 	//uint8* raw = NULL;
