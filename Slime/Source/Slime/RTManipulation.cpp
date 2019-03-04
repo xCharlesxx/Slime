@@ -44,18 +44,21 @@ void ARTManipulation::SetSlimeDestination(FVector2D coords)
 			{
 				if (col < Coordinates.X + aoe && col > Coordinates.X - aoe)
 				{
-					RawData[row * width + col] = Slime;
-					SlimesData.Add(FVector2D(col, row));
+					//RawData[row * width + col] = Slime;
+					//SlimesData.Add(FVector2D(col, row));
 				}
 			}
 			else
 				RawData[row * width + col] = noSlime;
 		}
 	}
+	BranchAlgorithm(FVector2D(600,900),Coordinates, _segLength, _branchProb, 1, _genPenalty, _sucThresh, _spd, _mxBranch);
 }
 
 void ARTManipulation::BranchAlgorithm(FVector2D seedPos, FVector2D target, int segmentLength, float branchProbability, int generation, float generationPenalty, float successThreshold, float speed, int maxBranches)
 {
+	_segLength = segmentLength; _branchProb = branchProbability; _genPenalty = generationPenalty; _sucThresh = successThreshold; _spd = speed; _mxBranch = maxBranches; 
+
 	float probability = FMath::RandRange((float)0, (float)1);
 	//Make branches of branches more likely to die
 	if (generation != 1 && (generationPenalty * generation) > probability)
@@ -101,9 +104,18 @@ void ARTManipulation::BranchAlgorithm(FVector2D seedPos, FVector2D target, int s
 		newDistance = FVector2D::Distance(target, randomPos);
 	}
 
+	//If new position is already slime, break
+	if (RawData[randomPos.Y * width + randomPos.X] == Slime && generation != 1)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Forward position already Slime"));
+		numBranches--; 
+		return;
+	}
+
 	//Create line between two points 
-	BresenhamLine(seedPos.X, seedPos.Y, randomPos.X, randomPos.Y); 
+	BresenhamLine(seedPos.X, seedPos.Y, randomPos.X, randomPos.Y);
 	UE_LOG(LogTemp, Warning, TEXT("Line Created between points: %f,%f and %f,%f"), seedPos.X, seedPos.Y, randomPos.X, randomPos.Y);
+
 	//If we have reached destination
 	if (newDistance < successThreshold)
 	{
@@ -122,12 +134,12 @@ void ARTManipulation::BranchAlgorithm(FVector2D seedPos, FVector2D target, int s
 void ARTManipulation::BresenhamLine(int x1, int y1, int const x2, int const y2)
 {
 	int delta_x(x2 - x1);
-	// if x1 == x2, then it does not matter what we set here
+	//If x1 == x2, then it does not matter what we set here
 	signed char const ix((delta_x > 0) - (delta_x < 0));
 	delta_x = std::abs(delta_x) << 1;
 
 	int delta_y(y2 - y1);
-	// if y1 == y2, then it does not matter what we set here
+	//If y1 == y2, then it does not matter what we set here
 	signed char const iy((delta_y > 0) - (delta_y < 0));
 	delta_y = std::abs(delta_y) << 1;
 
@@ -135,19 +147,18 @@ void ARTManipulation::BresenhamLine(int x1, int y1, int const x2, int const y2)
 
 	if (delta_x >= delta_y)
 	{
-		// error may go below zero
+		//Error may go below zero
 		int error(delta_y - (delta_x >> 1));
 
 		while (x1 != x2)
 		{
-			// reduce error, while taking into account the corner case of error == 0
+			//Reduce error, while taking into account the corner case of error == 0
 			if ((error > 0) || (!error && (ix > 0)))
 			{
 				error -= delta_x;
 				y1 += iy;
 			}
-			// else do nothing
-
+			//Else do nothing
 			error += delta_y;
 			x1 += ix;
 
@@ -156,19 +167,18 @@ void ARTManipulation::BresenhamLine(int x1, int y1, int const x2, int const y2)
 	}
 	else
 	{
-		// error may go below zero
+		//Error may go below zero
 		int error(delta_x - (delta_y >> 1));
 
 		while (y1 != y2)
 		{
-			// reduce error, while taking into account the corner case of error == 0
+			//Reduce error, while taking into account the corner case of error == 0
 			if ((error > 0) || (!error && (iy > 0)))
 			{
 				error -= delta_y;
 				x1 += ix;
 			}
-			// else do nothing
-
+			//Else do nothing
 			error += delta_x;
 			y1 += iy;
 

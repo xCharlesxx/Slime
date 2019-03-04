@@ -1,0 +1,1931 @@
+﻿Log file open, 03/04/19 15:05:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Slime
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.252238
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.096s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.04-15.05.50:173][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.03.04-15.05.50:173][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.03.04-15.05.50:173][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.03.04-15.05.50:173][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.04-15.05.50:173][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.03.04-15.05.50:173][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.03.04-15.05.50:173][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.04-15.05.50:173][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.04-15.05.50:174][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.04-15.05.50:174][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.04-15.05.50:174][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.04-15.05.50:174][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.04-15.05.50:174][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.04-15.05.50:174][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.04-15.05.50:174][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.04-15.05.50:174][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.04-15.05.50:174][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.04-15.05.50:174][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.04-15.05.50:174][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.04-15.05.50:174][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.03.04-15.05.50:174][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.04-15.05.50:174][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.04-15.05.50:174][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.04-15.05.50:175][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.04-15.05.50:175][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.04-15.05.50:175][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.04-15.05.50:175][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.04-15.05.50:175][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.04-15.05.50:175][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.04-15.05.50:175][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.04-15.05.50:175][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.04-15.05.50:175][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.04-15.05.50:175][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.04-15.05.50:175][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.04-15.05.50:175][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.03.04-15.05.50:175][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.03.04-15.05.50:188][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.03.04-15.05.50:188][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.04-15.05.50:188][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.04-15.05.50:189][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.03.04-15.05.50:189][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.04-15.05.50:189][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.03.04-15.05.50:189][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.04-15.05.50:189][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.04-15.05.50:189][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.04-15.05.50:189][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.04-15.05.50:189][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.04-15.05.50:189][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.04-15.05.50:189][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.04-15.05.50:189][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.04-15.05.50:189][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.04-15.05.50:189][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.04-15.05.50:189][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.04-15.05.50:190][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.04-15.05.50:191][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.04-15.05.50:192][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.04-15.05.50:193][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.04-15.05.50:193][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.04-15.05.50:193][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.04-15.05.50:193][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.04-15.05.50:193][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.04-15.05.50:193][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.04-15.05.50:193][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.03.04-15.05.50:193][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.04-15.05.50:193][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.04-15.05.50:193][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.04-15.05.50:193][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.04-15.05.50:206][  0]LogHAL: Display: Platform has ~ 16 GB [17132032000 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.04-15.05.50:206][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.04-15.05.50:206][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.04-15.05.50:206][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.03.04-15.05.50:206][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.04-15.05.50:206][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.04-15.05.50:206][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.03.04-15.05.50:206][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.04-15.05.50:206][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.03.04-15.05.50:207][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.04-15.05.50:207][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.04-15.05.50:207][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.04-15.05.50:207][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.04-15.05.50:207][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.04-15.05.50:207][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.04-15.05.50:207][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.04-15.05.50:207][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.04-15.05.50:207][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.04-15.05.50:207][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.04-15.05.50:207][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.04-15.05.50:207][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.04-15.05.50:207][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.04-15.05.50:207][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.04-15.05.50:208][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.04-15.05.50:208][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.04-15.05.50:208][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.04-15.05.50:208][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.04-15.05.50:208][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.03.04-15.05.50:208][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.04-15.05.50:208][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.04-15.05.50:208][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.04-15.05.50:208][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.04-15.05.50:208][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.04-15.05.50:208][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.04-15.05.50:208][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.04-15.05.50:208][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.04-15.05.50:209][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.04-15.05.50:210][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.04-15.05.50:210][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.04-15.05.50:210][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.04-15.05.50:210][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.04-15.05.50:210][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.04-15.05.50:210][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.04-15.05.50:210][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.03.04-15.05.50:210][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.04-15.05.50:210][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.04-15.05.50:210][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.04-15.05.50:210][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.04-15.05.50:210][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.04-15.05.50:210][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.04-15.05.50:210][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.04-15.05.50:210][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.03.04-15.05.50:211][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Scalability.ini]
+[2019.03.04-15.05.50:211][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.04-15.05.50:211][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.04-15.05.50:212][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.04-15.05.50:212][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Config/Windows/Engine.ini]
+[2019.03.04-15.05.50:212][  0]LogInit: Computer: MAINDESKTOP
+[2019.03.04-15.05.50:212][  0]LogInit: User: kille
+[2019.03.04-15.05.50:212][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.04-15.05.50:212][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.04-15.05.50:213][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.03.04-15.05.50:213][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.04-15.05.50:213][  0]LogMemory: Process Physical Memory: 102.88 MB used, 102.88 MB peak
+[2019.03.04-15.05.50:213][  0]LogMemory: Process Virtual Memory: 84.68 MB used, 84.68 MB peak
+[2019.03.04-15.05.50:213][  0]LogMemory: Physical Memory: 6755.52 MB used,  9582.86 MB free, 16338.38 MB total
+[2019.03.04-15.05.50:213][  0]LogMemory: Virtual Memory: 4630.16 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2019.03.04-15.05.50:318][  0]LogInit: Using OS detected language (en-US).
+[2019.03.04-15.05.50:318][  0]LogInit: Using OS detected locale (en-GB).
+[2019.03.04-15.05.50:319][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.04-15.05.50:705][  0]LogStreaming: Display: Took  0.388s to InitEngineTextLocalization.
+[2019.03.04-15.05.50:706][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.04-15.05.50:770][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.04-15.05.50:771][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.04-15.05.50:983][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.03.04-15.05.50:984][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.04-15.05.51:056][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.03.04-15.05.51:056][  0]LogD3D11RHI:       4043/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.04-15.05.51:061][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.04-15.05.51:061][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.04-15.05.51:062][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.04-15.05.51:068][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.04-15.05.51:068][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.04-15.05.51:069][  0]LogWindows: EnumDisplayDevices:
+[2019.03.04-15.05.51:069][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.03.04-15.05.51:069][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.03.04-15.05.51:069][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.03.04-15.05.51:070][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.03.04-15.05.51:070][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.04-15.05.51:070][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.03.04-15.05.51:070][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.03.04-15.05.51:070][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.03.04-15.05.51:070][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.03.04-15.05.51:115][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.04-15.05.51:138][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.04-15.05.51:464][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.04-15.05.51:481][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.04-15.05.51:500][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.04-15.05.51:515][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.04-15.05.51:531][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.04-15.05.51:546][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.04-15.05.51:561][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.04-15.05.51:576][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.04-15.05.51:584][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.04-15.05.51:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:659][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:659][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:659][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:659][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:659][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:659][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:659][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:659][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:659][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:659][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:660][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:660][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:660][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:660][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:660][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:660][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-15.05.51:663][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.04-15.05.51:733][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.04-15.05.51:734][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.04-15.05.51:757][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.04-15.05.51:757][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.04-15.05.51:772][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.04-15.05.51:787][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.04-15.05.51:801][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.04-15.05.51:816][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.04-15.05.51:860][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.04-15.05.51:860][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.04-15.05.51:861][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.04-15.05.51:972][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (A:/Uni 2018-19/Github/Slime/Slime/Slime/Intermediate/Shaders/WorkingDirectory/2712/).
+[2019.03.04-15.05.51:972][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Charles/AppData/Local/Temp/UnrealShaderWorkingDir/1C256D5A46F80D573E1486BA9428363A/'.
+[2019.03.04-15.05.51:975][  0]LogXGEController: Cleaning working directory: C:/Users/Charles/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.04-15.05.51:975][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.04-15.05.51:975][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.04-15.05.51:975][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.04-15.05.52:516][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.04-15.05.52:570][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/Charles/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.04-15.05.52:571][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Charles/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.04-15.05.52:571][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Uni 2018-19/Github/Slime/Slime/Slime/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.04-15.05.52:571][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.04-15.05.52:571][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Uni 2018-19/Github/Slime/Slime/Slime/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.04-15.05.52:571][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.04-15.05.52:585][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.04-15.05.52:585][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.04-15.05.52:585][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.04-15.05.52:599][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Charles/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.04-15.05.52:599][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.04-15.05.52:599][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.04-15.05.52:623][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.04-15.05.52:625][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.04-15.05.52:626][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.04-15.05.52:714][  0]LogAssetRegistry: FAssetRegistry took 0.0353 seconds to start up
+[2019.03.04-15.05.53:022][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.04-15.05.53:194][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.04-15.05.53:203][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.04-15.05.53:203][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.04-15.05.53:203][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.04-15.05.53:203][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.04-15.05.53:224][  0]LogNetVersion: Slime 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 858269732)
+[2019.03.04-15.05.53:747][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.092674 seconds
+[2019.03.04-15.05.53:755][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.03.04-15.05.53:755][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.03.04-15.05.53:755][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.04-15.05.54:730][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.04-15.05.54:748][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.04-15.05.55:728][  0]SourceControl: Source control is disabled
+[2019.03.04-15.05.55:729][  0]SourceControl: Source control is disabled
+[2019.03.04-15.05.55:731][  0]SourceControl: Source control is disabled
+[2019.03.04-15.05.55:734][  0]SourceControl: Source control is disabled
+[2019.03.04-15.05.55:983][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.04-15.05.56:171][  0]LogOcInput: OculusInput pre-init called
+[2019.03.04-15.05.56:324][  0]LogEngine: Initializing Engine...
+[2019.03.04-15.05.56:355][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.03.04-15.05.56:356][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.04-15.05.56:356][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.04-15.05.56:357][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.04-15.05.56:357][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.04-15.05.56:582][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.04-15.05.56:596][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.04-15.05.56:655][  0]LogInit: XAudio2 using 'SAMSUNG (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.04-15.05.56:683][  0]LogInit: FAudioDevice initialized.
+[2019.03.04-15.05.56:684][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.04-15.05.56:761][  0]LogDerivedDataCache: Saved boot cache 0.08s 75MB C:/Users/Charles/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.04-15.05.56:779][  0]LogInit: Texture streaming: Enabled
+[2019.03.04-15.05.56:807][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.04-15.05.56:807][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={51A0F64A-492A-7DDA-391A-109610CD6D30}
+[2019.03.04-15.05.56:820][  0]LogInit: Transaction tracking system initialized
+[2019.03.04-15.05.56:859][  0]BlueprintLog: New page: Editor Load
+[2019.03.04-15.05.57:021][  0]LocalizationService: Localization service is disabled
+[2019.03.04-15.05.57:494][  0]LogFileCache: Scanning file cache for directory 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/' took 0.02s
+[2019.03.04-15.05.57:494][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.04-15.05.57:495][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.04-15.05.57:495][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.04-15.05.57:495][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.04-15.05.57:495][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.04-15.05.57:495][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.04-15.05.57:495][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.04-15.05.57:680][  0]SourceControl: Source control is disabled
+[2019.03.04-15.05.57:685][  0]Cmd: MAP LOAD FILE="A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.04-15.05.57:686][  0]LightingResults: New page: Lighting Build
+[2019.03.04-15.05.57:690][  0]MapCheck: New page: Map Check
+[2019.03.04-15.05.57:690][  0]LightingResults: New page: Lighting Build
+[2019.03.04-15.05.57:852][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.03.04-15.05.57:868][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.04-15.05.57:892][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.04-15.05.57:893][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.111ms to complete.
+[2019.03.04-15.05.57:893][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.208
+[2019.03.04-15.05.58:001][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-15.05.58:009][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-15.05.58:017][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-15.05.58:024][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-15.05.58:033][  0]LogCollectionManager: Loaded 0 collections in 0.002083 seconds
+[2019.03.04-15.05.58:077][  0]LogFileCache: Scanning file cache for directory 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Saved/Collections/' took 0.01s
+[2019.03.04-15.05.58:077][  0]LogFileCache: Scanning file cache for directory 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Developers/kille/Collections/' took 0.01s
+[2019.03.04-15.05.58:077][  0]LogFileCache: Scanning file cache for directory 'A:/Uni 2018-19/Github/Slime/Slime/Slime/Content/Collections/' took 0.01s
+[2019.03.04-15.05.58:077][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.03.04-15.05.58:087][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2656 classes and 622 folders.
+[2019.03.04-15.05.58:094][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.04-15.05.58:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:096][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:098][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:098][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:099][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:100][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:101][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:101][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:103][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:103][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:104][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:105][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:106][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:107][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:108][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:108][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:109][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:110][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:111][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:111][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:112][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:113][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:114][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:114][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:115][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.04-15.05.58:145][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.03.04-15.05.58:155][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.03.04-15.05.58:170][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.04-15.05.58:173][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.04-15.05.58:178][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.04-15.05.58:179][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.03.04-15.05.58:302][  0]LogRenderer: Reallocating scene render targets to support 1088x480 Format 10 NumSamples 1 (Frame:1).
+[2019.03.04-15.05.58:428][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.04-15.05.58:429][  0]LogLoad: (Engine Initialization) Total time: 9.86 seconds
+[2019.03.04-15.05.58:429][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.04-15.05.58:500][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.04-15.05.58:543][  1]LogAssetRegistry: Asset discovery search completed in 5.8536 seconds
+[2019.03.04-15.05.58:545][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.04-15.05.58:546][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000856 seconds (updated 0 objects)
+[2019.03.04-15.06.11:816][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.04-15.06.11:967][601]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.04-15.06.11:980][601]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.03.04-15.06.11:981][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.04-15.06.11:982][601]PIE: New page: PIE session: FirstPersonExampleMap (4 Mar 2019 15:06:11)
+[2019.03.04-15.06.11:997][601]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.03.04-15.06.12:019][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020588s)
+[2019.03.04-15.06.12:020][601]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.03.04-15.06.12:021][601]LogPlayLevel: PIE: World Init took: (0.001403s)
+[2019.03.04-15.06.12:021][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023646s)
+[2019.03.04-15.06.12:089][601]LogInit: XAudio2 using 'SAMSUNG (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.04-15.06.12:102][601]LogInit: FAudioDevice initialized.
+[2019.03.04-15.06.12:149][601]LogLoad: Game class is 'SlimeGameMode'
+[2019.03.04-15.06.12:152][601]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.03.04-15.06.12
+[2019.03.04-15.06.12:153][601]LogWorld: Bringing up level for play took: 0.002118
+[2019.03.04-15.06.12:172][601]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2019.03.04-15.06.12:183][601]LogTemp: Warning: Line Created between points: 750.000000,0.000000 and 751.000000,1.000000
+[2019.03.04-15.06.12:184][601]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:184][601]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.082
+[2019.03.04-15.06.12:185][601]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.03.04-15.06.12:234][602]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:234][602]LogTemp: Warning: Line Created between points: 751.000000,1.000000 and 751.000000,5.000000
+[2019.03.04-15.06.12:235][602]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:235][602]LogTemp: Warning: Line Created between points: 751.000000,1.000000 and 755.000000,3.000000
+[2019.03.04-15.06.12:235][602]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:287][608]LogTemp: Warning: Line Created between points: 751.000000,5.000000 and 751.000000,9.000000
+[2019.03.04-15.06.12:288][608]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:288][608]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:288][608]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:288][608]LogTemp: Warning: Line Created between points: 755.000000,3.000000 and 753.000000,4.000000
+[2019.03.04-15.06.12:288][608]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:289][608]LogTemp: Warning: Line Created between points: 755.000000,3.000000 and 750.000000,8.000000
+[2019.03.04-15.06.12:289][608]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:289][608]LogTemp: Warning: Line Created between points: 755.000000,3.000000 and 750.000000,5.000000
+[2019.03.04-15.06.12:289][608]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:338][614]LogTemp: Warning: Line Created between points: 751.000000,9.000000 and 756.000000,14.000000
+[2019.03.04-15.06.12:338][614]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:338][614]LogTemp: Warning: Line Created between points: 750.000000,5.000000 and 748.000000,8.000000
+[2019.03.04-15.06.12:339][614]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:339][614]LogTemp: Warning: Line Created between points: 750.000000,8.000000 and 749.000000,10.000000
+[2019.03.04-15.06.12:339][614]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:339][614]LogTemp: Warning: Line Created between points: 753.000000,4.000000 and 750.000000,9.000000
+[2019.03.04-15.06.12:339][614]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:388][620]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:388][620]LogTemp: Warning: Line Created between points: 756.000000,14.000000 and 760.000000,17.000000
+[2019.03.04-15.06.12:388][620]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:388][620]LogTemp: Warning: Line Created between points: 756.000000,14.000000 and 755.000000,14.000000
+[2019.03.04-15.06.12:388][620]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:389][620]LogTemp: Warning: Line Created between points: 750.000000,9.000000 and 747.000000,10.000000
+[2019.03.04-15.06.12:389][620]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:389][620]LogTemp: Warning: Line Created between points: 749.000000,10.000000 and 746.000000,14.000000
+[2019.03.04-15.06.12:389][620]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:389][620]LogTemp: Warning: Line Created between points: 748.000000,8.000000 and 746.000000,11.000000
+[2019.03.04-15.06.12:390][620]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:437][626]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:437][626]LogTemp: Warning: Line Created between points: 760.000000,17.000000 and 757.000000,21.000000
+[2019.03.04-15.06.12:438][626]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:438][626]LogTemp: Warning: Line Created between points: 760.000000,17.000000 and 763.000000,22.000000
+[2019.03.04-15.06.12:438][626]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:438][626]LogTemp: Warning: Line Created between points: 746.000000,11.000000 and 744.000000,16.000000
+[2019.03.04-15.06.12:439][626]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:439][626]LogTemp: Warning: Line Created between points: 746.000000,14.000000 and 751.000000,17.000000
+[2019.03.04-15.06.12:439][626]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:439][626]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.12:439][626]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:439][626]LogTemp: Warning: Line Created between points: 755.000000,14.000000 and 751.000000,19.000000
+[2019.03.04-15.06.12:440][626]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:440][626]LogTemp: Warning: Line Created between points: 755.000000,14.000000 and 760.000000,19.000000
+[2019.03.04-15.06.12:440][626]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:487][632]LogTemp: Warning: Line Created between points: 757.000000,21.000000 and 752.000000,21.000000
+[2019.03.04-15.06.12:488][632]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:488][632]LogTemp: Warning: Line Created between points: 751.000000,17.000000 and 748.000000,21.000000
+[2019.03.04-15.06.12:488][632]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:488][632]LogTemp: Warning: Line Created between points: 751.000000,19.000000 and 754.000000,23.000000
+[2019.03.04-15.06.12:488][632]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:488][632]LogTemp: Warning: Line Created between points: 763.000000,22.000000 and 765.000000,27.000000
+[2019.03.04-15.06.12:489][632]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:489][632]LogTemp: Warning: Line Created between points: 744.000000,16.000000 and 749.000000,20.000000
+[2019.03.04-15.06.12:489][632]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:489][632]LogTemp: Warning: Line Created between points: 760.000000,19.000000 and 764.000000,23.000000
+[2019.03.04-15.06.12:490][632]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:537][638]LogTemp: Warning: Line Created between points: 752.000000,21.000000 and 754.000000,25.000000
+[2019.03.04-15.06.12:537][638]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:538][638]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:538][638]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:538][638]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:538][638]LogTemp: Warning: Line Created between points: 765.000000,27.000000 and 769.000000,28.000000
+[2019.03.04-15.06.12:538][638]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:538][638]LogTemp: Warning: Line Created between points: 765.000000,27.000000 and 761.000000,27.000000
+[2019.03.04-15.06.12:539][638]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:539][638]LogTemp: Warning: Line Created between points: 765.000000,27.000000 and 765.000000,29.000000
+[2019.03.04-15.06.12:539][638]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:539][638]LogTemp: Warning: Line Created between points: 765.000000,27.000000 and 766.000000,28.000000
+[2019.03.04-15.06.12:539][638]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:540][638]LogTemp: Warning: Line Created between points: 749.000000,20.000000 and 745.000000,25.000000
+[2019.03.04-15.06.12:540][638]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:540][638]LogTemp: Warning: Line Created between points: 748.000000,21.000000 and 745.000000,26.000000
+[2019.03.04-15.06.12:540][638]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:540][638]LogTemp: Warning: Line Created between points: 754.000000,23.000000 and 758.000000,24.000000
+[2019.03.04-15.06.12:541][638]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:541][638]LogTemp: Warning: Line Created between points: 764.000000,23.000000 and 768.000000,25.000000
+[2019.03.04-15.06.12:541][638]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:588][644]LogTemp: Warning: Line Created between points: 768.000000,25.000000 and 770.000000,28.000000
+[2019.03.04-15.06.12:589][644]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:589][644]LogTemp: Warning: Branch Died
+[2019.03.04-15.06.12:589][644]LogTemp: Warning: Line Created between points: 758.000000,24.000000 and 760.000000,29.000000
+[2019.03.04-15.06.12:589][644]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:589][644]LogTemp: Warning: Line Created between points: 745.000000,26.000000 and 746.000000,26.000000
+[2019.03.04-15.06.12:589][644]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:590][644]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:590][644]LogTemp: Warning: Line Created between points: 766.000000,28.000000 and 770.000000,30.000000
+[2019.03.04-15.06.12:590][644]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:590][644]LogTemp: Warning: Line Created between points: 766.000000,28.000000 and 763.000000,31.000000
+[2019.03.04-15.06.12:590][644]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:590][644]LogTemp: Warning: Line Created between points: 765.000000,29.000000 and 767.000000,34.000000
+[2019.03.04-15.06.12:591][644]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:591][644]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.12:591][644]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:591][644]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:591][644]LogTemp: Warning: Line Created between points: 761.000000,27.000000 and 756.000000,28.000000
+[2019.03.04-15.06.12:591][644]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:592][644]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.12:592][644]LogTemp: Warning: Line Created between points: 761.000000,27.000000 and 757.000000,30.000000
+[2019.03.04-15.06.12:592][644]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:592][644]LogTemp: Warning: Line Created between points: 745.000000,25.000000 and 745.000000,29.000000
+[2019.03.04-15.06.12:592][644]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:640][650]LogTemp: Warning: Line Created between points: 770.000000,28.000000 and 771.000000,32.000000
+[2019.03.04-15.06.12:640][650]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:640][650]LogTemp: Warning: Line Created between points: 745.000000,29.000000 and 741.000000,33.000000
+[2019.03.04-15.06.12:641][650]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:641][650]LogTemp: Warning: Line Created between points: 757.000000,30.000000 and 755.000000,32.000000
+[2019.03.04-15.06.12:641][650]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:641][650]LogTemp: Warning: Line Created between points: 756.000000,28.000000 and 752.000000,32.000000
+[2019.03.04-15.06.12:642][650]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:642][650]LogTemp: Warning: Line Created between points: 770.000000,30.000000 and 767.000000,32.000000
+[2019.03.04-15.06.12:642][650]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:642][650]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:642][650]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:643][650]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:643][650]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.12:643][650]LogTemp: Warning: Line Created between points: 763.000000,31.000000 and 765.000000,32.000000
+[2019.03.04-15.06.12:643][650]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:643][650]LogTemp: Warning: Line Created between points: 763.000000,31.000000 and 761.000000,31.000000
+[2019.03.04-15.06.12:643][650]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:644][650]LogTemp: Warning: Line Created between points: 763.000000,31.000000 and 767.000000,35.000000
+[2019.03.04-15.06.12:644][650]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:644][650]LogTemp: Warning: Line Created between points: 760.000000,29.000000 and 759.000000,33.000000
+[2019.03.04-15.06.12:644][650]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:644][650]LogTemp: Warning: Line Created between points: 746.000000,26.000000 and 751.000000,28.000000
+[2019.03.04-15.06.12:645][650]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:645][650]LogTemp: Warning: Line Created between points: 767.000000,34.000000 and 764.000000,38.000000
+[2019.03.04-15.06.12:645][650]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:692][656]LogTemp: Warning: Line Created between points: 771.000000,32.000000 and 774.000000,37.000000
+[2019.03.04-15.06.12:693][656]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:693][656]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:693][656]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:693][656]LogTemp: Warning: Line Created between points: 764.000000,38.000000 and 762.000000,40.000000
+[2019.03.04-15.06.12:694][656]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:694][656]LogTemp: Warning: Line Created between points: 764.000000,38.000000 and 767.000000,42.000000
+[2019.03.04-15.06.12:694][656]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:694][656]LogTemp: Warning: Line Created between points: 764.000000,38.000000 and 768.000000,40.000000
+[2019.03.04-15.06.12:694][656]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:695][656]LogTemp: Warning: Line Created between points: 752.000000,32.000000 and 754.000000,37.000000
+[2019.03.04-15.06.12:695][656]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:695][656]LogTemp: Warning: Line Created between points: 759.000000,33.000000 and 757.000000,37.000000
+[2019.03.04-15.06.12:695][656]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:695][656]LogTemp: Warning: Line Created between points: 767.000000,35.000000 and 764.000000,37.000000
+[2019.03.04-15.06.12:696][656]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:696][656]LogTemp: Warning: Line Created between points: 761.000000,31.000000 and 757.000000,34.000000
+[2019.03.04-15.06.12:696][656]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:696][656]LogTemp: Warning: Line Created between points: 767.000000,32.000000 and 763.000000,37.000000
+[2019.03.04-15.06.12:696][656]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:697][656]LogTemp: Warning: Line Created between points: 751.000000,28.000000 and 755.000000,31.000000
+[2019.03.04-15.06.12:697][656]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:697][656]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:697][656]LogTemp: Warning: Line Created between points: 741.000000,33.000000 and 738.000000,36.000000
+[2019.03.04-15.06.12:697][656]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:698][656]LogTemp: Warning: Line Created between points: 741.000000,33.000000 and 744.000000,35.000000
+[2019.03.04-15.06.12:698][656]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:698][656]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.12:698][656]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:698][656]LogTemp: Warning: Line Created between points: 765.000000,32.000000 and 761.000000,33.000000
+[2019.03.04-15.06.12:699][656]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:699][656]LogTemp: Warning: Line Created between points: 765.000000,32.000000 and 760.000000,33.000000
+[2019.03.04-15.06.12:699][656]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:747][662]LogTemp: Warning: Line Created between points: 774.000000,37.000000 and 774.000000,41.000000
+[2019.03.04-15.06.12:748][662]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:748][662]LogTemp: Warning: Line Created between points: 768.000000,40.000000 and 763.000000,42.000000
+[2019.03.04-15.06.12:748][662]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:749][662]LogTemp: Warning: Branch Died
+[2019.03.04-15.06.12:749][662]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:749][662]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.12:749][662]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.12:749][662]LogTemp: Warning: Line Created between points: 738.000000,36.000000 and 737.000000,39.000000
+[2019.03.04-15.06.12:749][662]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:750][662]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:750][662]LogTemp: Warning: Line Created between points: 744.000000,35.000000 and 745.000000,36.000000
+[2019.03.04-15.06.12:750][662]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:750][662]LogTemp: Warning: Line Created between points: 744.000000,35.000000 and 740.000000,36.000000
+[2019.03.04-15.06.12:750][662]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:750][662]LogTemp: Warning: Line Created between points: 763.000000,37.000000 and 759.000000,42.000000
+[2019.03.04-15.06.12:751][662]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:751][662]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:751][662]LogTemp: Warning: Line Created between points: 757.000000,34.000000 and 760.000000,38.000000
+[2019.03.04-15.06.12:751][662]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:751][662]LogTemp: Warning: Line Created between points: 757.000000,34.000000 and 756.000000,39.000000
+[2019.03.04-15.06.12:751][662]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:752][662]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.12:752][662]LogTemp: Warning: Line Created between points: 760.000000,33.000000 and 755.000000,35.000000
+[2019.03.04-15.06.12:752][662]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:752][662]LogTemp: Warning: Line Created between points: 755.000000,31.000000 and 753.000000,33.000000
+[2019.03.04-15.06.12:752][662]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:753][662]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.12:753][662]LogTemp: Warning: Line Created between points: 767.000000,42.000000 and 770.000000,43.000000
+[2019.03.04-15.06.12:753][662]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:753][662]LogTemp: Warning: Line Created between points: 757.000000,37.000000 and 762.000000,42.000000
+[2019.03.04-15.06.12:753][662]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:801][668]LogTemp: Warning: Line Created between points: 774.000000,41.000000 and 779.000000,44.000000
+[2019.03.04-15.06.12:801][668]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:801][668]LogTemp: Warning: Line Created between points: 762.000000,42.000000 and 763.000000,45.000000
+[2019.03.04-15.06.12:802][668]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:802][668]LogTemp: Warning: Line Created between points: 770.000000,43.000000 and 765.000000,46.000000
+[2019.03.04-15.06.12:802][668]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:802][668]LogTemp: Warning: Line Created between points: 745.000000,36.000000 and 741.000000,37.000000
+[2019.03.04-15.06.12:802][668]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:803][668]LogTemp: Warning: Branch Died
+[2019.03.04-15.06.12:803][668]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.12:803][668]LogTemp: Warning: Line Created between points: 756.000000,39.000000 and 757.000000,42.000000
+[2019.03.04-15.06.12:803][668]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:803][668]LogTemp: Warning: Line Created between points: 756.000000,39.000000 and 753.000000,41.000000
+[2019.03.04-15.06.12:803][668]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:804][668]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.12:804][668]LogTemp: Warning: Line Created between points: 740.000000,36.000000 and 743.000000,41.000000
+[2019.03.04-15.06.12:804][668]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:804][668]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.12:804][668]LogTemp: Warning: Line Created between points: 763.000000,42.000000 and 768.000000,46.000000
+[2019.03.04-15.06.12:804][668]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:805][668]LogTemp: Warning: Line Created between points: 737.000000,39.000000 and 742.000000,44.000000
+[2019.03.04-15.06.12:805][668]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:805][668]LogTemp: Warning: Line Created between points: 759.000000,42.000000 and 761.000000,46.000000
+[2019.03.04-15.06.12:805][668]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:854][674]LogTemp: Warning: Line Created between points: 779.000000,44.000000 and 774.000000,48.000000
+[2019.03.04-15.06.12:854][674]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:854][674]LogTemp: Warning: Line Created between points: 741.000000,37.000000 and 744.000000,37.000000
+[2019.03.04-15.06.12:854][674]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:855][674]LogTemp: Warning: Line Created between points: 742.000000,44.000000 and 747.000000,49.000000
+[2019.03.04-15.06.12:855][674]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:855][674]LogTemp: Warning: Line Created between points: 768.000000,46.000000 and 772.000000,47.000000
+[2019.03.04-15.06.12:855][674]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:855][674]LogTemp: Warning: Line Created between points: 743.000000,41.000000 and 743.000000,43.000000
+[2019.03.04-15.06.12:856][674]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:856][674]LogTemp: Warning: Line Created between points: 757.000000,42.000000 and 754.000000,42.000000
+[2019.03.04-15.06.12:856][674]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:856][674]LogTemp: Warning: Line Created between points: 761.000000,46.000000 and 765.000000,48.000000
+[2019.03.04-15.06.12:856][674]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:856][674]LogTemp: Warning: Line Created between points: 763.000000,45.000000 and 759.000000,50.000000
+[2019.03.04-15.06.12:856][674]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:856][674]LogTemp: Warning: Line Created between points: 765.000000,46.000000 and 770.000000,49.000000
+[2019.03.04-15.06.12:856][674]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:856][674]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.12:904][680]LogTemp: Warning: Line Created between points: 770.000000,49.000000 and 775.000000,50.000000
+[2019.03.04-15.06.12:904][680]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:904][680]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.12:905][680]LogTemp: Warning: Line Created between points: 759.000000,50.000000 and 755.000000,54.000000
+[2019.03.04-15.06.12:905][680]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:905][680]LogTemp: Warning: Line Created between points: 765.000000,48.000000 and 760.000000,53.000000
+[2019.03.04-15.06.12:905][680]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:905][680]LogTemp: Warning: Line Created between points: 743.000000,43.000000 and 748.000000,43.000000
+[2019.03.04-15.06.12:905][680]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:906][680]LogTemp: Warning: Line Created between points: 772.000000,47.000000 and 768.000000,52.000000
+[2019.03.04-15.06.12:906][680]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:906][680]LogTemp: Warning: Line Created between points: 744.000000,37.000000 and 744.000000,40.000000
+[2019.03.04-15.06.12:906][680]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:906][680]LogTemp: Warning: Line Created between points: 747.000000,49.000000 and 744.000000,50.000000
+[2019.03.04-15.06.12:907][680]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:907][680]LogTemp: Warning: Line Created between points: 754.000000,42.000000 and 751.000000,46.000000
+[2019.03.04-15.06.12:907][680]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:954][686]LogTemp: Warning: Line Created between points: 775.000000,50.000000 and 771.000000,55.000000
+[2019.03.04-15.06.12:955][686]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:955][686]LogTemp: Warning: Line Created between points: 751.000000,46.000000 and 753.000000,49.000000
+[2019.03.04-15.06.12:955][686]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:955][686]LogTemp: Warning: Line Created between points: 744.000000,50.000000 and 744.000000,55.000000
+[2019.03.04-15.06.12:956][686]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:956][686]LogTemp: Warning: Line Created between points: 748.000000,43.000000 and 744.000000,47.000000
+[2019.03.04-15.06.12:956][686]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:956][686]LogTemp: Warning: Line Created between points: 768.000000,52.000000 and 765.000000,54.000000
+[2019.03.04-15.06.12:956][686]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:956][686]LogTemp: Warning: Line Created between points: 755.000000,54.000000 and 751.000000,58.000000
+[2019.03.04-15.06.12:957][686]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:957][686]LogTemp: Warning: Line Created between points: 760.000000,53.000000 and 763.000000,57.000000
+[2019.03.04-15.06.12:957][686]LogTemp: Warning: Recursed
+[2019.03.04-15.06.12:957][686]LogTemp: Warning: Line Created between points: 744.000000,40.000000 and 749.000000,44.000000
+[2019.03.04-15.06.12:957][686]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:005][692]LogTemp: Warning: Line Created between points: 771.000000,55.000000 and 767.000000,58.000000
+[2019.03.04-15.06.13:005][692]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:005][692]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.13:005][692]LogTemp: Warning: Branch Died
+[2019.03.04-15.06.13:005][692]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.13:006][692]LogTemp: Warning: Line Created between points: 744.000000,47.000000 and 749.000000,47.000000
+[2019.03.04-15.06.13:006][692]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:006][692]LogTemp: Warning: Line Created between points: 744.000000,47.000000 and 741.000000,49.000000
+[2019.03.04-15.06.13:006][692]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:006][692]LogTemp: Warning: Line Created between points: 765.000000,54.000000 and 763.000000,55.000000
+[2019.03.04-15.06.13:007][692]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:007][692]LogTemp: Warning: Line Created between points: 753.000000,49.000000 and 750.000000,52.000000
+[2019.03.04-15.06.13:007][692]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:007][692]LogTemp: Warning: Line Created between points: 744.000000,55.000000 and 741.000000,56.000000
+[2019.03.04-15.06.13:007][692]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:008][692]LogTemp: Warning: Line Created between points: 751.000000,58.000000 and 756.000000,61.000000
+[2019.03.04-15.06.13:008][692]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:056][698]LogTemp: Warning: Line Created between points: 767.000000,58.000000 and 764.000000,63.000000
+[2019.03.04-15.06.13:056][698]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:056][698]LogTemp: Warning: Line Created between points: 756.000000,61.000000 and 753.000000,61.000000
+[2019.03.04-15.06.13:056][698]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:057][698]LogTemp: Warning: Branch Died
+[2019.03.04-15.06.13:058][698]LogTemp: Warning: Line Created between points: 750.000000,52.000000 and 751.000000,54.000000
+[2019.03.04-15.06.13:058][698]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:058][698]LogTemp: Warning: Line Created between points: 749.000000,47.000000 and 752.000000,51.000000
+[2019.03.04-15.06.13:059][698]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:059][698]LogTemp: Warning: Line Created between points: 741.000000,49.000000 and 745.000000,50.000000
+[2019.03.04-15.06.13:059][698]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:060][698]LogTemp: Warning: Line Created between points: 741.000000,56.000000 and 742.000000,58.000000
+[2019.03.04-15.06.13:060][698]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:108][704]LogTemp: Warning: Line Created between points: 764.000000,63.000000 and 763.000000,66.000000
+[2019.03.04-15.06.13:108][704]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:108][704]LogTemp: Warning: Line Created between points: 752.000000,51.000000 and 747.000000,56.000000
+[2019.03.04-15.06.13:108][704]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:108][704]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.13:109][704]LogTemp: Warning: Line Created between points: 745.000000,50.000000 and 742.000000,55.000000
+[2019.03.04-15.06.13:109][704]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:109][704]LogTemp: Warning: Line Created between points: 745.000000,50.000000 and 743.000000,51.000000
+[2019.03.04-15.06.13:109][704]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:109][704]LogTemp: Warning: Line Created between points: 753.000000,61.000000 and 752.000000,65.000000
+[2019.03.04-15.06.13:109][704]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:110][704]LogTemp: Warning: Line Created between points: 751.000000,54.000000 and 749.000000,59.000000
+[2019.03.04-15.06.13:110][704]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:110][704]LogTemp: Warning: Line Created between points: 742.000000,58.000000 and 743.000000,63.000000
+[2019.03.04-15.06.13:110][704]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:158][710]LogTemp: Warning: Line Created between points: 763.000000,66.000000 and 764.000000,71.000000
+[2019.03.04-15.06.13:158][710]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:158][710]LogTemp: Warning: Line Created between points: 743.000000,63.000000 and 741.000000,68.000000
+[2019.03.04-15.06.13:159][710]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:159][710]LogTemp: Warning: Line Created between points: 743.000000,51.000000 and 740.000000,53.000000
+[2019.03.04-15.06.13:159][710]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:159][710]LogTemp: Warning: Branch Died
+[2019.03.04-15.06.13:159][710]LogTemp: Warning: Line Created between points: 747.000000,56.000000 and 746.000000,57.000000
+[2019.03.04-15.06.13:160][710]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:160][710]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.13:160][710]LogTemp: Warning: Line Created between points: 742.000000,55.000000 and 739.000000,59.000000
+[2019.03.04-15.06.13:160][710]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:160][710]LogTemp: Warning: Line Created between points: 742.000000,55.000000 and 739.000000,56.000000
+[2019.03.04-15.06.13:160][710]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:161][710]LogTemp: Warning: Line Created between points: 749.000000,59.000000 and 750.000000,59.000000
+[2019.03.04-15.06.13:161][710]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:208][716]LogTemp: Warning: Line Created between points: 750.000000,59.000000 and 748.000000,62.000000
+[2019.03.04-15.06.13:208][716]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:209][716]LogTemp: Warning: Branch Died
+[2019.03.04-15.06.13:209][716]LogTemp: Warning: Line Created between points: 739.000000,59.000000 and 740.000000,61.000000
+[2019.03.04-15.06.13:209][716]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:209][716]LogTemp: Warning: Line Created between points: 746.000000,57.000000 and 748.000000,60.000000
+[2019.03.04-15.06.13:209][716]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:210][716]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.13:210][716]LogTemp: Warning: Branch Died
+[2019.03.04-15.06.13:210][716]LogTemp: Warning: Line Created between points: 741.000000,68.000000 and 742.000000,71.000000
+[2019.03.04-15.06.13:210][716]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:210][716]LogTemp: Warning: Line Created between points: 740.000000,53.000000 and 745.000000,57.000000
+[2019.03.04-15.06.13:210][716]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:211][716]LogTemp: Warning: Line Created between points: 739.000000,56.000000 and 738.000000,58.000000
+[2019.03.04-15.06.13:211][716]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:257][722]LogTemp: Warning: Line Created between points: 748.000000,62.000000 and 749.000000,64.000000
+[2019.03.04-15.06.13:258][722]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:258][722]LogTemp: Warning: Line Created between points: 742.000000,71.000000 and 745.000000,75.000000
+[2019.03.04-15.06.13:258][722]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:258][722]LogTemp: Warning: Line Created between points: 745.000000,57.000000 and 741.000000,58.000000
+[2019.03.04-15.06.13:259][722]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:259][722]LogTemp: Warning: Line Created between points: 740.000000,61.000000 and 744.000000,62.000000
+[2019.03.04-15.06.13:259][722]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:259][722]LogTemp: Warning: Line Created between points: 748.000000,60.000000 and 750.000000,60.000000
+[2019.03.04-15.06.13:259][722]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:259][722]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.13:307][728]LogTemp: Warning: Line Created between points: 749.000000,64.000000 and 753.000000,65.000000
+[2019.03.04-15.06.13:308][728]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:308][728]LogTemp: Warning: Line Created between points: 750.000000,60.000000 and 746.000000,63.000000
+[2019.03.04-15.06.13:308][728]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:308][728]LogTemp: Warning: Line Created between points: 744.000000,62.000000 and 743.000000,66.000000
+[2019.03.04-15.06.13:308][728]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:309][728]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.13:309][728]LogTemp: Warning: Line Created between points: 741.000000,58.000000 and 746.000000,58.000000
+[2019.03.04-15.06.13:309][728]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:309][728]LogTemp: Warning: Line Created between points: 741.000000,58.000000 and 737.000000,61.000000
+[2019.03.04-15.06.13:309][728]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:309][728]LogTemp: Warning: Line Created between points: 745.000000,75.000000 and 743.000000,78.000000
+[2019.03.04-15.06.13:310][728]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:357][734]LogTemp: Warning: Line Created between points: 753.000000,65.000000 and 751.000000,67.000000
+[2019.03.04-15.06.13:358][734]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:358][734]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.13:358][734]LogTemp: Warning: Line Created between points: 737.000000,61.000000 and 734.000000,62.000000
+[2019.03.04-15.06.13:358][734]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:358][734]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.13:358][734]LogTemp: Warning: Line Created between points: 743.000000,66.000000 and 748.000000,66.000000
+[2019.03.04-15.06.13:359][734]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:359][734]LogTemp: Warning: Line Created between points: 743.000000,78.000000 and 748.000000,78.000000
+[2019.03.04-15.06.13:359][734]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:408][740]LogTemp: Warning: Line Created between points: 751.000000,67.000000 and 748.000000,71.000000
+[2019.03.04-15.06.13:408][740]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:408][740]LogTemp: Warning: Line Created between points: 748.000000,78.000000 and 746.000000,82.000000
+[2019.03.04-15.06.13:408][740]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:408][740]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.13:409][740]LogTemp: Warning: Line Created between points: 734.000000,62.000000 and 739.000000,64.000000
+[2019.03.04-15.06.13:409][740]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:457][746]LogTemp: Warning: Line Created between points: 748.000000,71.000000 and 750.000000,71.000000
+[2019.03.04-15.06.13:458][746]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:458][746]LogTemp: Warning: Line Created between points: 739.000000,64.000000 and 735.000000,65.000000
+[2019.03.04-15.06.13:458][746]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:458][746]LogTemp: Warning: Line Created between points: 746.000000,82.000000 and 747.000000,85.000000
+[2019.03.04-15.06.13:458][746]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:507][752]LogTemp: Warning: Line Created between points: 747.000000,85.000000 and 745.000000,89.000000
+[2019.03.04-15.06.13:508][752]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:508][752]LogTemp: Warning: Line Created between points: 750.000000,71.000000 and 751.000000,75.000000
+[2019.03.04-15.06.13:508][752]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:508][752]LogTemp: Warning: Line Created between points: 735.000000,65.000000 and 735.000000,68.000000
+[2019.03.04-15.06.13:509][752]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:558][758]LogTemp: Warning: Line Created between points: 745.000000,89.000000 and 742.000000,92.000000
+[2019.03.04-15.06.13:558][758]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:559][758]LogTemp: Warning: Line Created between points: 735.000000,68.000000 and 737.000000,68.000000
+[2019.03.04-15.06.13:559][758]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:559][758]LogTemp: Warning: Line Created between points: 751.000000,75.000000 and 755.000000,78.000000
+[2019.03.04-15.06.13:559][758]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:608][764]LogTemp: Warning: Line Created between points: 742.000000,92.000000 and 742.000000,97.000000
+[2019.03.04-15.06.13:609][764]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:609][764]LogTemp: Warning: Line Created between points: 755.000000,78.000000 and 757.000000,79.000000
+[2019.03.04-15.06.13:609][764]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:609][764]LogTemp: Warning: Line Created between points: 737.000000,68.000000 and 739.000000,71.000000
+[2019.03.04-15.06.13:609][764]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:657][770]LogTemp: Warning: Line Created between points: 742.000000,97.000000 and 743.000000,98.000000
+[2019.03.04-15.06.13:658][770]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:658][770]LogTemp: Warning: Line Created between points: 739.000000,71.000000 and 734.000000,74.000000
+[2019.03.04-15.06.13:658][770]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:658][770]LogTemp: Warning: Line Created between points: 757.000000,79.000000 and 762.000000,83.000000
+[2019.03.04-15.06.13:659][770]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:708][776]LogTemp: Warning: Line Created between points: 743.000000,98.000000 and 747.000000,99.000000
+[2019.03.04-15.06.13:708][776]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:708][776]LogTemp: Warning: Line Created between points: 762.000000,83.000000 and 761.000000,83.000000
+[2019.03.04-15.06.13:708][776]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:708][776]LogTemp: Warning: Line Created between points: 734.000000,74.000000 and 731.000000,77.000000
+[2019.03.04-15.06.13:709][776]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:757][782]LogTemp: Warning: Line Created between points: 747.000000,99.000000 and 747.000000,103.000000
+[2019.03.04-15.06.13:758][782]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:758][782]LogTemp: Warning: Line Created between points: 731.000000,77.000000 and 726.000000,80.000000
+[2019.03.04-15.06.13:758][782]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:758][782]LogTemp: Warning: Line Created between points: 761.000000,83.000000 and 766.000000,87.000000
+[2019.03.04-15.06.13:758][782]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:808][788]LogTemp: Warning: Line Created between points: 766.000000,87.000000 and 765.000000,89.000000
+[2019.03.04-15.06.13:808][788]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:808][788]LogTemp: Warning: Line Created between points: 747.000000,103.000000 and 742.000000,105.000000
+[2019.03.04-15.06.13:809][788]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:809][788]LogTemp: Warning: Line Created between points: 726.000000,80.000000 and 731.000000,83.000000
+[2019.03.04-15.06.13:809][788]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:858][794]LogTemp: Warning: Line Created between points: 765.000000,89.000000 and 764.000000,90.000000
+[2019.03.04-15.06.13:858][794]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:858][794]LogTemp: Warning: Line Created between points: 731.000000,83.000000 and 727.000000,85.000000
+[2019.03.04-15.06.13:859][794]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:859][794]LogTemp: Warning: Line Created between points: 742.000000,105.000000 and 743.000000,108.000000
+[2019.03.04-15.06.13:859][794]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:908][800]LogTemp: Warning: Line Created between points: 764.000000,90.000000 and 762.000000,95.000000
+[2019.03.04-15.06.13:908][800]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:909][800]LogTemp: Warning: Line Created between points: 743.000000,108.000000 and 740.000000,112.000000
+[2019.03.04-15.06.13:909][800]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:909][800]LogTemp: Warning: Line Created between points: 727.000000,85.000000 and 728.000000,88.000000
+[2019.03.04-15.06.13:909][800]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:958][806]LogTemp: Warning: Line Created between points: 762.000000,95.000000 and 763.000000,98.000000
+[2019.03.04-15.06.13:958][806]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:959][806]LogTemp: Warning: Line Created between points: 728.000000,88.000000 and 724.000000,91.000000
+[2019.03.04-15.06.13:959][806]LogTemp: Warning: Recursed
+[2019.03.04-15.06.13:959][806]LogTemp: Warning: Line Created between points: 740.000000,112.000000 and 735.000000,117.000000
+[2019.03.04-15.06.13:959][806]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:008][812]LogTemp: Warning: Line Created between points: 763.000000,98.000000 and 758.000000,101.000000
+[2019.03.04-15.06.14:008][812]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:008][812]LogTemp: Warning: Line Created between points: 735.000000,117.000000 and 739.000000,120.000000
+[2019.03.04-15.06.14:008][812]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:008][812]LogTemp: Warning: Line Created between points: 724.000000,91.000000 and 721.000000,93.000000
+[2019.03.04-15.06.14:009][812]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:057][818]LogTemp: Warning: Line Created between points: 758.000000,101.000000 and 757.000000,105.000000
+[2019.03.04-15.06.14:058][818]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:058][818]LogTemp: Warning: Line Created between points: 721.000000,93.000000 and 724.000000,94.000000
+[2019.03.04-15.06.14:058][818]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:058][818]LogTemp: Warning: Line Created between points: 739.000000,120.000000 and 734.000000,124.000000
+[2019.03.04-15.06.14:058][818]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:108][824]LogTemp: Warning: Line Created between points: 734.000000,124.000000 and 739.000000,126.000000
+[2019.03.04-15.06.14:108][824]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:108][824]LogTemp: Warning: Line Created between points: 757.000000,105.000000 and 757.000000,106.000000
+[2019.03.04-15.06.14:108][824]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:108][824]LogTemp: Warning: Line Created between points: 724.000000,94.000000 and 729.000000,97.000000
+[2019.03.04-15.06.14:109][824]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:158][830]LogTemp: Warning: Line Created between points: 739.000000,126.000000 and 734.000000,127.000000
+[2019.03.04-15.06.14:158][830]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:158][830]LogTemp: Warning: Line Created between points: 729.000000,97.000000 and 727.000000,102.000000
+[2019.03.04-15.06.14:158][830]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:159][830]LogTemp: Warning: Line Created between points: 757.000000,106.000000 and 754.000000,108.000000
+[2019.03.04-15.06.14:159][830]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:208][836]LogTemp: Warning: Line Created between points: 734.000000,127.000000 and 734.000000,130.000000
+[2019.03.04-15.06.14:208][836]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:208][836]LogTemp: Warning: Line Created between points: 754.000000,108.000000 and 754.000000,109.000000
+[2019.03.04-15.06.14:208][836]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:209][836]LogTemp: Warning: Line Created between points: 727.000000,102.000000 and 731.000000,107.000000
+[2019.03.04-15.06.14:209][836]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:259][842]LogTemp: Warning: Line Created between points: 734.000000,130.000000 and 736.000000,130.000000
+[2019.03.04-15.06.14:259][842]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:259][842]LogTemp: Warning: Line Created between points: 731.000000,107.000000 and 733.000000,111.000000
+[2019.03.04-15.06.14:259][842]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:260][842]LogTemp: Warning: Branch Died
+[2019.03.04-15.06.14:308][848]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.14:309][848]LogTemp: Warning: Line Created between points: 736.000000,130.000000 and 740.000000,132.000000
+[2019.03.04-15.06.14:309][848]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:309][848]LogTemp: Warning: Line Created between points: 736.000000,130.000000 and 741.000000,130.000000
+[2019.03.04-15.06.14:309][848]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:309][848]LogTemp: Warning: Line Created between points: 733.000000,111.000000 and 737.000000,116.000000
+[2019.03.04-15.06.14:310][848]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:358][854]LogTemp: Warning: Line Created between points: 740.000000,132.000000 and 743.000000,132.000000
+[2019.03.04-15.06.14:359][854]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:359][854]LogTemp: Warning: Line Created between points: 737.000000,116.000000 and 739.000000,118.000000
+[2019.03.04-15.06.14:359][854]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:359][854]LogTemp: Warning: Line Created between points: 741.000000,130.000000 and 746.000000,133.000000
+[2019.03.04-15.06.14:359][854]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:407][860]LogTemp: Warning: Line Created between points: 746.000000,133.000000 and 741.000000,136.000000
+[2019.03.04-15.06.14:408][860]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:408][860]LogTemp: Warning: Line Created between points: 743.000000,132.000000 and 741.000000,133.000000
+[2019.03.04-15.06.14:408][860]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:408][860]LogTemp: Warning: Line Created between points: 739.000000,118.000000 and 740.000000,123.000000
+[2019.03.04-15.06.14:408][860]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:457][866]LogTemp: Warning: Line Created between points: 741.000000,136.000000 and 740.000000,140.000000
+[2019.03.04-15.06.14:458][866]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:458][866]LogTemp: Warning: Line Created between points: 740.000000,123.000000 and 744.000000,126.000000
+[2019.03.04-15.06.14:458][866]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:458][866]LogTemp: Warning: Line Created between points: 741.000000,133.000000 and 746.000000,136.000000
+[2019.03.04-15.06.14:459][866]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:508][872]LogTemp: Warning: Line Created between points: 740.000000,140.000000 and 737.000000,142.000000
+[2019.03.04-15.06.14:508][872]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:508][872]LogTemp: Warning: Line Created between points: 746.000000,136.000000 and 751.000000,140.000000
+[2019.03.04-15.06.14:509][872]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:509][872]LogTemp: Warning: Line Created between points: 744.000000,126.000000 and 749.000000,127.000000
+[2019.03.04-15.06.14:509][872]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:558][878]LogTemp: Warning: Line Created between points: 737.000000,142.000000 and 741.000000,144.000000
+[2019.03.04-15.06.14:558][878]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:558][878]LogTemp: Warning: Line Created between points: 749.000000,127.000000 and 749.000000,129.000000
+[2019.03.04-15.06.14:559][878]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:559][878]LogTemp: Warning: Line Created between points: 751.000000,140.000000 and 746.000000,142.000000
+[2019.03.04-15.06.14:559][878]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:608][884]LogTemp: Warning: Line Created between points: 741.000000,144.000000 and 743.000000,148.000000
+[2019.03.04-15.06.14:608][884]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:608][884]LogTemp: Warning: Line Created between points: 746.000000,142.000000 and 741.000000,146.000000
+[2019.03.04-15.06.14:609][884]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:609][884]LogTemp: Warning: Line Created between points: 749.000000,129.000000 and 750.000000,131.000000
+[2019.03.04-15.06.14:609][884]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:659][890]LogTemp: Warning: Line Created between points: 743.000000,148.000000 and 746.000000,152.000000
+[2019.03.04-15.06.14:659][890]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:659][890]LogTemp: Warning: Line Created between points: 750.000000,131.000000 and 755.000000,135.000000
+[2019.03.04-15.06.14:659][890]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:659][890]LogTemp: Warning: Line Created between points: 741.000000,146.000000 and 741.000000,150.000000
+[2019.03.04-15.06.14:660][890]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:709][896]LogTemp: Warning: Line Created between points: 741.000000,150.000000 and 737.000000,151.000000
+[2019.03.04-15.06.14:709][896]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:709][896]LogTemp: Warning: Line Created between points: 746.000000,152.000000 and 749.000000,156.000000
+[2019.03.04-15.06.14:710][896]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:710][896]LogTemp: Warning: Line Created between points: 755.000000,135.000000 and 755.000000,138.000000
+[2019.03.04-15.06.14:710][896]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:758][902]LogTemp: Warning: Line Created between points: 737.000000,151.000000 and 741.000000,154.000000
+[2019.03.04-15.06.14:758][902]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:758][902]LogTemp: Warning: Line Created between points: 755.000000,138.000000 and 758.000000,139.000000
+[2019.03.04-15.06.14:759][902]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:759][902]LogTemp: Warning: Line Created between points: 749.000000,156.000000 and 747.000000,158.000000
+[2019.03.04-15.06.14:759][902]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:808][908]LogTemp: Warning: Line Created between points: 741.000000,154.000000 and 739.000000,157.000000
+[2019.03.04-15.06.14:808][908]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:808][908]LogTemp: Warning: Line Created between points: 747.000000,158.000000 and 751.000000,160.000000
+[2019.03.04-15.06.14:809][908]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:809][908]LogTemp: Warning: Line Created between points: 758.000000,139.000000 and 761.000000,142.000000
+[2019.03.04-15.06.14:809][908]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:858][914]LogTemp: Warning: Line Created between points: 739.000000,157.000000 and 739.000000,161.000000
+[2019.03.04-15.06.14:859][914]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:859][914]LogTemp: Warning: Line Created between points: 761.000000,142.000000 and 757.000000,146.000000
+[2019.03.04-15.06.14:859][914]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:859][914]LogTemp: Warning: Line Created between points: 751.000000,160.000000 and 747.000000,161.000000
+[2019.03.04-15.06.14:859][914]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:909][920]LogTemp: Warning: Line Created between points: 739.000000,161.000000 and 738.000000,163.000000
+[2019.03.04-15.06.14:909][920]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:909][920]LogTemp: Warning: Line Created between points: 747.000000,161.000000 and 751.000000,165.000000
+[2019.03.04-15.06.14:909][920]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:910][920]LogTemp: Warning: Line Created between points: 757.000000,146.000000 and 758.000000,150.000000
+[2019.03.04-15.06.14:910][920]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:960][926]LogTemp: Warning: Line Created between points: 738.000000,163.000000 and 743.000000,163.000000
+[2019.03.04-15.06.14:960][926]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:961][926]LogTemp: Warning: Line Created between points: 758.000000,150.000000 and 755.000000,150.000000
+[2019.03.04-15.06.14:961][926]LogTemp: Warning: Recursed
+[2019.03.04-15.06.14:961][926]LogTemp: Warning: Line Created between points: 751.000000,165.000000 and 755.000000,170.000000
+[2019.03.04-15.06.14:961][926]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:010][932]LogTemp: Warning: Line Created between points: 755.000000,170.000000 and 752.000000,173.000000
+[2019.03.04-15.06.15:011][932]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:011][932]LogTemp: Warning: Line Created between points: 743.000000,163.000000 and 739.000000,165.000000
+[2019.03.04-15.06.15:011][932]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:011][932]LogTemp: Warning: Line Created between points: 755.000000,150.000000 and 757.000000,152.000000
+[2019.03.04-15.06.15:011][932]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:060][938]LogTemp: Warning: Line Created between points: 752.000000,173.000000 and 748.000000,177.000000
+[2019.03.04-15.06.15:060][938]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:060][938]LogTemp: Warning: Line Created between points: 757.000000,152.000000 and 754.000000,153.000000
+[2019.03.04-15.06.15:060][938]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:061][938]LogTemp: Warning: Line Created between points: 739.000000,165.000000 and 739.000000,169.000000
+[2019.03.04-15.06.15:061][938]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:110][944]LogTemp: Warning: Line Created between points: 748.000000,177.000000 and 752.000000,181.000000
+[2019.03.04-15.06.15:111][944]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:111][944]LogTemp: Warning: Line Created between points: 739.000000,169.000000 and 737.000000,174.000000
+[2019.03.04-15.06.15:111][944]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:111][944]LogTemp: Warning: Line Created between points: 754.000000,153.000000 and 755.000000,154.000000
+[2019.03.04-15.06.15:111][944]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:161][950]LogTemp: Warning: Line Created between points: 752.000000,181.000000 and 751.000000,185.000000
+[2019.03.04-15.06.15:161][950]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:162][950]LogTemp: Warning: Line Created between points: 755.000000,154.000000 and 756.000000,156.000000
+[2019.03.04-15.06.15:162][950]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:162][950]LogTemp: Warning: Line Created between points: 737.000000,174.000000 and 742.000000,174.000000
+[2019.03.04-15.06.15:162][950]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:211][956]LogTemp: Warning: Line Created between points: 751.000000,185.000000 and 750.000000,187.000000
+[2019.03.04-15.06.15:211][956]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:212][956]LogTemp: Warning: Line Created between points: 742.000000,174.000000 and 743.000000,176.000000
+[2019.03.04-15.06.15:212][956]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:212][956]LogTemp: Warning: Line Created between points: 756.000000,156.000000 and 757.000000,158.000000
+[2019.03.04-15.06.15:212][956]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:261][962]LogTemp: Warning: Line Created between points: 750.000000,187.000000 and 745.000000,189.000000
+[2019.03.04-15.06.15:262][962]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:262][962]LogTemp: Warning: Line Created between points: 757.000000,158.000000 and 762.000000,161.000000
+[2019.03.04-15.06.15:262][962]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:262][962]LogTemp: Warning: Line Created between points: 743.000000,176.000000 and 748.000000,178.000000
+[2019.03.04-15.06.15:262][962]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:310][968]LogTemp: Warning: Line Created between points: 748.000000,178.000000 and 747.000000,183.000000
+[2019.03.04-15.06.15:311][968]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:311][968]LogTemp: Warning: Line Created between points: 745.000000,189.000000 and 747.000000,189.000000
+[2019.03.04-15.06.15:311][968]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:311][968]LogTemp: Warning: Line Created between points: 762.000000,161.000000 and 764.000000,162.000000
+[2019.03.04-15.06.15:311][968]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:361][974]LogTemp: Warning: Line Created between points: 747.000000,183.000000 and 742.000000,186.000000
+[2019.03.04-15.06.15:361][974]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:361][974]LogTemp: Warning: Line Created between points: 764.000000,162.000000 and 769.000000,164.000000
+[2019.03.04-15.06.15:362][974]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:362][974]LogTemp: Warning: Line Created between points: 747.000000,189.000000 and 752.000000,189.000000
+[2019.03.04-15.06.15:362][974]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:411][980]LogTemp: Warning: Line Created between points: 742.000000,186.000000 and 744.000000,187.000000
+[2019.03.04-15.06.15:411][980]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:411][980]LogTemp: Warning: Branch Died
+[2019.03.04-15.06.15:412][980]LogTemp: Warning: Line Created between points: 769.000000,164.000000 and 767.000000,167.000000
+[2019.03.04-15.06.15:412][980]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:461][986]LogTemp: Warning: Branch Created
+[2019.03.04-15.06.15:461][986]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.15:461][986]LogTemp: Warning: Line Created between points: 744.000000,187.000000 and 742.000000,188.000000
+[2019.03.04-15.06.15:461][986]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:461][986]LogTemp: Warning: Line Created between points: 767.000000,167.000000 and 770.000000,172.000000
+[2019.03.04-15.06.15:462][986]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:511][992]LogTemp: Warning: Line Created between points: 742.000000,188.000000 and 746.000000,188.000000
+[2019.03.04-15.06.15:511][992]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:512][992]LogTemp: Warning: Line Created between points: 770.000000,172.000000 and 766.000000,174.000000
+[2019.03.04-15.06.15:512][992]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:561][998]LogTemp: Warning: Line Created between points: 746.000000,188.000000 and 747.000000,193.000000
+[2019.03.04-15.06.15:561][998]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:561][998]LogTemp: Warning: Line Created between points: 766.000000,174.000000 and 761.000000,174.000000
+[2019.03.04-15.06.15:562][998]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:611][  4]LogTemp: Warning: Line Created between points: 747.000000,193.000000 and 743.000000,194.000000
+[2019.03.04-15.06.15:611][  4]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:611][  4]LogTemp: Warning: Line Created between points: 761.000000,174.000000 and 759.000000,177.000000
+[2019.03.04-15.06.15:612][  4]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:661][ 10]LogTemp: Warning: Line Created between points: 743.000000,194.000000 and 747.000000,199.000000
+[2019.03.04-15.06.15:662][ 10]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:662][ 10]LogTemp: Warning: Line Created between points: 759.000000,177.000000 and 756.000000,182.000000
+[2019.03.04-15.06.15:662][ 10]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:710][ 16]LogTemp: Warning: Line Created between points: 747.000000,199.000000 and 746.000000,204.000000
+[2019.03.04-15.06.15:711][ 16]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:711][ 16]LogTemp: Warning: Line Created between points: 756.000000,182.000000 and 761.000000,184.000000
+[2019.03.04-15.06.15:711][ 16]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:762][ 22]LogTemp: Warning: Line Created between points: 746.000000,204.000000 and 747.000000,204.000000
+[2019.03.04-15.06.15:762][ 22]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:762][ 22]LogTemp: Warning: Line Created between points: 761.000000,184.000000 and 760.000000,187.000000
+[2019.03.04-15.06.15:762][ 22]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:811][ 28]LogTemp: Warning: Line Created between points: 747.000000,204.000000 and 747.000000,209.000000
+[2019.03.04-15.06.15:811][ 28]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:812][ 28]LogTemp: Warning: Line Created between points: 760.000000,187.000000 and 757.000000,189.000000
+[2019.03.04-15.06.15:812][ 28]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:861][ 34]LogTemp: Warning: Line Created between points: 747.000000,209.000000 and 751.000000,214.000000
+[2019.03.04-15.06.15:862][ 34]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:862][ 34]LogTemp: Warning: Line Created between points: 757.000000,189.000000 and 762.000000,193.000000
+[2019.03.04-15.06.15:862][ 34]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:910][ 40]LogTemp: Warning: Line Created between points: 751.000000,214.000000 and 755.000000,217.000000
+[2019.03.04-15.06.15:911][ 40]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:911][ 40]LogTemp: Warning: Line Created between points: 762.000000,193.000000 and 758.000000,198.000000
+[2019.03.04-15.06.15:911][ 40]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:961][ 46]LogTemp: Warning: Line Created between points: 755.000000,217.000000 and 758.000000,221.000000
+[2019.03.04-15.06.15:961][ 46]LogTemp: Warning: Recursed
+[2019.03.04-15.06.15:961][ 46]LogTemp: Warning: Line Created between points: 758.000000,198.000000 and 753.000000,202.000000
+[2019.03.04-15.06.15:962][ 46]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:011][ 52]LogTemp: Warning: Line Created between points: 758.000000,221.000000 and 753.000000,225.000000
+[2019.03.04-15.06.16:011][ 52]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:011][ 52]LogTemp: Warning: Line Created between points: 753.000000,202.000000 and 756.000000,205.000000
+[2019.03.04-15.06.16:011][ 52]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:061][ 58]LogTemp: Warning: Line Created between points: 753.000000,225.000000 and 751.000000,229.000000
+[2019.03.04-15.06.16:061][ 58]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:061][ 58]LogTemp: Warning: Line Created between points: 756.000000,205.000000 and 753.000000,210.000000
+[2019.03.04-15.06.16:062][ 58]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:111][ 64]LogTemp: Warning: Line Created between points: 751.000000,229.000000 and 747.000000,231.000000
+[2019.03.04-15.06.16:112][ 64]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:112][ 64]LogTemp: Warning: Line Created between points: 753.000000,210.000000 and 748.000000,211.000000
+[2019.03.04-15.06.16:112][ 64]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:162][ 70]LogTemp: Warning: Line Created between points: 747.000000,231.000000 and 744.000000,233.000000
+[2019.03.04-15.06.16:162][ 70]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:162][ 70]LogTemp: Warning: Line Created between points: 748.000000,211.000000 and 747.000000,213.000000
+[2019.03.04-15.06.16:162][ 70]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:213][ 76]LogTemp: Warning: Line Created between points: 744.000000,233.000000 and 749.000000,233.000000
+[2019.03.04-15.06.16:214][ 76]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:214][ 76]LogTemp: Warning: Line Created between points: 747.000000,213.000000 and 744.000000,214.000000
+[2019.03.04-15.06.16:214][ 76]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:262][ 82]LogTemp: Warning: Line Created between points: 749.000000,233.000000 and 751.000000,234.000000
+[2019.03.04-15.06.16:263][ 82]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:263][ 82]LogTemp: Warning: Line Created between points: 744.000000,214.000000 and 739.000000,218.000000
+[2019.03.04-15.06.16:263][ 82]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:313][ 88]LogTemp: Warning: Line Created between points: 751.000000,234.000000 and 746.000000,239.000000
+[2019.03.04-15.06.16:313][ 88]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:313][ 88]LogTemp: Warning: Line Created between points: 739.000000,218.000000 and 734.000000,219.000000
+[2019.03.04-15.06.16:313][ 88]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:363][ 94]LogTemp: Warning: Line Created between points: 746.000000,239.000000 and 742.000000,241.000000
+[2019.03.04-15.06.16:363][ 94]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:363][ 94]LogTemp: Warning: Line Created between points: 734.000000,219.000000 and 737.000000,223.000000
+[2019.03.04-15.06.16:363][ 94]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:413][100]LogTemp: Warning: Line Created between points: 742.000000,241.000000 and 743.000000,245.000000
+[2019.03.04-15.06.16:413][100]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:413][100]LogTemp: Warning: Line Created between points: 737.000000,223.000000 and 737.000000,224.000000
+[2019.03.04-15.06.16:414][100]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:463][106]LogTemp: Warning: Line Created between points: 743.000000,245.000000 and 747.000000,248.000000
+[2019.03.04-15.06.16:463][106]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:464][106]LogTemp: Warning: Line Created between points: 737.000000,224.000000 and 732.000000,227.000000
+[2019.03.04-15.06.16:464][106]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:513][112]LogTemp: Warning: Line Created between points: 747.000000,248.000000 and 751.000000,248.000000
+[2019.03.04-15.06.16:513][112]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:514][112]LogTemp: Warning: Line Created between points: 732.000000,227.000000 and 727.000000,229.000000
+[2019.03.04-15.06.16:514][112]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:563][118]LogTemp: Warning: Line Created between points: 751.000000,248.000000 and 749.000000,253.000000
+[2019.03.04-15.06.16:563][118]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:564][118]LogTemp: Warning: Line Created between points: 727.000000,229.000000 and 729.000000,234.000000
+[2019.03.04-15.06.16:564][118]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:613][124]LogTemp: Warning: Line Created between points: 749.000000,253.000000 and 752.000000,254.000000
+[2019.03.04-15.06.16:614][124]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:614][124]LogTemp: Warning: Line Created between points: 729.000000,234.000000 and 732.000000,234.000000
+[2019.03.04-15.06.16:614][124]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:662][130]LogTemp: Warning: Line Created between points: 752.000000,254.000000 and 750.000000,259.000000
+[2019.03.04-15.06.16:663][130]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:663][130]LogTemp: Warning: Line Created between points: 732.000000,234.000000 and 727.000000,239.000000
+[2019.03.04-15.06.16:663][130]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:713][136]LogTemp: Warning: Line Created between points: 750.000000,259.000000 and 748.000000,263.000000
+[2019.03.04-15.06.16:713][136]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:713][136]LogTemp: Warning: Line Created between points: 727.000000,239.000000 and 728.000000,243.000000
+[2019.03.04-15.06.16:714][136]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:764][142]LogTemp: Warning: Line Created between points: 748.000000,263.000000 and 746.000000,266.000000
+[2019.03.04-15.06.16:764][142]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:764][142]LogTemp: Warning: Line Created between points: 728.000000,243.000000 and 730.000000,246.000000
+[2019.03.04-15.06.16:764][142]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:814][148]LogTemp: Warning: Line Created between points: 746.000000,266.000000 and 750.000000,271.000000
+[2019.03.04-15.06.16:814][148]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:814][148]LogTemp: Warning: Line Created between points: 730.000000,246.000000 and 731.000000,249.000000
+[2019.03.04-15.06.16:815][148]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:864][154]LogTemp: Warning: Line Created between points: 750.000000,271.000000 and 750.000000,275.000000
+[2019.03.04-15.06.16:864][154]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:864][154]LogTemp: Warning: Line Created between points: 731.000000,249.000000 and 733.000000,251.000000
+[2019.03.04-15.06.16:865][154]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:913][160]LogTemp: Warning: Line Created between points: 750.000000,275.000000 and 752.000000,276.000000
+[2019.03.04-15.06.16:913][160]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:914][160]LogTemp: Warning: Line Created between points: 733.000000,251.000000 and 736.000000,256.000000
+[2019.03.04-15.06.16:914][160]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:963][166]LogTemp: Warning: Line Created between points: 752.000000,276.000000 and 754.000000,281.000000
+[2019.03.04-15.06.16:964][166]LogTemp: Warning: Recursed
+[2019.03.04-15.06.16:964][166]LogTemp: Warning: Line Created between points: 736.000000,256.000000 and 737.000000,261.000000
+[2019.03.04-15.06.16:964][166]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:013][172]LogTemp: Warning: Line Created between points: 754.000000,281.000000 and 759.000000,282.000000
+[2019.03.04-15.06.17:014][172]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:014][172]LogTemp: Warning: Line Created between points: 737.000000,261.000000 and 740.000000,264.000000
+[2019.03.04-15.06.17:014][172]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:064][178]LogTemp: Warning: Line Created between points: 759.000000,282.000000 and 756.000000,287.000000
+[2019.03.04-15.06.17:064][178]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:064][178]LogTemp: Warning: Line Created between points: 740.000000,264.000000 and 735.000000,269.000000
+[2019.03.04-15.06.17:064][178]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:114][184]LogTemp: Warning: Line Created between points: 756.000000,287.000000 and 753.000000,289.000000
+[2019.03.04-15.06.17:114][184]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:114][184]LogTemp: Warning: Line Created between points: 735.000000,269.000000 and 738.000000,270.000000
+[2019.03.04-15.06.17:114][184]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:164][190]LogTemp: Warning: Line Created between points: 753.000000,289.000000 and 749.000000,291.000000
+[2019.03.04-15.06.17:164][190]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:164][190]LogTemp: Warning: Line Created between points: 738.000000,270.000000 and 735.000000,273.000000
+[2019.03.04-15.06.17:165][190]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:214][196]LogTemp: Warning: Line Created between points: 749.000000,291.000000 and 748.000000,293.000000
+[2019.03.04-15.06.17:214][196]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:214][196]LogTemp: Warning: Line Created between points: 735.000000,273.000000 and 735.000000,277.000000
+[2019.03.04-15.06.17:215][196]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:264][202]LogTemp: Warning: Line Created between points: 748.000000,293.000000 and 743.000000,298.000000
+[2019.03.04-15.06.17:264][202]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:264][202]LogTemp: Warning: Line Created between points: 735.000000,277.000000 and 736.000000,281.000000
+[2019.03.04-15.06.17:264][202]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:314][208]LogTemp: Warning: Line Created between points: 743.000000,298.000000 and 742.000000,301.000000
+[2019.03.04-15.06.17:314][208]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:314][208]LogTemp: Warning: Line Created between points: 736.000000,281.000000 and 737.000000,281.000000
+[2019.03.04-15.06.17:315][208]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:364][214]LogTemp: Warning: Line Created between points: 742.000000,301.000000 and 737.000000,303.000000
+[2019.03.04-15.06.17:364][214]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:365][214]LogTemp: Warning: Line Created between points: 737.000000,281.000000 and 733.000000,283.000000
+[2019.03.04-15.06.17:365][214]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:413][220]LogTemp: Warning: Line Created between points: 737.000000,303.000000 and 737.000000,307.000000
+[2019.03.04-15.06.17:414][220]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:414][220]LogTemp: Warning: Line Created between points: 733.000000,283.000000 and 738.000000,286.000000
+[2019.03.04-15.06.17:414][220]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:463][226]LogTemp: Warning: Line Created between points: 737.000000,307.000000 and 734.000000,310.000000
+[2019.03.04-15.06.17:464][226]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:464][226]LogTemp: Warning: Line Created between points: 738.000000,286.000000 and 740.000000,291.000000
+[2019.03.04-15.06.17:464][226]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:514][232]LogTemp: Warning: Line Created between points: 734.000000,310.000000 and 734.000000,313.000000
+[2019.03.04-15.06.17:514][232]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:514][232]LogTemp: Warning: Line Created between points: 740.000000,291.000000 and 745.000000,294.000000
+[2019.03.04-15.06.17:514][232]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:564][238]LogTemp: Warning: Line Created between points: 734.000000,313.000000 and 730.000000,317.000000
+[2019.03.04-15.06.17:564][238]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:564][238]LogTemp: Warning: Line Created between points: 745.000000,294.000000 and 746.000000,295.000000
+[2019.03.04-15.06.17:564][238]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:614][244]LogTemp: Warning: Line Created between points: 730.000000,317.000000 and 729.000000,319.000000
+[2019.03.04-15.06.17:614][244]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:614][244]LogTemp: Warning: Line Created between points: 746.000000,295.000000 and 751.000000,297.000000
+[2019.03.04-15.06.17:615][244]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:664][250]LogTemp: Warning: Line Created between points: 729.000000,319.000000 and 725.000000,324.000000
+[2019.03.04-15.06.17:664][250]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:664][250]LogTemp: Warning: Line Created between points: 751.000000,297.000000 and 751.000000,299.000000
+[2019.03.04-15.06.17:665][250]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:714][256]LogTemp: Warning: Line Created between points: 725.000000,324.000000 and 722.000000,325.000000
+[2019.03.04-15.06.17:715][256]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:715][256]LogTemp: Warning: Line Created between points: 751.000000,299.000000 and 752.000000,301.000000
+[2019.03.04-15.06.17:715][256]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:763][262]LogTemp: Warning: Line Created between points: 722.000000,325.000000 and 725.000000,325.000000
+[2019.03.04-15.06.17:764][262]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:764][262]LogTemp: Warning: Line Created between points: 752.000000,301.000000 and 752.000000,302.000000
+[2019.03.04-15.06.17:764][262]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:814][268]LogTemp: Warning: Line Created between points: 725.000000,325.000000 and 722.000000,329.000000
+[2019.03.04-15.06.17:814][268]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:814][268]LogTemp: Warning: Line Created between points: 752.000000,302.000000 and 751.000000,307.000000
+[2019.03.04-15.06.17:815][268]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:864][274]LogTemp: Warning: Line Created between points: 722.000000,329.000000 and 727.000000,329.000000
+[2019.03.04-15.06.17:864][274]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:864][274]LogTemp: Warning: Line Created between points: 751.000000,307.000000 and 752.000000,310.000000
+[2019.03.04-15.06.17:865][274]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:914][280]LogTemp: Warning: Line Created between points: 727.000000,329.000000 and 722.000000,334.000000
+[2019.03.04-15.06.17:914][280]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:915][280]LogTemp: Warning: Line Created between points: 752.000000,310.000000 and 750.000000,314.000000
+[2019.03.04-15.06.17:915][280]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:964][286]LogTemp: Warning: Line Created between points: 722.000000,334.000000 and 717.000000,335.000000
+[2019.03.04-15.06.17:965][286]LogTemp: Warning: Recursed
+[2019.03.04-15.06.17:965][286]LogTemp: Warning: Line Created between points: 750.000000,314.000000 and 747.000000,318.000000
+[2019.03.04-15.06.17:965][286]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:014][292]LogTemp: Warning: Line Created between points: 717.000000,335.000000 and 713.000000,340.000000
+[2019.03.04-15.06.18:014][292]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:014][292]LogTemp: Warning: Line Created between points: 747.000000,318.000000 and 748.000000,320.000000
+[2019.03.04-15.06.18:015][292]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:064][298]LogTemp: Warning: Line Created between points: 713.000000,340.000000 and 718.000000,342.000000
+[2019.03.04-15.06.18:064][298]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:065][298]LogTemp: Warning: Line Created between points: 748.000000,320.000000 and 745.000000,321.000000
+[2019.03.04-15.06.18:065][298]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:114][304]LogTemp: Warning: Line Created between points: 718.000000,342.000000 and 722.000000,344.000000
+[2019.03.04-15.06.18:114][304]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:115][304]LogTemp: Warning: Line Created between points: 745.000000,321.000000 and 744.000000,323.000000
+[2019.03.04-15.06.18:115][304]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:165][310]LogTemp: Warning: Line Created between points: 722.000000,344.000000 and 727.000000,344.000000
+[2019.03.04-15.06.18:165][310]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:165][310]LogTemp: Warning: Line Created between points: 744.000000,323.000000 and 745.000000,324.000000
+[2019.03.04-15.06.18:166][310]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:214][316]LogTemp: Warning: Line Created between points: 727.000000,344.000000 and 732.000000,345.000000
+[2019.03.04-15.06.18:214][316]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:214][316]LogTemp: Warning: Line Created between points: 745.000000,324.000000 and 747.000000,329.000000
+[2019.03.04-15.06.18:215][316]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:264][322]LogTemp: Warning: Line Created between points: 732.000000,345.000000 and 733.000000,346.000000
+[2019.03.04-15.06.18:265][322]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:265][322]LogTemp: Warning: Line Created between points: 747.000000,329.000000 and 748.000000,334.000000
+[2019.03.04-15.06.18:265][322]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:314][328]LogTemp: Warning: Line Created between points: 733.000000,346.000000 and 734.000000,348.000000
+[2019.03.04-15.06.18:315][328]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:315][328]LogTemp: Warning: Line Created between points: 748.000000,334.000000 and 745.000000,338.000000
+[2019.03.04-15.06.18:315][328]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:364][334]LogTemp: Warning: Line Created between points: 734.000000,348.000000 and 732.000000,351.000000
+[2019.03.04-15.06.18:365][334]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:365][334]LogTemp: Warning: Line Created between points: 745.000000,338.000000 and 747.000000,339.000000
+[2019.03.04-15.06.18:365][334]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:415][340]LogTemp: Warning: Line Created between points: 732.000000,351.000000 and 731.000000,354.000000
+[2019.03.04-15.06.18:415][340]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:415][340]LogTemp: Warning: Line Created between points: 747.000000,339.000000 and 748.000000,342.000000
+[2019.03.04-15.06.18:415][340]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:465][346]LogTemp: Warning: Line Created between points: 731.000000,354.000000 and 727.000000,359.000000
+[2019.03.04-15.06.18:465][346]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:466][346]LogTemp: Warning: Line Created between points: 748.000000,342.000000 and 744.000000,347.000000
+[2019.03.04-15.06.18:466][346]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:515][352]LogTemp: Warning: Line Created between points: 727.000000,359.000000 and 731.000000,364.000000
+[2019.03.04-15.06.18:515][352]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:515][352]LogTemp: Warning: Line Created between points: 744.000000,347.000000 and 746.000000,348.000000
+[2019.03.04-15.06.18:516][352]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:564][358]LogTemp: Warning: Line Created between points: 731.000000,364.000000 and 734.000000,368.000000
+[2019.03.04-15.06.18:564][358]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:564][358]LogTemp: Warning: Line Created between points: 746.000000,348.000000 and 744.000000,351.000000
+[2019.03.04-15.06.18:565][358]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:614][364]LogTemp: Warning: Line Created between points: 734.000000,368.000000 and 736.000000,368.000000
+[2019.03.04-15.06.18:614][364]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:615][364]LogTemp: Warning: Line Created between points: 744.000000,351.000000 and 743.000000,356.000000
+[2019.03.04-15.06.18:615][364]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:665][370]LogTemp: Warning: Line Created between points: 736.000000,368.000000 and 739.000000,373.000000
+[2019.03.04-15.06.18:665][370]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:665][370]LogTemp: Warning: Line Created between points: 743.000000,356.000000 and 745.000000,359.000000
+[2019.03.04-15.06.18:665][370]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:714][376]LogTemp: Warning: Line Created between points: 739.000000,373.000000 and 740.000000,377.000000
+[2019.03.04-15.06.18:715][376]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:715][376]LogTemp: Warning: Line Created between points: 745.000000,359.000000 and 742.000000,362.000000
+[2019.03.04-15.06.18:715][376]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:764][382]LogTemp: Warning: Line Created between points: 740.000000,377.000000 and 739.000000,382.000000
+[2019.03.04-15.06.18:764][382]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:765][382]LogTemp: Warning: Line Created between points: 742.000000,362.000000 and 745.000000,367.000000
+[2019.03.04-15.06.18:765][382]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:814][388]LogTemp: Warning: Line Created between points: 739.000000,382.000000 and 736.000000,385.000000
+[2019.03.04-15.06.18:814][388]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:815][388]LogTemp: Warning: Line Created between points: 745.000000,367.000000 and 745.000000,369.000000
+[2019.03.04-15.06.18:815][388]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:864][394]LogTemp: Warning: Line Created between points: 736.000000,385.000000 and 738.000000,385.000000
+[2019.03.04-15.06.18:865][394]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:865][394]LogTemp: Warning: Line Created between points: 745.000000,369.000000 and 747.000000,373.000000
+[2019.03.04-15.06.18:865][394]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:915][400]LogTemp: Warning: Line Created between points: 738.000000,385.000000 and 741.000000,386.000000
+[2019.03.04-15.06.18:915][400]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:915][400]LogTemp: Warning: Line Created between points: 747.000000,373.000000 and 749.000000,377.000000
+[2019.03.04-15.06.18:915][400]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:965][406]LogTemp: Warning: Line Created between points: 741.000000,386.000000 and 742.000000,388.000000
+[2019.03.04-15.06.18:965][406]LogTemp: Warning: Recursed
+[2019.03.04-15.06.18:965][406]LogTemp: Warning: Line Created between points: 749.000000,377.000000 and 753.000000,381.000000
+[2019.03.04-15.06.18:965][406]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:015][412]LogTemp: Warning: Line Created between points: 742.000000,388.000000 and 744.000000,388.000000
+[2019.03.04-15.06.19:015][412]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:015][412]LogTemp: Warning: Line Created between points: 753.000000,381.000000 and 751.000000,382.000000
+[2019.03.04-15.06.19:016][412]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:065][418]LogTemp: Warning: Line Created between points: 744.000000,388.000000 and 745.000000,390.000000
+[2019.03.04-15.06.19:065][418]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:066][418]LogTemp: Warning: Line Created between points: 751.000000,382.000000 and 751.000000,386.000000
+[2019.03.04-15.06.19:067][418]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:115][424]LogTemp: Warning: Line Created between points: 745.000000,390.000000 and 745.000000,391.000000
+[2019.03.04-15.06.19:115][424]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:115][424]LogTemp: Warning: Line Created between points: 751.000000,386.000000 and 750.000000,387.000000
+[2019.03.04-15.06.19:115][424]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:164][430]LogTemp: Warning: Line Created between points: 745.000000,391.000000 and 745.000000,393.000000
+[2019.03.04-15.06.19:165][430]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:165][430]LogTemp: Warning: Line Created between points: 750.000000,387.000000 and 755.000000,391.000000
+[2019.03.04-15.06.19:165][430]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:214][436]LogTemp: Warning: Line Created between points: 745.000000,393.000000 and 745.000000,394.000000
+[2019.03.04-15.06.19:215][436]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:215][436]LogTemp: Warning: Line Created between points: 755.000000,391.000000 and 753.000000,391.000000
+[2019.03.04-15.06.19:215][436]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:264][442]LogTemp: Warning: Line Created between points: 745.000000,394.000000 and 743.000000,398.000000
+[2019.03.04-15.06.19:265][442]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:265][442]LogTemp: Warning: Line Created between points: 753.000000,391.000000 and 750.000000,391.000000
+[2019.03.04-15.06.19:265][442]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:315][448]LogTemp: Warning: Line Created between points: 743.000000,398.000000 and 748.000000,401.000000
+[2019.03.04-15.06.19:315][448]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:315][448]LogTemp: Warning: Line Created between points: 750.000000,391.000000 and 750.000000,393.000000
+[2019.03.04-15.06.19:315][448]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:365][454]LogTemp: Warning: Line Created between points: 748.000000,401.000000 and 750.000000,402.000000
+[2019.03.04-15.06.19:365][454]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:365][454]LogTemp: Warning: Line Created between points: 750.000000,393.000000 and 747.000000,394.000000
+[2019.03.04-15.06.19:365][454]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:415][460]LogTemp: Warning: Line Created between points: 750.000000,402.000000 and 755.000000,405.000000
+[2019.03.04-15.06.19:415][460]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:415][460]LogTemp: Warning: Line Created between points: 747.000000,394.000000 and 751.000000,397.000000
+[2019.03.04-15.06.19:416][460]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:465][466]LogTemp: Warning: Line Created between points: 755.000000,405.000000 and 751.000000,407.000000
+[2019.03.04-15.06.19:465][466]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:466][466]LogTemp: Warning: Line Created between points: 751.000000,397.000000 and 749.000000,398.000000
+[2019.03.04-15.06.19:466][466]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:514][472]LogTemp: Warning: Line Created between points: 751.000000,407.000000 and 754.000000,410.000000
+[2019.03.04-15.06.19:514][472]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:515][472]LogTemp: Warning: Line Created between points: 749.000000,398.000000 and 745.000000,403.000000
+[2019.03.04-15.06.19:515][472]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:564][478]LogTemp: Warning: Line Created between points: 754.000000,410.000000 and 755.000000,412.000000
+[2019.03.04-15.06.19:565][478]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:565][478]LogTemp: Warning: Line Created between points: 745.000000,403.000000 and 746.000000,406.000000
+[2019.03.04-15.06.19:565][478]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:615][484]LogTemp: Warning: Line Created between points: 755.000000,412.000000 and 753.000000,416.000000
+[2019.03.04-15.06.19:615][484]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:615][484]LogTemp: Warning: Line Created between points: 746.000000,406.000000 and 749.000000,409.000000
+[2019.03.04-15.06.19:615][484]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:665][490]LogTemp: Warning: Line Created between points: 753.000000,416.000000 and 748.000000,416.000000
+[2019.03.04-15.06.19:665][490]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:666][490]LogTemp: Warning: Line Created between points: 749.000000,409.000000 and 754.000000,414.000000
+[2019.03.04-15.06.19:666][490]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:715][496]LogTemp: Warning: Forward position already Slime
+[2019.03.04-15.06.19:715][496]LogTemp: Warning: Line Created between points: 754.000000,414.000000 and 752.000000,418.000000
+[2019.03.04-15.06.19:715][496]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:765][502]LogTemp: Warning: Line Created between points: 752.000000,418.000000 and 751.000000,423.000000
+[2019.03.04-15.06.19:765][502]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:815][508]LogTemp: Warning: Line Created between points: 751.000000,423.000000 and 754.000000,428.000000
+[2019.03.04-15.06.19:815][508]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:864][514]LogTemp: Warning: Line Created between points: 754.000000,428.000000 and 749.000000,430.000000
+[2019.03.04-15.06.19:865][514]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:914][520]LogTemp: Warning: Line Created between points: 749.000000,430.000000 and 752.000000,433.000000
+[2019.03.04-15.06.19:915][520]LogTemp: Warning: Recursed
+[2019.03.04-15.06.19:964][526]LogTemp: Warning: Line Created between points: 752.000000,433.000000 and 750.000000,435.000000
+[2019.03.04-15.06.19:965][526]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:015][532]LogTemp: Warning: Line Created between points: 750.000000,435.000000 and 746.000000,436.000000
+[2019.03.04-15.06.20:015][532]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:065][538]LogTemp: Warning: Line Created between points: 746.000000,436.000000 and 749.000000,438.000000
+[2019.03.04-15.06.20:065][538]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:115][544]LogTemp: Warning: Line Created between points: 749.000000,438.000000 and 754.000000,440.000000
+[2019.03.04-15.06.20:116][544]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:165][550]LogTemp: Warning: Line Created between points: 754.000000,440.000000 and 759.000000,442.000000
+[2019.03.04-15.06.20:165][550]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:215][556]LogTemp: Warning: Line Created between points: 759.000000,442.000000 and 758.000000,447.000000
+[2019.03.04-15.06.20:215][556]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:265][562]LogTemp: Warning: Line Created between points: 758.000000,447.000000 and 754.000000,451.000000
+[2019.03.04-15.06.20:265][562]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:315][568]LogTemp: Warning: Line Created between points: 754.000000,451.000000 and 749.000000,454.000000
+[2019.03.04-15.06.20:315][568]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:365][574]LogTemp: Warning: Line Created between points: 749.000000,454.000000 and 750.000000,458.000000
+[2019.03.04-15.06.20:365][574]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:415][580]LogTemp: Warning: Line Created between points: 750.000000,458.000000 and 747.000000,461.000000
+[2019.03.04-15.06.20:416][580]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:465][586]LogTemp: Warning: Line Created between points: 747.000000,461.000000 and 746.000000,463.000000
+[2019.03.04-15.06.20:466][586]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:515][592]LogTemp: Warning: Line Created between points: 746.000000,463.000000 and 745.000000,465.000000
+[2019.03.04-15.06.20:515][592]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:565][598]LogTemp: Warning: Line Created between points: 745.000000,465.000000 and 741.000000,468.000000
+[2019.03.04-15.06.20:565][598]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:615][604]LogTemp: Warning: Line Created between points: 741.000000,468.000000 and 740.000000,472.000000
+[2019.03.04-15.06.20:615][604]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:665][610]LogTemp: Warning: Line Created between points: 740.000000,472.000000 and 741.000000,472.000000
+[2019.03.04-15.06.20:665][610]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:715][616]LogTemp: Warning: Line Created between points: 741.000000,472.000000 and 740.000000,474.000000
+[2019.03.04-15.06.20:716][616]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:765][622]LogTemp: Warning: Line Created between points: 740.000000,474.000000 and 744.000000,479.000000
+[2019.03.04-15.06.20:766][622]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:815][628]LogTemp: Warning: Line Created between points: 744.000000,479.000000 and 740.000000,480.000000
+[2019.03.04-15.06.20:816][628]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:865][634]LogTemp: Warning: Line Created between points: 740.000000,480.000000 and 738.000000,482.000000
+[2019.03.04-15.06.20:866][634]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:915][640]LogTemp: Warning: Line Created between points: 738.000000,482.000000 and 736.000000,484.000000
+[2019.03.04-15.06.20:916][640]LogTemp: Warning: Recursed
+[2019.03.04-15.06.20:965][646]LogTemp: Warning: Line Created between points: 736.000000,484.000000 and 734.000000,489.000000
+[2019.03.04-15.06.20:965][646]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:015][652]LogTemp: Warning: Line Created between points: 734.000000,489.000000 and 730.000000,491.000000
+[2019.03.04-15.06.21:015][652]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:065][658]LogTemp: Warning: Line Created between points: 730.000000,491.000000 and 726.000000,492.000000
+[2019.03.04-15.06.21:066][658]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:116][664]LogTemp: Warning: Line Created between points: 726.000000,492.000000 and 728.000000,493.000000
+[2019.03.04-15.06.21:116][664]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:165][670]LogTemp: Warning: Line Created between points: 728.000000,493.000000 and 725.000000,498.000000
+[2019.03.04-15.06.21:166][670]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:216][676]LogTemp: Warning: Line Created between points: 725.000000,498.000000 and 720.000000,501.000000
+[2019.03.04-15.06.21:216][676]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:265][682]LogTemp: Warning: Line Created between points: 720.000000,501.000000 and 722.000000,504.000000
+[2019.03.04-15.06.21:265][682]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:315][688]LogTemp: Warning: Line Created between points: 722.000000,504.000000 and 723.000000,506.000000
+[2019.03.04-15.06.21:316][688]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:365][694]LogTemp: Warning: Line Created between points: 723.000000,506.000000 and 720.000000,507.000000
+[2019.03.04-15.06.21:366][694]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:416][700]LogTemp: Warning: Line Created between points: 720.000000,507.000000 and 724.000000,512.000000
+[2019.03.04-15.06.21:416][700]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:466][706]LogTemp: Warning: Line Created between points: 724.000000,512.000000 and 727.000000,514.000000
+[2019.03.04-15.06.21:466][706]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:517][712]LogTemp: Warning: Line Created between points: 727.000000,514.000000 and 731.000000,519.000000
+[2019.03.04-15.06.21:517][712]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:566][718]LogTemp: Warning: Line Created between points: 731.000000,519.000000 and 732.000000,522.000000
+[2019.03.04-15.06.21:566][718]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:616][724]LogTemp: Warning: Line Created between points: 732.000000,522.000000 and 730.000000,527.000000
+[2019.03.04-15.06.21:616][724]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:667][730]LogTemp: Warning: Line Created between points: 730.000000,527.000000 and 726.000000,528.000000
+[2019.03.04-15.06.21:667][730]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:717][736]LogTemp: Warning: Line Created between points: 726.000000,528.000000 and 721.000000,531.000000
+[2019.03.04-15.06.21:717][736]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:766][742]LogTemp: Warning: Line Created between points: 721.000000,531.000000 and 724.000000,532.000000
+[2019.03.04-15.06.21:767][742]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:817][748]LogTemp: Warning: Line Created between points: 724.000000,532.000000 and 720.000000,534.000000
+[2019.03.04-15.06.21:817][748]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:867][754]LogTemp: Warning: Line Created between points: 720.000000,534.000000 and 715.000000,537.000000
+[2019.03.04-15.06.21:867][754]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:916][760]LogTemp: Warning: Line Created between points: 715.000000,537.000000 and 718.000000,540.000000
+[2019.03.04-15.06.21:917][760]LogTemp: Warning: Recursed
+[2019.03.04-15.06.21:967][766]LogTemp: Warning: Line Created between points: 718.000000,540.000000 and 721.000000,542.000000
+[2019.03.04-15.06.21:968][766]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:017][772]LogTemp: Warning: Line Created between points: 721.000000,542.000000 and 717.000000,545.000000
+[2019.03.04-15.06.22:017][772]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:067][778]LogTemp: Warning: Line Created between points: 717.000000,545.000000 and 720.000000,547.000000
+[2019.03.04-15.06.22:068][778]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:117][784]LogTemp: Warning: Line Created between points: 720.000000,547.000000 and 718.000000,550.000000
+[2019.03.04-15.06.22:117][784]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:167][790]LogTemp: Warning: Line Created between points: 718.000000,550.000000 and 722.000000,555.000000
+[2019.03.04-15.06.22:167][790]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:218][796]LogTemp: Warning: Line Created between points: 722.000000,555.000000 and 726.000000,558.000000
+[2019.03.04-15.06.22:218][796]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:268][802]LogTemp: Warning: Line Created between points: 726.000000,558.000000 and 723.000000,562.000000
+[2019.03.04-15.06.22:268][802]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:318][808]LogTemp: Warning: Line Created between points: 723.000000,562.000000 and 724.000000,564.000000
+[2019.03.04-15.06.22:318][808]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:368][814]LogTemp: Warning: Line Created between points: 724.000000,564.000000 and 726.000000,568.000000
+[2019.03.04-15.06.22:369][814]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:418][820]LogTemp: Warning: Line Created between points: 726.000000,568.000000 and 726.000000,572.000000
+[2019.03.04-15.06.22:419][820]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:468][826]LogTemp: Warning: Line Created between points: 726.000000,572.000000 and 727.000000,575.000000
+[2019.03.04-15.06.22:468][826]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:518][832]LogTemp: Warning: Line Created between points: 727.000000,575.000000 and 722.000000,576.000000
+[2019.03.04-15.06.22:519][832]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:568][838]LogTemp: Warning: Line Created between points: 722.000000,576.000000 and 727.000000,580.000000
+[2019.03.04-15.06.22:569][838]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:618][844]LogTemp: Warning: Line Created between points: 727.000000,580.000000 and 730.000000,583.000000
+[2019.03.04-15.06.22:619][844]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:668][850]LogTemp: Warning: Line Created between points: 730.000000,583.000000 and 725.000000,587.000000
+[2019.03.04-15.06.22:669][850]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:719][856]LogTemp: Warning: Line Created between points: 725.000000,587.000000 and 723.000000,592.000000
+[2019.03.04-15.06.22:720][856]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:769][862]LogTemp: Warning: Line Created between points: 723.000000,592.000000 and 718.000000,594.000000
+[2019.03.04-15.06.22:769][862]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:819][868]LogTemp: Warning: Line Created between points: 718.000000,594.000000 and 713.000000,597.000000
+[2019.03.04-15.06.22:819][868]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:868][874]LogTemp: Warning: Line Created between points: 713.000000,597.000000 and 718.000000,602.000000
+[2019.03.04-15.06.22:868][874]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:918][880]LogTemp: Warning: Line Created between points: 718.000000,602.000000 and 723.000000,603.000000
+[2019.03.04-15.06.22:919][880]LogTemp: Warning: Recursed
+[2019.03.04-15.06.22:968][886]LogTemp: Warning: Line Created between points: 723.000000,603.000000 and 727.000000,606.000000
+[2019.03.04-15.06.22:969][886]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:019][892]LogTemp: Warning: Line Created between points: 727.000000,606.000000 and 723.000000,610.000000
+[2019.03.04-15.06.23:019][892]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:069][898]LogTemp: Warning: Line Created between points: 723.000000,610.000000 and 722.000000,614.000000
+[2019.03.04-15.06.23:069][898]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:119][904]LogTemp: Warning: Line Created between points: 722.000000,614.000000 and 721.000000,615.000000
+[2019.03.04-15.06.23:119][904]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:169][910]LogTemp: Warning: Line Created between points: 721.000000,615.000000 and 722.000000,619.000000
+[2019.03.04-15.06.23:170][910]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:219][916]LogTemp: Warning: Line Created between points: 722.000000,619.000000 and 718.000000,620.000000
+[2019.03.04-15.06.23:219][916]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:269][922]LogTemp: Warning: Line Created between points: 718.000000,620.000000 and 723.000000,620.000000
+[2019.03.04-15.06.23:269][922]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:319][928]LogTemp: Warning: Line Created between points: 723.000000,620.000000 and 728.000000,622.000000
+[2019.03.04-15.06.23:319][928]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:369][934]LogTemp: Warning: Line Created between points: 728.000000,622.000000 and 727.000000,623.000000
+[2019.03.04-15.06.23:370][934]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:419][940]LogTemp: Warning: Line Created between points: 727.000000,623.000000 and 731.000000,623.000000
+[2019.03.04-15.06.23:420][940]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:470][946]LogTemp: Warning: Line Created between points: 731.000000,623.000000 and 726.000000,625.000000
+[2019.03.04-15.06.23:470][946]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:520][952]LogTemp: Warning: Line Created between points: 726.000000,625.000000 and 730.000000,629.000000
+[2019.03.04-15.06.23:520][952]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:570][958]LogTemp: Warning: Line Created between points: 730.000000,629.000000 and 728.000000,632.000000
+[2019.03.04-15.06.23:570][958]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:619][964]LogTemp: Warning: Line Created between points: 728.000000,632.000000 and 726.000000,636.000000
+[2019.03.04-15.06.23:620][964]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:669][970]LogTemp: Warning: Line Created between points: 726.000000,636.000000 and 728.000000,638.000000
+[2019.03.04-15.06.23:670][970]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:720][976]LogTemp: Warning: Line Created between points: 728.000000,638.000000 and 728.000000,643.000000
+[2019.03.04-15.06.23:720][976]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:770][982]LogTemp: Warning: Line Created between points: 728.000000,643.000000 and 730.000000,644.000000
+[2019.03.04-15.06.23:770][982]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:820][988]LogTemp: Warning: Line Created between points: 730.000000,644.000000 and 725.000000,645.000000
+[2019.03.04-15.06.23:820][988]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:870][994]LogTemp: Warning: Line Created between points: 725.000000,645.000000 and 726.000000,647.000000
+[2019.03.04-15.06.23:870][994]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:920][  0]LogTemp: Warning: Line Created between points: 726.000000,647.000000 and 725.000000,648.000000
+[2019.03.04-15.06.23:921][  0]LogTemp: Warning: Recursed
+[2019.03.04-15.06.23:970][  6]LogTemp: Warning: Line Created between points: 725.000000,648.000000 and 722.000000,650.000000
+[2019.03.04-15.06.23:970][  6]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:020][ 12]LogTemp: Warning: Line Created between points: 722.000000,650.000000 and 727.000000,654.000000
+[2019.03.04-15.06.24:020][ 12]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:070][ 18]LogTemp: Warning: Line Created between points: 727.000000,654.000000 and 732.000000,658.000000
+[2019.03.04-15.06.24:070][ 18]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:120][ 24]LogTemp: Warning: Line Created between points: 732.000000,658.000000 and 728.000000,659.000000
+[2019.03.04-15.06.24:120][ 24]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:170][ 30]LogTemp: Warning: Line Created between points: 728.000000,659.000000 and 732.000000,660.000000
+[2019.03.04-15.06.24:171][ 30]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:221][ 36]LogTemp: Warning: Line Created between points: 732.000000,660.000000 and 730.000000,663.000000
+[2019.03.04-15.06.24:221][ 36]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:270][ 42]LogTemp: Warning: Line Created between points: 730.000000,663.000000 and 735.000000,663.000000
+[2019.03.04-15.06.24:271][ 42]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:319][ 48]LogTemp: Warning: Line Created between points: 735.000000,663.000000 and 734.000000,665.000000
+[2019.03.04-15.06.24:320][ 48]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:370][ 54]LogTemp: Warning: Line Created between points: 734.000000,665.000000 and 739.000000,667.000000
+[2019.03.04-15.06.24:371][ 54]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:420][ 60]LogTemp: Warning: Line Created between points: 739.000000,667.000000 and 744.000000,668.000000
+[2019.03.04-15.06.24:420][ 60]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:470][ 66]LogTemp: Warning: Line Created between points: 744.000000,668.000000 and 743.000000,671.000000
+[2019.03.04-15.06.24:470][ 66]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:520][ 72]LogTemp: Warning: Line Created between points: 743.000000,671.000000 and 738.000000,676.000000
+[2019.03.04-15.06.24:521][ 72]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:571][ 78]LogTemp: Warning: Line Created between points: 738.000000,676.000000 and 740.000000,678.000000
+[2019.03.04-15.06.24:571][ 78]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:621][ 84]LogTemp: Warning: Line Created between points: 740.000000,678.000000 and 741.000000,682.000000
+[2019.03.04-15.06.24:621][ 84]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:671][ 90]LogTemp: Warning: Line Created between points: 741.000000,682.000000 and 736.000000,686.000000
+[2019.03.04-15.06.24:671][ 90]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:720][ 96]LogTemp: Warning: Line Created between points: 736.000000,686.000000 and 741.000000,691.000000
+[2019.03.04-15.06.24:720][ 96]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:771][102]LogTemp: Warning: Line Created between points: 741.000000,691.000000 and 739.000000,694.000000
+[2019.03.04-15.06.24:772][102]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:822][108]LogTemp: Warning: Line Created between points: 739.000000,694.000000 and 736.000000,695.000000
+[2019.03.04-15.06.24:822][108]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:872][114]LogTemp: Warning: Line Created between points: 736.000000,695.000000 and 736.000000,697.000000
+[2019.03.04-15.06.24:873][114]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:921][120]LogTemp: Warning: Line Created between points: 736.000000,697.000000 and 738.000000,699.000000
+[2019.03.04-15.06.24:922][120]LogTemp: Warning: Recursed
+[2019.03.04-15.06.24:972][126]LogTemp: Warning: Line Created between points: 738.000000,699.000000 and 742.000000,702.000000
+[2019.03.04-15.06.24:972][126]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:021][132]LogTemp: Warning: Line Created between points: 742.000000,702.000000 and 742.000000,705.000000
+[2019.03.04-15.06.25:022][132]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:072][138]LogTemp: Warning: Line Created between points: 742.000000,705.000000 and 740.000000,707.000000
+[2019.03.04-15.06.25:072][138]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:122][144]LogTemp: Warning: Line Created between points: 740.000000,707.000000 and 741.000000,709.000000
+[2019.03.04-15.06.25:122][144]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:172][150]LogTemp: Warning: Line Created between points: 741.000000,709.000000 and 736.000000,713.000000
+[2019.03.04-15.06.25:173][150]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:222][156]LogTemp: Warning: Line Created between points: 736.000000,713.000000 and 732.000000,717.000000
+[2019.03.04-15.06.25:222][156]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:271][162]LogTemp: Warning: Line Created between points: 732.000000,717.000000 and 732.000000,721.000000
+[2019.03.04-15.06.25:272][162]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:321][168]LogTemp: Warning: Line Created between points: 732.000000,721.000000 and 733.000000,721.000000
+[2019.03.04-15.06.25:322][168]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:372][174]LogTemp: Warning: Line Created between points: 733.000000,721.000000 and 735.000000,724.000000
+[2019.03.04-15.06.25:372][174]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:421][180]LogTemp: Warning: Line Created between points: 735.000000,724.000000 and 739.000000,728.000000
+[2019.03.04-15.06.25:422][180]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:471][186]LogTemp: Warning: Line Created between points: 739.000000,728.000000 and 744.000000,730.000000
+[2019.03.04-15.06.25:472][186]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:522][192]LogTemp: Warning: Line Created between points: 744.000000,730.000000 and 745.000000,734.000000
+[2019.03.04-15.06.25:522][192]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:572][198]LogTemp: Warning: Line Created between points: 745.000000,734.000000 and 742.000000,735.000000
+[2019.03.04-15.06.25:573][198]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:622][204]LogTemp: Warning: Line Created between points: 742.000000,735.000000 and 743.000000,737.000000
+[2019.03.04-15.06.25:623][204]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:671][210]LogTemp: Warning: Line Created between points: 743.000000,737.000000 and 745.000000,737.000000
+[2019.03.04-15.06.25:671][210]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:722][216]LogTemp: Warning: Line Created between points: 745.000000,737.000000 and 742.000000,742.000000
+[2019.03.04-15.06.25:722][216]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:772][222]LogTemp: Warning: Line Created between points: 742.000000,742.000000 and 745.000000,742.000000
+[2019.03.04-15.06.25:772][222]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:821][228]LogTemp: Warning: Line Created between points: 745.000000,742.000000 and 750.000000,742.000000
+[2019.03.04-15.06.25:822][228]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:872][234]LogTemp: Warning: Line Created between points: 750.000000,742.000000 and 750.000000,745.000000
+[2019.03.04-15.06.25:872][234]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:922][240]LogTemp: Warning: Line Created between points: 750.000000,745.000000 and 753.000000,750.000000
+[2019.03.04-15.06.25:922][240]LogTemp: Warning: Recursed
+[2019.03.04-15.06.25:972][246]LogTemp: Warning: Line Created between points: 753.000000,750.000000 and 754.000000,752.000000
+[2019.03.04-15.06.25:973][246]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:021][252]LogTemp: Warning: Line Created between points: 754.000000,752.000000 and 759.000000,753.000000
+[2019.03.04-15.06.26:022][252]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:072][258]LogTemp: Warning: Line Created between points: 759.000000,753.000000 and 754.000000,757.000000
+[2019.03.04-15.06.26:072][258]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:122][264]LogTemp: Warning: Line Created between points: 754.000000,757.000000 and 757.000000,762.000000
+[2019.03.04-15.06.26:122][264]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:172][270]LogTemp: Warning: Line Created between points: 757.000000,762.000000 and 762.000000,767.000000
+[2019.03.04-15.06.26:172][270]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:222][276]LogTemp: Warning: Line Created between points: 762.000000,767.000000 and 758.000000,771.000000
+[2019.03.04-15.06.26:223][276]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:272][282]LogTemp: Warning: Line Created between points: 758.000000,771.000000 and 759.000000,773.000000
+[2019.03.04-15.06.26:273][282]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:322][288]LogTemp: Warning: Line Created between points: 759.000000,773.000000 and 763.000000,774.000000
+[2019.03.04-15.06.26:322][288]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:372][294]LogTemp: Warning: Line Created between points: 763.000000,774.000000 and 760.000000,775.000000
+[2019.03.04-15.06.26:372][294]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:422][300]LogTemp: Warning: Line Created between points: 760.000000,775.000000 and 760.000000,777.000000
+[2019.03.04-15.06.26:422][300]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:472][306]LogTemp: Warning: Line Created between points: 760.000000,777.000000 and 755.000000,782.000000
+[2019.03.04-15.06.26:472][306]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:522][312]LogTemp: Warning: Line Created between points: 755.000000,782.000000 and 754.000000,785.000000
+[2019.03.04-15.06.26:522][312]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:572][318]LogTemp: Warning: Line Created between points: 754.000000,785.000000 and 751.000000,789.000000
+[2019.03.04-15.06.26:572][318]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:622][324]LogTemp: Warning: Line Created between points: 751.000000,789.000000 and 750.000000,792.000000
+[2019.03.04-15.06.26:623][324]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:672][330]LogTemp: Warning: Line Created between points: 750.000000,792.000000 and 753.000000,794.000000
+[2019.03.04-15.06.26:673][330]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:722][336]LogTemp: Warning: Line Created between points: 753.000000,794.000000 and 757.000000,798.000000
+[2019.03.04-15.06.26:723][336]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:772][342]LogTemp: Warning: Line Created between points: 757.000000,798.000000 and 755.000000,801.000000
+[2019.03.04-15.06.26:773][342]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:822][348]LogTemp: Warning: Line Created between points: 755.000000,801.000000 and 755.000000,802.000000
+[2019.03.04-15.06.26:822][348]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:872][354]LogTemp: Warning: Line Created between points: 755.000000,802.000000 and 751.000000,803.000000
+[2019.03.04-15.06.26:872][354]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:922][360]LogTemp: Warning: Line Created between points: 751.000000,803.000000 and 755.000000,808.000000
+[2019.03.04-15.06.26:922][360]LogTemp: Warning: Recursed
+[2019.03.04-15.06.26:972][366]LogTemp: Warning: Line Created between points: 755.000000,808.000000 and 755.000000,810.000000
+[2019.03.04-15.06.26:972][366]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:022][372]LogTemp: Warning: Line Created between points: 755.000000,810.000000 and 751.000000,810.000000
+[2019.03.04-15.06.27:022][372]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:072][378]LogTemp: Warning: Line Created between points: 751.000000,810.000000 and 753.000000,815.000000
+[2019.03.04-15.06.27:073][378]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:122][384]LogTemp: Warning: Line Created between points: 753.000000,815.000000 and 750.000000,816.000000
+[2019.03.04-15.06.27:123][384]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:172][390]LogTemp: Warning: Line Created between points: 750.000000,816.000000 and 751.000000,821.000000
+[2019.03.04-15.06.27:172][390]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:222][396]LogTemp: Warning: Line Created between points: 751.000000,821.000000 and 751.000000,822.000000
+[2019.03.04-15.06.27:222][396]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:272][402]LogTemp: Warning: Line Created between points: 751.000000,822.000000 and 753.000000,825.000000
+[2019.03.04-15.06.27:272][402]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:322][408]LogTemp: Warning: Line Created between points: 753.000000,825.000000 and 749.000000,826.000000
+[2019.03.04-15.06.27:322][408]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:372][414]LogTemp: Warning: Line Created between points: 749.000000,826.000000 and 745.000000,827.000000
+[2019.03.04-15.06.27:373][414]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:423][420]LogTemp: Warning: Line Created between points: 745.000000,827.000000 and 750.000000,828.000000
+[2019.03.04-15.06.27:423][420]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:472][426]LogTemp: Warning: Line Created between points: 750.000000,828.000000 and 749.000000,831.000000
+[2019.03.04-15.06.27:473][426]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:522][432]LogTemp: Warning: Line Created between points: 749.000000,831.000000 and 746.000000,832.000000
+[2019.03.04-15.06.27:523][432]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:572][438]LogTemp: Warning: Line Created between points: 746.000000,832.000000 and 741.000000,837.000000
+[2019.03.04-15.06.27:572][438]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:622][444]LogTemp: Warning: Line Created between points: 741.000000,837.000000 and 740.000000,842.000000
+[2019.03.04-15.06.27:622][444]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:672][450]LogTemp: Warning: Line Created between points: 740.000000,842.000000 and 742.000000,844.000000
+[2019.03.04-15.06.27:672][450]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:723][456]LogTemp: Warning: Line Created between points: 742.000000,844.000000 and 738.000000,847.000000
+[2019.03.04-15.06.27:723][456]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:772][462]LogTemp: Warning: Line Created between points: 738.000000,847.000000 and 740.000000,848.000000
+[2019.03.04-15.06.27:772][462]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:822][468]LogTemp: Warning: Line Created between points: 740.000000,848.000000 and 735.000000,850.000000
+[2019.03.04-15.06.27:822][468]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:872][474]LogTemp: Warning: Line Created between points: 735.000000,850.000000 and 732.000000,853.000000
+[2019.03.04-15.06.27:872][474]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:922][480]LogTemp: Warning: Line Created between points: 732.000000,853.000000 and 727.000000,858.000000
+[2019.03.04-15.06.27:923][480]LogTemp: Warning: Recursed
+[2019.03.04-15.06.27:972][486]LogTemp: Warning: Line Created between points: 727.000000,858.000000 and 731.000000,859.000000
+[2019.03.04-15.06.27:973][486]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:023][492]LogTemp: Warning: Line Created between points: 731.000000,859.000000 and 736.000000,859.000000
+[2019.03.04-15.06.28:023][492]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:073][498]LogTemp: Warning: Line Created between points: 736.000000,859.000000 and 739.000000,863.000000
+[2019.03.04-15.06.28:073][498]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:122][504]LogTemp: Warning: Line Created between points: 739.000000,863.000000 and 738.000000,865.000000
+[2019.03.04-15.06.28:122][504]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:172][510]LogTemp: Warning: Line Created between points: 738.000000,865.000000 and 733.000000,868.000000
+[2019.03.04-15.06.28:172][510]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:222][516]LogTemp: Warning: Line Created between points: 733.000000,868.000000 and 738.000000,871.000000
+[2019.03.04-15.06.28:223][516]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:272][522]LogTemp: Warning: Line Created between points: 738.000000,871.000000 and 743.000000,875.000000
+[2019.03.04-15.06.28:273][522]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:322][528]LogTemp: Warning: Line Created between points: 743.000000,875.000000 and 746.000000,876.000000
+[2019.03.04-15.06.28:323][528]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:372][534]LogTemp: Warning: Line Created between points: 746.000000,876.000000 and 750.000000,877.000000
+[2019.03.04-15.06.28:373][534]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:423][540]LogTemp: Warning: Line Created between points: 750.000000,877.000000 and 747.000000,879.000000
+[2019.03.04-15.06.28:423][540]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:473][546]LogTemp: Warning: Line Created between points: 747.000000,879.000000 and 750.000000,884.000000
+[2019.03.04-15.06.28:473][546]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:522][552]LogTemp: Warning: Line Created between points: 750.000000,884.000000 and 746.000000,886.000000
+[2019.03.04-15.06.28:522][552]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:572][558]LogTemp: Warning: Line Created between points: 746.000000,886.000000 and 748.000000,888.000000
+[2019.03.04-15.06.28:572][558]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:622][564]LogTemp: Warning: Line Created between points: 748.000000,888.000000 and 743.000000,893.000000
+[2019.03.04-15.06.28:623][564]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:672][570]LogTemp: Warning: Line Created between points: 743.000000,893.000000 and 746.000000,896.000000
+[2019.03.04-15.06.28:673][570]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:724][576]LogTemp: Warning: Line Created between points: 746.000000,896.000000 and 750.000000,899.000000
+[2019.03.04-15.06.28:724][576]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:773][582]LogTemp: Warning: Line Created between points: 750.000000,899.000000 and 750.000000,900.000000
+[2019.03.04-15.06.28:774][582]LogTemp: Warning: Recursed
+[2019.03.04-15.06.28:823][588]LogTemp: Warning: Something went Wrong Searching for New Branch Node
+[2019.03.04-15.06.30:491][788]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.03.04-15.06.30:492][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-15.06.30:532][788]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.04-15.06.30:532][788]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.03.04-15.06.30:559][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-15.06.30:606][790]LogPlayLevel: Display: Destroying online subsystem :Context_1

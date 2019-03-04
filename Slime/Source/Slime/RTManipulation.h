@@ -52,8 +52,17 @@ private:
 	FColor Slime = FColor(255, 255, 255, 255);
 	int spreadSpeed = 0; 
 	int numBranches = 0; 
+	int _segLength = 5; 
+	float _branchProb = 0.3; 
+	int _genPenalty = 0.01; 
+	float _sucThresh = 0;
+	float _spd = 0.05; 
+	int _mxBranch = 20; 
+
+
+
 	FVector2D SpreadTexture();
-	void BresenhamLine(int x0, int y0, int x1, int y1);
+	void BresenhamLine(int x0, int y0, int const x1, int const y1);
 public:	
 	// Sets default values for this actor's properties
 	ARTManipulation();
