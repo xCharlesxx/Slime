@@ -28,6 +28,9 @@ class SLIME_API ARTManipulation : public AActor
 	UFUNCTION(BlueprintCallable, Category = "Charlie")
 		void SetSlimeDestination(FVector2D coords);
 
+	UFUNCTION(BlueprintCallable, Category = "Charlie")
+		void BranchAlgorithm(FVector2D seedPos, FVector2D target, int segmentLength, float branchProbability, int generation, float generationPenalty, float successThreshold, float speed, int maxBranches);
+
 	static ARTManipulation* Runnable; 
 
 	FRunnableThread* Thread; 
@@ -48,7 +51,9 @@ private:
 	FColor noSlime = FColor(0, 0, 0, 255);
 	FColor Slime = FColor(255, 255, 255, 255);
 	int spreadSpeed = 0; 
+	int numBranches = 0; 
 	FVector2D SpreadTexture();
+	void BresenhamLine(int x0, int y0, int x1, int y1);
 public:	
 	// Sets default values for this actor's properties
 	ARTManipulation();

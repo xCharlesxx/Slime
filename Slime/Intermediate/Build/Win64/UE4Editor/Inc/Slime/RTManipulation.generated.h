@@ -17,6 +17,23 @@ class UMaterialInstanceDynamic;
 
 #define Slime_Source_Slime_RTManipulation_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execBranchAlgorithm) \
+	{ \
+		P_GET_STRUCT(FVector2D,Z_Param_seedPos); \
+		P_GET_STRUCT(FVector2D,Z_Param_target); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_segmentLength); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_branchProbability); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_generation); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_generationPenalty); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_successThreshold); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_speed); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_maxBranches); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BranchAlgorithm(Z_Param_seedPos,Z_Param_target,Z_Param_segmentLength,Z_Param_branchProbability,Z_Param_generation,Z_Param_generationPenalty,Z_Param_successThreshold,Z_Param_speed,Z_Param_maxBranches); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetSlimeDestination) \
 	{ \
 		P_GET_STRUCT(FVector2D,Z_Param_coords); \
@@ -46,6 +63,23 @@ class UMaterialInstanceDynamic;
 
 
 #define Slime_Source_Slime_RTManipulation_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execBranchAlgorithm) \
+	{ \
+		P_GET_STRUCT(FVector2D,Z_Param_seedPos); \
+		P_GET_STRUCT(FVector2D,Z_Param_target); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_segmentLength); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_branchProbability); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_generation); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_generationPenalty); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_successThreshold); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_speed); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_maxBranches); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BranchAlgorithm(Z_Param_seedPos,Z_Param_target,Z_Param_segmentLength,Z_Param_branchProbability,Z_Param_generation,Z_Param_generationPenalty,Z_Param_successThreshold,Z_Param_speed,Z_Param_maxBranches); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetSlimeDestination) \
 	{ \

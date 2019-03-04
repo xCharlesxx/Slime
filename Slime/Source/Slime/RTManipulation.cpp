@@ -5,6 +5,7 @@
 #include "Runtime/Engine/Classes/Materials/MaterialInstanceDynamic.h"
 #include "Engine/Classes/Engine/Texture2D.h"
 #include "Engine/Classes/Engine/StaticMesh.h"
+#include "TimerManager.h"
 
 //void ARTManipulation::SetCRenderTarget(UTextureRenderTarget2D * rt)
 //{
@@ -53,10 +54,161 @@ void ARTManipulation::SetSlimeDestination(FVector2D coords)
 	}
 }
 
+void ARTManipulation::BranchAlgorithm(FVector2D seedPos, FVector2D target, int segmentLength, float branchProbability, int generation, float generationPenalty, float successThreshold, float speed, int maxBranches)
+{
+	float probability = FMath::RandRange((float)0, (float)1);
+	//Make branches of branches more likely to die
+	if (generation != 1 && (generationPenalty * generation) > probability)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Branch Died"));
+		numBranches--; 
+		return;
+	}
+
+	//Probability to Create new branch
+	if (probability < branchProbability && numBranches < maxBranches)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Branch Created"));
+		numBranches++; 
+		BranchAlgorithm(seedPos, target, segmentLength, branchProbability, generation + 1, generationPenalty, successThreshold, speed, maxBranches);
+	}
+
+	float currentDistance = FVector2D::Distance(seedPos, target); 
+	float newDistance = currentDistance; 
+	FVector2D randomPos = FVector2D::ZeroVector; 
+	int breakThreshold = 0; 
+
+	//If position is closer than current position 
+	while (currentDistance <= newDistance)
+	{
+		//Make sure there's no infinite loop
+		breakThreshold++;
+		if (breakThreshold > 1000)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Something went Wrong Searching for New Branch Node"));
+			return;
+		}
+
+		//Pick random position within segmentLength squares
+		randomPos = FVector2D(seedPos.X + (FMath::RandRange(-segmentLength, segmentLength)),
+										seedPos.Y + (FMath::RandRange(-segmentLength, segmentLength)));
+
+		//Check if out of bounds
+		if (randomPos.X > width - 1 || randomPos.X <= 0 || randomPos.Y > height - 1 || randomPos.Y <= 0)
+			continue;
+
+		//Calculate if new pos is closer
+		newDistance = FVector2D::Distance(target, randomPos);
+	}
+
+	//Create line between two points 
+	BresenhamLine(seedPos.X, seedPos.Y, randomPos.X, randomPos.Y); 
+	UE_LOG(LogTemp, Warning, TEXT("Line Created between points: %f,%f and %f,%f"), seedPos.X, seedPos.Y, randomPos.X, randomPos.Y);
+	//If we have reached destination
+	if (newDistance < successThreshold)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Destination Reached, Distance to destination: %f"), newDistance);
+		return;
+	}
+
+	//Recursive call Branch algorithm continue branch
+	FTimerDelegate TimerDel; 
+	FTimerHandle TimerHandle; 
+	TimerDel.BindUFunction(this, FName("BranchAlgorithm"), randomPos, target, segmentLength, branchProbability, generation, generationPenalty, successThreshold, speed, maxBranches);
+	GetWorldTimerManager().SetTimer(TimerHandle,TimerDel, speed, false);
+	UE_LOG(LogTemp, Warning, TEXT("Recursed"));
+}
+
+void ARTManipulation::BresenhamLine(int x1, int y1, int const x2, int const y2)
+{
+	int delta_x(x2 - x1);
+	// if x1 == x2, then it does not matter what we set here
+	signed char const ix((delta_x > 0) - (delta_x < 0));
+	delta_x = std::abs(delta_x) << 1;
+
+	int delta_y(y2 - y1);
+	// if y1 == y2, then it does not matter what we set here
+	signed char const iy((delta_y > 0) - (delta_y < 0));
+	delta_y = std::abs(delta_y) << 1;
+
+	RawData[y1 * width + x1] = Slime;
+
+	if (delta_x >= delta_y)
+	{
+		// error may go below zero
+		int error(delta_y - (delta_x >> 1));
+
+		while (x1 != x2)
+		{
+			// reduce error, while taking into account the corner case of error == 0
+			if ((error > 0) || (!error && (ix > 0)))
+			{
+				error -= delta_x;
+				y1 += iy;
+			}
+			// else do nothing
+
+			error += delta_y;
+			x1 += ix;
+
+			RawData[y1 * width + x1] = Slime;
+		}
+	}
+	else
+	{
+		// error may go below zero
+		int error(delta_x - (delta_y >> 1));
+
+		while (y1 != y2)
+		{
+			// reduce error, while taking into account the corner case of error == 0
+			if ((error > 0) || (!error && (iy > 0)))
+			{
+				error -= delta_y;
+				x1 += ix;
+			}
+			// else do nothing
+
+			error += delta_x;
+			y1 += iy;
+
+			RawData[y1 * width + x1] = Slime;
+		}
+	}
+}
+
+//int dx, dy, p, x, y;
+//
+//dx = x1 - x0;
+//dy = y1 - y0;
+//
+//x = x0;
+//y = y0;
+//
+//p = 2 * dy - dx;
+//
+//while (x < x1)
+//{
+//	if (p >= 0)
+//	{
+//		RawData[y * width + x] = Slime;
+//		y = y + 1;
+//		p = p + 2 * dy - 2 * dx;
+//	}
+//	else
+//	{
+//		RawData[y * width + x] = Slime;
+//		p = p + 2 * dy;
+//	}
+//	x = x + 1;
+//}
+
 FVector2D ARTManipulation::SpreadTexture()
 {
+	//Pick random point of possible traversable points 
 	FVector2D slim = SlimesData[FMath::RandRange(0, SlimesData.Num() - 1)];
 
+	//If location is the colour of slime
 	if (RawData[slim.Y * width + slim.X] == Slime)
 	{
 		for (int i = 0; i < 50; i++)
