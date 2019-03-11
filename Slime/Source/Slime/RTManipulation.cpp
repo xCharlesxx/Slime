@@ -44,14 +44,16 @@ void ARTManipulation::SetSlimeDestination(FVector2D coords)
 			{
 				if (col < Coordinates.X + aoe && col > Coordinates.X - aoe)
 				{
-					//RawData[row * width + col] = Slime;
-					//SlimesData.Add(FVector2D(col, row));
+					//Spreading Slime
+					RawData[row * width + col] = Slime;
+					SlimesData.Add(FVector2D(col, row));
 				}
 			}
 			else
 				RawData[row * width + col] = noSlime;
 		}
 	}
+	//Branching slime
 	BranchAlgorithm(FVector2D(600,900),Coordinates, _segLength, _branchProb, 1, _genPenalty, _sucThresh, _spd, _mxBranch);
 }
 

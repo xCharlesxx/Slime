@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Slime.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{120EB661-B643-4DF8-B9A5-21E3E1EB978F}</UniqueIdentifier>
+      <UniqueIdentifier>{866CC3DE-21A7-4782-87C0-B8126B84B986}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Slime.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{87AED1A4-9D4F-4AB2-8535-F4AC9EBB9565}</UniqueIdentifier>
+      <UniqueIdentifier>{E69FC21A-2E3A-4469-B464-7A07D6E81533}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Slime">
-      <UniqueIdentifier>{8DFDA308-7CEA-4C5D-A7F0-CAA5F7E85A55}</UniqueIdentifier>
+      <UniqueIdentifier>{4D14DE6B-CE0B-40FB-A46E-4FF314FA0621}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Slime\RTManipulation.cpp">
+      <Filter>Source\Slime</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Slime\RTManipulation.h">
+      <Filter>Source\Slime</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Slime\Slime.Build.cs">
       <Filter>Source\Slime</Filter>
     </None>
@@ -63,22 +69,6 @@
       <Filter>Source\Slime</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Slime\SlimeProjectile.h">
-      <Filter>Source\Slime</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="RTManiplulator.cpp">
-      <Filter>Source\Slime</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Slime\RTManipulation.cpp">
-      <Filter>Source\Slime</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="RTManiplulator.h">
-      <Filter>Source\Slime</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Slime\RTManipulation.h">
       <Filter>Source\Slime</Filter>
     </ClInclude>
   </ItemGroup>
