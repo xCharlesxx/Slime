@@ -33,26 +33,26 @@ void ARTManipulation::SetSlimeDestination(FVector2D coords)
 	UE_LOG(LogTemp, Warning, TEXT("CoordinatesB4: X:%d Y:%d"), coords.X, coords.Y);
 	Coordinates = coords * 1000; 
 	SlimesData.Empty(); 
-	int aoe = 10;
-	//Y
-	for (int32 row = 0; row < height; row++)
-	{
-		//X
-		for (int32 col = 0; col < width; col++)
-		{
-			if (row < Coordinates.Y + aoe && row > Coordinates.Y - aoe)
-			{
-				if (col < Coordinates.X + aoe && col > Coordinates.X - aoe)
-				{
-					//Spreading Slime
-					RawData[row * width + col] = Slime;
-					SlimesData.Add(FVector2D(col, row));
-				}
-			}
-			else
-				RawData[row * width + col] = noSlime;
-		}
-	}
+	//int aoe = 10;
+	////Y
+	//for (int32 row = 0; row < height; row++)
+	//{
+	//	//X
+	//	for (int32 col = 0; col < width; col++)
+	//	{
+	//		if (row < Coordinates.Y + aoe && row > Coordinates.Y - aoe)
+	//		{
+	//			if (col < Coordinates.X + aoe && col > Coordinates.X - aoe)
+	//			{
+	//				//Spreading Slime
+	//				RawData[row * width + col] = Slime;
+	//				SlimesData.Add(FVector2D(col, row));
+	//			}
+	//		}
+	//		else
+	//			RawData[row * width + col] = noSlime;
+	//	}
+	//}
 	//Branching slime
 	BranchAlgorithm(FVector2D(600,900),Coordinates, _segLength, _branchProb, 1, _genPenalty, _sucThresh, _spd, _mxBranch);
 }
