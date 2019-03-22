@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Slime.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{866CC3DE-21A7-4782-87C0-B8126B84B986}</UniqueIdentifier>
+      <UniqueIdentifier>{8BF4C0AB-5AB3-4F06-AA80-F968FC9F4587}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Slime.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E69FC21A-2E3A-4469-B464-7A07D6E81533}</UniqueIdentifier>
+      <UniqueIdentifier>{F7D1340F-17E3-49A1-844D-0420E9E4E7A0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Slime">
-      <UniqueIdentifier>{4D14DE6B-CE0B-40FB-A46E-4FF314FA0621}</UniqueIdentifier>
+      <UniqueIdentifier>{17C07BFB-B82C-4831-B7ED-B38BBA50E297}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Slime\RTManipulation.cpp">
       <Filter>Source\Slime</Filter>
