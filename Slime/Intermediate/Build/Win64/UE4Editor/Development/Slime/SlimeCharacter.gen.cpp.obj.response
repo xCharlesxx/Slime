@@ -412,21 +412,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Inc\Slime"
-/I "A:\Uni 2018-19\Github\Slime\Slime\Slime\Source"
-/I "A:\Uni 2018-19\Github\Slime\Slime\Slime\Source\Slime"
+/I D:\Charlie\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Inc\Slime
+/I D:\Charlie\Slime\Slime\Source
+/I D:\Charlie\Slime\Slime\Source\Slime
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\SlimeEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\SlimeEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\SlimeEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Inc\Slime\SlimeCharacter.gen.cpp"
-/FI"A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Development\Slime\Definitions.Slime.h"
-/Fo"A:\Uni 2018-19\Github\Slime\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Development\Slime\SlimeCharacter.gen.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/FI"D:\Charlie\Slime\Slime\Intermediate\Build\Win64\SlimeEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Charlie\Slime\Slime\Intermediate\Build\Win64\SlimeEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Charlie\Slime\Slime\Intermediate\Build\Win64\SlimeEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Charlie\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Inc\Slime\SlimeCharacter.gen.cpp"
+/FI"D:\Charlie\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Development\Slime\Definitions.Slime.h"
+/Fo"D:\Charlie\Slime\Slime\Intermediate\Build\Win64\UE4Editor\Development\Slime\SlimeCharacter.gen.cpp.obj"
 /TP
 /GR-
 /W4

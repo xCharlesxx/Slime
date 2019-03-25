@@ -31,8 +31,9 @@ void ARTManipulation::SetDynamicMatPointer(UMaterialInstanceDynamic * dmp)
 void ARTManipulation::SetSlimeDestination(FVector2D coords)
 {
 	UE_LOG(LogTemp, Warning, TEXT("CoordinatesB4: X:%d Y:%d"), coords.X, coords.Y);
-	Coordinates = coords * 1000; 
+	Coordinates = coords;// *1000;
 	SlimesData.Empty(); 
+	SlimesData.Add(Coordinates); 
 	//int aoe = 10;
 	////Y
 	//for (int32 row = 0; row < height; row++)
@@ -54,7 +55,17 @@ void ARTManipulation::SetSlimeDestination(FVector2D coords)
 	//	}
 	//}
 	//Branching slime
-	BranchAlgorithm(FVector2D(600,900),Coordinates, _segLength, _branchProb, 1, _genPenalty, _sucThresh, _spd, _mxBranch);
+	//BranchAlgorithm(FVector2D(600,900),Coordinates, _segLength, _branchProb, 1, _genPenalty, _sucThresh, _spd, _mxBranch);
+}
+
+void ARTManipulation::BranchTowards(FVector2D coords)
+{
+	DynamicTarget = coords * 1000;
+	if (!currentlyBranching)
+	{
+		DynamicBranchAlgorithm(LastKnownBranch, _segLength, _branchProb, 1, _genPenalty, _sucThresh, _spd, _mxBranch);
+		currentlyBranching = true;
+	}
 }
 
 void ARTManipulation::BranchAlgorithm(FVector2D seedPos, FVector2D target, int segmentLength, float branchProbability, int generation, float generationPenalty, float successThreshold, float speed, int maxBranches)
@@ -130,6 +141,93 @@ void ARTManipulation::BranchAlgorithm(FVector2D seedPos, FVector2D target, int s
 	FTimerHandle TimerHandle; 
 	TimerDel.BindUFunction(this, FName("BranchAlgorithm"), randomPos, target, segmentLength, branchProbability, generation, generationPenalty, successThreshold, speed, maxBranches);
 	GetWorldTimerManager().SetTimer(TimerHandle,TimerDel, speed, false);
+	UE_LOG(LogTemp, Warning, TEXT("Recursed"));
+}
+
+void ARTManipulation::DynamicBranchAlgorithm(FVector2D seedPos, int segmentLength, float branchProbability, int generation, float generationPenalty, float successThreshold, float speed, int maxBranches)
+{
+	//_segLength = segmentLength; _branchProb = branchProbability; _genPenalty = generationPenalty; _sucThresh = successThreshold; _spd = speed; _mxBranch = maxBranches;
+
+	float probability = FMath::RandRange((float)0, (float)1);
+	//Make branches of branches more likely to die
+	if (generation != 1 && (generationPenalty * generation) > probability)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Branch Died"));
+		numBranches--;
+		return;
+	}
+
+	//Probability to Create new branch
+	if (probability < branchProbability && numBranches < maxBranches)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Branch Created"));
+		numBranches++;
+		DynamicBranchAlgorithm(seedPos, segmentLength, branchProbability, generation + 1, generationPenalty, successThreshold, speed, maxBranches);
+	}
+
+	float currentDistance = FVector2D::Distance(seedPos, DynamicTarget);
+	float newDistance = currentDistance;
+	FVector2D randomPos = FVector2D::ZeroVector;
+	int breakThreshold = 0;
+
+	if (currentDistance == 0)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Error, Start pos and Destination are the same: %f, %f"), DynamicTarget.X, DynamicTarget.Y);
+		currentlyBranching = false;
+		return;
+	}
+
+	//If position is closer than current position 
+	while (currentDistance <= newDistance)
+	{
+		//Make sure there's no infinite loop
+		breakThreshold++;
+		if (breakThreshold > 1000)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Something went Wrong Searching for New Branch Node"));
+			if (generation == 1)
+				currentlyBranching = false; 
+			return;
+		}
+
+		//Pick random position within segmentLength squares
+		randomPos = FVector2D(seedPos.X + (FMath::RandRange(-segmentLength, segmentLength)),
+			seedPos.Y + (FMath::RandRange(-segmentLength, segmentLength)));
+
+		//Check if out of bounds
+		if (randomPos.X > width - 1 || randomPos.X <= 0 || randomPos.Y > height - 1 || randomPos.Y <= 0)
+			continue;
+
+		//Calculate if new pos is closer
+		newDistance = FVector2D::Distance(DynamicTarget, randomPos);
+	}
+
+	//If new position is already slime, break
+	if (RawData[randomPos.Y * width + randomPos.X] == Slime && generation != 1)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Forward position already Slime"));
+		numBranches--;
+		return;
+	}
+
+	//Create line between two points 
+	BresenhamLine(seedPos.X, seedPos.Y, randomPos.X, randomPos.Y);
+	LastKnownBranch = randomPos; 
+	UE_LOG(LogTemp, Warning, TEXT("Line Created between points: %f,%f and %f,%f"), seedPos.X, seedPos.Y, randomPos.X, randomPos.Y);
+
+	//If we have reached destination
+	if (newDistance < successThreshold)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Destination Reached, Distance to destination: %f"), newDistance);
+		currentlyBranching = false; 
+		return;
+	}
+
+	//Recursive call Branch algorithm continue branch
+	FTimerDelegate TimerDel;
+	FTimerHandle TimerHandle;
+	TimerDel.BindUFunction(this, FName("DynamicBranchAlgorithm"), randomPos, segmentLength, branchProbability, generation, generationPenalty, successThreshold, speed, maxBranches);
+	GetWorldTimerManager().SetTimer(TimerHandle, TimerDel, speed, false);
 	UE_LOG(LogTemp, Warning, TEXT("Recursed"));
 }
 
@@ -304,8 +402,7 @@ void ARTManipulation::Tick(float DeltaTime)
 	//MaterialDynamic->VectorParameterValues.GetData(); 
 	//width = MaterialDynamic->GetWidth(); 
 	//height = MaterialDynamic->GetHeight();
-	//if (spreadSpeed == 10)
-	//{
+
 	spreadSpeed = 1000; 
 	for (int i = 0; i < spreadSpeed; i++)
 	if (SlimesData.Num() != NULL)
@@ -313,6 +410,14 @@ void ARTManipulation::Tick(float DeltaTime)
 		FVector2D place2Spread = SpreadTexture();
 		if (place2Spread != FVector2D(-1, -1))
 			SlimesData.Add(place2Spread);
+
+		if (spreadTimer > 0)
+			spreadTimer--;
+		else
+		{
+			SlimesData.Empty();
+			spreadTimer = 100;
+		}
 	}
 	//	spreadSpeed = 0; 
 	//}

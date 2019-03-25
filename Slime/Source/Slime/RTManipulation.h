@@ -29,7 +29,13 @@ class SLIME_API ARTManipulation : public AActor
 		void SetSlimeDestination(FVector2D coords);
 
 	UFUNCTION(BlueprintCallable, Category = "Charlie")
+		void BranchTowards(FVector2D coords);
+
+	UFUNCTION(BlueprintCallable, Category = "Charlie")
 		void BranchAlgorithm(FVector2D seedPos, FVector2D target, int segmentLength, float branchProbability, int generation, float generationPenalty, float successThreshold, float speed, int maxBranches);
+
+	UFUNCTION(BlueprintCallable, Category = "Charlie")
+		void DynamicBranchAlgorithm(FVector2D seedPos, int segmentLength, float branchProbability, int generation, float generationPenalty, float successThreshold, float speed, int maxBranches);
 
 	static ARTManipulation* Runnable; 
 
@@ -48,9 +54,12 @@ private:
 	int32 width = 1000; 
 	int32 height = 1000; 
 	FVector2D Coordinates; 
+	FVector2D DynamicTarget = FVector2D(0, 0);
+	FVector2D LastKnownBranch = FVector2D(0, 0);
 	FColor noSlime = FColor(0, 0, 0, 255);
 	FColor Slime = FColor(255, 255, 255, 255);
 	int spreadSpeed = 0; 
+	int spreadTimer = 100; 
 	int numBranches = 0; 
 	int _segLength = 5; 
 	float _branchProb = 0.3; 
@@ -58,7 +67,7 @@ private:
 	float _sucThresh = 0;
 	float _spd = 0.05; 
 	int _mxBranch = 20; 
-
+	bool currentlyBranching = false; 
 
 
 	FVector2D SpreadTexture();

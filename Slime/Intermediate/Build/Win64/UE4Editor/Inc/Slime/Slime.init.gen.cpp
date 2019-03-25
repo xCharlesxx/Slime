@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeSlime_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Slime",
 				PKG_CompiledIn | 0x00000000,
-				0xA3955773,
-				0x60E07C94,
+				0x0B1C8403,
+				0xEF8FE2CE,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};
