@@ -33,27 +33,35 @@ void ARTManipulation::SetSlimeDestination(FVector2D coords)
 	UE_LOG(LogTemp, Warning, TEXT("CoordinatesB4: X:%d Y:%d"), coords.X, coords.Y);
 	Coordinates = coords;// *1000;
 	SlimesData.Empty(); 
-	SlimesData.Add(Coordinates); 
-	//int aoe = 10;
 	////Y
-	//for (int32 row = 0; row < height; row++)
+	//for (int32 row = 0; row < 10; row++)
 	//{
 	//	//X
-	//	for (int32 col = 0; col < width; col++)
+	//	for (int32 col = 0; col < 10; col++)
 	//	{
-	//		if (row < Coordinates.Y + aoe && row > Coordinates.Y - aoe)
-	//		{
-	//			if (col < Coordinates.X + aoe && col > Coordinates.X - aoe)
-	//			{
-	//				//Spreading Slime
-	//				RawData[row * width + col] = Slime;
-	//				SlimesData.Add(FVector2D(col, row));
-	//			}
-	//		}
-	//		else
-	//			RawData[row * width + col] = noSlime;
+	//		SlimesData.Add(FVector2D(Coordinates.X + col, Coordinates.Y + row));
 	//	}
 	//}
+	int aoe = 10;
+	//Y
+	for (int32 row = 0; row < height; row++)
+	{
+		//X
+		for (int32 col = 0; col < width; col++)
+		{
+			if (row < Coordinates.Y + aoe && row > Coordinates.Y - aoe)
+			{
+				if (col < Coordinates.X + aoe && col > Coordinates.X - aoe)
+				{
+					//Spreading Slime
+					RawData[row * width + col] = Slime;
+					SlimesData.Add(FVector2D(col, row));
+				}
+			}
+			//else
+				//RawData[row * width + col] = noSlime;
+		}
+	}
 	//Branching slime
 	//BranchAlgorithm(FVector2D(600,900),Coordinates, _segLength, _branchProb, 1, _genPenalty, _sucThresh, _spd, _mxBranch);
 }
@@ -220,6 +228,7 @@ void ARTManipulation::DynamicBranchAlgorithm(FVector2D seedPos, int segmentLengt
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Destination Reached, Distance to destination: %f"), newDistance);
 		currentlyBranching = false; 
+		SetSlimeDestination(DynamicTarget); 
 		return;
 	}
 
@@ -402,21 +411,26 @@ void ARTManipulation::Tick(float DeltaTime)
 	//MaterialDynamic->VectorParameterValues.GetData(); 
 	//width = MaterialDynamic->GetWidth(); 
 	//height = MaterialDynamic->GetHeight();
-
-	spreadSpeed = 1000; 
-	for (int i = 0; i < spreadSpeed; i++)
-	if (SlimesData.Num() != NULL)
+	if (SlimesData.Num() != 0)
 	{
-		FVector2D place2Spread = SpreadTexture();
-		if (place2Spread != FVector2D(-1, -1))
-			SlimesData.Add(place2Spread);
+		spreadSpeed = 100;
+		for (int i = 0; i < spreadSpeed; i++)
+			if (SlimesData.Num() != NULL)
+			{
+				FVector2D place2Spread = SpreadTexture();
+				if (place2Spread != FVector2D(-1, -1))
+					SlimesData.Add(place2Spread);
+				if (i == spreadSpeed - 1)
+					spreadTimer--;
+			}
 
-		if (spreadTimer > 0)
-			spreadTimer--;
-		else
+		if (SlimesData.Num() != NULL)
 		{
-			SlimesData.Empty();
-			spreadTimer = 100;
+			if (spreadTimer < 0)
+			{
+				SlimesData.Empty();
+				spreadTimer = 10000;
+			}
 		}
 	}
 	//	spreadSpeed = 0; 

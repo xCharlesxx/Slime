@@ -59,12 +59,12 @@ private:
 	FColor noSlime = FColor(0, 0, 0, 255);
 	FColor Slime = FColor(255, 255, 255, 255);
 	int spreadSpeed = 0; 
-	int spreadTimer = 100; 
+	int spreadTimer = 1000; 
 	int numBranches = 0; 
 	int _segLength = 5; 
 	float _branchProb = 0.3; 
 	int _genPenalty = 0.01; 
-	float _sucThresh = 0;
+	float _sucThresh = 1;
 	float _spd = 0.05; 
 	int _mxBranch = 20; 
 	bool currentlyBranching = false; 
