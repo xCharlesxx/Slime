@@ -35,7 +35,13 @@ class SLIME_API ARTManipulation : public AActor
 		void BranchAlgorithm(FVector2D seedPos, FVector2D target, int segmentLength, float branchProbability, int generation, float generationPenalty, float successThreshold, float speed, int maxBranches);
 
 	UFUNCTION(BlueprintCallable, Category = "Charlie")
-		void DynamicBranchAlgorithm(FVector2D seedPos, int segmentLength, float branchProbability, int generation, float generationPenalty, float successThreshold, float speed, int maxBranches);
+		void DynamicBranchAlgorithm(FVector2D seedPos, int generation, float successThreshold);
+
+	UFUNCTION(BlueprintCallable, Category = "Charlie")
+		void ClearSlime();
+
+	UFUNCTION(BlueprintCallable, Category = "Charlie")
+		void UpdateParams(int segmentLength, float branchProbability, float generationPenalty, float speed, int maxBranches);
 
 	static ARTManipulation* Runnable; 
 
@@ -54,17 +60,17 @@ private:
 	int32 width = 1000; 
 	int32 height = 1000; 
 	FVector2D Coordinates; 
-	FVector2D DynamicTarget = FVector2D(0, 0);
-	FVector2D LastKnownBranch = FVector2D(0, 0);
+	FVector2D DynamicTarget = FVector2D(450, 0);
+	FVector2D LastKnownBranch = FVector2D(450, 900);
 	FColor noSlime = FColor(0, 0, 0, 255);
 	FColor Slime = FColor(255, 255, 255, 255);
 	int spreadSpeed = 0; 
 	int spreadTimer = 1000; 
 	int numBranches = 0; 
-	int _segLength = 5; 
-	float _branchProb = 0.3; 
+	int _segLength = 3; 
+	float _branchProb = 0.6; 
 	int _genPenalty = 0.01; 
-	float _sucThresh = 1;
+	float _sucThresh = 0.5;
 	float _spd = 0.05; 
 	int _mxBranch = 20; 
 	bool currentlyBranching = false; 

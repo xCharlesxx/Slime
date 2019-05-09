@@ -30,7 +30,7 @@ void ARTManipulation::SetDynamicMatPointer(UMaterialInstanceDynamic * dmp)
 
 void ARTManipulation::SetSlimeDestination(FVector2D coords)
 {
-	UE_LOG(LogTemp, Warning, TEXT("CoordinatesB4: X:%d Y:%d"), coords.X, coords.Y);
+	//UE_LOG(LogTemp, Warning, TEXT("CoordinatesB4: X:%d Y:%d"), coords.X, coords.Y);
 	Coordinates = coords;// *1000;
 	SlimesData.Empty(); 
 	////Y
@@ -66,12 +66,35 @@ void ARTManipulation::SetSlimeDestination(FVector2D coords)
 	//BranchAlgorithm(FVector2D(600,900),Coordinates, _segLength, _branchProb, 1, _genPenalty, _sucThresh, _spd, _mxBranch);
 }
 
+void ARTManipulation::ClearSlime()
+{
+	for (int32 row = 0; row < height; row++)
+	{
+		for (int32 col = 0; col < width; col++)
+		{
+			RawData[row * width + col] = noSlime;
+		}
+	}
+	SlimesData.Empty(); 
+	DynamicTarget = FVector2D(-1, -1);
+	LastKnownBranch = FVector2D(450, 900);
+	numBranches = 0; 
+	currentlyBranching = false; 
+}
+
+void ARTManipulation::UpdateParams(int segmentLength, float branchProbability, float generationPenalty, float speed, int maxBranches)
+{
+	_segLength = segmentLength; _branchProb = branchProbability; _genPenalty = generationPenalty; _spd = speed; _mxBranch = maxBranches; 
+}
+
+
+
 void ARTManipulation::BranchTowards(FVector2D coords)
 {
 	DynamicTarget = coords * 1000;
 	if (!currentlyBranching)
 	{
-		DynamicBranchAlgorithm(LastKnownBranch, _segLength, _branchProb, 1, _genPenalty, _sucThresh, _spd, _mxBranch);
+		DynamicBranchAlgorithm(LastKnownBranch, 1, _sucThresh);
 		currentlyBranching = true;
 	}
 }
@@ -84,7 +107,7 @@ void ARTManipulation::BranchAlgorithm(FVector2D seedPos, FVector2D target, int s
 	//Make branches of branches more likely to die
 	if (generation != 1 && (generationPenalty * generation) > probability)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Branch Died"));
+		//UE_LOG(LogTemp, Warning, TEXT("Branch Died"));
 		numBranches--; 
 		return;
 	}
@@ -92,7 +115,7 @@ void ARTManipulation::BranchAlgorithm(FVector2D seedPos, FVector2D target, int s
 	//Probability to Create new branch
 	if (probability < branchProbability && numBranches < maxBranches)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Branch Created"));
+		//UE_LOG(LogTemp, Warning, TEXT("Branch Created"));
 		numBranches++; 
 		BranchAlgorithm(seedPos, target, segmentLength, branchProbability, generation + 1, generationPenalty, successThreshold, speed, maxBranches);
 	}
@@ -109,7 +132,7 @@ void ARTManipulation::BranchAlgorithm(FVector2D seedPos, FVector2D target, int s
 		breakThreshold++;
 		if (breakThreshold > 1000)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Something went Wrong Searching for New Branch Node"));
+			//UE_LOG(LogTemp, Warning, TEXT("Something went Wrong Searching for New Branch Node"));
 			return;
 		}
 
@@ -128,19 +151,19 @@ void ARTManipulation::BranchAlgorithm(FVector2D seedPos, FVector2D target, int s
 	//If new position is already slime, break
 	if (RawData[randomPos.Y * width + randomPos.X] == Slime && generation != 1)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Forward position already Slime"));
+		//UE_LOG(LogTemp, Warning, TEXT("Forward position already Slime"));
 		numBranches--; 
 		return;
 	}
 
 	//Create line between two points 
 	BresenhamLine(seedPos.X, seedPos.Y, randomPos.X, randomPos.Y);
-	UE_LOG(LogTemp, Warning, TEXT("Line Created between points: %f,%f and %f,%f"), seedPos.X, seedPos.Y, randomPos.X, randomPos.Y);
+	//UE_LOG(LogTemp, Warning, TEXT("Line Created between points: %f,%f and %f,%f"), seedPos.X, seedPos.Y, randomPos.X, randomPos.Y);
 
 	//If we have reached destination
 	if (newDistance < successThreshold)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Destination Reached, Distance to destination: %f"), newDistance);
+		//UE_LOG(LogTemp, Warning, TEXT("Destination Reached, Distance to destination: %f"), newDistance);
 		return;
 	}
 
@@ -149,28 +172,29 @@ void ARTManipulation::BranchAlgorithm(FVector2D seedPos, FVector2D target, int s
 	FTimerHandle TimerHandle; 
 	TimerDel.BindUFunction(this, FName("BranchAlgorithm"), randomPos, target, segmentLength, branchProbability, generation, generationPenalty, successThreshold, speed, maxBranches);
 	GetWorldTimerManager().SetTimer(TimerHandle,TimerDel, speed, false);
-	UE_LOG(LogTemp, Warning, TEXT("Recursed"));
+	//UE_LOG(LogTemp, Warning, TEXT("Recursed"));
 }
 
-void ARTManipulation::DynamicBranchAlgorithm(FVector2D seedPos, int segmentLength, float branchProbability, int generation, float generationPenalty, float successThreshold, float speed, int maxBranches)
+void ARTManipulation::DynamicBranchAlgorithm(FVector2D seedPos, int generation, float successThreshold)
 {
-	//_segLength = segmentLength; _branchProb = branchProbability; _genPenalty = generationPenalty; _sucThresh = successThreshold; _spd = speed; _mxBranch = maxBranches;
+	if (DynamicTarget == FVector2D(-1, -1))
+		return; 
 
 	float probability = FMath::RandRange((float)0, (float)1);
 	//Make branches of branches more likely to die
-	if (generation != 1 && (generationPenalty * generation) > probability)
+	if (generation != 1 && (_genPenalty * generation) > probability)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Branch Died"));
+		//UE_LOG(LogTemp, Warning, TEXT("Branch Died"));
 		numBranches--;
 		return;
 	}
 
 	//Probability to Create new branch
-	if (probability < branchProbability && numBranches < maxBranches)
+	if (probability < _branchProb && numBranches < _mxBranch)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Branch Created"));
+		//UE_LOG(LogTemp, Warning, TEXT("Branch Created"));
 		numBranches++;
-		DynamicBranchAlgorithm(seedPos, segmentLength, branchProbability, generation + 1, generationPenalty, successThreshold, speed, maxBranches);
+		DynamicBranchAlgorithm(seedPos, generation + 1, successThreshold);
 	}
 
 	float currentDistance = FVector2D::Distance(seedPos, DynamicTarget);
@@ -192,15 +216,15 @@ void ARTManipulation::DynamicBranchAlgorithm(FVector2D seedPos, int segmentLengt
 		breakThreshold++;
 		if (breakThreshold > 1000)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Something went Wrong Searching for New Branch Node"));
+			//UE_LOG(LogTemp, Warning, TEXT("Something went Wrong Searching for New Branch Node"));
 			if (generation == 1)
 				currentlyBranching = false; 
 			return;
 		}
 
 		//Pick random position within segmentLength squares
-		randomPos = FVector2D(seedPos.X + (FMath::RandRange(-segmentLength, segmentLength)),
-			seedPos.Y + (FMath::RandRange(-segmentLength, segmentLength)));
+		randomPos = FVector2D(seedPos.X + (FMath::RandRange(-_segLength, _segLength)),
+			seedPos.Y + (FMath::RandRange(-_segLength, _segLength)));
 
 		//Check if out of bounds
 		if (randomPos.X > width - 1 || randomPos.X <= 0 || randomPos.Y > height - 1 || randomPos.Y <= 0)
@@ -213,7 +237,7 @@ void ARTManipulation::DynamicBranchAlgorithm(FVector2D seedPos, int segmentLengt
 	//If new position is already slime, break
 	if (RawData[randomPos.Y * width + randomPos.X] == Slime && generation != 1)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Forward position already Slime"));
+		//UE_LOG(LogTemp, Warning, TEXT("Forward position already Slime"));
 		numBranches--;
 		return;
 	}
@@ -221,12 +245,12 @@ void ARTManipulation::DynamicBranchAlgorithm(FVector2D seedPos, int segmentLengt
 	//Create line between two points 
 	BresenhamLine(seedPos.X, seedPos.Y, randomPos.X, randomPos.Y);
 	LastKnownBranch = randomPos; 
-	UE_LOG(LogTemp, Warning, TEXT("Line Created between points: %f,%f and %f,%f"), seedPos.X, seedPos.Y, randomPos.X, randomPos.Y);
+	//UE_LOG(LogTemp, Warning, TEXT("Line Created between points: %f,%f and %f,%f"), seedPos.X, seedPos.Y, randomPos.X, randomPos.Y);
 
 	//If we have reached destination
 	if (newDistance < successThreshold)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Destination Reached, Distance to destination: %f"), newDistance);
+		//UE_LOG(LogTemp, Warning, TEXT("Destination Reached, Distance to destination: %f"), newDistance);
 		currentlyBranching = false; 
 		SetSlimeDestination(DynamicTarget); 
 		return;
@@ -235,9 +259,9 @@ void ARTManipulation::DynamicBranchAlgorithm(FVector2D seedPos, int segmentLengt
 	//Recursive call Branch algorithm continue branch
 	FTimerDelegate TimerDel;
 	FTimerHandle TimerHandle;
-	TimerDel.BindUFunction(this, FName("DynamicBranchAlgorithm"), randomPos, segmentLength, branchProbability, generation, generationPenalty, successThreshold, speed, maxBranches);
-	GetWorldTimerManager().SetTimer(TimerHandle, TimerDel, speed, false);
-	UE_LOG(LogTemp, Warning, TEXT("Recursed"));
+	TimerDel.BindUFunction(this, FName("DynamicBranchAlgorithm"), randomPos, generation, successThreshold);
+	GetWorldTimerManager().SetTimer(TimerHandle, TimerDel, _spd, false);
+	//UE_LOG(LogTemp, Warning, TEXT("Recursed"));
 }
 
 void ARTManipulation::BresenhamLine(int x1, int y1, int const x2, int const y2)
@@ -330,44 +354,50 @@ FVector2D ARTManipulation::SpreadTexture()
 	//If location is the colour of slime
 	if (RawData[slim.Y * width + slim.X] == Slime)
 	{
-		for (int i = 0; i < 50; i++)
-		switch (FMath::RandRange(0, 3))
-		{
-		case 0:
-			if (slim.Y != height - 1)
-				if (RawData[(slim.Y + 1) * width + slim.X] == noSlime)
-				{
-					RawData[(slim.Y + 1) * width + slim.X] = Slime;
-					return FVector2D(slim.X, slim.Y + 1);
-				}
-			break;
-		case 1:
-			if (slim.Y != 0)
-				if (RawData[(slim.Y - 1) * width + slim.X] == noSlime)
-				{
-					RawData[(slim.Y - 1) * width + slim.X] = Slime;
-					return FVector2D(slim.X, slim.Y - 1);
-				}
-			break;
-		case 2:
-			if (slim.X != width - 1)
-				if (RawData[slim.Y * width + (slim.X + 1)] == noSlime)
-				{
-					RawData[slim.Y * width + (slim.X + 1)] = Slime;
-					return FVector2D(slim.X + 1, slim.Y);
-				}
-			break;
-		case 3:
-			if (slim.X != 0)
-				if (RawData[slim.Y * width + (slim.X - 1)] == noSlime)
-				{
-					RawData[slim.Y * width + (slim.X - 1)] = Slime;
-					return FVector2D(slim.X - 1, slim.Y);
-				}
-			break;
-		default:
-			break;
-		}
+		bool up = false, down = false, left = false, right = false; 
+		//While all four directions have not yet been traversed
+		while (!(up && down && left && right))
+			switch (FMath::RandRange(0, 3))
+			{
+			case 0:
+				up = true; 
+				if (slim.Y != height - 1)
+					if (RawData[(slim.Y + 1) * width + slim.X] == noSlime)
+					{
+						RawData[(slim.Y + 1) * width + slim.X] = Slime;
+						return FVector2D(slim.X, slim.Y + 1);
+					}
+				break;
+			case 1:
+				down = true; 
+				if (slim.Y != 0)
+					if (RawData[(slim.Y - 1) * width + slim.X] == noSlime)
+					{
+						RawData[(slim.Y - 1) * width + slim.X] = Slime;
+						return FVector2D(slim.X, slim.Y - 1);
+					}
+				break;
+			case 2:
+				left = true; 
+				if (slim.X != width - 1)
+					if (RawData[slim.Y * width + (slim.X + 1)] == noSlime)
+					{
+						RawData[slim.Y * width + (slim.X + 1)] = Slime;
+						return FVector2D(slim.X + 1, slim.Y);
+					}
+				break;
+			case 3:
+				right = true;
+				if (slim.X != 0)
+					if (RawData[slim.Y * width + (slim.X - 1)] == noSlime)
+					{
+						RawData[slim.Y * width + (slim.X - 1)] = Slime;
+						return FVector2D(slim.X - 1, slim.Y);
+					}
+				break;
+			default:
+				break;
+			}
 		//If no spare spaces around slime, remove slime
 		SlimesData.Remove(slim);
 		return FVector2D(-1,-1); 
@@ -377,6 +407,54 @@ FVector2D ARTManipulation::SpreadTexture()
 	UE_LOG(LogTemp, Warning, TEXT("Something went Wrong in SpreadTexture"));
 	return FVector2D(-1, -1);
 }
+
+//FVector2D ARTManipulation::SpreadTexture()
+//{
+//	//Pick random point of possible traversable points 
+//	FVector2D slim = SlimesData[FMath::RandRange(0, SlimesData.Num() - 1)];
+//
+//	//If location is the colour of slime
+//	if (RawData[slim.Y * width + slim.X] == Slime)
+//	{
+//		//Check all four directions around square and if not slime, make slime
+//		if (slim.Y != height - 1)
+//			if (RawData[(slim.Y + 1) * width + slim.X] == noSlime)
+//			{
+//				RawData[(slim.Y + 1) * width + slim.X] = Slime;
+//				return FVector2D(slim.X, slim.Y + 1);
+//			}
+//
+//		if (slim.Y != 0)
+//			if (RawData[(slim.Y - 1) * width + slim.X] == noSlime)
+//			{
+//				RawData[(slim.Y - 1) * width + slim.X] = Slime;
+//				return FVector2D(slim.X, slim.Y - 1);
+//			}
+//
+//		if (slim.X != width - 1)
+//			if (RawData[slim.Y * width + (slim.X + 1)] == noSlime)
+//			{
+//				RawData[slim.Y * width + (slim.X + 1)] = Slime;
+//				return FVector2D(slim.X + 1, slim.Y);
+//			}
+//
+//		if (slim.X != 0)
+//			if (RawData[slim.Y * width + (slim.X - 1)] == noSlime)
+//			{
+//				RawData[slim.Y * width + (slim.X - 1)] = Slime;
+//				return FVector2D(slim.X - 1, slim.Y);
+//			}
+//
+//
+//		//Once no spare spaces around slime, remove slime
+//		SlimesData.Remove(slim);
+//		return FVector2D(-1, -1);
+//	}
+//
+//	//Should never reach here
+//	UE_LOG(LogTemp, Warning, TEXT("Something went Wrong in SpreadTexture"));
+//	return FVector2D(-1, -1);
+//}
 
 // Sets default values
 ARTManipulation::ARTManipulation()
@@ -418,6 +496,7 @@ void ARTManipulation::Tick(float DeltaTime)
 			if (SlimesData.Num() != NULL)
 			{
 				FVector2D place2Spread = SpreadTexture();
+				//If not null add 
 				if (place2Spread != FVector2D(-1, -1))
 					SlimesData.Add(place2Spread);
 				if (i == spreadSpeed - 1)
@@ -438,6 +517,7 @@ void ARTManipulation::Tick(float DeltaTime)
 	//else
 	//	spreadSpeed++; 
 
+	//If texture has changed, update texture
 	if (RawData != PreRawData)
 	{
 		UTexture2D* texture = UTexture2D::CreateTransient(width, height);

@@ -17,19 +17,35 @@ class UMaterialInstanceDynamic;
 
 #define Slime_Source_Slime_RTManipulation_h_14_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execDynamicBranchAlgorithm) \
+	DECLARE_FUNCTION(execUpdateParams) \
 	{ \
-		P_GET_STRUCT(FVector2D,Z_Param_seedPos); \
 		P_GET_PROPERTY(UIntProperty,Z_Param_segmentLength); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_branchProbability); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_generation); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_generationPenalty); \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_successThreshold); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_speed); \
 		P_GET_PROPERTY(UIntProperty,Z_Param_maxBranches); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->DynamicBranchAlgorithm(Z_Param_seedPos,Z_Param_segmentLength,Z_Param_branchProbability,Z_Param_generation,Z_Param_generationPenalty,Z_Param_successThreshold,Z_Param_speed,Z_Param_maxBranches); \
+		P_THIS->UpdateParams(Z_Param_segmentLength,Z_Param_branchProbability,Z_Param_generationPenalty,Z_Param_speed,Z_Param_maxBranches); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execClearSlime) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ClearSlime(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDynamicBranchAlgorithm) \
+	{ \
+		P_GET_STRUCT(FVector2D,Z_Param_seedPos); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_generation); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_successThreshold); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DynamicBranchAlgorithm(Z_Param_seedPos,Z_Param_generation,Z_Param_successThreshold); \
 		P_NATIVE_END; \
 	} \
  \
@@ -89,19 +105,35 @@ class UMaterialInstanceDynamic;
 
 #define Slime_Source_Slime_RTManipulation_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execDynamicBranchAlgorithm) \
+	DECLARE_FUNCTION(execUpdateParams) \
 	{ \
-		P_GET_STRUCT(FVector2D,Z_Param_seedPos); \
 		P_GET_PROPERTY(UIntProperty,Z_Param_segmentLength); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_branchProbability); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_generation); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_generationPenalty); \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_successThreshold); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_speed); \
 		P_GET_PROPERTY(UIntProperty,Z_Param_maxBranches); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->DynamicBranchAlgorithm(Z_Param_seedPos,Z_Param_segmentLength,Z_Param_branchProbability,Z_Param_generation,Z_Param_generationPenalty,Z_Param_successThreshold,Z_Param_speed,Z_Param_maxBranches); \
+		P_THIS->UpdateParams(Z_Param_segmentLength,Z_Param_branchProbability,Z_Param_generationPenalty,Z_Param_speed,Z_Param_maxBranches); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execClearSlime) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ClearSlime(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDynamicBranchAlgorithm) \
+	{ \
+		P_GET_STRUCT(FVector2D,Z_Param_seedPos); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_generation); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_successThreshold); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DynamicBranchAlgorithm(Z_Param_seedPos,Z_Param_generation,Z_Param_successThreshold); \
 		P_NATIVE_END; \
 	} \
  \
