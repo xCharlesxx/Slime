@@ -1,0 +1,983 @@
+CommandLine Options:  -skipcompile
+Time Since Boot: 87.53 Seconds
+
+Platform Memory Stats for Windows
+Process Physical Memory: 3403.83 MB used, 3403.83 MB peak
+Process Virtual Memory: 6239.39 MB used, 6239.39 MB peak
+Physical Memory: 15021.08 MB used,  17699.68 MB free, 32720.77 MB total
+Virtual Memory: 11303.96 MB used,  134206424.00 MB free, 134217728.00 MB total
+
+Allocator Stats for TBB: (not implemented)
+Memory Stats:
+FMemStack (gamethread) current size = 0.00 MB
+FPageAllocator (all threads) allocation size [used/ unused] = [0.00 / 0.00] MB
+Nametable memory usage = 5.08 MB
+AssetRegistry memory usage = 8.38 MB
+           16352  -  Light interaction memory - STAT_LightInteractionMemory - STATGROUP_SceneMemory - STATCAT_Advanced
+           90176  -  Rendering mem stack memory - STAT_RenderingMemStackMemory - STATGROUP_SceneMemory - STATCAT_Advanced
+            8336  -  ViewState memory - STAT_ViewStateMemory - STATGROUP_SceneMemory - STATCAT_Advanced
+           24768  -  Scene memory - STAT_RenderingSceneMemory - STATGROUP_SceneMemory - STATCAT_Advanced
+           45296  -  Static draw list memory - STAT_StaticDrawListMemory - STATGROUP_SceneMemory - STATCAT_Advanced
+           60176  -  Primitive memory - STAT_PrimitiveInfoMemory - STATGROUP_SceneMemory - STATCAT_Advanced
+         2228160  -  Render target memory Cube - STAT_RenderTargetMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+        46399488  -  Render target memory 3D - STAT_RenderTargetMemory3D - STATGROUP_RHI - STATCAT_Advanced
+          643344  -  Uniform buffer memory - STAT_UniformBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+        16793864  -  Texture memory 3D - STAT_TextureMemory3D - STATGROUP_RHI - STATCAT_Advanced
+      2179285184  -  Texture memory 2D - STAT_TextureMemory2D - STATGROUP_RHI - STATCAT_Advanced
+        23134260  -  Texture memory Cube - STAT_TextureMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+       277563196  -  Render target memory 2D - STAT_RenderTargetMemory2D - STATGROUP_RHI - STATCAT_Advanced
+        81600162  -  Vertex buffer memory - STAT_VertexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+       232714732  -  Index buffer memory - STAT_IndexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+               0  -  PageAllocator Used - STAT_PageAllocatorUsed - STATGROUP_Memory - STATCAT_Advanced
+         1703936  -  PageAllocator Free - STAT_PageAllocatorFree - STATGROUP_Memory - STATCAT_Advanced
+          638560  -  SkeletalMesh Vertex Memory - STAT_SkeletalMeshVertexMemory - STATGROUP_Memory - STATCAT_Advanced
+          910470  -  SkeletalMesh Index Memory - STAT_SkeletalMeshIndexMemory - STATGROUP_Memory - STATCAT_Advanced
+            4072  -  Persistent Uber Graph Frame memory - STAT_PersistentUberGraphFrameMemory - STATGROUP_Memory - STATCAT_Advanced
+          219176  -  Navigation Memory - STAT_NavigationMemory - STATGROUP_Memory - STATCAT_Advanced
+       188183506  -  StaticMesh Total Memory - STAT_StaticMeshTotalMemory - STATGROUP_Memory - STATCAT_Advanced
+      2161483072  -  Texture Memory Used - STAT_TextureMemory - STATGROUP_Memory - STATCAT_Advanced
+               0  -  FArchiveAsync2 Buffers - STAT_FArchiveAsync2Mem - STATGROUP_Memory - STATCAT_Advanced
+  18446744073700072430  -  Async File Handle Memory - STAT_AsyncFileMemory - STATGROUP_Memory - STATCAT_Advanced
+          644546  -  VertexShader Memory - STAT_VertexShaderMemory - STATGROUP_Memory - STATCAT_Advanced
+         3937744  -  PixelShader Memory - STAT_PixelShaderMemory - STATGROUP_Memory - STATCAT_Advanced
+        46327312  -  Used Streaming Pool [Wanted] - MCR_UsedStreamingPool - STATGROUP_Memory - STATCAT_Advanced
+      1048576000  -  Streaming Texture Pool [Streaming] - MCR_StreamingPool - STATGROUP_Memory - STATCAT_Advanced
+      1048576000  -  Texture Memory Pool [Texture] - MCR_TexturePool - STATGROUP_Memory - STATCAT_Advanced
+               0  -  GPU Memory Pool [GPU] - MCR_GPU - STATGROUP_Memory - STATCAT_Advanced
+               0  -  Total Physical Memory Pool (CPU + GPU) [PhysicalLLM] - MCR_PhysicalLLM - STATGROUP_Memory - STATCAT_Advanced
+               0  -  Physical Memory Pool [Physical] - MCR_Physical - STATGROUP_Memory - STATCAT_Advanced
+         3953138  -  ICU Data File Memory Used - STAT_MemoryICUDataFileAllocationSize - STATGROUP_Memory - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Project10 - STAT_TEXTUREGROUP_Project10 - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Project09 - STAT_TEXTUREGROUP_Project09 - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Project08 - STAT_TEXTUREGROUP_Project08 - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Project07 - STAT_TEXTUREGROUP_Project07 - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Project06 - STAT_TEXTUREGROUP_Project06 - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Project05 - STAT_TEXTUREGROUP_Project05 - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Project04 - STAT_TEXTUREGROUP_Project04 - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Project03 - STAT_TEXTUREGROUP_Project03 - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Project02 - STAT_TEXTUREGROUP_Project02 - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Project01 - STAT_TEXTUREGROUP_Project01 - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_ImpostorNormalDepth - STAT_TEXTUREGROUP_ImpostorNormalDepth - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Impostor - STAT_TEXTUREGROUP_Impostor - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_HierarchicalLOD - STAT_TEXTUREGROUP_HierarchicalLOD - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Pixels2D - STAT_TEXTUREGROUP_Pixels2D - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_IESLightProfile - STAT_TEXTUREGROUP_IESLightProfile - STATGROUP_TextureGroup - STATCAT_Advanced
+           21844  -  TEXTUREGROUP_Bokeh - STAT_TEXTUREGROUP_Bokeh - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Terrain_Weightmap - STAT_TEXTUREGROUP_Terrain_Weightmap - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Terrain_Heightmap - STAT_TEXTUREGROUP_Terrain_Heightmap - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_ColorLookupTable - STAT_TEXTUREGROUP_ColorLookupTable - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Shadowmap - STAT_TEXTUREGROUP_Shadowmap - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_ProcBuilding_LightMap - STAT_TEXTUREGROUP_ProcBuilding_LightMap - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_ProcBuilding_Face - STAT_TEXTUREGROUP_ProcBuilding_Face - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_MobileFlattened - STAT_TEXTUREGROUP_MobileFlattened - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_RenderTarget - STAT_TEXTUREGROUP_RenderTarget - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Lightmap - STAT_TEXTUREGROUP_Lightmap - STATGROUP_TextureGroup - STATCAT_Advanced
+         4128344  -  TEXTUREGROUP_UI - STAT_TEXTUREGROUP_UI - STATGROUP_TextureGroup - STATCAT_Advanced
+         3670044  -  TEXTUREGROUP_Skybox - STAT_TEXTUREGROUP_Skybox - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_EffectsNotFiltered - STAT_TEXTUREGROUP_EffectsNotFiltered - STATGROUP_TextureGroup - STATCAT_Advanced
+           32764  -  TEXTUREGROUP_Effects - STAT_TEXTUREGROUP_Effects - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Cinematic - STAT_TEXTUREGROUP_Cinematic - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_VehicleSpecular - STAT_TEXTUREGROUP_VehicleSpecular - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_VehicleNormalMap - STAT_TEXTUREGROUP_VehicleNormalMap - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_Vehicle - STAT_TEXTUREGROUP_Vehicle - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_WeaponSpecular - STAT_TEXTUREGROUP_WeaponSpecular - STATGROUP_TextureGroup - STATCAT_Advanced
+         5592432  -  TEXTUREGROUP_WeaponNormalMap - STAT_TEXTUREGROUP_WeaponNormalMap - STATGROUP_TextureGroup - STATCAT_Advanced
+          349552  -  TEXTUREGROUP_Weapon - STAT_TEXTUREGROUP_Weapon - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_CharacterSpecular - STAT_TEXTUREGROUP_CharacterSpecular - STATGROUP_TextureGroup - STATCAT_Advanced
+         5603408  -  TEXTUREGROUP_CharacterNormalMap - STAT_TEXTUREGROUP_CharacterNormalMap - STATGROUP_TextureGroup - STATCAT_Advanced
+        11889416  -  TEXTUREGROUP_Character - STAT_TEXTUREGROUP_Character - STATGROUP_TextureGroup - STATCAT_Advanced
+               0  -  TEXTUREGROUP_WorldSpecular - STAT_TEXTUREGROUP_WorldSpecular - STATGROUP_TextureGroup - STATCAT_Advanced
+          114852  -  TEXTUREGROUP_WorldNormalMap - STAT_TEXTUREGROUP_WorldNormalMap - STATGROUP_TextureGroup - STATCAT_Advanced
+      2130080416  -  TEXTUREGROUP_World - STAT_TEXTUREGROUP_World - STATGROUP_TextureGroup - STATCAT_Advanced
+
+
+
+
+Obj List: -alphasort
+Objects:
+
+                                                                                                Class    Count      NumKB      MaxKB   ResExcKB  ResExcDedSysKB  ResExcShrSysKB  ResExcDedVidKB  ResExcShrVidKB     ResExcUnkKB
+                                                                                    AbcImportSettings        1       0.16       0.16       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                      AbstractNavData        2       2.94       2.94       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             ActorFactoryAmbientSound        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           ActorFactoryAnimationAsset        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           ActorFactoryAtmosphericFog        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               ActorFactoryBasicShape        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                ActorFactoryBlueprint        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                     ActorFactoryBoxReflectionCapture        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                ActorFactoryBoxVolume       22       2.75       2.75       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              ActorFactoryCameraActor        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                ActorFactoryCharacter        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                    ActorFactoryClass        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           ActorFactoryCylinderVolume       22       2.75       2.75       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            ActorFactoryDeferredDecal        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                         ActorFactoryDirectionalLight        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                  ActorFactoryEmitter        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               ActorFactoryEmptyActor        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                     ActorFactoryExponentialHeightFog        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            ActorFactoryGeometryCache        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                       ActorFactoryInteractiveFoliage        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                ActorFactoryLandscape        2       0.25       0.25       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             ActorFactoryMatineeActor        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               ActorFactoryMovieScene        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                     ActorFactoryNote        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                     ActorFactoryPawn        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             ActorFactoryPhysicsAsset        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                         ActorFactoryPlanarReflection        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                   ActorFactoryPlaneReflectionCapture        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              ActorFactoryPlayerStart        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               ActorFactoryPointLight        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                        ActorFactoryProceduralFoliage        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                ActorFactoryRectLight        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             ActorFactorySkeletalMesh        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                 ActorFactorySkyLight        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                  ActorFactorySphereReflectionCapture        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             ActorFactorySphereVolume       22       2.75       2.75       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                ActorFactorySpotLight        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               ActorFactoryStaticMesh        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              ActorFactoryTargetPoint        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               ActorFactoryTextRender        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               ActorFactoryTriggerBox        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           ActorFactoryTriggerCapsule        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            ActorFactoryTriggerSphere        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                        ActorFactoryVectorFieldVolume        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   AIPerceptionSystem        2       0.63       0.63       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                             AISystem        2       0.69       0.69       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                       AndroidPermissionCallbackProxy        1       0.09       0.09       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       AnimationGraph        1       0.23       0.23       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                  AnimationStateGraph        5       1.13       1.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           AnimationStateMachineGraph        1       0.39       0.39       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             AnimationTransitionGraph        7       1.62       1.62       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        AnimBlueprint        1       2.07       2.19       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                          AnimBlueprintGeneratedClass        2       5.50       8.66       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                       AnimBlueprintThumbnailRenderer        1       0.14       0.14       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                     AnimCompress_BitwiseCompressOnly        2       0.27       0.27       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                        AnimCompress_RemoveLinearKeys        5       0.81       0.81       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   AnimGraphNode_Root        1       0.61       0.70       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                         AnimGraphNode_SequencePlayer        5       7.63      15.42       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   AnimGraphNode_Slot        1       1.17       2.45       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           AnimGraphNode_StateMachine        1       0.92       7.47       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            AnimGraphNode_StateResult        5       3.03       3.93       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                       AnimGraphNode_TransitionResult        7       4.05       6.17       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                          AnimMontage        1       0.95       0.95       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                         AnimSequence        6      96.32      96.32       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                        AnimSequenceThumbnailRenderer        1       0.07       0.07       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   AnimStateEntryNode        1       4.48       4.48       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        AnimStateNode        5       3.83       3.83       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              AnimStateTransitionNode        7       6.89       6.89       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        ArrayProperty     1876     263.81     263.81       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       ArrowComponent        8      12.88      16.63       7.94            7.94            0.00            0.00            0.00            0.00
+                                                                                      AssetImportData      172      17.47      17.47       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                         AssetManager        1       1.15       1.16       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       AtmosphericFog        2       2.07       2.07       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              AtmosphericFogComponent        2       2.25       2.28       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                  AutoReimportManager        1       0.07       0.07       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                     AvoidanceManager        2       0.52       0.52       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                  BehaviorTreeManager        2       0.19       0.19       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   BillboardComponent       16      26.00      33.50       3.72            3.72            0.00            0.00            0.00            0.00
+                                                                          BlendSpaceThumbnailRenderer        1       0.07       0.07       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                            Blueprint       10      24.47      24.65       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              BlueprintGeneratedClass       22      32.48      35.68       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           BlueprintThumbnailRenderer        1       0.14       0.14       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                            BodySetup       42      39.66      58.50  233394.05       233394.05            0.00            0.00            0.00            0.00
+                                                                                             BookMark        4       0.38       0.38       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                         BoolProperty     5743     807.61     807.61       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                      BP_Sky_Sphere_C        2       2.39       2.39       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       BP_Tex_Maker_C        2       2.22       2.22       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                           Breakpoint        6       0.47       0.47       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                                Brush        2       2.14       2.14       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       BrushComponent        8      12.38      16.00       8.71            8.71            0.00            0.00            0.00            0.00
+                                                                                         ByteProperty     1733     243.70     243.70       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                          CameraActor        1       2.30       2.30       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       CameraAnimInst        8       2.25       2.25       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                      CameraComponent        3       6.13       6.28       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           CameraModifier_CameraShake        1       0.11       0.11       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                               Canvas        3       2.20       2.20       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                     CapsuleComponent        4       6.33       8.63       3.51            3.51            0.00            0.00            0.00            0.00
+                                                                           CharacterMovementComponent        2       3.69       3.69       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                         CheatManager        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                                Class     2717    1788.08    1988.71       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        ClassProperty      344      51.06      51.06       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               ClassThumbnailRenderer        1       0.14       0.14       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                       ClothingSimulationInteractorNv        8       0.63       0.63       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                              Console        1       0.67       0.67       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   CookOnTheFlyServer        1       0.99       0.99       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                         CrowdManager        2       0.73       0.73       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                          CubeBuilder        4       2.61       2.61       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                           CurveFloat        1       0.29       0.29       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                     CurveLinearColor        3       3.46       3.62       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                    CurveLinearColorThumbnailRenderer        1       0.05       0.05       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                 DefaultPhysicsVolume        2       2.13       2.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                     DelegateFunction      251      51.84      56.62       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                     DelegateProperty       77      10.83      10.83       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        DeviceProfile       82     325.44     360.68       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                 DeviceProfileManager        1       0.82       0.82       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                     DirectionalLight        2       2.07       2.07       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            DirectionalLightComponent        2       2.12       2.16       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       DoubleProperty       26       3.45       3.45       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                 DrawFrustumComponent        4       6.13       8.00       0.47            0.47            0.00            0.00            0.00            0.00
+                                                                                  DrawSphereComponent        4       6.13       8.00       2.79            2.79            0.00            0.00            0.00            0.00
+                                                                                              EdGraph       68      16.67      16.91       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                  EdGraphNode_Comment       27       9.42       9.42       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   EditorActorFolders        2       0.20       0.22       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                       EditorWorldExtensionCollection        1       0.09       0.09       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                          EditorWorldExtensionManager        1       0.08       0.10       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                                 Enum      847     210.18     483.09       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                         EnumProperty      524      77.78      77.78       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                      EnvQueryManager        2       0.98       0.98       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            FbxAnimSequenceImportData        1       0.24       0.24       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              FbxStaticMeshImportData       28       6.14       6.14       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                 FirstPerson_AnimBP_C        2       8.69       8.69       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              FirstPersonExampleMap_C        2       1.98       1.98       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        FloatProperty     4195     557.15     557.15       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                     FoliageType_ISMThumbnailRenderer        1       0.07       0.07       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                                 Font        6      27.46      27.71       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                             FontFace        6     967.93     968.19     966.30          966.30            0.00            0.00            0.00            0.00
+                                                                                FontThumbnailRenderer        1       0.05       0.05       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                             Function     4937    1048.72    1164.45       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                         GameInstance        1       0.18       0.20       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   GameNetworkManager        1       1.17       1.17       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                   GameplayDebuggerCategoryReplicator        1       1.09       1.09       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                      GameplayDebuggerLocalController        1       0.32       0.32       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                        GameplayDebuggerPlayerManager        1       1.05       1.12       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                   GameplayDebuggerRenderingComponent        1       1.56       2.06       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                  GameplayTagsManager        1       0.89       0.95       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                          GameSession        1       1.05       1.05       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        GameStateBase        1       1.09       1.11       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                     GameUserSettings        1       0.29       0.29       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   GameViewportClient        1       0.78       0.78       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   GCObjectReferencer        1       0.11       0.11       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                       GeometryCacheThumbnailRenderer        1       0.07       0.07       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       InputComponent        5       2.46       4.10       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              InputKeyDelegateBinding        3       1.27       2.09       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        Int16Property        6       0.80       0.80       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        Int64Property        6       0.80       0.80       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                         Int8Property       19       2.52       2.52       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                    InterfaceProperty       27       3.80       3.80       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                      InterpGroupInst        8       0.69       0.69       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                          IntProperty     2183     289.93     289.93       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           K2Node_AssignmentStatement       34       7.42       7.42       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             K2Node_CallArrayFunction        3       1.01       1.01       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                  K2Node_CallFunction      178      68.02      68.21       0.00            0.00            0.00            0.00            0.00            0.00
+                                                       K2Node_CallMaterialParameterCollectionFunction        2       0.70       0.70       0.00            0.00            0.00            0.00            0.00            0.00
+                                                          K2Node_CommutativeAssociativeBinaryOperator       18       7.16       7.16       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   K2Node_CustomEvent        2       0.81       0.81       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   K2Node_DynamicCast        3       0.75       0.75       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                         K2Node_Event        5       2.04       2.20       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             K2Node_ExecutionSequence       12       2.53       2.53       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                 K2Node_FunctionEntry       33      16.02      16.02       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                  K2Node_GetArrayItem        3       0.66       0.66       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                    K2Node_IfThenElse       29       6.72       6.72       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                      K2Node_InputKey       15       4.69       4.69       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                          K2Node_Knot       13       2.74       2.74       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                 K2Node_MacroInstance       11       6.35       6.35       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                  K2Node_SetVariableOnPersistentFrame       22       4.47       4.47       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             K2Node_TemporaryVariable       17       6.83       6.83       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                          K2Node_TransitionRuleGetter        2       0.45       1.01       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        K2Node_Tunnel       46      17.64      17.64       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   K2Node_VariableGet       70      25.76      26.66       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   K2Node_VariableSet       32      16.92      17.07       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                K2Node_VariableSetRef        4       0.94       0.94       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                     LandscapeInfoMap        3       0.42       0.42       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             LandscapeLayerInfoObject        1       0.11       0.11       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                                Layer        2       0.17       0.17       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   LazyObjectProperty       14       1.97       1.97       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                                Level        2       4.36       4.71       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                 LevelScriptBlueprint        2       2.69       2.75       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               LevelThumbnailRenderer        1       0.06       0.06       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            LightmassImportanceVolume        2       2.22       2.22       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   LineBatchComponent        6       9.38      12.19       3.00            3.00            0.00            0.00            0.00            0.00
+                                                                                  LinuxTargetSettings        1       0.19       0.22       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                          LocalPlayer        1       0.47       0.47       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                    MacTargetSettings        1       0.18       0.23       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                          MapProperty       83      15.56      15.56       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                             Material      101     288.62     292.36     817.12          817.12            0.00            0.00            0.00            0.00
+                                                                                MaterialExpressionAbs       19       5.34       8.46       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                MaterialExpressionAdd       68      23.38      34.54       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                       MaterialExpressionAppendVector       40      14.38      20.00       0.00            0.00            0.00            0.00            0.00            0.00
+                                                            MaterialExpressionBreakMaterialAttributes        3       3.12       5.39       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                   MaterialExpressionCameraPositionWS        6       1.50       2.34       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                     MaterialExpressionCameraVectorWS        3       0.68       1.17       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               MaterialExpressionCeil        2       0.56       0.89       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              MaterialExpressionClamp       37      15.03      21.10       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            MaterialExpressionComment       83      26.53      40.15       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                      MaterialExpressionComponentMask       62      19.38      28.09       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           MaterialExpressionConstant      117      27.64      46.84       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                    MaterialExpressionConstant2Vector       13       3.35       5.18       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                    MaterialExpressionConstant3Vector       52      14.13      21.45       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                    MaterialExpressionConstant4Vector        5       1.37       2.07       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                  MaterialExpressionConstantBiasScale        9       2.60       4.08       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             MaterialExpressionCosine        1       0.29       0.45       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             MaterialExpressionCustom       25      13.95      18.05       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                MaterialExpressionDDX        2       0.56       0.89       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                MaterialExpressionDDY        2       0.56       0.89       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                       MaterialExpressionDesaturation        6       2.25       3.09       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           MaterialExpressionDistance        5       1.68       2.50       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             MaterialExpressionDivide       41      14.41      21.14       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                         MaterialExpressionDotProduct       23       8.27      11.50       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                 MaterialExpressionFeatureLevelSwitch       30      15.05      19.97       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              MaterialExpressionFloor       10       2.83       4.47       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               MaterialExpressionFmod        2       0.67       1.00       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                MaterialExpressionFontSampleParameter        1       0.48       1.02       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               MaterialExpressionFrac        4       1.15       1.81       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            MaterialExpressionFresnel        2       0.81       1.14       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                      MaterialExpressionFunctionInput       77      37.29      49.93       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                     MaterialExpressionFunctionOutput       58      21.31      30.83       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                 MaterialExpressionIf       16       8.26      10.88       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                        MaterialExpressionLightmapUVs        1       0.23       0.39       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                  MaterialExpressionLinearInterpolate       61      26.56      35.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                             MaterialExpressionMakeMaterialAttributes       11      17.53      19.34       0.00            0.00            0.00            0.00            0.00            0.00
+                                                               MaterialExpressionMaterialFunctionCall       79      43.07      80.82       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                MaterialExpressionMax        2       0.69       1.02       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                MaterialExpressionMin        4       1.40       2.06       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           MaterialExpressionMultiply      190      65.31      96.48       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              MaterialExpressionNoise        3       1.13       1.62       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                          MaterialExpressionNormalize       15       4.57       6.68       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                   MaterialExpressionObjectPositionWS        1       0.25       0.39       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                       MaterialExpressionObjectRadius        3       0.68       1.17       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           MaterialExpressionOneMinus       19       5.34       8.46       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             MaterialExpressionPanner        7       2.84       3.99       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                         MaterialExpressionPixelDepth        2       0.45       0.78       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                      MaterialExpressionPixelNormalWS       10       2.50       3.91       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              MaterialExpressionPower       10       3.44       5.08       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            MaterialExpressionReroute        3       0.84       1.34       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            MaterialExpressionRotator        1       0.35       0.52       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                    MaterialExpressionScalarParameter       55      16.04      25.07       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                     MaterialExpressionSceneTexelSize        3       0.68       1.17       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                       MaterialExpressionSceneTexture       26       9.14      11.78       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                     MaterialExpressionScreenPosition        5       1.29       1.95       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               MaterialExpressionSine        1       0.29       0.45       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                         MaterialExpressionSphereMask        5       2.27       3.09       0.00            0.00            0.00            0.00            0.00            0.00
+                                                               MaterialExpressionSpriteTextureSampler        1       0.82       1.40       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                         MaterialExpressionSquareRoot        3       0.84       1.34       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                         MaterialExpressionStaticBool        4       0.94       1.59       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                       MaterialExpressionStaticSwitch        5       1.99       2.81       0.00            0.00            0.00            0.00            0.00            0.00
+                                                              MaterialExpressionStaticSwitchParameter       12       4.69       6.66       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           MaterialExpressionSubtract       38      13.55      19.79       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                  MaterialExpressionTextureCoordinate       26       6.30      10.56       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                      MaterialExpressionTextureObject        2       0.53       0.81       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                    MaterialExpressionTextureProperty        1       0.29       0.45       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                      MaterialExpressionTextureSample       61      43.93      80.63       0.00            0.00            0.00            0.00            0.00            0.00
+                                                           MaterialExpressionTextureSampleParameter2D       18      14.20      24.61       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               MaterialExpressionTime        5       1.17       1.99       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                          MaterialExpressionTransform        9       2.60       4.08       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                       MaterialExpressionTwoSidedSign        2       0.45       0.78       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                    MaterialExpressionVectorParameter       48      19.92      48.79       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                        MaterialExpressionVertexColor       12       4.22      11.44       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                     MaterialExpressionVertexNormalWS        3       0.75       1.17       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                       MaterialExpressionViewProperty        1       0.27       0.40       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           MaterialExpressionViewSize        3       0.68       1.17       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                      MaterialExpressionWorldPosition       12       2.81       4.78       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                     MaterialFunction       39      15.55      17.45       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                    MaterialFunctionThumbnailRenderer        1       0.07       0.07       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             MaterialInstanceConstant       13      12.28      12.45      70.60           70.60            0.00            0.00            0.00            0.00
+                                                                              MaterialInstanceDynamic       34      33.32      44.58      43.31           43.31            0.00            0.00            0.00            0.00
+                                                                    MaterialInstanceThumbnailRenderer        2       0.14       0.14       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                        MaterialShaderQualitySettings        1       0.16       0.16       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                             MetaData      401    6953.38   11851.37       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                                Model       10      21.79      21.79       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            MotionControllerComponent        4       6.64       8.69       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            MulticastDelegateProperty      286      40.22      40.22       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                         NameProperty     1143     151.80     151.80       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                         NavCollision       34       9.03       9.03      67.09           67.09            0.00            0.00            0.00            0.00
+                                                                               NavigationSystemConfig        2       0.19       0.19       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   NavigationSystemV1        2       2.34       3.33       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                  NavLocalGridManager        2       0.20       0.20       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                           NUTGlobals        1       0.21       0.33       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       ObjectProperty     3760     528.75     528.75       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            OnlineEngineInterfaceImpl        1       0.31       0.31       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        OnlineSession        1       0.05       0.05       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                              Package      579    1438.64    1594.49       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            PaperFlipbookActorFactory        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                       PaperFlipbookThumbnailRenderer        1       0.06       0.06       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                          PaperSprite        1       0.66       0.66       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              PaperSpriteActorFactory        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                         PaperSpriteThumbnailRenderer        1       0.06       0.06       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                 PaperTerrainMaterial        1       0.17       0.17       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                        PaperTileSetThumbnailRenderer        1       0.06       0.06       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                 ParticleEventManager        1       1.03       1.03       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                      ParticleSystemThumbnailRenderer        1       0.08       0.08       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                     PhysicalMaterial        3       0.42       0.42       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                         PhysicsAsset        1       0.69       0.83       0.78            0.78            0.00            0.00            0.00            0.00
+                                                                        PhysicsAssetThumbnailRenderer        1       0.07       0.07       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              PhysicsCollisionHandler        2       0.16       0.16       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            PhysicsConstraintTemplate        6       7.03       7.03       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                  PlayerCameraManager        1       9.61       9.79       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                     PlayerController        1       1.92       2.03       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                          PlayerInput        1       2.39       2.39       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                          PlayerStart        2       2.17       2.17       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                          PlayerState        1       1.30       1.30       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                                Polys       10      14.77      19.83       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                    PostProcessVolume        2       4.73       4.73       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       RTManipulation        2       2.34       2.34       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       SceneComponent       17      10.38      10.45       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   SceneThumbnailInfo       54       3.80       3.80       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                      SceneThumbnailInfoWithPrimitive      136      15.94      15.94       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                         ScriptStruct     1528     299.30     357.26       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                             SCS_Node        9       2.96       2.96       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                            Selection        3       0.52       0.52       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                    SequencerSettings        2       0.45       0.45       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           SequencerSettingsContainer        1       0.05       0.05       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                          SetProperty       39       6.70       6.70       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                        ShaderPlatformQualitySettings        8       0.75       0.75       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                             SimpleConstructionScript        5       1.11       1.11       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                    SkeletalBodySetup        7       6.59       6.59       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                         SkeletalMesh        2    2948.95    3082.53    1533.04           20.31            0.00            0.00            0.00         1512.72
+                                                                                SkeletalMeshComponent        8      48.07      51.91      37.67           12.71            0.00            0.00            0.00           24.96
+                                                                                   SkeletalMeshSocket        3       0.42       0.42       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                        SkeletalMeshThumbnailRenderer        1       0.07       0.07       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                             Skeleton        2      13.03      13.09       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                             SkyLight        2       2.05       2.05       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                    SkyLightComponent        2       2.24       2.28       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                          SlateBrushThumbnailRenderer        1       0.06       0.06       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        SlimeGameMode        1       1.18       1.18       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                             SlimeHUD        1       1.26       1.26       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                    SoftClassProperty       17       2.52       2.52       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   SoftObjectProperty       52       7.31       7.31       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                           SoundClass        1       0.15       0.15       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                             SoundCue        3       2.91       2.91       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        SoundCueGraph        3       0.59       0.59       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                    SoundCueGraphNode        3       0.63       0.63       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               SoundCueGraphNode_Root        3       0.61       0.61       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                  SoundNodeWavePlayer        3       0.42       0.42       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                            SoundWave        3       2.53       2.53      62.49           62.49            0.00            0.00            0.00            0.00
+                                                                           SoundWaveThumbnailRenderer        1       0.05       0.05       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                              SphereReflectionCapture        2       2.13       2.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                     SphereReflectionCaptureComponent        2       1.53       1.53       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                           StaticMesh       36      85.25     110.00  183772.95           29.53            0.00            0.00            0.00       183743.42
+                                                                                      StaticMeshActor       20      20.30      20.30       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                  StaticMeshComponent       31      70.12      85.57      36.56           36.56            0.00            0.00            0.00            0.00
+                                                                          StaticMeshThumbnailRenderer        1       0.07       0.07       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                          StrProperty     1434     190.45     190.45       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       StructProperty     6710     943.59     943.59       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            SubsurfaceProfileRenderer        1       0.05       0.05       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                           SystemTimeTimecodeProvider        1       0.07       0.07       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                            TerrainSplineActorFactory        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        TexAlignerBox        1       0.09       0.09       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                    TexAlignerDefault        1       0.10       0.10       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        TexAlignerFit        1       0.09       0.09       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                     TexAlignerPlanar        1       0.10       0.10       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                         TextProperty      207      27.49      27.49       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                            Texture2D      131      91.22      91.22   86562.75            0.00            0.00        86562.75            0.00            0.00
+                                                                                          TextureCube        2       1.19       1.19   16448.06            0.00            0.00        16448.06            0.00            0.00
+                                                                         TextureCubeThumbnailRenderer        1       0.05       0.05       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                TextureRenderTarget2D        1       0.55       0.55    7812.50            0.00            0.00            0.00            0.00         7812.50
+                                                                             TextureThumbnailRenderer        5       0.27       0.27       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        ThirdPerson_C        2       4.42       4.42       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                     ThumbnailManager        1       6.35       7.69       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                  TileMapActorFactory        1       0.13       0.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                          TransBuffer        1       0.30       0.30       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       UInt16Property       16       2.13       2.13       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       UInt32Property      161      21.38      21.38       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       UInt64Property       12       1.59       1.59       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                       UnrealEdEngine        1      21.64      22.73       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        VolumeTexture        1       0.63       0.63       0.25            0.00            0.00            0.00            0.00            0.25
+                                                                       VolumeTextureThumbnailRenderer        1       0.08       0.08       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   WeakObjectProperty       52       7.31       7.31       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                                World        2       5.80       6.11       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                        WorldSettings        2       4.39       4.41       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                                   WorldThumbnailInfo        2       0.16       0.16       0.00            0.00            0.00            0.00            0.00            0.00
+                                                                               WorldThumbnailRenderer        1       0.08       0.08       0.00            0.00            0.00            0.00            0.00            0.00
+
+45822 Objects (Total: 21.959M / Max: 28.175M / Res: 519.195M | ResDedSys: 230.030M / ResShrSys: 0.000M / ResDedVid: 100.596M / ResShrVid: 0.000M / ResUnknown: 188.568M)
+
+
+RHI resource memory (not tracked by our allocator)
+         2228160  -  Render target memory Cube - STAT_RenderTargetMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+        46399488  -  Render target memory 3D - STAT_RenderTargetMemory3D - STATGROUP_RHI - STATCAT_Advanced
+          643344  -  Uniform buffer memory - STAT_UniformBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+        16793864  -  Texture memory 3D - STAT_TextureMemory3D - STATGROUP_RHI - STATCAT_Advanced
+      2179285184  -  Texture memory 2D - STAT_TextureMemory2D - STATGROUP_RHI - STATCAT_Advanced
+        23134260  -  Texture memory Cube - STAT_TextureMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+       277563196  -  Render target memory 2D - STAT_RenderTargetMemory2D - STATGROUP_RHI - STATCAT_Advanced
+        81600162  -  Vertex buffer memory - STAT_VertexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+       232714732  -  Index buffer memory - STAT_IndexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+2727.854MB total
+
+
+Levels:
+->  /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+
+
+Listing spawned actors in persistent level:
+Total: 37
+TimeUnseen,TimeAlive,Distance,Class,Name,Owner
+ 36.68, 36.68,     787,AbstractNavData,AbstractNavData-Default,None
+ 36.68, 36.68,     787,CameraActor,CameraActor_0,PlayerCameraManager_0
+ 36.68, 36.68,     787,GameNetworkManager,GameNetworkManager_0,None
+ 36.68, 36.68,     787,GameplayDebuggerCategoryReplicator,GameplayDebuggerCategoryReplicator_0,None
+ 36.68, 36.68,     787,GameSession,GameSession_0,None
+ 36.68, 36.68,     787,GameStateBase,GameStateBase_0,None
+ 36.68, 36.68,     787,ParticleEventManager,ParticleEventManager_0,WorldInfo_0
+ 36.68, 36.68,       0,PlayerCameraManager,PlayerCameraManager_0,PlayerController_0
+ 36.68, 36.68,     978,PlayerController,PlayerController_0,None
+ 36.68, 36.68,     787,PlayerState,PlayerState_0,PlayerController_0
+ 36.68, 36.68,     787,SlimeGameMode,SlimeGameMode_0,None
+ 36.68, 36.68,     787,SlimeHUD,SlimeHUD_0,PlayerController_0
+
+
+Particle Dynamic Memory Stats
+Type,Count,MaxCount,Mem(Bytes),MaxMem(Bytes),GTMem(Bytes),GTMemMax(Bytes)
+Total PSysComponents,0,0,0,0,0,0
+Total DynamicEmitters,0,0,0,0,0,0
+Sprite,0,0,0,0,0,0
+Mesh,0,0,0,0,0,0
+Beam,0,0,0,0,0,0
+Ribbon,0,0,0,0,0,0
+AnimTrail,0,0,0,0,0,0
+Untracked,0,0,0,0,0,0
+ParticleData,Total(Bytes),FMath::Max(Bytes)
+GameThread,0,0
+RenderThread,0,0
+Max wasted GT,0
+Largest single GT allocation,0
+Largest single RT allocation,0
+ParticleVertexFactoryPool State
+Type,Count,Mem(Bytes)
+Sprite,0,0
+Sprite,0,0
+Sprite,0,0
+Sprite,0,0
+BeamTrail,0,0
+BeamTrail,0,0
+BeamTrail,0,0
+BeamTrail,0,0
+Mesh,0,0
+Mesh,0,0
+Mesh,0,0
+Mesh,0,0
+TotalMemory Taken in Pool: 0
+ACTIVE,0
+TotalMemory Taken by Actives: 0
+Particle Order Pool Stats
+    0 entries for     0 bytes
+
+
+Config cache memory usage:
+                                                                                              FileName         NumBytes         MaxBytes
+                          D:/Charlie/Slime/Slime/Saved/Config/Windows/EditorPerProjectUserSettings.ini           324314           358910
+                                                D:/Charlie/Slime/Slime/Saved/Config/Windows/Engine.ini           318160           396720
+                                                D:/Charlie/Slime/Slime/Saved/Config/Windows/Editor.ini           165262           188354
+                                        D:/Charlie/Slime/Slime/Saved/Config/Windows/DeviceProfiles.ini            80372           109040
+                                                 D:/Charlie/Slime/Slime/Saved/Config/Windows/Input.ini            57634            67742
+                                                D:/Charlie/Slime/Slime/Saved/Config/Windows/Compat.ini            54330            65598
+                                           D:/Charlie/Slime/Slime/Saved/Config/Windows/Scalability.ini            37206            56822
+               C:/Users/PlayWest/AppData/Local/UnrealEngine/4.21/Saved/Config/Windows/EditorLayout.ini            34012            34036
+             C:/Users/PlayWest/AppData/Local/UnrealEngine/4.21/Saved/Config/Windows/EditorSettings.ini            19960            27400
+                                             D:/Charlie/Slime/Slime/Saved/Config/Windows/Lightmass.ini            19794            29374
+                                                  D:/Charlie/Slime/Slime/Saved/Config/Windows/Game.ini            18370            30942
+          C:/Users/PlayWest/AppData/Local/UnrealEngine/4.21/Saved/Config/Windows/EditorKeyBindings.ini            13004            13596
+                                           ../../../../../Charlie/Slime/Slime/Config/DefaultEngine.ini            10092            10172
+                                         D:/Charlie/Slime/Slime/Saved/Config/Windows/PhysXVehicles.ini             3636             4788
+                                              D:/Charlie/Slime/Slime/Saved/Config/Windows/OculusVR.ini             2850             4258
+                                              D:/Charlie/Slime/Slime/Saved/Config/Windows/Hardware.ini             2718             4230
+                                      D:/Charlie/Slime/Slime/Saved/Config/Windows/GameUserSettings.ini             2700             5872
+                                               D:/Charlie/Slime/Slime/Saved/Config/Windows/Paper2D.ini             1988             3524
+                                                           ../../../Engine/Config/ConsoleVariables.ini              364              388
+C:/Users/PlayWest/AppData/Local/UnrealEngine/4.21/Saved/Config/Windows/LocalizationServiceSettings.ini              206              206
+      C:/Users/PlayWest/AppData/Local/UnrealEngine/4.21/Saved/Config/Windows/SourceControlSettings.ini              194              194
+                           D:/Charlie/Slime/Slime/Saved/Config/Windows/LocalizationServiceSettings.ini              152              152
+                            D:/Charlie/Slime/Slime/Saved/Config/Windows/InternationalizationExport.ini              150              150
+                             D:/Charlie/Slime/Slime/Saved/Config/Windows/TranslationPickerSettings.ini              148              148
+                                 D:/Charlie/Slime/Slime/Saved/Config/Windows/SourceControlSettings.ini              140              140
+                                    D:/Charlie/Slime/Slime/Saved/Config/Windows/PIEPreviewSettings.ini              134              134
+                                      D:/Charlie/Slime/Slime/Saved/Config/Windows/GameplayTagsList.ini              130              130
+                                         D:/Charlie/Slime/Slime/Saved/Config/Windows/UnitTestStats.ini              124              124
+                                          D:/Charlie/Slime/Slime/Saved/Config/Windows/GameplayTags.ini              122              122
+                                          D:/Charlie/Slime/Slime/Saved/Config/Windows/TemplateDefs.ini              122              122
+                                            D:/Charlie/Slime/Slime/Saved/Config/Windows/Encryption.ini              118              118
+                                              D:/Charlie/Slime/Slime/Saved/Config/Windows/UnitTest.ini              114              114
+                                                D:/Charlie/Slime/Slime/Saved/Config/Windows/Crypto.ini              110              110
+                                                                                                 Total          1179746          1428914
+
+
+Pooled Render Targets:
+   0.250MB  256x 256           1mip(s) HZBResultsCPU (B8G8R8A8)  
+   0.250MB  256x 256           1mip(s) HZBResultsCPU (B8G8R8A8)  
+   0.250MB  256x 256           1mip(s) HZBResultsCPU (B8G8R8A8)  
+   0.250MB  256x 256           1mip(s) HZBResultsCPU (B8G8R8A8)  
+   0.001MB    1x   1           1mip(s) WhiteDummy (B8G8R8A8)  
+   0.001MB    1x   1           1mip(s) BlackDummy (B8G8R8A8)  
+   0.001MB    1x   1           1mip(s) BlackAlphaOneDummy (B8G8R8A8)  
+   0.001MB    1x   1           1mip(s) GreenDummy (B8G8R8A8)  
+   0.001MB    1x   1           1mip(s) DefaultNormal8Bit (B8G8R8A8)  
+   0.063MB  128x 128           1mip(s) PerlinNoiseGradient (B8G8R8A8)  
+   0.001MB    1x   1           1mip(s) MaxFP16Depth (FloatRGBA)  
+   0.001MB    1x   1           1mip(s) DepthDummy (DepthStencil)  
+   0.001MB   32x  16           1mip(s) SobolSampling (R16_UINT)  
+   0.016MB   16x  16x 16       1mip(s) PerlinNoise3D (B8G8R8A8)  
+   0.008MB   64x  64           1mip(s) SSAORandomization (R8G8)  
+   0.016MB  128x  32           1mip(s) PreintegratedGF (G16R16)  
+   0.031MB   64x  64           1mip(s) LTCMat (FloatRGBA)  
+   0.016MB   64x  64           1mip(s) LTCAmp (G16R16F)  
+   2.655MB 1160x 600           1mip(s) SceneDepthZ (DepthStencil)  
+   1.328MB  580x 300           1mip(s) SmallDepthZ (DepthStencil)  
+   0.664MB 1160x 600           1mip(s) ScreenSpaceAO (G8)  
+   2.000MB   64x  64x 64       1mip(s) TranslucentVolume0 (FloatRGBA)  
+   2.000MB   64x  64x 64       1mip(s) TranslucentVolumeDir0 (FloatRGBA)  
+   2.000MB   64x  64x 64       1mip(s) TranslucentVolume1 (FloatRGBA)  
+   2.000MB   64x  64x 64       1mip(s) TranslucentVolumeDir1 (FloatRGBA)  
+   2.000MB   64x  64x 64       1mip(s) TranslucentVolume2 (FloatRGBA)  
+   2.000MB   64x  64x 64       1mip(s) TranslucentVolumeDir2 (FloatRGBA)  
+   5.311MB 1160x 600           1mip(s) LightAccumulation (FloatRGBA)  
+   1.328MB 1160x 300           1mip(s) QuadOverdrawBuffer (R32_UINT)  
+  32.000MB 8192x2048           1mip(s) WholeSceneShadowmap (ShadowDepth)  
+   2.655MB 1160x 600           1mip(s) GBufferA (A2B10G10R10)  
+   2.655MB 1160x 600           1mip(s) GBufferB (B8G8R8A8)  
+   2.655MB 1160x 600           1mip(s) GBufferC (B8G8R8A8)  
+   2.655MB 1160x 600           1mip(s) GBufferD (B8G8R8A8)  
+   2.655MB 1160x 600           1mip(s) GBufferE (B8G8R8A8)  
+   1.334MB 1024x 512          10mip(s) HZB (PF_R16F)  
+   5.311MB 1160x 600           1mip(s) SceneColor (FloatRGBA)  
+   0.031MB   64x  64           1mip(s) SSProfiles (A16B16G16R16)  
+   2.655MB 1160x 600           1mip(s) Velocity (G16R16)  
+   1.328MB  580x 300           1mip(s) AmbientOcclusionSetup (FloatRGBA)  
+   0.664MB  580x 300           1mip(s) AmbientOcclusion (B8G8R8A8)  
+   2.655MB 1160x 600           1mip(s) LightAttenuation (B8G8R8A8)  
+   5.311MB 1160x 600           1mip(s) ScreenSpaceReflections (FloatRGBA)  
+   0.125MB  256x  64           1mip(s) AtmosphereTransmittance (FloatRGBA)  
+   0.008MB   64x  16           1mip(s) AtmosphereIrradiance (FloatRGBA)  
+   0.008MB   64x  16           1mip(s) AtmosphereDeltaE (FloatRGBA)  
+   8.000MB  256x 128x 32       1mip(s) AtmosphereInscatter (FloatRGBA)  
+   8.000MB  256x 128x 32       1mip(s) AtmosphereDeltaSR (FloatRGBA)  
+   8.000MB  256x 128x 32       1mip(s) AtmosphereDeltaSM (FloatRGBA)  
+   8.000MB  256x 128x 32       1mip(s) AtmosphereDeltaJ (FloatRGBA)  
+   5.311MB 1160x 600           1mip(s) SeparateTranslucency (FloatRGBA)  
+   5.311MB 1160x 600           1mip(s) BokehDOFRecombine (FloatRGBA)  
+   5.311MB 1160x 600           1mip(s) TemporalAA (FloatRGBA)  
+   0.664MB  580x 300           1mip(s) BloomBlurY (FloatRGB)  
+   0.001MB    1x   1           1mip(s) EyeAdaptation (G32R32F)  
+   0.001MB    1x   1           1mip(s) EyeAdaptation (G32R32F)  
+   0.166MB  290x 150           1mip(s) BloomBlurY (FloatRGB)  
+   0.042MB  145x  75           1mip(s) BloomBlurY (FloatRGB)  
+   0.011MB   73x  38           1mip(s) BloomBlurY (FloatRGB)  
+   0.003MB   37x  19           1mip(s) BloomBlurY (FloatRGB)  
+   0.001MB   19x  10           1mip(s) BloomBlurY (FloatRGB)  
+   0.001MB   19x  10           1mip(s) BloomBlurX (FloatRGB)  
+   0.003MB   37x  19           1mip(s) BloomBlurX (FloatRGB)  
+   0.011MB   73x  38           1mip(s) BloomBlurX (FloatRGB)  
+   0.042MB  145x  75           1mip(s) BloomBlurX (FloatRGB)  
+   0.166MB  290x 150           1mip(s) BloomBlurX (FloatRGB)  
+   0.664MB  580x 300           1mip(s) BloomBlurX (FloatRGB)  
+   0.125MB   32x  32x 32       1mip(s) CombineLUTs (A2B10G10R10)  
+   5.311MB 1160x 600           1mip(s) EditorPrimitivesDepth (DepthStencil)  
+   5.311MB 1160x 600           1mip(s) EditorPrimitivesColor (B8G8R8A8)  
+   1.000MB  128x 128cube       8mip(s) ReflectionColorScratchCubemap0 (FloatRGBA)  
+   1.000MB  128x 128cube       8mip(s) ReflectionColorScratchCubemap1 (FloatRGBA)  
+   0.063MB   32x  32cube       6mip(s) DiffuseIrradianceScratchCubemap0 (FloatRGBA)  
+   0.063MB   32x  32cube       6mip(s) DiffuseIrradianceScratchCubemap1 (FloatRGBA)  
+   0.001MB    9x   1           1mip(s) SkySHIrradianceMap (FloatRGBA)  
+   0.011MB   64x  64           6mip(s) HZB (PF_R16F)  
+   0.001MB    1x   1           1mip(s) ReflectionBrightness (FloatRGBA)  
+   2.000MB  128x 128cube[  2]  8mip(s) ReflectionEnvs (FloatRGBA)  
+   5.311MB 1160x 600           1mip(s) TemporalAA (FloatRGBA)  
+   2.655MB 1160x 600           1mip(s) HitProxy (B8G8R8A8)  
+   0.250MB  256x 256           1mip(s) HZBResultsCPU (B8G8R8A8)  
+   2.000MB  128x 128cube[  2]  8mip(s) ReflectionEnvs (FloatRGBA)  
+   5.311MB 1160x 600           1mip(s) TemporalAA (FloatRGBA)  
+   2.655MB 1160x 600           1mip(s) VelocityFlat (FloatR11G11B10)  
+   0.021MB   73x  38           1mip(s) MaxVelocity (FloatRGBA)  
+   0.021MB   73x  38           1mip(s) ScatteredMaxVelocity (FloatRGBA)  
+   2.655MB 1160x 600           1mip(s) MotionBlur (FloatRGB)  
+   0.001MB    1x   1           1mip(s) EyeAdaptation (G32R32F)  
+   0.001MB    1x   1           1mip(s) EyeAdaptation (G32R32F)  
+   0.125MB   32x  32x 32       1mip(s) CombineLUTs (A2B10G10R10)  
+   5.311MB 1160x 600           1mip(s) SSRTemporalAA (FloatRGBA)  
+180.057MB total, 84.486MB used, 91 render targets
+
+
+Listing all textures.
+MaxAllowedSize: Width x Height (Size in KB, Authored Bias), Current/InMem: Width x Height (Size in KB), Format, LODGroup, Name, Streaming, Usage Count
+2048x2048 (32768 KB, 0), 2048x2048 (32768 KB), PF_FloatRGBA, TEXTUREGROUP_World, /Engine/EngineMaterials/DefaultBloomKernel.DefaultBloomKernel, NO, 0
+0x0 (16384 KB, 0), 0x0 (16384 KB), PF_FloatRGBA, TEXTUREGROUP_World, /Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap, NO, 0
+2048x2048 (5461 KB, 0), 2048x2048 (5461 KB), PF_BC5, TEXTUREGROUP_CharacterNormalMap, /Game/FirstPerson/Character/Textures/UE4_Mannequin__normals.UE4_Mannequin__normals, YES, 4
+2048x2048 (5461 KB, 0), 2048x2048 (5461 KB), PF_DXT5, TEXTUREGROUP_World, /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.T_ML_Rubber_Blue_01_D, YES, 8
+2048x2048 (5461 KB, 0), 2048x2048 (5461 KB), PF_DXT5, TEXTUREGROUP_World, /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.T_ML_Aluminum01, YES, 8
+2048x2048 (5461 KB, 0), 2048x2048 (5461 KB), PF_BC5, TEXTUREGROUP_WeaponNormalMap, /Game/FirstPerson/FPWeapon/Textures/T_FPGun_N.T_FPGun_N, YES, 8
+2048x2048 (5461 KB, 0), 2048x2048 (5461 KB), PF_DXT5, TEXTUREGROUP_Character, /Game/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.T_ML_Aluminum01, YES, 4
+2048x2048 (5461 KB, 0), 2048x2048 (5461 KB), PF_DXT5, TEXTUREGROUP_Character, /Game/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.T_ML_Rubber_Blue_01_D, YES, 4
+2048x2048 (5461 KB, 0), 2048x2048 (5461 KB), PF_DXT5, TEXTUREGROUP_World, /Game/StarterContent/Textures/T_Wood_Pine_D.T_Wood_Pine_D, YES, 7
+1000x1000 (3906 KB, 0), 1000x1000 (3906 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/Transient.Texture2D_516, NO, 0
+2048x2048 (2731 KB, 0), 2048x2048 (2731 KB), PF_DXT1, TEXTUREGROUP_Skybox, /Engine/EngineSky/T_Sky_Blue.T_Sky_Blue, YES, 3
+512x512 (1365 KB, 0), 512x512 (1365 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorMaterials/PreviewShadowIndicator.PreviewShadowIndicator, YES, 0
+1024x1024 (683 KB, 0), 1024x1024 (683 KB), PF_DXT1, TEXTUREGROUP_Character, /Game/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.UE4_Mannequin_MAT_MASKA, YES, 4
+512x256 (683 KB, 2), 512x256 (683 KB), PF_B8G8R8A8, TEXTUREGROUP_Skybox, /Engine/EngineSky/T_Sky_Clouds_M.T_Sky_Clouds_M, YES, 3
+512x512 (341 KB, 0), 512x512 (341 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EngineMaterials/T_Default_Material_Grid_M.T_Default_Material_Grid_M, YES, 2
+512x512 (341 KB, 2), 512x512 (341 KB), PF_DXT5, TEXTUREGROUP_Weapon, /Game/FirstPerson/FPWeapon/Textures/T_FPGun_M.T_FPGun_M, YES, 8
+256x256 (341 KB, 0), 256x256 (341 KB), PF_B8G8R8A8, TEXTUREGROUP_UI, /Engine/EditorResources/LightIcons/S_LightDirectional.S_LightDirectional, NO, 0
+256x256 (341 KB, 0), 256x256 (341 KB), PF_B8G8R8A8, TEXTUREGROUP_UI, /Engine/EditorResources/EmptyActor.EmptyActor, NO, 0
+256x256 (341 KB, 0), 256x256 (341 KB), PF_B8G8R8A8, TEXTUREGROUP_UI, /Engine/EditorResources/LightIcons/S_LightPoint.S_LightPoint, NO, 0
+256x256 (341 KB, 0), 256x256 (341 KB), PF_B8G8R8A8, TEXTUREGROUP_UI, /Engine/EditorResources/LightIcons/S_LightPointMove.S_LightPointMove, NO, 0
+256x256 (341 KB, 0), 256x256 (341 KB), PF_B8G8R8A8, TEXTUREGROUP_UI, /Engine/EditorResources/LightIcons/S_LightSpot.S_LightSpot, NO, 0
+256x256 (341 KB, 0), 256x256 (341 KB), PF_B8G8R8A8, TEXTUREGROUP_UI, /Engine/EditorResources/LightIcons/S_LightSpotMove.S_LightSpotMove, NO, 0
+256x256 (341 KB, 0), 256x256 (341 KB), PF_B8G8R8A8, TEXTUREGROUP_UI, /Engine/EditorResources/LightIcons/SkyLight.SkyLight, NO, 0
+256x256 (341 KB, 0), 256x256 (341 KB), PF_B8G8R8A8, TEXTUREGROUP_UI, /Engine/EditorResources/LightIcons/S_LightError.S_LightError, NO, 0
+256x256 (341 KB, 0), 256x256 (341 KB), PF_B8G8R8A8, TEXTUREGROUP_UI, /Engine/EditorResources/LightIcons/S_LightDirectionalMove.S_LightDirectionalMove, NO, 0
+256x256 (341 KB, 0), 256x256 (341 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/S_Player.S_Player, YES, 0
+256x256 (256 KB, 0), 256x256 (256 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EngineMaterials/PreintegratedSkinBRDF.PreintegratedSkinBRDF, NO, 0
+512x512 (171 KB, 0), 512x512 (171 KB), PF_DXT1, TEXTUREGROUP_Skybox, /Engine/EngineSky/T_Sky_Stars.T_Sky_Stars, YES, 3
+200x200 (156 KB, 0), 200x200 (156 KB), PF_B8G8R8A8, TEXTUREGROUP_UI, /Engine/Maps/Templates/Thumbnails/Default.Default, NO, 0
+200x200 (156 KB, 0), 200x200 (156 KB), PF_B8G8R8A8, TEXTUREGROUP_UI, /Engine/Maps/Templates/Thumbnails/VR-Basic.VR-Basic, NO, 0
+1152x128 (144 KB, 0), 1152x128 (144 KB), PF_DXT5, TEXTUREGROUP_UI, /Engine/EditorResources/SequenceRecorder/Countdown.Countdown, NO, 0
+512x256 (128 KB, 0), 512x256 (128 KB), PF_G8, TEXTUREGROUP_UI, /Engine/EngineFonts/RobotoDistanceField.RobotoDistanceField:RobotoDistanceField_PageA, NO, 0
+256x256 (85 KB, 0), 256x256 (85 KB), PF_DXT5, TEXTUREGROUP_UI, /Engine/EditorResources/AI/S_NavLink.S_NavLink, NO, 0
+256x256 (85 KB, 0), 256x256 (85 KB), PF_BC5, TEXTUREGROUP_WorldNormalMap, /Engine/EngineMaterials/T_Default_Material_Grid_N.T_Default_Material_Grid_N, YES, 2
+256x256 (85 KB, 0), 256x256 (85 KB), PF_DXT5, TEXTUREGROUP_UI, /Engine/EditorResources/S_FTest.S_FTest, NO, 0
+0x0 (64 KB, 0), 0x0 (64 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EngineResources/DefaultTextureCube.DefaultTextureCube, NO, 0
+256x256 (64 KB, 0), 256x256 (64 KB), PF_DXT5, TEXTUREGROUP_UI, /Engine/EngineFonts/SmallFont.SmallFont:Texture2D_28, NO, 0
+256x256 (64 KB, 0), 256x256 (64 KB), PF_DXT5, TEXTUREGROUP_UI, /Engine/EditorResources/SmallFont.SmallFont:Texture2D_28, NO, 0
+256x128 (32 KB, 0), 256x128 (32 KB), PF_DXT5, TEXTUREGROUP_UI, /Engine/EngineFonts/TinyFont.TinyFont:Texture2D_29, NO, 0
+4096x1 (32 KB, 0), 4096x1 (32 KB), PF_B8G8R8A8, TEXTUREGROUP_Effects, /Engine/EditorResources/LevelGrid1DStripes.LevelGrid1DStripes, NO, 0
+128x128 (21 KB, 0), 128x128 (21 KB), PF_DXT5, TEXTUREGROUP_UI, /Engine/EditorResources/Spline/T_Loft_Spline.T_Loft_Spline, NO, 0
+128x128 (85 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/Bad.Bad, YES, 0
+128x128 (85 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/S_Actor.S_Actor, YES, 0
+128x128 (85 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/S_KHinge.S_KHinge, YES, 0
+256x256 (341 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/SceneManager.SceneManager, YES, 0
+256x256 (341 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/S_Trigger.S_Trigger, YES, 0
+128x128 (85 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/MatInstActSprite.MatInstActSprite, YES, 0
+128x128 (85 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/S_VectorFieldVol.S_VectorFieldVol, YES, 0
+256x256 (341 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/S_ExpoHeightFog.S_ExpoHeightFog, YES, 0
+256x256 (341 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/S_Thruster.S_Thruster, YES, 0
+128x128 (85 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/S_KBSJoint.S_KBSJoint, YES, 0
+256x256 (341 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/S_NavP.S_NavP, YES, 0
+256x256 (341 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorMaterials/TargetIcon.TargetIcon, YES, 0
+64x64 (21 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorLandscapeResources/DefaultAlphaTexture.DefaultAlphaTexture, NO, 0
+256x256 (341 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/S_Emitter.S_Emitter, YES, 0
+64x64 (21 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_Bokeh, /Engine/EngineMaterials/DefaultBokeh.DefaultBokeh, NO, 0
+128x128 (85 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/S_KPrismatic.S_KPrismatic, YES, 0
+128x128 (85 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/S_LevelSequence.S_LevelSequence, YES, 0
+256x256 (341 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/S_Note.S_Note, YES, 0
+256x256 (341 KB, 0), 64x64 (21 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/S_Terrain.S_Terrain, YES, 0
+256x128 (171 KB, 0), 64x32 (11 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EditorResources/S_RadForce.S_RadForce, YES, 0
+40x40 (6 KB, 0), 40x40 (6 KB), PF_B8G8R8A8, TEXTUREGROUP_UI, /Engine/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.icon_tab_Levels_40x, NO, 0
+256x256 (85 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorResources/S_TextRenderActorIcon.S_TextRenderActorIcon, YES, 0
+256x256 (85 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorResources/S_WindDirectional.S_WindDirectional, YES, 0
+512x512 (341 KB, 0), 64x64 (5 KB), PF_BC5, TEXTUREGROUP_WorldNormalMap, /Engine/EngineMaterials/Grid_N.Grid_N, YES, 0
+128x128 (21 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_World, /Paper2D/PlaceholderTextures/DummySpriteTexture.DummySpriteTexture, YES, 1
+512x512 (341 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EngineMaterials/Grid.Grid, YES, 0
+1024x1024 (1365 KB, 0), 64x64 (5 KB), PF_BC5, TEXTUREGROUP_WorldNormalMap, /Engine/EngineMaterials/DefaultNormal.DefaultNormal, YES, 0
+256x256 (85 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorResources/S_PortalActorIcon2.S_PortalActorIcon2, YES, 0
+512x512 (341 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_World, /OculusVR/Textures/GearVRController_Color.GearVRController_Color, YES, 0
+128x128 (21 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.PSysThumbnail_OOD, YES, 0
+2048x2048 (5461 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_World, /OculusVR/Textures/touchController_albedo.touchController_albedo, YES, 0
+512x512 (341 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_World, /OculusVR/Textures/touchController_controlmap.touchController_controlmap, YES, 0
+64x64 (5 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_UI, /Engine/EngineResources/StreamingPauseIcon.StreamingPauseIcon, NO, 0
+512x512 (341 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_World, /Game/StarterContent/Textures/T_Bush_D.T_Bush_D, YES, 0
+1024x1024 (1365 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_World, /OculusVR/Textures/GearVRController_Normal.GearVRController_Normal, YES, 0
+2048x2048 (5461 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorResources/T_EditorHelp.T_EditorHelp, YES, 1
+2048x2048 (5461 KB, 0), 64x64 (5 KB), PF_BC5, TEXTUREGROUP_CharacterNormalMap, /Game/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.T_ML_Rubber_Blue_01_N, YES, 0
+512x512 (341 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_Character, /Game/FirstPerson/Character/Textures/UE4_LOGO_CARD.UE4_LOGO_CARD, YES, 0
+256x256 (85 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorResources/S_DecalActorIcon.S_DecalActorIcon, YES, 0
+2048x2048 (5461 KB, 0), 64x64 (5 KB), PF_BC5, TEXTUREGROUP_CharacterNormalMap, /Game/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.T_ML_Aluminum01_N, YES, 0
+256x256 (85 KB, 0), 64x64 (5 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorResources/S_ReflActorIcon.S_ReflActorIcon, YES, 0
+64x64 (5 KB, 3), 64x64 (5 KB), PF_BC5, TEXTUREGROUP_WorldNormalMap, /Engine/EngineMaterials/PaperNormal.PaperNormal, YES, 0
+2048x2048 (5461 KB, 0), 64x64 (5 KB), PF_BC5, TEXTUREGROUP_WorldNormalMap, /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.T_ML_Rubber_Blue_01_N, YES, 0
+2048x2048 (5461 KB, 0), 64x64 (5 KB), PF_BC5, TEXTUREGROUP_WorldNormalMap, /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.T_ML_Aluminum01_N, YES, 0
+32x32 (5 KB, 0), 32x32 (5 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EngineMaterials/BaseFlattenGrayscaleMap.BaseFlattenGrayScaleMap, NO, 0
+32x32 (5 KB, 0), 32x32 (5 KB), PF_B8G8R8A8, TEXTUREGROUP_UI, /Engine/EngineResources/GradientTexture0.GradientTexture0, NO, 0
+32x32 (4 KB, 0), 32x32 (4 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/Transient.Texture2D_0, NO, 0
+64x64 (4 KB, 0), 64x64 (4 KB), PF_G8, TEXTUREGROUP_UI, /Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq, NO, 0
+32x32 (4 KB, 0), 32x32 (4 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/Transient.Texture2D_1, NO, 0
+1024x1024 (683 KB, 0), 64x64 (3 KB), PF_DXT1, TEXTUREGROUP_World, /OculusVR/Textures/GearVRController_AO.GearVRController_AO, YES, 0
+256x256 (43 KB, 0), 64x64 (3 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.PSysThumbnail_NoImage, YES, 0
+2048x2048 (2731 KB, 0), 64x64 (3 KB), PF_DXT1, TEXTUREGROUP_World, /Game/StarterContent/Textures/T_Brick_Clay_Beveled_M.T_Brick_Clay_Beveled_M, YES, 0
+512x512 (171 KB, 0), 64x64 (3 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/VREditor/LaserPointer/VR_LaserPower_01.VR_LaserPower_01, YES, 14
+512x512 (171 KB, 0), 64x64 (3 KB), PF_DXT1, TEXTUREGROUP_World, /Game/Textures/7693-bump.7693-bump, YES, 0
+512x512 (171 KB, 0), 64x64 (3 KB), PF_DXT1, TEXTUREGROUP_World, /Game/Textures/7693-normal.7693-normal, YES, 0
+128x128 (11 KB, 0), 64x64 (3 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EngineMaterials/DefaultWhiteGrid.DefaultWhiteGrid, YES, 0
+128x128 (11 KB, 0), 64x64 (3 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EngineResources/DefaultTexture.DefaultTexture, YES, 0
+128x128 (11 KB, 0), 64x64 (3 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook, YES, 0
+512x512 (171 KB, 0), 64x64 (3 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EngineMaterials/InvalidLightmapSettings.InvalidLightmapSettings, YES, 0
+1024x1024 (683 KB, 0), 64x64 (3 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse, YES, 0
+64x64 (3 KB, 0), 64x64 (3 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EditorResources/MatineeCam_D.MatineeCam_D, NO, 0
+64x64 (3 KB, 3), 64x64 (3 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EngineMaterials/PaperDiffuse.PaperDiffuse, YES, 0
+256x256 (43 KB, 0), 64x64 (3 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EditorMaterials/WidgetGridVertexColorMaterial.WidgetGridVertexColorMaterial, YES, 0
+512x8 (2 KB, 0), 512x8 (2 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EngineMaterials/MiniFont.MiniFont, NO, 0
+32x32 (1 KB, 0), 32x32 (1 KB), PF_DXT5, TEXTUREGROUP_UI, /Engine/EditorResources/SequenceRecorder/RecordingIndicator.RecordingIndicator, NO, 0
+32x32 (1 KB, 0), 32x32 (1 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorMaterials/Tick.Tick, NO, 0
+32x32 (1 KB, 0), 32x32 (1 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorMaterials/Cross.Cross, NO, 0
+32x32 (1 KB, 0), 32x32 (1 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EngineMaterials/BaseFlattenDiffuseMap.BaseFlattenDiffuseMap, NO, 0
+32x32 (1 KB, 0), 32x32 (1 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EngineResources/WhiteSquareTexture.WhiteSquareTexture, NO, 0
+32x32 (1 KB, 0), 32x32 (1 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EngineMaterials/BaseFlattenEmissiveMap.BaseFlattenEmissiveMap, NO, 0
+32x32 (1 KB, 0), 32x32 (1 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EngineResources/Black.Black, NO, 0
+512x1 (4 KB, 0), 64x1 (0 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EngineDebugMaterials/HeatmapGradient.HeatmapGradient, YES, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_UI, /Game/FirstPerson/Textures/FirstPersonCrosshair.FirstPersonCrosshair, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorResources/BSPVertex.BSPVertex, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorMaterials/MAT_Groups_Toggle.MAT_Groups_Toggle, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Director.MAT_Groups_Director, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorMaterials/MAT_Groups_Visibility.MAT_Groups_Visibility, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Vector.MAT_Groups_Vector, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_UI, /Engine/EditorMaterials/MatineeGroups/MAT_ColorTrack.MAT_ColorTrack, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Sound.MAT_Groups_Sound, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.MAT_Groups_Slomo, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Move.MAT_Groups_Move, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Event.MAT_Groups_Event, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Anim.MAT_Groups_Anim, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.MAT_Groups_AudioMaster, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT5, TEXTUREGROUP_World, /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Float.MAT_Groups_Float, NO, 0
+0x0 (0 KB, 0), 0x0 (0 KB), PF_Unknown, TEXTUREGROUP_World, /Engine/EngineResources/DefaultVolumeTexture.DefaultVolumeTexture, NO, 0
+16x16 (0 KB, 0), 16x16 (0 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Fade.MAT_Groups_Fade, NO, 0
+8x8 (0 KB, 0), 8x8 (0 KB), PF_DXT1, TEXTUREGROUP_World, /Engine/EngineResources/DefaultVolumeTexture2D.DefaultVolumeTexture2D, NO, 0
+2x2 (0 KB, 0), 2x2 (0 KB), PF_B8G8R8A8, TEXTUREGROUP_World, /Engine/EngineMaterials/WeightMapPlaceholderTexture.WeightMapPlaceholderTexture, NO, 0
+1x1 (0 KB, 0), 1x1 (0 KB), PF_B8G8R8A8, TEXTUREGROUP_WorldNormalMap, /Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap, NO, 0
+0x0 (0 KB, 0), 0x0 (0 KB), PF_Unknown, TEXTUREGROUP_RenderTarget, /Game/WhiteBoard/RT_Whiteboard.RT_Whiteboard, NO, 0
+Total size: InMem= 100.60 MB  OnDisk= 145.83 MB  Count=135
+Total PF_Unknown size: InMem= 0.00 MB  OnDisk= 0.00 MB 
+Total PF_B8G8R8A8 size: InMem= 10.17 MB  OnDisk= 13.64 MB 
+Total PF_G8 size: InMem= 0.13 MB  OnDisk= 0.13 MB 
+Total PF_DXT1 size: InMem= 3.60 MB  OnDisk= 8.35 MB 
+Total PF_DXT5 size: InMem= 27.91 MB  OnDisk= 41.96 MB 
+Total PF_FloatRGBA size: InMem= 48.00 MB  OnDisk= 48.00 MB 
+Total PF_BC5 size: InMem= 10.79 MB  OnDisk= 33.76 MB 
+Total TEXTUREGROUP_World size: InMem= 70.65 MB  OnDisk= 92.59 MB 
+Total TEXTUREGROUP_WorldNormalMap size: InMem= 0.11 MB  OnDisk= 12.42 MB 
+Total TEXTUREGROUP_Character size: InMem= 11.34 MB  OnDisk= 11.67 MB 
+Total TEXTUREGROUP_CharacterNormalMap size: InMem= 5.34 MB  OnDisk= 16.00 MB 
+Total TEXTUREGROUP_Weapon size: InMem= 0.33 MB  OnDisk= 0.33 MB 
+Total TEXTUREGROUP_WeaponNormalMap size: InMem= 5.33 MB  OnDisk= 5.33 MB 
+Total TEXTUREGROUP_Effects size: InMem= 0.03 MB  OnDisk= 0.03 MB 
+Total TEXTUREGROUP_Skybox size: InMem= 3.50 MB  OnDisk= 3.50 MB 
+Total TEXTUREGROUP_UI size: InMem= 3.94 MB  OnDisk= 3.94 MB 
+Total TEXTUREGROUP_Bokeh size: InMem= 0.02 MB  OnDisk= 0.02 MB 
+
+
+Listing all sounds:
+    0.00 Kb for 0 resident sounds
+
+
+ParticleSystems:
+Size,Name,PSysSize,ModuleSize,ComponentSize,ComponentCount,CompResSize,CompTrueResSize
+         0,Total,0,0,0,0,0,0
+
+
+Obj List: class=SoundWave -alphasort
+Objects:
+
+                                                                                                                                      Object      NumKB      MaxKB   ResExcKB  ResExcDedSysKB  ResExcShrSysKB  ResExcDedVidKB  ResExcShrVidKB     ResExcUnkKB
+                                                                    SoundWave /Engine/EditorSounds/Notifications/CompileFailed.CompileFailed       0.89       0.89      12.28           12.28            0.00            0.00            0.00            0.00
+                                                                  SoundWave /Engine/EditorSounds/Notifications/CompileSuccess.CompileSuccess       0.90       0.90      13.96           13.96            0.00            0.00            0.00            0.00
+                                           SoundWave /Game/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.FirstPersonTemplateWeaponFire02       0.74       0.74      36.25           36.25            0.00            0.00            0.00            0.00
+
+                                                                                                Class    Count      NumKB      MaxKB   ResExcKB  ResExcDedSysKB  ResExcShrSysKB  ResExcDedVidKB  ResExcShrVidKB     ResExcUnkKB
+                                                                                            SoundWave        3       2.53       2.53      62.49           62.49            0.00            0.00            0.00            0.00
+
+3 Objects (Total: 0.002M / Max: 0.002M / Res: 0.061M | ResDedSys: 0.061M / ResShrSys: 0.000M / ResDedVid: 0.000M / ResShrVid: 0.000M / ResUnknown: 0.000M)
+
+
+Obj List: class=SkeletalMesh -alphasort
+Objects:
+
+                                                                                                                                      Object      NumKB      MaxKB   ResExcKB  ResExcDedSysKB  ResExcShrSysKB  ResExcDedVidKB  ResExcShrVidKB     ResExcUnkKB
+                                                           SkeletalMesh /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms    1728.31    1816.45     963.21           18.59            0.00            0.00            0.00          944.63
+                                                                              SkeletalMesh /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun    1220.64    1266.08     569.83            1.73            0.00            0.00            0.00          568.10
+
+                                                                                                Class    Count      NumKB      MaxKB   ResExcKB  ResExcDedSysKB  ResExcShrSysKB  ResExcDedVidKB  ResExcShrVidKB     ResExcUnkKB
+                                                                                         SkeletalMesh        2    2948.95    3082.53    1533.04           20.31            0.00            0.00            0.00         1512.72
+
+2 Objects (Total: 2.880M / Max: 3.010M / Res: 1.497M | ResDedSys: 0.020M / ResShrSys: 0.000M / ResDedVid: 0.000M / ResShrVid: 0.000M / ResUnknown: 1.477M)
+
+
+Obj List: class=StaticMesh -alphasort
+Objects:
+
+                                                                                                                                      Object      NumKB      MaxKB   ResExcKB  ResExcDedSysKB  ResExcShrSysKB  ResExcDedVidKB  ResExcShrVidKB     ResExcUnkKB
+                                                            StaticMesh /Engine/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.S_1_Unit_Plane       2.13       2.95       3.66            0.82            0.00            0.00            0.00            2.84
+                                                                                                    StaticMesh /Engine/BasicShapes/Cone.Cone       3.70       4.53      17.31            0.82            0.00            0.00            0.00           16.49
+                                                                                                    StaticMesh /Engine/BasicShapes/Cube.Cube       2.30       2.80       5.08            0.82            0.00            0.00            0.00            4.26
+                                                                                            StaticMesh /Engine/BasicShapes/Cylinder.Cylinder       3.06       3.56      29.05            0.82            0.00            0.00            0.00           28.23
+                                                                                                  StaticMesh /Engine/BasicShapes/Plane.Plane       2.30       2.80       2.10            0.82            0.00            0.00            0.00            1.28
+                                                                                                StaticMesh /Engine/BasicShapes/Sphere.Sphere       2.25       3.08      50.95            0.82            0.00            0.00            0.00           50.13
+                                                               StaticMesh /Engine/EditorLandscapeResources/SplineEditorMesh.SplineEditorMesh       2.13       2.95       5.11            0.82            0.00            0.00            0.00            4.29
+                                                                                StaticMesh /Engine/EditorMeshes/Camera/SM_CineCam.SM_CineCam       2.23       2.95     336.70            0.82            0.00            0.00            0.00          335.88
+                                                                      StaticMesh /Engine/EditorMeshes/Camera/SM_CraneRig_Arm.SM_CraneRig_Arm       2.13       2.95       2.99            0.82            0.00            0.00            0.00            2.17
+                                                                    StaticMesh /Engine/EditorMeshes/Camera/SM_CraneRig_Base.SM_CraneRig_Base       2.13       2.95      59.64            0.82            0.00            0.00            0.00           58.82
+                                                                    StaticMesh /Engine/EditorMeshes/Camera/SM_CraneRig_Body.SM_CraneRig_Body       2.13       2.95      56.76            0.82            0.00            0.00            0.00           55.94
+                                                                  StaticMesh /Engine/EditorMeshes/Camera/SM_CraneRig_Mount.SM_CraneRig_Mount       2.13       2.95      13.04            0.82            0.00            0.00            0.00           12.22
+                                                                    StaticMesh /Engine/EditorMeshes/Camera/SM_RailRig_Mount.SM_RailRig_Mount       2.13       2.95      94.00            0.82            0.00            0.00            0.00           93.18
+                                                                    StaticMesh /Engine/EditorMeshes/Camera/SM_RailRig_Track.SM_RailRig_Track       2.13       2.95      77.80            0.82            0.00            0.00            0.00           76.98
+                                                                                       StaticMesh /Engine/EditorMeshes/EditorCube.EditorCube       2.38       3.20       2.99            0.82            0.00            0.00            0.00            2.17
+                                                                               StaticMesh /Engine/EditorMeshes/EditorCylinder.EditorCylinder       2.47       3.30      29.10            0.82            0.00            0.00            0.00           28.28
+                                                                                     StaticMesh /Engine/EditorMeshes/EditorPlane.EditorPlane       2.13       2.95       3.66            0.82            0.00            0.00            0.00            2.84
+                                                                             StaticMesh /Engine/EditorMeshes/EditorSkySphere.EditorSkySphere       2.16       2.95     219.04            0.82            0.00            0.00            0.00          218.22
+                                                                                   StaticMesh /Engine/EditorMeshes/EditorSphere.EditorSphere       2.25       3.08     214.32            0.82            0.00            0.00            0.00          213.50
+                                                                                 StaticMesh /Engine/EditorMeshes/MatineeCam_SM.MatineeCam_SM       1.86       2.69     236.86            0.82            0.00            0.00            0.00          236.04
+                                                                                           StaticMesh /Engine/EngineMeshes/Cylinder.Cylinder       2.13       2.95      13.26            0.82            0.00            0.00            0.00           12.44
+                                                                                               StaticMesh /Engine/EngineMeshes/Sphere.Sphere       1.98       2.81      28.05            0.82            0.00            0.00            0.00           27.23
+                                                                                      StaticMesh /Engine/EngineSky/SM_SkySphere.SM_SkySphere       2.13       2.95     201.79            0.82            0.00            0.00            0.00          200.97
+                                                              StaticMesh /Engine/VREditor/TransformGizmo/BoundingBoxCorner.BoundingBoxCorner       2.59       3.09      11.75            0.82            0.00            0.00            0.00           10.93
+                                                                  StaticMesh /Engine/VREditor/TransformGizmo/BoundingBoxEdge.BoundingBoxEdge       2.52       3.02       5.09            0.82            0.00            0.00            0.00            4.27
+                                                    StaticMesh /Engine/VREditor/TransformGizmo/PlaneTranslationHandle.PlaneTranslationHandle       2.77       3.27       9.28            0.82            0.00            0.00            0.00            8.46
+                                                                StaticMesh /Engine/VREditor/TransformGizmo/SM_Sequencer_Key.SM_Sequencer_Key       2.77       3.27      43.09            0.82            0.00            0.00            0.00           42.27
+                                                              StaticMesh /Engine/VREditor/TransformGizmo/SM_Sequencer_Node.SM_Sequencer_Node       2.58       3.08       5.50            0.82            0.00            0.00            0.00            4.68
+                                                     StaticMesh /Game/FirstPerson/Meshes/FirstPersonProjectileMesh.FirstPersonProjectileMesh       2.25       3.08      28.05            0.82            0.00            0.00            0.00           27.23
+                                                                                            StaticMesh /Game/Geometry/Meshes/1M_Cube.1M_Cube       2.38       2.88       2.99            0.82            0.00            0.00            0.00            2.17
+                                                                                 StaticMesh /Game/Geometry/Tesselated_Plane.Tesselated_Plane       2.13       2.63  180305.94            0.82            0.00            0.00            0.00       180305.13
+                                                                         StaticMesh /Game/StarterContent/Props/SM_GlassWindow.SM_GlassWindow       2.38       2.88      31.66            0.82            0.00            0.00            0.00           30.84
+                                                                               StaticMesh /OculusVR/Meshes/GearVrController.GearVRController       2.69       3.19      50.09            0.82            0.00            0.00            0.00           49.27
+                                                                         StaticMesh /OculusVR/Meshes/LeftTouchController.LeftTouchController       2.64       3.14     767.53            0.82            0.00            0.00            0.00          766.71
+                                                                                                 StaticMesh /OculusVR/Meshes/RiftHMD.RiftHMD       2.61       3.11      35.13            0.82            0.00            0.00            0.00           34.31
+                                                                       StaticMesh /OculusVR/Meshes/RightTouchController.RightTouchController       2.66       3.16     773.60            0.82            0.00            0.00            0.00          772.78
+
+                                                                                                Class    Count      NumKB      MaxKB   ResExcKB  ResExcDedSysKB  ResExcShrSysKB  ResExcDedVidKB  ResExcShrVidKB     ResExcUnkKB
+                                                                                           StaticMesh       36      85.25     110.00  183772.95           29.53            0.00            0.00            0.00       183743.42
+
+36 Objects (Total: 0.083M / Max: 0.107M / Res: 179.466M | ResDedSys: 0.029M / ResShrSys: 0.000M / ResDedVid: 0.000M / ResShrVid: 0.000M / ResUnknown: 179.437M)
+
+
+Obj List: class=Level -alphasort
+Objects:
+
+                                                                                                                                      Object      NumKB      MaxKB   ResExcKB  ResExcDedSysKB  ResExcShrSysKB  ResExcDedVidKB  ResExcShrVidKB     ResExcUnkKB
+                                                 Level /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel       2.13       2.32       0.00            0.00            0.00            0.00            0.00            0.00
+                                        Level /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel       2.22       2.38       0.00            0.00            0.00            0.00            0.00            0.00
+
+                                                                                                Class    Count      NumKB      MaxKB   ResExcKB  ResExcDedSysKB  ResExcShrSysKB  ResExcDedVidKB  ResExcShrVidKB     ResExcUnkKB
+                                                                                                Level        2       4.36       4.71       0.00            0.00            0.00            0.00            0.00            0.00
+
+2 Objects (Total: 0.004M / Max: 0.005M / Res: 0.000M | ResDedSys: 0.000M / ResShrSys: 0.000M / ResDedVid: 0.000M / ResShrVid: 0.000M / ResUnknown: 0.000M)
+
+
+Obj List: class=StaticMeshComponent -alphasort
+Objects:
+
+                                                                                                                                      Object      NumKB      MaxKB   ResExcKB  ResExcDedSysKB  ResExcShrSysKB  ResExcDedVidKB  ResExcShrVidKB     ResExcUnkKB
+                                                  StaticMeshComponent /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:StaticMeshComponent_12       1.74       2.21       0.00            0.00            0.00            0.00            0.00            0.00
+                                                    StaticMeshComponent /Game/Blueprints/BP_Tex_Maker.BP_Tex_Maker_C:StaticMesh_GEN_VARIABLE       1.71       2.21       0.00            0.00            0.00            0.00            0.00            0.00
+          StaticMeshComponent /Game/FirstPersonCPP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:StaticMeshComponent_10__9CFF4D4B       1.73       2.20       0.00            0.00            0.00            0.00            0.00            0.00
+         StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Tex_Maker_2.StaticMesh       1.79       2.37       1.68            1.68            0.00            0.00            0.00            0.00
+       StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Cone_8.StaticMeshComponent0       2.35       2.85       2.90            2.90            0.00            0.00            0.00            0.00
+       StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Cube_5.StaticMeshComponent0       2.35       2.85       1.82            1.82            0.00            0.00            0.00            0.00
+     StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Floor_12.StaticMeshComponent0       2.67       3.17       1.47            1.47            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SkySphereBlueprint.Sky Sphere mesh       2.13       2.71       0.72            0.72            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SM_GlassWindow2.StaticMeshComponent0       2.35       2.85       1.47            1.47            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SM_GlassWindow_2.StaticMeshComponent0       2.35       2.85       1.47            1.47            0.00            0.00            0.00            0.00
+     StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Sphere_2.StaticMeshComponent0       2.35       2.85       1.82            1.82            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ThirdPerson_2.StaticMeshComponent_0       1.73       2.20       1.68            1.68            0.00            0.00            0.00            0.00
+        StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Wall1.StaticMeshComponent0       2.67       3.17       1.47            1.47            0.00            0.00            0.00            0.00
+     StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Wall2_11.StaticMeshComponent0       2.67       3.17       1.47            1.47            0.00            0.00            0.00            0.00
+        StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Wall3.StaticMeshComponent0       2.67       3.17       1.47            1.47            0.00            0.00            0.00            0.00
+        StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Wall4.StaticMeshComponent0       2.67       3.17       1.47            1.47            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Tex_Maker_2.StaticMesh       1.79       2.29       1.68            1.68            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.CameraActor_0.StaticMeshComponent_0       1.73       2.20       0.00            0.00            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Cone_8.StaticMeshComponent0       2.35       2.85       2.90            2.90            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Cube_5.StaticMeshComponent0       2.35       2.85       1.82            1.82            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Floor_12.StaticMeshComponent0       2.67       3.17       0.75            0.75            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SkySphereBlueprint.Sky Sphere mesh       2.13       2.59       0.72            0.72            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SM_GlassWindow2.StaticMeshComponent0       2.35       2.85       1.47            1.47            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SM_GlassWindow_2.StaticMeshComponent0       2.35       2.85       1.47            1.47            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Sphere_2.StaticMeshComponent0       2.35       2.85       1.82            1.82            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ThirdPerson_2.StaticMeshComponent_0       1.73       2.20       0.00            0.00            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ThirdPerson_2.StaticMeshComponent_1       1.73       2.20       0.00            0.00            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Wall1.StaticMeshComponent0       2.67       3.17       0.75            0.75            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Wall2_11.StaticMeshComponent0       2.67       3.17       0.75            0.75            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Wall3.StaticMeshComponent0       2.67       3.17       0.75            0.75            0.00            0.00            0.00            0.00
+StaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Wall4.StaticMeshComponent0       2.67       3.17       0.75            0.75            0.00            0.00            0.00            0.00
+
+                                                                                                Class    Count      NumKB      MaxKB   ResExcKB  ResExcDedSysKB  ResExcShrSysKB  ResExcDedVidKB  ResExcShrVidKB     ResExcUnkKB
+                                                                                  StaticMeshComponent       31      70.12      85.57      36.56           36.56            0.00            0.00            0.00            0.00
+
+31 Objects (Total: 0.068M / Max: 0.084M / Res: 0.036M | ResDedSys: 0.036M / ResShrSys: 0.000M / ResDedVid: 0.000M / ResShrVid: 0.000M / ResUnknown: 0.000M)
+
+
