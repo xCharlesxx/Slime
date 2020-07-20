@@ -7,16 +7,6 @@
 #include "Engine/Classes/Engine/StaticMesh.h"
 #include "TimerManager.h"
 
-//void ARTManipulation::SetCRenderTarget(UTextureRenderTarget2D * rt)
-//{
-//	RenderTarget = rt; 
-//}
-//
-//FColor ARTManipulation::GetRenderTargetValue(float x, float y)
-//{
-//	return FColor();
-//}
-
 void ARTManipulation::SetDynamicMat(UMaterialInstanceDynamic * dm)
 {
 	MaterialDynamic = dm; 
@@ -30,19 +20,10 @@ void ARTManipulation::SetDynamicMatPointer(UMaterialInstanceDynamic * dmp)
 
 void ARTManipulation::SetSlimeDestination(FVector2D coords)
 {
-	//UE_LOG(LogTemp, Warning, TEXT("CoordinatesB4: X:%d Y:%d"), coords.X, coords.Y);
-	Coordinates = coords;// *1000;
+	Coordinates = coords;
 	SlimesData.Empty(); 
-	////Y
-	//for (int32 row = 0; row < 10; row++)
-	//{
-	//	//X
-	//	for (int32 col = 0; col < 10; col++)
-	//	{
-	//		SlimesData.Add(FVector2D(Coordinates.X + col, Coordinates.Y + row));
-	//	}
-	//}
 	int aoe = 10;
+
 	//Y
 	for (int32 row = 0; row < height; row++)
 	{
@@ -58,8 +39,6 @@ void ARTManipulation::SetSlimeDestination(FVector2D coords)
 					SlimesData.Add(FVector2D(col, row));
 				}
 			}
-			//else
-				//RawData[row * width + col] = noSlime;
 		}
 	}
 	//Branching slime
@@ -320,32 +299,6 @@ void ARTManipulation::BresenhamLine(int x1, int y1, int const x2, int const y2)
 	}
 }
 
-//int dx, dy, p, x, y;
-//
-//dx = x1 - x0;
-//dy = y1 - y0;
-//
-//x = x0;
-//y = y0;
-//
-//p = 2 * dy - dx;
-//
-//while (x < x1)
-//{
-//	if (p >= 0)
-//	{
-//		RawData[y * width + x] = Slime;
-//		y = y + 1;
-//		p = p + 2 * dy - 2 * dx;
-//	}
-//	else
-//	{
-//		RawData[y * width + x] = Slime;
-//		p = p + 2 * dy;
-//	}
-//	x = x + 1;
-//}
-
 FVector2D ARTManipulation::SpreadTexture()
 {
 	//Pick random point of possible traversable points 
@@ -407,54 +360,6 @@ FVector2D ARTManipulation::SpreadTexture()
 	UE_LOG(LogTemp, Warning, TEXT("Something went Wrong in SpreadTexture"));
 	return FVector2D(-1, -1);
 }
-
-//FVector2D ARTManipulation::SpreadTexture()
-//{
-//	//Pick random point of possible traversable points 
-//	FVector2D slim = SlimesData[FMath::RandRange(0, SlimesData.Num() - 1)];
-//
-//	//If location is the colour of slime
-//	if (RawData[slim.Y * width + slim.X] == Slime)
-//	{
-//		//Check all four directions around square and if not slime, make slime
-//		if (slim.Y != height - 1)
-//			if (RawData[(slim.Y + 1) * width + slim.X] == noSlime)
-//			{
-//				RawData[(slim.Y + 1) * width + slim.X] = Slime;
-//				return FVector2D(slim.X, slim.Y + 1);
-//			}
-//
-//		if (slim.Y != 0)
-//			if (RawData[(slim.Y - 1) * width + slim.X] == noSlime)
-//			{
-//				RawData[(slim.Y - 1) * width + slim.X] = Slime;
-//				return FVector2D(slim.X, slim.Y - 1);
-//			}
-//
-//		if (slim.X != width - 1)
-//			if (RawData[slim.Y * width + (slim.X + 1)] == noSlime)
-//			{
-//				RawData[slim.Y * width + (slim.X + 1)] = Slime;
-//				return FVector2D(slim.X + 1, slim.Y);
-//			}
-//
-//		if (slim.X != 0)
-//			if (RawData[slim.Y * width + (slim.X - 1)] == noSlime)
-//			{
-//				RawData[slim.Y * width + (slim.X - 1)] = Slime;
-//				return FVector2D(slim.X - 1, slim.Y);
-//			}
-//
-//
-//		//Once no spare spaces around slime, remove slime
-//		SlimesData.Remove(slim);
-//		return FVector2D(-1, -1);
-//	}
-//
-//	//Should never reach here
-//	UE_LOG(LogTemp, Warning, TEXT("Something went Wrong in SpreadTexture"));
-//	return FVector2D(-1, -1);
-//}
 
 // Sets default values
 ARTManipulation::ARTManipulation()
